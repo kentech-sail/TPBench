@@ -1,0 +1,62 @@
+{
+  "sgd": {
+    "n": 949,
+    "final_slot_update_n": 791,
+    "nonfinal_slot_update_excluded_n": 158,
+    "status": {
+      "resolved": 949
+    },
+    "origin_existence_uniqueness_audit": {
+      "candidate_count_distribution": {
+        "1": 949
+      },
+      "zero_raw_dst_candidate_n": 0,
+      "repeated_transition_tuple_n": 0,
+      "single_replay_selected_origin_n": 949,
+      "replay_origin_in_raw_candidates_n": 949,
+      "imputed_update_without_turn_n": 0,
+      "resolution_rule": "Exact pinned-loader replay selects the QA-generation USER turn; the selected turn must occur in the raw-DST transition candidates."
+    },
+    "replay_validation": {
+      "large_source_rows": 5227,
+      "rows_exactly_replayed": 5227,
+      "rows_with_single_replayed_origin": 5227,
+      "rows_with_user_origin": 5227,
+      "rows_without_turn_origin": 0,
+      "loader_sessions": 9642
+    },
+    "ambiguous_examples": [],
+    "source_dataset": "Schema-Guided Dialogue train"
+  },
+  "multiwoz": {
+    "n": 738,
+    "final_slot_update_n": 664,
+    "nonfinal_slot_update_excluded_n": 74,
+    "status": {
+      "resolved": 738
+    },
+    "origin_existence_uniqueness_audit": {
+      "candidate_count_distribution": {
+        "1": 722,
+        "2": 15,
+        "3": 1
+      },
+      "zero_raw_dst_candidate_n": 0,
+      "repeated_transition_tuple_n": 16,
+      "single_replay_selected_origin_n": 738,
+      "replay_origin_in_raw_candidates_n": 738,
+      "imputed_update_without_turn_n": 0,
+      "resolution_rule": "Exact pinned-loader replay selects the QA-generation USER turn; the selected turn must occur in the raw-DST transition candidates."
+    },
+    "replay_validation": {
+      "large_source_rows": 3885,
+      "rows_exactly_replayed": 3885,
+      "rows_with_single_replayed_origin": 3885,
+      "rows_with_user_origin": 3885,
+      "rows_without_turn_origin": 0,
+      "loader_sessions": 2871
+    },
+    "ambiguous_examples": [],
+    "source_dataset": "MultiWOZ 2.2 train"
+  }
+}

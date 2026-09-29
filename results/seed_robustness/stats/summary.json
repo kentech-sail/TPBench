@@ -1,0 +1,309 @@
+{
+  "lme_ku_p2": {
+    "p3_em_loose": {
+      "first_n": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.2916666666666667,
+        "ci_low": 0.1111111111111111,
+        "mean": 0.19444444444444445,
+        "n_dialogues": 72
+      },
+      "full_context": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.5972222222222222,
+        "ci_low": 0.375,
+        "mean": 0.4861111111111111,
+        "n_dialogues": 72
+      },
+      "random_seed42": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.4027777777777778,
+        "ci_low": 0.19444444444444445,
+        "mean": 0.2916666666666667,
+        "n_dialogues": 72
+      },
+      "random_seed43": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.3888888888888889,
+        "ci_low": 0.18055555555555555,
+        "mean": 0.2777777777777778,
+        "n_dialogues": 72
+      },
+      "random_seed44": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.3888888888888889,
+        "ci_low": 0.18055555555555555,
+        "mean": 0.2777777777777778,
+        "n_dialogues": 72
+      },
+      "random_seed45": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.4305555555555556,
+        "ci_low": 0.20833333333333334,
+        "mean": 0.3194444444444444,
+        "n_dialogues": 72
+      },
+      "random_seed46": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.4722222222222222,
+        "ci_low": 0.25,
+        "mean": 0.3611111111111111,
+        "n_dialogues": 72
+      },
+      "random_selection": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.37777777777777777,
+        "ci_low": 0.2361111111111111,
+        "estimand": "mean performance over the five random selectors",
+        "mean": 0.3055555555555556,
+        "n_dialogues": 72,
+        "selector_seed_mean": 0.3055555555555555,
+        "selector_seed_means": [
+          0.2916666666666667,
+          0.2777777777777778,
+          0.2777777777777778,
+          0.3194444444444444,
+          0.3611111111111111
+        ],
+        "selector_seed_sd": 0.035409857733283215,
+        "selector_seeds": [
+          42,
+          43,
+          44,
+          45,
+          46
+        ]
+      },
+      "recency": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.4722222222222222,
+        "ci_low": 0.25,
+        "mean": 0.3611111111111111,
+        "n_dialogues": 72
+      },
+      "uniform_stride": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.4305555555555556,
+        "ci_low": 0.20833333333333334,
+        "mean": 0.3194444444444444,
+        "n_dialogues": 72
+      }
+    },
+    "p3_em_strict": {
+      "first_n": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.16666666666666666,
+        "ci_low": 0.041319444444447524,
+        "mean": 0.09722222222222222,
+        "n_dialogues": 72
+      },
+      "full_context": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.5277777777777778,
+        "ci_low": 0.3055555555555556,
+        "mean": 0.4166666666666667,
+        "n_dialogues": 72
+      },
+      "random_seed42": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.3055555555555556,
+        "ci_low": 0.125,
+        "mean": 0.20833333333333334,
+        "n_dialogues": 72
+      },
+      "random_seed43": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.3194444444444444,
+        "ci_low": 0.125,
+        "mean": 0.2222222222222222,
+        "n_dialogues": 72
+      },
+      "random_seed44": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.3194444444444444,
+        "ci_low": 0.125,
+        "mean": 0.2222222222222222,
+        "n_dialogues": 72
+      },
+      "random_seed45": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.3333333333333333,
+        "ci_low": 0.1388888888888889,
+        "mean": 0.2361111111111111,
+        "n_dialogues": 72
+      },
+      "random_seed46": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.3611111111111111,
+        "ci_low": 0.1527777777777778,
+        "mean": 0.25,
+        "n_dialogues": 72
+      },
+      "random_selection": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.29444444444444445,
+        "ci_low": 0.1638888888888889,
+        "estimand": "mean performance over the five random selectors",
+        "mean": 0.2277777777777778,
+        "n_dialogues": 72,
+        "selector_seed_mean": 0.22777777777777777,
+        "selector_seed_means": [
+          0.20833333333333334,
+          0.2222222222222222,
+          0.2222222222222222,
+          0.2361111111111111,
+          0.25
+        ],
+        "selector_seed_sd": 0.01583576979304358,
+        "selector_seeds": [
+          42,
+          43,
+          44,
+          45,
+          46
+        ]
+      },
+      "recency": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.4305555555555556,
+        "ci_low": 0.2222222222222222,
+        "mean": 0.3194444444444444,
+        "n_dialogues": 72
+      },
+      "uniform_stride": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.3472222222222222,
+        "ci_low": 0.1527777777777778,
+        "mean": 0.25,
+        "n_dialogues": 72
+      }
+    }
+  },
+  "protocol": {
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20260811,
+    "bootstrap_unit": "dialogue_id",
+    "confidence_level": 0.95
+  },
+  "risawoz_p2": {
+    "p3_correct": {
+      "first_n": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.05314009661835749,
+        "ci_low": 0.00966183574879227,
+        "mean": 0.028985507246376812,
+        "n_dialogues": 207
+      },
+      "full_context": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.2898550724637681,
+        "ci_low": 0.17391304347826086,
+        "mean": 0.2318840579710145,
+        "n_dialogues": 207
+      },
+      "random_seed42": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.23671497584541062,
+        "ci_low": 0.13043478260869565,
+        "mean": 0.18357487922705315,
+        "n_dialogues": 207
+      },
+      "random_seed43": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.15942028985507245,
+        "ci_low": 0.07246376811594203,
+        "mean": 0.11594202898550725,
+        "n_dialogues": 207
+      },
+      "random_seed44": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.24154589371980675,
+        "ci_low": 0.13043478260869565,
+        "mean": 0.18357487922705315,
+        "n_dialogues": 207
+      },
+      "random_seed45": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.178743961352657,
+        "ci_low": 0.08695652173913043,
+        "mean": 0.13043478260869565,
+        "n_dialogues": 207
+      },
+      "random_seed46": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.18357487922705315,
+        "ci_low": 0.09178743961352658,
+        "mean": 0.13526570048309178,
+        "n_dialogues": 207
+      },
+      "random_selection": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.18260869565217394,
+        "ci_low": 0.11980676328502415,
+        "estimand": "mean performance over the five random selectors",
+        "mean": 0.1497584541062802,
+        "n_dialogues": 207,
+        "selector_seed_mean": 0.1497584541062802,
+        "selector_seed_means": [
+          0.18357487922705315,
+          0.11594202898550725,
+          0.18357487922705315,
+          0.13043478260869565,
+          0.13526570048309178
+        ],
+        "selector_seed_sd": 0.03167844697730436,
+        "selector_seeds": [
+          42,
+          43,
+          44,
+          45,
+          46
+        ]
+      },
+      "recency": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.20772946859903382,
+        "ci_low": 0.10628019323671498,
+        "mean": 0.15458937198067632,
+        "n_dialogues": 207
+      },
+      "uniform_stride": {
+        "bootstrap_replicates": 10000,
+        "bootstrap_unit": "dialogue_id",
+        "ci_high": 0.1642512077294686,
+        "ci_low": 0.07729468599033816,
+        "mean": 0.12077294685990338,
+        "n_dialogues": 207
+      }
+    }
+  }
+}

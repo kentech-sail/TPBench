@@ -1,0 +1,54 @@
+{
+  "sgd": {
+    "first_n": {
+      "n": 132,
+      "p3_em_strict": 0.401515,
+      "p3_em_loose": 0.416667,
+      "p3_overlap_strict": 0.333333,
+      "p3_overlap_loose": 0.575758,
+      "abstain_rate": 0.090909,
+      "support_in_ctx_rate": 0.340909,
+      "err_rate": 0.007576
+    },
+    "full_context": {
+      "n": 132,
+      "p3_em_strict": 0.704545,
+      "p3_em_loose": 0.719697,
+      "p3_overlap_strict": 0.55303,
+      "p3_overlap_loose": 0.840909,
+      "abstain_rate": 0.0,
+      "support_in_ctx_rate": 0.409091,
+      "err_rate": 0.007576
+    },
+    "random_seed42": {
+      "n": 132,
+      "p3_em_strict": 0.484848,
+      "p3_em_loose": 0.515152,
+      "p3_overlap_strict": 0.371212,
+      "p3_overlap_loose": 0.689394,
+      "abstain_rate": 0.015152,
+      "support_in_ctx_rate": 0.598485,
+      "err_rate": 0.0
+    },
+    "recency": {
+      "n": 132,
+      "p3_em_strict": 0.477273,
+      "p3_em_loose": 0.5,
+      "p3_overlap_strict": 0.356061,
+      "p3_overlap_loose": 0.606061,
+      "abstain_rate": 0.143939,
+      "support_in_ctx_rate": 0.606061,
+      "err_rate": 0.0
+    },
+    "uniform_stride": {
+      "n": 132,
+      "p3_em_strict": 0.333333,
+      "p3_em_loose": 0.348485,
+      "p3_overlap_strict": 0.287879,
+      "p3_overlap_loose": 0.613636,
+      "abstain_rate": 0.0,
+      "support_in_ctx_rate": 0.643939,
+      "err_rate": 0.007576
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "sgd": {
+    "full_context": {
+      "n": 125,
+      "p3_em_strict": 0.656,
+      "p3_em_loose": 0.688,
+      "p3_overlap_strict": 0.528,
+      "p3_overlap_loose": 0.84,
+      "abstain_rate": 0.0,
+      "support_in_ctx_rate": 0.344,
+      "err_rate": 0.0
+    },
+    "recency": {
+      "n": 125,
+      "p3_em_strict": 0.24,
+      "p3_em_loose": 0.248,
+      "p3_overlap_strict": 0.184,
+      "p3_overlap_loose": 0.304,
+      "abstain_rate": 0.328,
+      "support_in_ctx_rate": 0.688,
+      "err_rate": 0.0
+    },
+    "random_seed42": {
+      "n": 125,
+      "p3_em_strict": 0.304,
+      "p3_em_loose": 0.328,
+      "p3_overlap_strict": 0.272,
+      "p3_overlap_loose": 0.488,
+      "abstain_rate": 0.12,
+      "support_in_ctx_rate": 0.672,
+      "err_rate": 0.0
+    },
+    "first_n": {
+      "n": 125,
+      "p3_em_strict": 0.16,
+      "p3_em_loose": 0.16,
+      "p3_overlap_strict": 0.12,
+      "p3_overlap_loose": 0.344,
+      "abstain_rate": 0.16,
+      "support_in_ctx_rate": 0.656,
+      "err_rate": 0.0
+    },
+    "uniform_stride": {
+      "n": 125,
+      "p3_em_strict": 0.28,
+      "p3_em_loose": 0.288,
+      "p3_overlap_strict": 0.248,
+      "p3_overlap_loose": 0.464,
+      "abstain_rate": 0.08,
+      "support_in_ctx_rate": 0.688,
+      "err_rate": 0.0
+    },
+    "attention_h2o_cache": {
+      "n": 125,
+      "p3_em_strict": 0.128,
+      "p3_em_loose": 0.136,
+      "p3_overlap_strict": 0.096,
+      "p3_overlap_loose": 0.304,
+      "abstain_rate": 0.2,
+      "support_in_ctx_rate": 0.832,
+      "err_rate": 0.0
+    },
+    "embedding_mmr_cache": {
+      "n": 125,
+      "p3_em_strict": 0.344,
+      "p3_em_loose": 0.36,
+      "p3_overlap_strict": 0.224,
+      "p3_overlap_loose": 0.512,
+      "abstain_rate": 0.104,
+      "support_in_ctx_rate": 0.824,
+      "err_rate": 0.008
+    },
+    "llmlingua2_cache": {
+      "n": 125,
+      "p3_em_strict": 0.168,
+      "p3_em_loose": 0.168,
+      "p3_overlap_strict": 0.128,
+      "p3_overlap_loose": 0.248,
+      "abstain_rate": 0.192,
+      "support_in_ctx_rate": 0.784,
+      "err_rate": 0
+    }
+  }
+}

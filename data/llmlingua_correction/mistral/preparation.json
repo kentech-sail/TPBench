@@ -1,0 +1,23 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "original_revision": null,
+  "revision_note": "current public snapshot pinned; original archived run has model ID but no revision",
+  "dtype": "bfloat16",
+  "max_output_tokens": 128,
+  "max_input_tokens": 7168,
+  "counts": {
+    "P2_r10_expanded": 882,
+    "changed_expanded": 2906,
+    "unchanged_expanded": 58,
+    "P2_r30_expanded": 882,
+    "P3_r30_expanded": 1200
+  },
+  "unique_new_requests": 1938,
+  "requests_by_attention": {
+    "sdpa": 1298,
+    "eager": 640
+  },
+  "reuse_policy": "Unchanged original score only; no cross-method raw cache since historical immutable revision unavailable",
+  "no_paid_api": true
+}

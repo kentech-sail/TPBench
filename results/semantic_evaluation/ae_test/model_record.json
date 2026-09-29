@@ -1,0 +1,20 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "provider": "OpenAI",
+  "endpoint": "https://api.openai.com/v1/responses",
+  "prompt_sha256": "7dfe9b83e54b42437396438188962735f73c6b8efe4661a640116efc5211b440",
+  "input_sha256": "41ab7cf2c925bd46df0c833eb2da1205397b58cad8e48cfce09c027a4f5aa26b",
+  "schema_sha256": "9f4ee86880e56f5bfba9788346e62fcfb6dbdd4a4f6087ff16a06e519851d66a",
+  "decoding": {
+    "reasoning_effort": "none",
+    "temperature": 0,
+    "max_output_tokens": 512
+  },
+  "store": false,
+  "rates_usd_per_million": {
+    "input": 0.75,
+    "output": 4.5
+  },
+  "runner_sha256": "a246b138a98e5404b0eccc81c71ede26ba55ab277c6687ba430cbf106955cb11",
+  "execution_timestamp": "2026-09-28T02:49:18.098350+00:00"
+}

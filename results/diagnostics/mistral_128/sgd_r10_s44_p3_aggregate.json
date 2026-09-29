@@ -1,0 +1,84 @@
+{
+  "sgd": {
+    "full_context": {
+      "n": 132,
+      "p3_em_strict": 0.6591,
+      "p3_em_loose": 0.681818,
+      "p3_overlap_strict": 0.5379,
+      "p3_overlap_loose": 0.8485,
+      "abstain_rate": 0.0,
+      "support_in_ctx_rate": 0.4924,
+      "err_rate": 0.0
+    },
+    "recency": {
+      "n": 132,
+      "p3_em_strict": 0.0,
+      "p3_em_loose": 0.0,
+      "p3_overlap_strict": 0.0,
+      "p3_overlap_loose": 0.0076,
+      "abstain_rate": 0.3333,
+      "support_in_ctx_rate": 0.7955,
+      "err_rate": 0.0
+    },
+    "random_seed42": {
+      "n": 132,
+      "p3_em_strict": 0.0985,
+      "p3_em_loose": 0.106061,
+      "p3_overlap_strict": 0.0985,
+      "p3_overlap_loose": 0.2121,
+      "abstain_rate": 0.3409,
+      "support_in_ctx_rate": 0.6742,
+      "err_rate": 0.0
+    },
+    "first_n": {
+      "n": 132,
+      "p3_em_strict": 0.0227,
+      "p3_em_loose": 0.022727,
+      "p3_overlap_strict": 0.0152,
+      "p3_overlap_loose": 0.1136,
+      "abstain_rate": 0.2121,
+      "support_in_ctx_rate": 0.803,
+      "err_rate": 0.0
+    },
+    "uniform_stride": {
+      "n": 132,
+      "p3_em_strict": 0.0758,
+      "p3_em_loose": 0.083333,
+      "p3_overlap_strict": 0.0606,
+      "p3_overlap_loose": 0.1667,
+      "abstain_rate": 0.2727,
+      "support_in_ctx_rate": 0.7955,
+      "err_rate": 0.0
+    },
+    "attention_h2o_cache": {
+      "n": 132,
+      "p3_em_strict": 0.0076,
+      "p3_em_loose": 0.007576,
+      "p3_overlap_strict": 0.0152,
+      "p3_overlap_loose": 0.0682,
+      "abstain_rate": 0.2803,
+      "support_in_ctx_rate": 0.8333,
+      "err_rate": 0.0
+    },
+    "embedding_mmr_cache": {
+      "n": 132,
+      "p3_em_strict": 0.1288,
+      "p3_em_loose": 0.136364,
+      "p3_overlap_strict": 0.1061,
+      "p3_overlap_loose": 0.2424,
+      "abstain_rate": 0.3258,
+      "support_in_ctx_rate": 0.8182,
+      "err_rate": 0.0
+    },
+    "llmlingua2_cache": {
+      "n": 132,
+      "p3_em_strict": 0.03787878787878788,
+      "p3_em_loose": 0.03787878787878788,
+      "p3_overlap_strict": 0.022727272727272728,
+      "p3_overlap_loose": 0.05303030303030303,
+      "abstain_rate": 0.3939393939393939,
+      "support_in_ctx_rate": 0.8712121212121212,
+      "err_rate": 0
+    }
+  }
+}

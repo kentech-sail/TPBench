@@ -1,0 +1,14 @@
+{
+  "multiwoz": {
+    "pyramidkv_r03_kvpress": {
+      "n": 161,
+      "p3_em_strict": 0.68323,
+      "p3_em_loose": 0.68323,
+      "p3_overlap_strict": 0.099379,
+      "p3_overlap_loose": 0.677019,
+      "abstain_rate": 0.049689,
+      "support_in_ctx_rate": 0.093168,
+      "err_rate": 0.031056
+    }
+  }
+}

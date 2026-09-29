@@ -1,0 +1,7060 @@
+{
+  "kind": "tqa",
+  "tag": "sgd_scope_refpool_r030",
+  "summary": {
+    "full_context": {
+      "n": 200,
+      "correct": 125,
+      "tqa": 0.625
+    },
+    "recency": {
+      "n": 200,
+      "correct": 34,
+      "tqa": 0.17
+    },
+    "random_seed42": {
+      "n": 200,
+      "correct": 39,
+      "tqa": 0.195
+    },
+    "first_n": {
+      "n": 200,
+      "correct": 11,
+      "tqa": 0.055
+    },
+    "uniform_stride": {
+      "n": 200,
+      "correct": 68,
+      "tqa": 0.34
+    },
+    "attention_h2o_cache": {
+      "n": 200,
+      "correct": 12,
+      "tqa": 0.06
+    },
+    "embedding_mmr_cache": {
+      "n": 200,
+      "correct": 69,
+      "tqa": 0.345
+    }
+  },
+  "per_item": {
+    "full_context": [
+      {
+        "dialogue_id": "1_00000",
+        "correct": true,
+        "answer": "Palo Alto"
+      },
+      {
+        "dialogue_id": "1_00001",
+        "correct": false,
+        "answer": "Old time: 1:30 pm. New/current time: 12 pm."
+      },
+      {
+        "dialogue_id": "1_00002",
+        "correct": true,
+        "answer": "the 2nd of this month"
+      },
+      {
+        "dialogue_id": "1_00003",
+        "correct": true,
+        "answer": "1"
+      },
+      {
+        "dialogue_id": "1_00004",
+        "correct": true,
+        "answer": "March 14th"
+      },
+      {
+        "dialogue_id": "1_00005",
+        "correct": true,
+        "answer": "Isla Restaurant"
+      },
+      {
+        "dialogue_id": "1_00006",
+        "correct": true,
+        "answer": "March 10th"
+      },
+      {
+        "dialogue_id": "1_00007",
+        "correct": true,
+        "answer": "Antonella's Ristorante"
+      },
+      {
+        "dialogue_id": "1_00008",
+        "correct": true,
+        "answer": "7 pm"
+      },
+      {
+        "dialogue_id": "1_00009",
+        "correct": true,
+        "answer": "5 pm"
+      },
+      {
+        "dialogue_id": "1_00010",
+        "correct": true,
+        "answer": "3"
+      },
+      {
+        "dialogue_id": "1_00011",
+        "correct": false,
+        "answer": "12:30 pm on March 13th"
+      },
+      {
+        "dialogue_id": "1_00012",
+        "correct": true,
+        "answer": "18:30"
+      },
+      {
+        "dialogue_id": "1_00013",
+        "correct": true,
+        "answer": "March 10th"
+      },
+      {
+        "dialogue_id": "1_00014",
+        "correct": false,
+        "answer": "March 13th"
+      },
+      {
+        "dialogue_id": "1_00015",
+        "correct": true,
+        "answer": "4 people"
+      },
+      {
+        "dialogue_id": "1_00016",
+        "correct": true,
+        "answer": "Chop Bar"
+      },
+      {
+        "dialogue_id": "1_00017",
+        "correct": true,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "1_00018",
+        "correct": false,
+        "answer": "5 pm"
+      },
+      {
+        "dialogue_id": "1_00019",
+        "correct": true,
+        "answer": "Ramen"
+      },
+      {
+        "dialogue_id": "1_00020",
+        "correct": true,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "1_00021",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "1_00022",
+        "correct": true,
+        "answer": "Ipoh Garden Malaysian Cuisine"
+      },
+      {
+        "dialogue_id": "1_00023",
+        "correct": true,
+        "answer": "Barbecue"
+      },
+      {
+        "dialogue_id": "1_00024",
+        "correct": true,
+        "answer": "Grand Harbor"
+      },
+      {
+        "dialogue_id": "1_00025",
+        "correct": true,
+        "answer": "2"
+      },
+      {
+        "dialogue_id": "1_00026",
+        "correct": true,
+        "answer": "Noodles And Company"
+      },
+      {
+        "dialogue_id": "1_00027",
+        "correct": true,
+        "answer": "Santa Clara"
+      },
+      {
+        "dialogue_id": "1_00028",
+        "correct": false,
+        "answer": "1:15 pm"
+      },
+      {
+        "dialogue_id": "1_00029",
+        "correct": true,
+        "answer": "Hot Crab"
+      },
+      {
+        "dialogue_id": "1_00030",
+        "correct": false,
+        "answer": "11:45 am"
+      },
+      {
+        "dialogue_id": "1_00031",
+        "correct": true,
+        "answer": "Anh Hong"
+      },
+      {
+        "dialogue_id": "1_00032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00033",
+        "correct": false,
+        "answer": "12 pm"
+      },
+      {
+        "dialogue_id": "1_00034",
+        "correct": true,
+        "answer": "4 people"
+      },
+      {
+        "dialogue_id": "1_00035",
+        "correct": true,
+        "answer": "Sushi"
+      },
+      {
+        "dialogue_id": "1_00036",
+        "correct": false,
+        "answer": "6:15 pm"
+      },
+      {
+        "dialogue_id": "1_00037",
+        "correct": true,
+        "answer": "Dicicco's Ristorante Italiano Autentico"
+      },
+      {
+        "dialogue_id": "1_00038",
+        "correct": true,
+        "answer": "3 people"
+      },
+      {
+        "dialogue_id": "1_00039",
+        "correct": true,
+        "answer": "18:00"
+      },
+      {
+        "dialogue_id": "1_00040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00041",
+        "correct": false,
+        "answer": "11 am today"
+      },
+      {
+        "dialogue_id": "1_00042",
+        "correct": false,
+        "answer": "5:15 pm"
+      },
+      {
+        "dialogue_id": "1_00043",
+        "correct": true,
+        "answer": "5:45 pm"
+      },
+      {
+        "dialogue_id": "1_00044",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "1_00045",
+        "correct": false,
+        "answer": "San Francisco"
+      },
+      {
+        "dialogue_id": "1_00046",
+        "correct": true,
+        "answer": "Aq"
+      },
+      {
+        "dialogue_id": "1_00047",
+        "correct": true,
+        "answer": "March 4th"
+      },
+      {
+        "dialogue_id": "1_00048",
+        "correct": false,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "1_00049",
+        "correct": true,
+        "answer": "Aappakadai"
+      },
+      {
+        "dialogue_id": "1_00050",
+        "correct": false,
+        "answer": "12:30 pm"
+      },
+      {
+        "dialogue_id": "1_00051",
+        "correct": true,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "1_00052",
+        "correct": true,
+        "answer": "Rosie Mccann's Irish Pub & Restaurant"
+      },
+      {
+        "dialogue_id": "1_00053",
+        "correct": false,
+        "answer": "11:30 am"
+      },
+      {
+        "dialogue_id": "1_00054",
+        "correct": true,
+        "answer": "1:30 pm"
+      },
+      {
+        "dialogue_id": "1_00055",
+        "correct": true,
+        "answer": "7 pm"
+      },
+      {
+        "dialogue_id": "1_00056",
+        "correct": true,
+        "answer": "La Paloma"
+      },
+      {
+        "dialogue_id": "1_00057",
+        "correct": true,
+        "answer": "Academy Bar and Kitchen"
+      },
+      {
+        "dialogue_id": "1_00058",
+        "correct": true,
+        "answer": "1 person"
+      },
+      {
+        "dialogue_id": "1_00059",
+        "correct": false,
+        "answer": "1:15 pm"
+      },
+      {
+        "dialogue_id": "1_00060",
+        "correct": false,
+        "answer": "7:30 pm"
+      },
+      {
+        "dialogue_id": "1_00061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00062",
+        "correct": false,
+        "answer": "11:30 AM"
+      },
+      {
+        "dialogue_id": "1_00063",
+        "correct": true,
+        "answer": "Risibisi"
+      },
+      {
+        "dialogue_id": "1_00064",
+        "correct": true,
+        "answer": "Aperto"
+      },
+      {
+        "dialogue_id": "1_00065",
+        "correct": true,
+        "answer": "7:30 pm today"
+      },
+      {
+        "dialogue_id": "1_00066",
+        "correct": true,
+        "answer": "6"
+      },
+      {
+        "dialogue_id": "1_00067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00068",
+        "correct": true,
+        "answer": "Amber"
+      },
+      {
+        "dialogue_id": "1_00069",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00070",
+        "correct": false,
+        "answer": "March 1st"
+      },
+      {
+        "dialogue_id": "1_00071",
+        "correct": true,
+        "answer": "Mexican"
+      },
+      {
+        "dialogue_id": "1_00072",
+        "correct": true,
+        "answer": "4 people"
+      },
+      {
+        "dialogue_id": "1_00073",
+        "correct": false,
+        "answer": "March 1"
+      },
+      {
+        "dialogue_id": "1_00074",
+        "correct": false,
+        "answer": "7 pm"
+      },
+      {
+        "dialogue_id": "1_00075",
+        "correct": true,
+        "answer": "3 people"
+      },
+      {
+        "dialogue_id": "1_00076",
+        "correct": false,
+        "answer": "7 pm"
+      },
+      {
+        "dialogue_id": "1_00077",
+        "correct": true,
+        "answer": "Celia's"
+      },
+      {
+        "dialogue_id": "1_00078",
+        "correct": false,
+        "answer": "5:30 pm"
+      },
+      {
+        "dialogue_id": "1_00079",
+        "correct": true,
+        "answer": "Marhaba Indian & Pakistani Halal Cuisine"
+      },
+      {
+        "dialogue_id": "1_00080",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "1_00081",
+        "correct": false,
+        "answer": "7 pm"
+      },
+      {
+        "dialogue_id": "1_00082",
+        "correct": true,
+        "answer": "Sichuan"
+      },
+      {
+        "dialogue_id": "1_00083",
+        "correct": true,
+        "answer": "2"
+      },
+      {
+        "dialogue_id": "1_00084",
+        "correct": false,
+        "answer": "next Thursday"
+      },
+      {
+        "dialogue_id": "1_00085",
+        "correct": false,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "1_00086",
+        "correct": false,
+        "answer": "11 am"
+      },
+      {
+        "dialogue_id": "1_00087",
+        "correct": true,
+        "answer": "Thai Time"
+      },
+      {
+        "dialogue_id": "1_00088",
+        "correct": false,
+        "answer": "1 pm"
+      },
+      {
+        "dialogue_id": "1_00089",
+        "correct": true,
+        "answer": "11:30 am today"
+      },
+      {
+        "dialogue_id": "1_00090",
+        "correct": true,
+        "answer": "Bourbon Steak Restaurant"
+      },
+      {
+        "dialogue_id": "1_00091",
+        "correct": true,
+        "answer": "Baci Bistro And Bar"
+      },
+      {
+        "dialogue_id": "1_00092",
+        "correct": true,
+        "answer": "3 people"
+      },
+      {
+        "dialogue_id": "1_00093",
+        "correct": true,
+        "answer": "The user's time was changed from 4:30 pm to 18:00 (6 pm)."
+      },
+      {
+        "dialogue_id": "1_00094",
+        "correct": true,
+        "answer": "Mcdonald's"
+      },
+      {
+        "dialogue_id": "1_00095",
+        "correct": false,
+        "answer": "San Francisco"
+      },
+      {
+        "dialogue_id": "1_00096",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00097",
+        "correct": true,
+        "answer": "1760"
+      },
+      {
+        "dialogue_id": "1_00098",
+        "correct": true,
+        "answer": "Osake"
+      },
+      {
+        "dialogue_id": "1_00099",
+        "correct": false,
+        "answer": "7:30 pm"
+      },
+      {
+        "dialogue_id": "1_00100",
+        "correct": true,
+        "answer": "Rocknwraps And Kabobs"
+      },
+      {
+        "dialogue_id": "1_00101",
+        "correct": true,
+        "answer": "Texas Roadhouse"
+      },
+      {
+        "dialogue_id": "1_00102",
+        "correct": true,
+        "answer": "Umami Burger Oakland"
+      },
+      {
+        "dialogue_id": "1_00103",
+        "correct": false,
+        "answer": "5:30 pm"
+      },
+      {
+        "dialogue_id": "1_00104",
+        "correct": true,
+        "answer": "It was 6:45 pm today, but the current requested time is 11:30 am next Friday (the 8th)."
+      },
+      {
+        "dialogue_id": "1_00105",
+        "correct": true,
+        "answer": "Burlingame 37 North"
+      },
+      {
+        "dialogue_id": "1_00106",
+        "correct": true,
+        "answer": "Gay 90's Pizza Co."
+      },
+      {
+        "dialogue_id": "1_00107",
+        "correct": true,
+        "answer": "Bei Fang Style"
+      },
+      {
+        "dialogue_id": "1_00108",
+        "correct": false,
+        "answer": "March 1st"
+      },
+      {
+        "dialogue_id": "1_00109",
+        "correct": true,
+        "answer": "Panera Bread"
+      },
+      {
+        "dialogue_id": "1_00110",
+        "correct": true,
+        "answer": "Central Park Bistro"
+      },
+      {
+        "dialogue_id": "1_00111",
+        "correct": false,
+        "answer": "7:30 pm"
+      },
+      {
+        "dialogue_id": "1_00112",
+        "correct": false,
+        "answer": "March 9th"
+      },
+      {
+        "dialogue_id": "1_00113",
+        "correct": false,
+        "answer": "March 13th"
+      },
+      {
+        "dialogue_id": "1_00114",
+        "correct": true,
+        "answer": "the 1st of this month"
+      },
+      {
+        "dialogue_id": "1_00115",
+        "correct": true,
+        "answer": "3"
+      },
+      {
+        "dialogue_id": "1_00116",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00117",
+        "correct": true,
+        "answer": "3 people"
+      },
+      {
+        "dialogue_id": "1_00118",
+        "correct": true,
+        "answer": "1 person"
+      },
+      {
+        "dialogue_id": "1_00119",
+        "correct": true,
+        "answer": "San Mateo"
+      },
+      {
+        "dialogue_id": "1_00120",
+        "correct": true,
+        "answer": "March 14th"
+      },
+      {
+        "dialogue_id": "1_00121",
+        "correct": true,
+        "answer": "4 people"
+      },
+      {
+        "dialogue_id": "1_00122",
+        "correct": false,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "1_00123",
+        "correct": true,
+        "answer": "3 people"
+      },
+      {
+        "dialogue_id": "1_00124",
+        "correct": false,
+        "answer": "5 pm"
+      },
+      {
+        "dialogue_id": "1_00125",
+        "correct": true,
+        "answer": "1760"
+      },
+      {
+        "dialogue_id": "1_00126",
+        "correct": true,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "1_00127",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00000",
+        "correct": true,
+        "answer": "Akira Japanese Restaurant"
+      },
+      {
+        "dialogue_id": "2_00001",
+        "correct": true,
+        "answer": "3 people"
+      },
+      {
+        "dialogue_id": "2_00002",
+        "correct": false,
+        "answer": "tomorrow"
+      },
+      {
+        "dialogue_id": "2_00003",
+        "correct": true,
+        "answer": "The reservation time changed from 7 pm to 1 pm."
+      },
+      {
+        "dialogue_id": "2_00004",
+        "correct": false,
+        "answer": "1 pm"
+      },
+      {
+        "dialogue_id": "2_00005",
+        "correct": true,
+        "answer": "6:30 pm"
+      },
+      {
+        "dialogue_id": "2_00006",
+        "correct": true,
+        "answer": "1 person"
+      },
+      {
+        "dialogue_id": "2_00007",
+        "correct": false,
+        "answer": "7:30 pm"
+      },
+      {
+        "dialogue_id": "2_00008",
+        "correct": false,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "2_00009",
+        "correct": false,
+        "answer": "March 10th"
+      },
+      {
+        "dialogue_id": "2_00010",
+        "correct": false,
+        "answer": "1 pm"
+      },
+      {
+        "dialogue_id": "2_00011",
+        "correct": false,
+        "answer": "7 pm"
+      },
+      {
+        "dialogue_id": "2_00012",
+        "correct": true,
+        "answer": "Thursday next week"
+      },
+      {
+        "dialogue_id": "2_00013",
+        "correct": true,
+        "answer": "Eve's Waterfront"
+      },
+      {
+        "dialogue_id": "2_00014",
+        "correct": true,
+        "answer": "12 pm tomorrow"
+      },
+      {
+        "dialogue_id": "2_00015",
+        "correct": false,
+        "answer": "March 9th"
+      },
+      {
+        "dialogue_id": "2_00016",
+        "correct": true,
+        "answer": "Hisui | Japanese Restaurant"
+      },
+      {
+        "dialogue_id": "2_00017",
+        "correct": false,
+        "answer": "1 pm"
+      },
+      {
+        "dialogue_id": "2_00018",
+        "correct": true,
+        "answer": "12 pm today"
+      },
+      {
+        "dialogue_id": "2_00019",
+        "correct": false,
+        "answer": "11 am today"
+      },
+      {
+        "dialogue_id": "2_00020",
+        "correct": true,
+        "answer": "5a5 Steak Lounge"
+      },
+      {
+        "dialogue_id": "2_00021",
+        "correct": true,
+        "answer": "11:45 am"
+      },
+      {
+        "dialogue_id": "2_00022",
+        "correct": false,
+        "answer": "11:00 am"
+      },
+      {
+        "dialogue_id": "2_00023",
+        "correct": false,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "2_00024",
+        "correct": true,
+        "answer": "Barcha"
+      },
+      {
+        "dialogue_id": "2_00025",
+        "correct": true,
+        "answer": "Celia's"
+      },
+      {
+        "dialogue_id": "2_00026",
+        "correct": false,
+        "answer": "10:45 am"
+      },
+      {
+        "dialogue_id": "2_00027",
+        "correct": true,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "2_00028",
+        "correct": true,
+        "answer": "Kamdesh Afghan Kabab House"
+      },
+      {
+        "dialogue_id": "2_00029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00030",
+        "correct": true,
+        "answer": "Gary Chu's"
+      },
+      {
+        "dialogue_id": "2_00031",
+        "correct": false,
+        "answer": "1 pm"
+      },
+      {
+        "dialogue_id": "2_00032",
+        "correct": false,
+        "answer": "5 pm"
+      },
+      {
+        "dialogue_id": "2_00033",
+        "correct": true,
+        "answer": "barbecue"
+      },
+      {
+        "dialogue_id": "2_00034",
+        "correct": true,
+        "answer": "Caspian Village"
+      },
+      {
+        "dialogue_id": "2_00035",
+        "correct": true,
+        "answer": "Ancient Szechuan in El Cerrito"
+      },
+      {
+        "dialogue_id": "2_00036",
+        "correct": false,
+        "answer": "5 pm"
+      },
+      {
+        "dialogue_id": "2_00037",
+        "correct": true,
+        "answer": "3"
+      },
+      {
+        "dialogue_id": "2_00038",
+        "correct": false,
+        "answer": "6 pm today"
+      },
+      {
+        "dialogue_id": "2_00039",
+        "correct": false,
+        "answer": "7 pm"
+      },
+      {
+        "dialogue_id": "2_00040",
+        "correct": true,
+        "answer": "The Night Market"
+      },
+      {
+        "dialogue_id": "2_00041",
+        "correct": true,
+        "answer": "Akemi Japanese Restaurant"
+      },
+      {
+        "dialogue_id": "2_00042",
+        "correct": true,
+        "answer": "Ace Wasabi Rock-n-roll Sushi"
+      },
+      {
+        "dialogue_id": "2_00043",
+        "correct": true,
+        "answer": "5 pm"
+      },
+      {
+        "dialogue_id": "2_00044",
+        "correct": true,
+        "answer": "Milpitas"
+      },
+      {
+        "dialogue_id": "2_00045",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "2_00046",
+        "correct": false,
+        "answer": "the 1st of this month"
+      },
+      {
+        "dialogue_id": "2_00047",
+        "correct": false,
+        "answer": "It was 1:30 PM, then it was changed to 6:30 PM."
+      },
+      {
+        "dialogue_id": "2_00048",
+        "correct": false,
+        "answer": "7:30 pm tomorrow"
+      },
+      {
+        "dialogue_id": "2_00049",
+        "correct": true,
+        "answer": "Red Chillies The Malabar Cuisine"
+      },
+      {
+        "dialogue_id": "2_00050",
+        "correct": true,
+        "answer": "Sushi Momoyama"
+      },
+      {
+        "dialogue_id": "2_00051",
+        "correct": true,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "2_00052",
+        "correct": true,
+        "answer": "The reservation was changed from 1:45 pm to 1:30 pm, so the current time is 1:30 pm."
+      },
+      {
+        "dialogue_id": "2_00053",
+        "correct": false,
+        "answer": "6:30 pm"
+      },
+      {
+        "dialogue_id": "2_00054",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "2_00055",
+        "correct": true,
+        "answer": "Goood Frikin chicken"
+      },
+      {
+        "dialogue_id": "2_00056",
+        "correct": true,
+        "answer": "3 people"
+      },
+      {
+        "dialogue_id": "2_00057",
+        "correct": true,
+        "answer": "5:30 pm"
+      },
+      {
+        "dialogue_id": "2_00058",
+        "correct": true,
+        "answer": "1 person"
+      },
+      {
+        "dialogue_id": "2_00059",
+        "correct": true,
+        "answer": "Sabio On Main"
+      },
+      {
+        "dialogue_id": "2_00060",
+        "correct": false,
+        "answer": "1 pm"
+      },
+      {
+        "dialogue_id": "2_00061",
+        "correct": false,
+        "answer": "11 am"
+      },
+      {
+        "dialogue_id": "2_00062",
+        "correct": true,
+        "answer": "11:30 am today"
+      },
+      {
+        "dialogue_id": "2_00063",
+        "correct": true,
+        "answer": "1"
+      },
+      {
+        "dialogue_id": "2_00064",
+        "correct": false,
+        "answer": "12 pm"
+      },
+      {
+        "dialogue_id": "2_00065",
+        "correct": true,
+        "answer": "Caspian Village"
+      },
+      {
+        "dialogue_id": "2_00066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00068",
+        "correct": false,
+        "answer": "7:15 pm"
+      },
+      {
+        "dialogue_id": "2_00069",
+        "correct": true,
+        "answer": "Anchor & Hope"
+      },
+      {
+        "dialogue_id": "2_00070",
+        "correct": false,
+        "answer": "6:15 pm"
+      },
+      {
+        "dialogue_id": "2_00071",
+        "correct": false,
+        "answer": "7:45 pm"
+      }
+    ],
+    "recency": [
+      {
+        "dialogue_id": "1_00000",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00001",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00004",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00005",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00006",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00007",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00008",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00010",
+        "correct": true,
+        "answer": "3"
+      },
+      {
+        "dialogue_id": "1_00011",
+        "correct": false,
+        "answer": "12:30 pm"
+      },
+      {
+        "dialogue_id": "1_00012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00014",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00015",
+        "correct": true,
+        "answer": "4 people"
+      },
+      {
+        "dialogue_id": "1_00016",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00017",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00018",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00019",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00021",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00022",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00025",
+        "correct": true,
+        "answer": "2"
+      },
+      {
+        "dialogue_id": "1_00026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00027",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00028",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00030",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00031",
+        "correct": true,
+        "answer": "Anh Hong"
+      },
+      {
+        "dialogue_id": "1_00032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00033",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00034",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "1_00035",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00036",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00037",
+        "correct": true,
+        "answer": "Dicicco's Ristorante Italiano Autentico"
+      },
+      {
+        "dialogue_id": "1_00038",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00041",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00042",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00043",
+        "correct": true,
+        "answer": "5:45 pm"
+      },
+      {
+        "dialogue_id": "1_00044",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00045",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00046",
+        "correct": true,
+        "answer": "Aq"
+      },
+      {
+        "dialogue_id": "1_00047",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00048",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00049",
+        "correct": true,
+        "answer": "Aappakadai"
+      },
+      {
+        "dialogue_id": "1_00050",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00051",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00052",
+        "correct": true,
+        "answer": "Rosie Mccann's Irish Pub & Restaurant"
+      },
+      {
+        "dialogue_id": "1_00053",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00054",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00055",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00056",
+        "correct": true,
+        "answer": "La Paloma"
+      },
+      {
+        "dialogue_id": "1_00057",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00058",
+        "correct": true,
+        "answer": "1"
+      },
+      {
+        "dialogue_id": "1_00059",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00062",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00063",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00064",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00065",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00067",
+        "correct": false,
+        "answer": "7:30 pm"
+      },
+      {
+        "dialogue_id": "1_00068",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00069",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00070",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00071",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00072",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00073",
+        "correct": false,
+        "answer": "1st of March"
+      },
+      {
+        "dialogue_id": "1_00074",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00075",
+        "correct": true,
+        "answer": "3 people"
+      },
+      {
+        "dialogue_id": "1_00076",
+        "correct": false,
+        "answer": "7 pm"
+      },
+      {
+        "dialogue_id": "1_00077",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00078",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00079",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00080",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00081",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00082",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00083",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00084",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00085",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00086",
+        "correct": false,
+        "answer": "11 am"
+      },
+      {
+        "dialogue_id": "1_00087",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00088",
+        "correct": false,
+        "answer": "1 pm"
+      },
+      {
+        "dialogue_id": "1_00089",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00090",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00091",
+        "correct": true,
+        "answer": "Baci Bistro And Bar"
+      },
+      {
+        "dialogue_id": "1_00092",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00093",
+        "correct": false,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "1_00094",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00095",
+        "correct": false,
+        "answer": "San Francisco"
+      },
+      {
+        "dialogue_id": "1_00096",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00097",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00098",
+        "correct": true,
+        "answer": "Osake"
+      },
+      {
+        "dialogue_id": "1_00099",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00100",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00101",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00102",
+        "correct": true,
+        "answer": "Umami Burger Oakland"
+      },
+      {
+        "dialogue_id": "1_00103",
+        "correct": false,
+        "answer": "5:30 pm"
+      },
+      {
+        "dialogue_id": "1_00104",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00105",
+        "correct": true,
+        "answer": "Burlingame 37 North restaurant"
+      },
+      {
+        "dialogue_id": "1_00106",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00107",
+        "correct": true,
+        "answer": "Bei Fang Style"
+      },
+      {
+        "dialogue_id": "1_00108",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00109",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00110",
+        "correct": true,
+        "answer": "Central Park Bistro"
+      },
+      {
+        "dialogue_id": "1_00111",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00112",
+        "correct": false,
+        "answer": "March 9th"
+      },
+      {
+        "dialogue_id": "1_00113",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00114",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00115",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00116",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00117",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00118",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00119",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00120",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00121",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00122",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00123",
+        "correct": true,
+        "answer": "3 people"
+      },
+      {
+        "dialogue_id": "1_00124",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00125",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00126",
+        "correct": true,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "1_00127",
+        "correct": false,
+        "answer": "next Tuesday"
+      },
+      {
+        "dialogue_id": "2_00000",
+        "correct": true,
+        "answer": "Akira Japanese Restaurant"
+      },
+      {
+        "dialogue_id": "2_00001",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00004",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00005",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00006",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00007",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00008",
+        "correct": false,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "2_00009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00010",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00011",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00013",
+        "correct": true,
+        "answer": "eve's waterfront"
+      },
+      {
+        "dialogue_id": "2_00014",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00015",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00016",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00017",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00018",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00019",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00021",
+        "correct": true,
+        "answer": "11:45 am"
+      },
+      {
+        "dialogue_id": "2_00022",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00025",
+        "correct": true,
+        "answer": "Celia's"
+      },
+      {
+        "dialogue_id": "2_00026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00027",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00028",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00030",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00031",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00033",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00034",
+        "correct": true,
+        "answer": "Caspian Village"
+      },
+      {
+        "dialogue_id": "2_00035",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00036",
+        "correct": false,
+        "answer": "5 pm"
+      },
+      {
+        "dialogue_id": "2_00037",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00038",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00039",
+        "correct": false,
+        "answer": "7 pm"
+      },
+      {
+        "dialogue_id": "2_00040",
+        "correct": true,
+        "answer": "The Night Market"
+      },
+      {
+        "dialogue_id": "2_00041",
+        "correct": true,
+        "answer": "Akemi Japanese Restaurant"
+      },
+      {
+        "dialogue_id": "2_00042",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00044",
+        "correct": true,
+        "answer": "Milpitas"
+      },
+      {
+        "dialogue_id": "2_00045",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "2_00046",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00047",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00048",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00049",
+        "correct": true,
+        "answer": "Red Chillies The Malabar Cuisine"
+      },
+      {
+        "dialogue_id": "2_00050",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00051",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00052",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00053",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00054",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00055",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00056",
+        "correct": true,
+        "answer": "3 people"
+      },
+      {
+        "dialogue_id": "2_00057",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00058",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00059",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00062",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00063",
+        "correct": true,
+        "answer": "1"
+      },
+      {
+        "dialogue_id": "2_00064",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00065",
+        "correct": true,
+        "answer": "Caspian Village"
+      },
+      {
+        "dialogue_id": "2_00066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00068",
+        "correct": false,
+        "answer": "7:15 pm"
+      },
+      {
+        "dialogue_id": "2_00069",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00070",
+        "correct": false,
+        "answer": "6:15 pm"
+      },
+      {
+        "dialogue_id": "2_00071",
+        "correct": false,
+        "answer": "not found"
+      }
+    ],
+    "random_seed42": [
+      {
+        "dialogue_id": "1_00000",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00001",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00004",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00005",
+        "correct": true,
+        "answer": "Isla Restaurant"
+      },
+      {
+        "dialogue_id": "1_00006",
+        "correct": true,
+        "answer": "March 10th"
+      },
+      {
+        "dialogue_id": "1_00007",
+        "correct": false,
+        "answer": "Al Castello Ristorante"
+      },
+      {
+        "dialogue_id": "1_00008",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00009",
+        "correct": false,
+        "answer": "4:45 this evening"
+      },
+      {
+        "dialogue_id": "1_00010",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00011",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00014",
+        "correct": true,
+        "answer": "13th of March"
+      },
+      {
+        "dialogue_id": "1_00015",
+        "correct": false,
+        "answer": "six"
+      },
+      {
+        "dialogue_id": "1_00016",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00017",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00018",
+        "correct": false,
+        "answer": "5 o'clock in the evening"
+      },
+      {
+        "dialogue_id": "1_00019",
+        "correct": false,
+        "answer": "Mexican"
+      },
+      {
+        "dialogue_id": "1_00020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00021",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "1_00022",
+        "correct": true,
+        "answer": "Ipoh Garden Malaysian Cuisine"
+      },
+      {
+        "dialogue_id": "1_00023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00025",
+        "correct": true,
+        "answer": "2"
+      },
+      {
+        "dialogue_id": "1_00026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00027",
+        "correct": false,
+        "answer": "Cupertino"
+      },
+      {
+        "dialogue_id": "1_00028",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00029",
+        "correct": false,
+        "answer": "Black Angus Steakhouse"
+      },
+      {
+        "dialogue_id": "1_00030",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00031",
+        "correct": true,
+        "answer": "Anh Hong"
+      },
+      {
+        "dialogue_id": "1_00032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00033",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00034",
+        "correct": false,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "1_00035",
+        "correct": true,
+        "answer": "Sushi"
+      },
+      {
+        "dialogue_id": "1_00036",
+        "correct": false,
+        "answer": "5:15 in the evening"
+      },
+      {
+        "dialogue_id": "1_00037",
+        "correct": false,
+        "answer": "Buca Di Beppo Italian Restaurant"
+      },
+      {
+        "dialogue_id": "1_00038",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00041",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00042",
+        "correct": false,
+        "answer": "5:30 pm"
+      },
+      {
+        "dialogue_id": "1_00043",
+        "correct": true,
+        "answer": "5:45 pm"
+      },
+      {
+        "dialogue_id": "1_00044",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00045",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00046",
+        "correct": true,
+        "answer": "Aq"
+      },
+      {
+        "dialogue_id": "1_00047",
+        "correct": false,
+        "answer": "next monday"
+      },
+      {
+        "dialogue_id": "1_00048",
+        "correct": true,
+        "answer": "6 in the evening"
+      },
+      {
+        "dialogue_id": "1_00049",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00050",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00051",
+        "correct": false,
+        "answer": "4:45 PM"
+      },
+      {
+        "dialogue_id": "1_00052",
+        "correct": false,
+        "answer": "Hukilau"
+      },
+      {
+        "dialogue_id": "1_00053",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00054",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00055",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00056",
+        "correct": true,
+        "answer": "La Paloma"
+      },
+      {
+        "dialogue_id": "1_00057",
+        "correct": false,
+        "answer": "1760"
+      },
+      {
+        "dialogue_id": "1_00058",
+        "correct": true,
+        "answer": "1"
+      },
+      {
+        "dialogue_id": "1_00059",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00061",
+        "correct": false,
+        "answer": "the 4th of this month"
+      },
+      {
+        "dialogue_id": "1_00062",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00063",
+        "correct": true,
+        "answer": "Risibisi"
+      },
+      {
+        "dialogue_id": "1_00064",
+        "correct": false,
+        "answer": "1300 On Fillmore"
+      },
+      {
+        "dialogue_id": "1_00065",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00066",
+        "correct": true,
+        "answer": "6"
+      },
+      {
+        "dialogue_id": "1_00067",
+        "correct": false,
+        "answer": "12:30 pm"
+      },
+      {
+        "dialogue_id": "1_00068",
+        "correct": true,
+        "answer": "Amber"
+      },
+      {
+        "dialogue_id": "1_00069",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00070",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00071",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00072",
+        "correct": false,
+        "answer": "three people"
+      },
+      {
+        "dialogue_id": "1_00073",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00074",
+        "correct": false,
+        "answer": "20:00"
+      },
+      {
+        "dialogue_id": "1_00075",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00076",
+        "correct": false,
+        "answer": "1:30 PM"
+      },
+      {
+        "dialogue_id": "1_00077",
+        "correct": true,
+        "answer": "Celia's"
+      },
+      {
+        "dialogue_id": "1_00078",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00079",
+        "correct": true,
+        "answer": "Marhaba Indian & Pakistani Halal Cuisine"
+      },
+      {
+        "dialogue_id": "1_00080",
+        "correct": true,
+        "answer": "4 persons"
+      },
+      {
+        "dialogue_id": "1_00081",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00082",
+        "correct": true,
+        "answer": "Sichuan food"
+      },
+      {
+        "dialogue_id": "1_00083",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00084",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00085",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00086",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00087",
+        "correct": true,
+        "answer": "Thai Time"
+      },
+      {
+        "dialogue_id": "1_00088",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00089",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00090",
+        "correct": true,
+        "answer": "Bourbon Steak Restaurant"
+      },
+      {
+        "dialogue_id": "1_00091",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00092",
+        "correct": false,
+        "answer": "one person"
+      },
+      {
+        "dialogue_id": "1_00093",
+        "correct": false,
+        "answer": "4:30 pm"
+      },
+      {
+        "dialogue_id": "1_00094",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00095",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00096",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00097",
+        "correct": false,
+        "answer": "San francisco"
+      },
+      {
+        "dialogue_id": "1_00098",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00099",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00100",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00101",
+        "correct": true,
+        "answer": "Texas Roadhouse"
+      },
+      {
+        "dialogue_id": "1_00102",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00103",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00104",
+        "correct": false,
+        "answer": "18:45"
+      },
+      {
+        "dialogue_id": "1_00105",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00106",
+        "correct": false,
+        "answer": "De La Torre's Trattoria"
+      },
+      {
+        "dialogue_id": "1_00107",
+        "correct": false,
+        "answer": "Alice's"
+      },
+      {
+        "dialogue_id": "1_00108",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00109",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00110",
+        "correct": true,
+        "answer": "Central Park Bistro"
+      },
+      {
+        "dialogue_id": "1_00111",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00112",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00113",
+        "correct": true,
+        "answer": "the 13th"
+      },
+      {
+        "dialogue_id": "1_00114",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00115",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "dialogue_id": "1_00116",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00117",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00118",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00119",
+        "correct": false,
+        "answer": "South San Francisco"
+      },
+      {
+        "dialogue_id": "1_00120",
+        "correct": true,
+        "answer": "March 14th"
+      },
+      {
+        "dialogue_id": "1_00121",
+        "correct": false,
+        "answer": "5 people"
+      },
+      {
+        "dialogue_id": "1_00122",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00123",
+        "correct": true,
+        "answer": "3 people"
+      },
+      {
+        "dialogue_id": "1_00124",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00125",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00126",
+        "correct": true,
+        "answer": "2"
+      },
+      {
+        "dialogue_id": "1_00127",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00000",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00001",
+        "correct": false,
+        "answer": "four"
+      },
+      {
+        "dialogue_id": "2_00002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00004",
+        "correct": true,
+        "answer": "one in the afternoon"
+      },
+      {
+        "dialogue_id": "2_00005",
+        "correct": false,
+        "answer": "12:15 PM"
+      },
+      {
+        "dialogue_id": "2_00006",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00007",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00008",
+        "correct": false,
+        "answer": "afternoon 2"
+      },
+      {
+        "dialogue_id": "2_00009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00010",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00011",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00014",
+        "correct": false,
+        "answer": "12:15 in the afternoon"
+      },
+      {
+        "dialogue_id": "2_00015",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00016",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00017",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00018",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00019",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00021",
+        "correct": true,
+        "answer": "11:45 am"
+      },
+      {
+        "dialogue_id": "2_00022",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00024",
+        "correct": true,
+        "answer": "Barcha"
+      },
+      {
+        "dialogue_id": "2_00025",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00027",
+        "correct": true,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "2_00028",
+        "correct": true,
+        "answer": "Kamdesh Afghan Kabab House"
+      },
+      {
+        "dialogue_id": "2_00029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00030",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00031",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00033",
+        "correct": false,
+        "answer": "Shabu-shabu"
+      },
+      {
+        "dialogue_id": "2_00034",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00035",
+        "correct": true,
+        "answer": "Ancient Szechuan"
+      },
+      {
+        "dialogue_id": "2_00036",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00037",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00038",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00040",
+        "correct": true,
+        "answer": "The Night Market"
+      },
+      {
+        "dialogue_id": "2_00041",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00042",
+        "correct": true,
+        "answer": "Ace Wasabi Rock-n-roll Sushi"
+      },
+      {
+        "dialogue_id": "2_00043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00044",
+        "correct": false,
+        "answer": "Danville"
+      },
+      {
+        "dialogue_id": "2_00045",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00046",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00047",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00048",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00049",
+        "correct": true,
+        "answer": "Red Chillies The Malabar Cuisine"
+      },
+      {
+        "dialogue_id": "2_00050",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00051",
+        "correct": false,
+        "answer": "1:15 PM"
+      },
+      {
+        "dialogue_id": "2_00052",
+        "correct": false,
+        "answer": "13:45"
+      },
+      {
+        "dialogue_id": "2_00053",
+        "correct": false,
+        "answer": "March 11th"
+      },
+      {
+        "dialogue_id": "2_00054",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00055",
+        "correct": false,
+        "answer": "Boulibar"
+      },
+      {
+        "dialogue_id": "2_00056",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00057",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00058",
+        "correct": false,
+        "answer": "two people"
+      },
+      {
+        "dialogue_id": "2_00059",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00060",
+        "correct": true,
+        "answer": "one pm"
+      },
+      {
+        "dialogue_id": "2_00061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00062",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00063",
+        "correct": true,
+        "answer": "1"
+      },
+      {
+        "dialogue_id": "2_00064",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00065",
+        "correct": false,
+        "answer": "8elements"
+      },
+      {
+        "dialogue_id": "2_00066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00068",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00069",
+        "correct": false,
+        "answer": "Akiko's Sushi Bar"
+      },
+      {
+        "dialogue_id": "2_00070",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00071",
+        "correct": false,
+        "answer": "not found"
+      }
+    ],
+    "first_n": [
+      {
+        "dialogue_id": "1_00000",
+        "correct": false,
+        "answer": "San Jose"
+      },
+      {
+        "dialogue_id": "1_00001",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00004",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00005",
+        "correct": false,
+        "answer": "Cabalen"
+      },
+      {
+        "dialogue_id": "1_00006",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00007",
+        "correct": false,
+        "answer": "Al Castello Ristorante"
+      },
+      {
+        "dialogue_id": "1_00008",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00010",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00011",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00014",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00015",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00016",
+        "correct": true,
+        "answer": "Chop Bar"
+      },
+      {
+        "dialogue_id": "1_00017",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00018",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00019",
+        "correct": false,
+        "answer": "Mexican"
+      },
+      {
+        "dialogue_id": "1_00020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00021",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00022",
+        "correct": true,
+        "answer": "Ipoh Garden Malaysian Cuisine"
+      },
+      {
+        "dialogue_id": "1_00023",
+        "correct": false,
+        "answer": "Cambodian food"
+      },
+      {
+        "dialogue_id": "1_00024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00025",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00026",
+        "correct": true,
+        "answer": "Noodles And Company"
+      },
+      {
+        "dialogue_id": "1_00027",
+        "correct": false,
+        "answer": "Cupertino"
+      },
+      {
+        "dialogue_id": "1_00028",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00030",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00031",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00033",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00034",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00035",
+        "correct": false,
+        "answer": "Barbecue"
+      },
+      {
+        "dialogue_id": "1_00036",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00037",
+        "correct": false,
+        "answer": "A Bellagio Italian Restaurant"
+      },
+      {
+        "dialogue_id": "1_00038",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00041",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00042",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00044",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00045",
+        "correct": false,
+        "answer": "San Mateo"
+      },
+      {
+        "dialogue_id": "1_00046",
+        "correct": false,
+        "answer": "Alta Msp"
+      },
+      {
+        "dialogue_id": "1_00047",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00048",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00049",
+        "correct": true,
+        "answer": "Aappakadai"
+      },
+      {
+        "dialogue_id": "1_00050",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00051",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00052",
+        "correct": false,
+        "answer": "71 Saint Peter"
+      },
+      {
+        "dialogue_id": "1_00053",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00054",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00055",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00056",
+        "correct": false,
+        "answer": "Baja Cactus"
+      },
+      {
+        "dialogue_id": "1_00057",
+        "correct": false,
+        "answer": "1760"
+      },
+      {
+        "dialogue_id": "1_00058",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00059",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00062",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00063",
+        "correct": false,
+        "answer": "Brixx Pizzeria"
+      },
+      {
+        "dialogue_id": "1_00064",
+        "correct": false,
+        "answer": "1300 On Fillmore"
+      },
+      {
+        "dialogue_id": "1_00065",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00068",
+        "correct": true,
+        "answer": "Amber"
+      },
+      {
+        "dialogue_id": "1_00069",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00070",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00071",
+        "correct": false,
+        "answer": "pasta"
+      },
+      {
+        "dialogue_id": "1_00072",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00073",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00074",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00075",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00076",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00077",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00078",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00079",
+        "correct": false,
+        "answer": "Dyafa"
+      },
+      {
+        "dialogue_id": "1_00080",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00081",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00082",
+        "correct": false,
+        "answer": "Sushi"
+      },
+      {
+        "dialogue_id": "1_00083",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00084",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00085",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00086",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00087",
+        "correct": false,
+        "answer": "Agora"
+      },
+      {
+        "dialogue_id": "1_00088",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00089",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00090",
+        "correct": false,
+        "answer": "5a5 Steak Lounge"
+      },
+      {
+        "dialogue_id": "1_00091",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00092",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00093",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00094",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00095",
+        "correct": false,
+        "answer": "Mountain View"
+      },
+      {
+        "dialogue_id": "1_00096",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00097",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00098",
+        "correct": false,
+        "answer": "Hikuni"
+      },
+      {
+        "dialogue_id": "1_00099",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00100",
+        "correct": true,
+        "answer": "Rocknwraps And Kabobs"
+      },
+      {
+        "dialogue_id": "1_00101",
+        "correct": false,
+        "answer": "Red Lobster"
+      },
+      {
+        "dialogue_id": "1_00102",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00103",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00104",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00105",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00106",
+        "correct": false,
+        "answer": "Forno Vecchio"
+      },
+      {
+        "dialogue_id": "1_00107",
+        "correct": false,
+        "answer": "Bamboo restaurant"
+      },
+      {
+        "dialogue_id": "1_00108",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00109",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00110",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00111",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00112",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00113",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00114",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00115",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00116",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00117",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00118",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00119",
+        "correct": false,
+        "answer": "South San Francisco"
+      },
+      {
+        "dialogue_id": "1_00120",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00121",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "dialogue_id": "1_00122",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00123",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00124",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00125",
+        "correct": true,
+        "answer": "1760"
+      },
+      {
+        "dialogue_id": "1_00126",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00127",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00000",
+        "correct": false,
+        "answer": "2g Japanese Brasserie"
+      },
+      {
+        "dialogue_id": "2_00001",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00004",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00005",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00006",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00007",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00008",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00010",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00011",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00014",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00015",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00016",
+        "correct": true,
+        "answer": "Hisui | Japanese Restaurant"
+      },
+      {
+        "dialogue_id": "2_00017",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00018",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00019",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00021",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00022",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00025",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00027",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00028",
+        "correct": true,
+        "answer": "Kamdesh Afghan Kabab House"
+      },
+      {
+        "dialogue_id": "2_00029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00030",
+        "correct": true,
+        "answer": "Gary Chu's"
+      },
+      {
+        "dialogue_id": "2_00031",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00033",
+        "correct": false,
+        "answer": "Shabu-shabu"
+      },
+      {
+        "dialogue_id": "2_00034",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00035",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00036",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00037",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00038",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00041",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00042",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00044",
+        "correct": false,
+        "answer": "Danville"
+      },
+      {
+        "dialogue_id": "2_00045",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00046",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00047",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00048",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00049",
+        "correct": false,
+        "answer": "Olive Garden Italian Restaurant"
+      },
+      {
+        "dialogue_id": "2_00050",
+        "correct": false,
+        "answer": "Benihana's"
+      },
+      {
+        "dialogue_id": "2_00051",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00052",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00053",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00054",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00055",
+        "correct": false,
+        "answer": "Barcha"
+      },
+      {
+        "dialogue_id": "2_00056",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00057",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00058",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00059",
+        "correct": true,
+        "answer": "Sabio On Main"
+      },
+      {
+        "dialogue_id": "2_00060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00062",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00063",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00064",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00065",
+        "correct": false,
+        "answer": "8elements"
+      },
+      {
+        "dialogue_id": "2_00066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00068",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00069",
+        "correct": false,
+        "answer": "Akiko's Sushi Bar"
+      },
+      {
+        "dialogue_id": "2_00070",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00071",
+        "correct": false,
+        "answer": "not found"
+      }
+    ],
+    "uniform_stride": [
+      {
+        "dialogue_id": "1_00000",
+        "correct": true,
+        "answer": "Palo Alto"
+      },
+      {
+        "dialogue_id": "1_00001",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00003",
+        "correct": false,
+        "answer": "one"
+      },
+      {
+        "dialogue_id": "1_00004",
+        "correct": true,
+        "answer": "March 14th"
+      },
+      {
+        "dialogue_id": "1_00005",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00006",
+        "correct": true,
+        "answer": "March 10th"
+      },
+      {
+        "dialogue_id": "1_00007",
+        "correct": true,
+        "answer": "Antonella's Ristorante"
+      },
+      {
+        "dialogue_id": "1_00008",
+        "correct": false,
+        "answer": "1:30 pm"
+      },
+      {
+        "dialogue_id": "1_00009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00010",
+        "correct": true,
+        "answer": "3"
+      },
+      {
+        "dialogue_id": "1_00011",
+        "correct": false,
+        "answer": "12:30 pm"
+      },
+      {
+        "dialogue_id": "1_00012",
+        "correct": false,
+        "answer": "7:15 pm today"
+      },
+      {
+        "dialogue_id": "1_00013",
+        "correct": true,
+        "answer": "March 10th"
+      },
+      {
+        "dialogue_id": "1_00014",
+        "correct": false,
+        "answer": "March 13th"
+      },
+      {
+        "dialogue_id": "1_00015",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00016",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00017",
+        "correct": true,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "1_00018",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00019",
+        "correct": false,
+        "answer": "Mexican"
+      },
+      {
+        "dialogue_id": "1_00020",
+        "correct": true,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "1_00021",
+        "correct": false,
+        "answer": "four"
+      },
+      {
+        "dialogue_id": "1_00022",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00025",
+        "correct": true,
+        "answer": "2"
+      },
+      {
+        "dialogue_id": "1_00026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00027",
+        "correct": true,
+        "answer": "Santa Clara"
+      },
+      {
+        "dialogue_id": "1_00028",
+        "correct": false,
+        "answer": "1:15 PM"
+      },
+      {
+        "dialogue_id": "1_00029",
+        "correct": true,
+        "answer": "Hot Crab"
+      },
+      {
+        "dialogue_id": "1_00030",
+        "correct": false,
+        "answer": "11:45 am"
+      },
+      {
+        "dialogue_id": "1_00031",
+        "correct": true,
+        "answer": "Anh Hong"
+      },
+      {
+        "dialogue_id": "1_00032",
+        "correct": true,
+        "answer": "next Monday"
+      },
+      {
+        "dialogue_id": "1_00033",
+        "correct": false,
+        "answer": "12 pm"
+      },
+      {
+        "dialogue_id": "1_00034",
+        "correct": true,
+        "answer": "4 people"
+      },
+      {
+        "dialogue_id": "1_00035",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00036",
+        "correct": false,
+        "answer": "6:15 pm"
+      },
+      {
+        "dialogue_id": "1_00037",
+        "correct": true,
+        "answer": "Dicicco's Ristorante Italiano Autentico"
+      },
+      {
+        "dialogue_id": "1_00038",
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "1_00039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00041",
+        "correct": true,
+        "answer": "11 in the morning"
+      },
+      {
+        "dialogue_id": "1_00042",
+        "correct": false,
+        "answer": "5:15 PM"
+      },
+      {
+        "dialogue_id": "1_00043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00044",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "1_00045",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00046",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00047",
+        "correct": true,
+        "answer": "March 4th"
+      },
+      {
+        "dialogue_id": "1_00048",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00049",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00050",
+        "correct": false,
+        "answer": "It changed from 12:30 pm to 7:15 pm."
+      },
+      {
+        "dialogue_id": "1_00051",
+        "correct": true,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "1_00052",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00053",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00054",
+        "correct": false,
+        "answer": "1:15 pm"
+      },
+      {
+        "dialogue_id": "1_00055",
+        "correct": true,
+        "answer": "7 pm"
+      },
+      {
+        "dialogue_id": "1_00056",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00057",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00058",
+        "correct": false,
+        "answer": "two people"
+      },
+      {
+        "dialogue_id": "1_00059",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00060",
+        "correct": true,
+        "answer": "evening 7:30"
+      },
+      {
+        "dialogue_id": "1_00061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00062",
+        "correct": true,
+        "answer": "11:30 in the morning"
+      },
+      {
+        "dialogue_id": "1_00063",
+        "correct": true,
+        "answer": "Risibisi"
+      },
+      {
+        "dialogue_id": "1_00064",
+        "correct": true,
+        "answer": "Aperto"
+      },
+      {
+        "dialogue_id": "1_00065",
+        "correct": true,
+        "answer": "7:30 pm"
+      },
+      {
+        "dialogue_id": "1_00066",
+        "correct": false,
+        "answer": "six"
+      },
+      {
+        "dialogue_id": "1_00067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00068",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00069",
+        "correct": true,
+        "answer": "1 in the afternoon"
+      },
+      {
+        "dialogue_id": "1_00070",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00071",
+        "correct": true,
+        "answer": "Mexican"
+      },
+      {
+        "dialogue_id": "1_00072",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "1_00073",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00074",
+        "correct": false,
+        "answer": "7 pm today"
+      },
+      {
+        "dialogue_id": "1_00075",
+        "correct": false,
+        "answer": "1"
+      },
+      {
+        "dialogue_id": "1_00076",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00077",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00078",
+        "correct": false,
+        "answer": "5:30 in the evening"
+      },
+      {
+        "dialogue_id": "1_00079",
+        "correct": true,
+        "answer": "Marhaba Indian & Pakistani Halal Cuisine"
+      },
+      {
+        "dialogue_id": "1_00080",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "1_00081",
+        "correct": false,
+        "answer": "12:15 in the afternoon"
+      },
+      {
+        "dialogue_id": "1_00082",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00083",
+        "correct": true,
+        "answer": "2"
+      },
+      {
+        "dialogue_id": "1_00084",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00085",
+        "correct": false,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "1_00086",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00087",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00088",
+        "correct": false,
+        "answer": "5:15 PM"
+      },
+      {
+        "dialogue_id": "1_00089",
+        "correct": true,
+        "answer": "11:30"
+      },
+      {
+        "dialogue_id": "1_00090",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00091",
+        "correct": true,
+        "answer": "Baci Bistro And Bar"
+      },
+      {
+        "dialogue_id": "1_00092",
+        "correct": true,
+        "answer": "3"
+      },
+      {
+        "dialogue_id": "1_00093",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00094",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00095",
+        "correct": false,
+        "answer": "San Francisco"
+      },
+      {
+        "dialogue_id": "1_00096",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00097",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00098",
+        "correct": true,
+        "answer": "Osake"
+      },
+      {
+        "dialogue_id": "1_00099",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00100",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00101",
+        "correct": true,
+        "answer": "Texas Roadhouse"
+      },
+      {
+        "dialogue_id": "1_00102",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00103",
+        "correct": false,
+        "answer": "5:30 pm today"
+      },
+      {
+        "dialogue_id": "1_00104",
+        "correct": true,
+        "answer": "11:30 am next Friday"
+      },
+      {
+        "dialogue_id": "1_00105",
+        "correct": true,
+        "answer": "37 North restaurant"
+      },
+      {
+        "dialogue_id": "1_00106",
+        "correct": true,
+        "answer": "Gay 90's Pizza Co."
+      },
+      {
+        "dialogue_id": "1_00107",
+        "correct": true,
+        "answer": "Bei Fang Style"
+      },
+      {
+        "dialogue_id": "1_00108",
+        "correct": false,
+        "answer": "March 10th"
+      },
+      {
+        "dialogue_id": "1_00109",
+        "correct": true,
+        "answer": "Panera Bread"
+      },
+      {
+        "dialogue_id": "1_00110",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00111",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00112",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00113",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00114",
+        "correct": true,
+        "answer": "the 1st of this month"
+      },
+      {
+        "dialogue_id": "1_00115",
+        "correct": true,
+        "answer": "3"
+      },
+      {
+        "dialogue_id": "1_00116",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00117",
+        "correct": false,
+        "answer": "three people"
+      },
+      {
+        "dialogue_id": "1_00118",
+        "correct": true,
+        "answer": "1 person"
+      },
+      {
+        "dialogue_id": "1_00119",
+        "correct": true,
+        "answer": "San Mateo"
+      },
+      {
+        "dialogue_id": "1_00120",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00121",
+        "correct": true,
+        "answer": "4 people"
+      },
+      {
+        "dialogue_id": "1_00122",
+        "correct": false,
+        "answer": "6 pm today"
+      },
+      {
+        "dialogue_id": "1_00123",
+        "correct": false,
+        "answer": "1 person"
+      },
+      {
+        "dialogue_id": "1_00124",
+        "correct": false,
+        "answer": "5 pm"
+      },
+      {
+        "dialogue_id": "1_00125",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00126",
+        "correct": true,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "1_00127",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00000",
+        "correct": true,
+        "answer": "Akira Japanese Restaurant"
+      },
+      {
+        "dialogue_id": "2_00001",
+        "correct": true,
+        "answer": "3 people"
+      },
+      {
+        "dialogue_id": "2_00002",
+        "correct": false,
+        "answer": "tomorrow"
+      },
+      {
+        "dialogue_id": "2_00003",
+        "correct": true,
+        "answer": "1 pm today"
+      },
+      {
+        "dialogue_id": "2_00004",
+        "correct": false,
+        "answer": "1pm"
+      },
+      {
+        "dialogue_id": "2_00005",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00006",
+        "correct": false,
+        "answer": "one person"
+      },
+      {
+        "dialogue_id": "2_00007",
+        "correct": false,
+        "answer": "7:30 in the evening"
+      },
+      {
+        "dialogue_id": "2_00008",
+        "correct": false,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "2_00009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00010",
+        "correct": false,
+        "answer": "1 pm today"
+      },
+      {
+        "dialogue_id": "2_00011",
+        "correct": false,
+        "answer": "5:30 pm"
+      },
+      {
+        "dialogue_id": "2_00012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00014",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00015",
+        "correct": false,
+        "answer": "March 9th"
+      },
+      {
+        "dialogue_id": "2_00016",
+        "correct": true,
+        "answer": "Hisui | Japanese Restaurant"
+      },
+      {
+        "dialogue_id": "2_00017",
+        "correct": false,
+        "answer": "1 pm"
+      },
+      {
+        "dialogue_id": "2_00018",
+        "correct": false,
+        "answer": "11:45 in the morning"
+      },
+      {
+        "dialogue_id": "2_00019",
+        "correct": false,
+        "answer": "11 am today"
+      },
+      {
+        "dialogue_id": "2_00020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00021",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00022",
+        "correct": false,
+        "answer": "1:30 in the afternoon"
+      },
+      {
+        "dialogue_id": "2_00023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00025",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00027",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00028",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00029",
+        "correct": true,
+        "answer": "March 4th"
+      },
+      {
+        "dialogue_id": "2_00030",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00031",
+        "correct": true,
+        "answer": "one in the afternoon"
+      },
+      {
+        "dialogue_id": "2_00032",
+        "correct": false,
+        "answer": "today at 5 pm"
+      },
+      {
+        "dialogue_id": "2_00033",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00034",
+        "correct": true,
+        "answer": "Caspian Village"
+      },
+      {
+        "dialogue_id": "2_00035",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00036",
+        "correct": false,
+        "answer": "11:00"
+      },
+      {
+        "dialogue_id": "2_00037",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00038",
+        "correct": false,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "2_00039",
+        "correct": false,
+        "answer": "6 PM"
+      },
+      {
+        "dialogue_id": "2_00040",
+        "correct": true,
+        "answer": "The Night Market"
+      },
+      {
+        "dialogue_id": "2_00041",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00042",
+        "correct": true,
+        "answer": "Ace Wasabi Rock-n-roll Sushi"
+      },
+      {
+        "dialogue_id": "2_00043",
+        "correct": true,
+        "answer": "5 pm"
+      },
+      {
+        "dialogue_id": "2_00044",
+        "correct": true,
+        "answer": "Milpitas"
+      },
+      {
+        "dialogue_id": "2_00045",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "2_00046",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00047",
+        "correct": false,
+        "answer": "1:30 pm"
+      },
+      {
+        "dialogue_id": "2_00048",
+        "correct": true,
+        "answer": "7:30 in the evening"
+      },
+      {
+        "dialogue_id": "2_00049",
+        "correct": true,
+        "answer": "Red Chillies The Malabar Cuisine"
+      },
+      {
+        "dialogue_id": "2_00050",
+        "correct": true,
+        "answer": "Sushi Momoyama"
+      },
+      {
+        "dialogue_id": "2_00051",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00052",
+        "correct": false,
+        "answer": "1:45 pm"
+      },
+      {
+        "dialogue_id": "2_00053",
+        "correct": false,
+        "answer": "6:30 pm"
+      },
+      {
+        "dialogue_id": "2_00054",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "2_00055",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00056",
+        "correct": false,
+        "answer": "4 people"
+      },
+      {
+        "dialogue_id": "2_00057",
+        "correct": true,
+        "answer": "5:30 pm"
+      },
+      {
+        "dialogue_id": "2_00058",
+        "correct": true,
+        "answer": "2 people before, now 1 person."
+      },
+      {
+        "dialogue_id": "2_00059",
+        "correct": true,
+        "answer": "Sabio On Main"
+      },
+      {
+        "dialogue_id": "2_00060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00062",
+        "correct": false,
+        "answer": "11:15 am"
+      },
+      {
+        "dialogue_id": "2_00063",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "dialogue_id": "2_00064",
+        "correct": false,
+        "answer": "6:45 PM"
+      },
+      {
+        "dialogue_id": "2_00065",
+        "correct": true,
+        "answer": "Caspian Village"
+      },
+      {
+        "dialogue_id": "2_00066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00068",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00069",
+        "correct": true,
+        "answer": "Anchor & hope"
+      },
+      {
+        "dialogue_id": "2_00070",
+        "correct": false,
+        "answer": "6:15 pm"
+      },
+      {
+        "dialogue_id": "2_00071",
+        "correct": false,
+        "answer": "not found"
+      }
+    ],
+    "attention_h2o_cache": [
+      {
+        "dialogue_id": "1_00000",
+        "correct": false,
+        "answer": "San Jose"
+      },
+      {
+        "dialogue_id": "1_00001",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00004",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00005",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00006",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00007",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00008",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00010",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00011",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00014",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00015",
+        "correct": false,
+        "answer": "6"
+      },
+      {
+        "dialogue_id": "1_00016",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00017",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00018",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00019",
+        "correct": false,
+        "answer": "Mexican"
+      },
+      {
+        "dialogue_id": "1_00020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00021",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00022",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00023",
+        "correct": true,
+        "answer": "Barbecue"
+      },
+      {
+        "dialogue_id": "1_00024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00025",
+        "correct": false,
+        "answer": "1"
+      },
+      {
+        "dialogue_id": "1_00026",
+        "correct": true,
+        "answer": "Noodles And Company"
+      },
+      {
+        "dialogue_id": "1_00027",
+        "correct": false,
+        "answer": "Cupertino"
+      },
+      {
+        "dialogue_id": "1_00028",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00030",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00031",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00033",
+        "correct": true,
+        "answer": "Twelve pm"
+      },
+      {
+        "dialogue_id": "1_00034",
+        "correct": false,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "1_00035",
+        "correct": false,
+        "answer": "Barbecue"
+      },
+      {
+        "dialogue_id": "1_00036",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00037",
+        "correct": false,
+        "answer": "A Bellagio Italian Restaurant"
+      },
+      {
+        "dialogue_id": "1_00038",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00041",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00042",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00044",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00045",
+        "correct": false,
+        "answer": "San Mateo"
+      },
+      {
+        "dialogue_id": "1_00046",
+        "correct": false,
+        "answer": "Al's Place"
+      },
+      {
+        "dialogue_id": "1_00047",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00048",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00049",
+        "correct": true,
+        "answer": "Aappakadai"
+      },
+      {
+        "dialogue_id": "1_00050",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00051",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00052",
+        "correct": false,
+        "answer": "71 Saint Peter"
+      },
+      {
+        "dialogue_id": "1_00053",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00054",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00055",
+        "correct": false,
+        "answer": "7:15 pm"
+      },
+      {
+        "dialogue_id": "1_00056",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00057",
+        "correct": false,
+        "answer": "1760"
+      },
+      {
+        "dialogue_id": "1_00058",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00059",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00062",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00063",
+        "correct": false,
+        "answer": "Brixx Pizzeria"
+      },
+      {
+        "dialogue_id": "1_00064",
+        "correct": false,
+        "answer": "1300 On Fillmore"
+      },
+      {
+        "dialogue_id": "1_00065",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00067",
+        "correct": false,
+        "answer": "12:30 pm"
+      },
+      {
+        "dialogue_id": "1_00068",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00069",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00070",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00071",
+        "correct": false,
+        "answer": "pasta"
+      },
+      {
+        "dialogue_id": "1_00072",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00073",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00074",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00075",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00076",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00077",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00078",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00079",
+        "correct": false,
+        "answer": "Dyafa"
+      },
+      {
+        "dialogue_id": "1_00080",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00081",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00082",
+        "correct": false,
+        "answer": "Sushi"
+      },
+      {
+        "dialogue_id": "1_00083",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00084",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00085",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00086",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00087",
+        "correct": false,
+        "answer": "Agora"
+      },
+      {
+        "dialogue_id": "1_00088",
+        "correct": false,
+        "answer": "5:15 in the evening"
+      },
+      {
+        "dialogue_id": "1_00089",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00090",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00091",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00092",
+        "correct": false,
+        "answer": "1 person"
+      },
+      {
+        "dialogue_id": "1_00093",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00094",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00095",
+        "correct": false,
+        "answer": "Mountain View"
+      },
+      {
+        "dialogue_id": "1_00096",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00097",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00098",
+        "correct": false,
+        "answer": "Hikuni"
+      },
+      {
+        "dialogue_id": "1_00099",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00100",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00101",
+        "correct": false,
+        "answer": "Red Lobster"
+      },
+      {
+        "dialogue_id": "1_00102",
+        "correct": true,
+        "answer": "Umami Burger Oakland"
+      },
+      {
+        "dialogue_id": "1_00103",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00104",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00105",
+        "correct": true,
+        "answer": "37 North"
+      },
+      {
+        "dialogue_id": "1_00106",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00107",
+        "correct": false,
+        "answer": "Alice's"
+      },
+      {
+        "dialogue_id": "1_00108",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00109",
+        "correct": true,
+        "answer": "Panera Bread"
+      },
+      {
+        "dialogue_id": "1_00110",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00111",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00112",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00113",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00114",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00115",
+        "correct": false,
+        "answer": "two"
+      },
+      {
+        "dialogue_id": "1_00116",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00117",
+        "correct": false,
+        "answer": "one person"
+      },
+      {
+        "dialogue_id": "1_00118",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00119",
+        "correct": false,
+        "answer": "South San Francisco"
+      },
+      {
+        "dialogue_id": "1_00120",
+        "correct": true,
+        "answer": "March 14th"
+      },
+      {
+        "dialogue_id": "1_00121",
+        "correct": false,
+        "answer": "5 people"
+      },
+      {
+        "dialogue_id": "1_00122",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00123",
+        "correct": false,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "1_00124",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00125",
+        "correct": true,
+        "answer": "1760"
+      },
+      {
+        "dialogue_id": "1_00126",
+        "correct": false,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "1_00127",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00000",
+        "correct": false,
+        "answer": "2g Japanese Brasserie"
+      },
+      {
+        "dialogue_id": "2_00001",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00004",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00005",
+        "correct": false,
+        "answer": "12:15 pm today"
+      },
+      {
+        "dialogue_id": "2_00006",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00007",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00008",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00010",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00011",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00013",
+        "correct": true,
+        "answer": "Eve's Waterfront"
+      },
+      {
+        "dialogue_id": "2_00014",
+        "correct": false,
+        "answer": "12:15 in the afternoon"
+      },
+      {
+        "dialogue_id": "2_00015",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00016",
+        "correct": true,
+        "answer": "Hisui | Japanese Restaurant"
+      },
+      {
+        "dialogue_id": "2_00017",
+        "correct": false,
+        "answer": "13:30"
+      },
+      {
+        "dialogue_id": "2_00018",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00019",
+        "correct": false,
+        "answer": "dinner"
+      },
+      {
+        "dialogue_id": "2_00020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00021",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00022",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00025",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00027",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00028",
+        "correct": true,
+        "answer": "Kamdesh Afghan Kabab House"
+      },
+      {
+        "dialogue_id": "2_00029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00030",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00031",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00033",
+        "correct": false,
+        "answer": "Shabu-shabu"
+      },
+      {
+        "dialogue_id": "2_00034",
+        "correct": false,
+        "answer": "8elements"
+      },
+      {
+        "dialogue_id": "2_00035",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00036",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00037",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00038",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00040",
+        "correct": false,
+        "answer": "King Sun Buffet"
+      },
+      {
+        "dialogue_id": "2_00041",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00042",
+        "correct": false,
+        "answer": "Satomi Sushi"
+      },
+      {
+        "dialogue_id": "2_00043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00044",
+        "correct": false,
+        "answer": "Danville"
+      },
+      {
+        "dialogue_id": "2_00045",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00046",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00047",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00048",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00049",
+        "correct": false,
+        "answer": "Olive Garden Italian Restaurant"
+      },
+      {
+        "dialogue_id": "2_00050",
+        "correct": false,
+        "answer": "Benihana's"
+      },
+      {
+        "dialogue_id": "2_00051",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00052",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00053",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00054",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00055",
+        "correct": false,
+        "answer": "Barcha"
+      },
+      {
+        "dialogue_id": "2_00056",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00057",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00058",
+        "correct": false,
+        "answer": "two people"
+      },
+      {
+        "dialogue_id": "2_00059",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00062",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00063",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00064",
+        "correct": false,
+        "answer": "6:45 in the evening"
+      },
+      {
+        "dialogue_id": "2_00065",
+        "correct": false,
+        "answer": "8elements"
+      },
+      {
+        "dialogue_id": "2_00066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00068",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00069",
+        "correct": false,
+        "answer": "Akiko's Sushi Bar"
+      },
+      {
+        "dialogue_id": "2_00070",
+        "correct": false,
+        "answer": "2 PM"
+      },
+      {
+        "dialogue_id": "2_00071",
+        "correct": false,
+        "answer": "not found"
+      }
+    ],
+    "embedding_mmr_cache": [
+      {
+        "dialogue_id": "1_00000",
+        "correct": false,
+        "answer": "San Jose"
+      },
+      {
+        "dialogue_id": "1_00001",
+        "correct": false,
+        "answer": "12 pm"
+      },
+      {
+        "dialogue_id": "1_00002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00003",
+        "correct": false,
+        "answer": "one"
+      },
+      {
+        "dialogue_id": "1_00004",
+        "correct": true,
+        "answer": "March 14th"
+      },
+      {
+        "dialogue_id": "1_00005",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00006",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00007",
+        "correct": false,
+        "answer": "Angelo's Italian Restaurant"
+      },
+      {
+        "dialogue_id": "1_00008",
+        "correct": true,
+        "answer": "7 pm"
+      },
+      {
+        "dialogue_id": "1_00009",
+        "correct": true,
+        "answer": "4:45 pm"
+      },
+      {
+        "dialogue_id": "1_00010",
+        "correct": true,
+        "answer": "3"
+      },
+      {
+        "dialogue_id": "1_00011",
+        "correct": false,
+        "answer": "12:30 PM"
+      },
+      {
+        "dialogue_id": "1_00012",
+        "correct": false,
+        "answer": "19:15"
+      },
+      {
+        "dialogue_id": "1_00013",
+        "correct": true,
+        "answer": "March 10th"
+      },
+      {
+        "dialogue_id": "1_00014",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00015",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "1_00016",
+        "correct": true,
+        "answer": "Chop Bar"
+      },
+      {
+        "dialogue_id": "1_00017",
+        "correct": true,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "1_00018",
+        "correct": false,
+        "answer": "5 pm"
+      },
+      {
+        "dialogue_id": "1_00019",
+        "correct": false,
+        "answer": "Mexican"
+      },
+      {
+        "dialogue_id": "1_00020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00021",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00022",
+        "correct": true,
+        "answer": "Ipoh Garden Malaysian Cuisine"
+      },
+      {
+        "dialogue_id": "1_00023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00025",
+        "correct": true,
+        "answer": "2 persons"
+      },
+      {
+        "dialogue_id": "1_00026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00027",
+        "correct": false,
+        "answer": "Cupertino"
+      },
+      {
+        "dialogue_id": "1_00028",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00029",
+        "correct": false,
+        "answer": "Black Angus Steakhouse"
+      },
+      {
+        "dialogue_id": "1_00030",
+        "correct": false,
+        "answer": "11:45 am"
+      },
+      {
+        "dialogue_id": "1_00031",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00032",
+        "correct": true,
+        "answer": "next Monday"
+      },
+      {
+        "dialogue_id": "1_00033",
+        "correct": true,
+        "answer": "Twelve pm"
+      },
+      {
+        "dialogue_id": "1_00034",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00035",
+        "correct": true,
+        "answer": "Sushi"
+      },
+      {
+        "dialogue_id": "1_00036",
+        "correct": false,
+        "answer": "5:15 PM"
+      },
+      {
+        "dialogue_id": "1_00037",
+        "correct": true,
+        "answer": "Dicicco's Ristorante Italiano Autentico"
+      },
+      {
+        "dialogue_id": "1_00038",
+        "correct": false,
+        "answer": "4 people"
+      },
+      {
+        "dialogue_id": "1_00039",
+        "correct": false,
+        "answer": "11 am"
+      },
+      {
+        "dialogue_id": "1_00040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00041",
+        "correct": false,
+        "answer": "11 am today"
+      },
+      {
+        "dialogue_id": "1_00042",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00044",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "1_00045",
+        "correct": false,
+        "answer": "San Mateo"
+      },
+      {
+        "dialogue_id": "1_00046",
+        "correct": false,
+        "answer": "Alta Msp"
+      },
+      {
+        "dialogue_id": "1_00047",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00048",
+        "correct": true,
+        "answer": "6 in the evening"
+      },
+      {
+        "dialogue_id": "1_00049",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00050",
+        "correct": false,
+        "answer": "7:15 in the evening"
+      },
+      {
+        "dialogue_id": "1_00051",
+        "correct": true,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "1_00052",
+        "correct": true,
+        "answer": "Rosie Mccann's Irish Pub & Restaurant"
+      },
+      {
+        "dialogue_id": "1_00053",
+        "correct": false,
+        "answer": "11:30 in the morning"
+      },
+      {
+        "dialogue_id": "1_00054",
+        "correct": false,
+        "answer": "13:15"
+      },
+      {
+        "dialogue_id": "1_00055",
+        "correct": true,
+        "answer": "7 pm"
+      },
+      {
+        "dialogue_id": "1_00056",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00057",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00058",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "dialogue_id": "1_00059",
+        "correct": true,
+        "answer": "afternoon 1:15"
+      },
+      {
+        "dialogue_id": "1_00060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00061",
+        "correct": false,
+        "answer": "today"
+      },
+      {
+        "dialogue_id": "1_00062",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00063",
+        "correct": true,
+        "answer": "Risibisi"
+      },
+      {
+        "dialogue_id": "1_00064",
+        "correct": true,
+        "answer": "Aperto"
+      },
+      {
+        "dialogue_id": "1_00065",
+        "correct": false,
+        "answer": "7:45 pm today"
+      },
+      {
+        "dialogue_id": "1_00066",
+        "correct": true,
+        "answer": "6"
+      },
+      {
+        "dialogue_id": "1_00067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00068",
+        "correct": true,
+        "answer": "Amber"
+      },
+      {
+        "dialogue_id": "1_00069",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00070",
+        "correct": true,
+        "answer": "7th of March"
+      },
+      {
+        "dialogue_id": "1_00071",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00072",
+        "correct": true,
+        "answer": "4"
+      },
+      {
+        "dialogue_id": "1_00073",
+        "correct": true,
+        "answer": "It was originally \"day after tomorrow,\" and it was changed to \"2nd of March.\""
+      },
+      {
+        "dialogue_id": "1_00074",
+        "correct": false,
+        "answer": "20:00"
+      },
+      {
+        "dialogue_id": "1_00075",
+        "correct": false,
+        "answer": "1 person"
+      },
+      {
+        "dialogue_id": "1_00076",
+        "correct": false,
+        "answer": "1:30 PM"
+      },
+      {
+        "dialogue_id": "1_00077",
+        "correct": true,
+        "answer": "Celia's"
+      },
+      {
+        "dialogue_id": "1_00078",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00079",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00080",
+        "correct": true,
+        "answer": "4 persons"
+      },
+      {
+        "dialogue_id": "1_00081",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00082",
+        "correct": true,
+        "answer": "Sichuan food"
+      },
+      {
+        "dialogue_id": "1_00083",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00084",
+        "correct": false,
+        "answer": "next Thursday"
+      },
+      {
+        "dialogue_id": "1_00085",
+        "correct": true,
+        "answer": "6 in the evening"
+      },
+      {
+        "dialogue_id": "1_00086",
+        "correct": false,
+        "answer": "11 am"
+      },
+      {
+        "dialogue_id": "1_00087",
+        "correct": false,
+        "answer": "Asya Restaurant"
+      },
+      {
+        "dialogue_id": "1_00088",
+        "correct": false,
+        "answer": "1:15 pm"
+      },
+      {
+        "dialogue_id": "1_00089",
+        "correct": true,
+        "answer": "11:30 am today"
+      },
+      {
+        "dialogue_id": "1_00090",
+        "correct": true,
+        "answer": "Bourbon Steak Restaurant"
+      },
+      {
+        "dialogue_id": "1_00091",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00092",
+        "correct": true,
+        "answer": "3 people"
+      },
+      {
+        "dialogue_id": "1_00093",
+        "correct": false,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "1_00094",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00095",
+        "correct": false,
+        "answer": "San Francisco"
+      },
+      {
+        "dialogue_id": "1_00096",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00097",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00098",
+        "correct": true,
+        "answer": "Osake"
+      },
+      {
+        "dialogue_id": "1_00099",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00100",
+        "correct": true,
+        "answer": "Rocknwraps And Kabobs"
+      },
+      {
+        "dialogue_id": "1_00101",
+        "correct": true,
+        "answer": "Texas Roadhouse"
+      },
+      {
+        "dialogue_id": "1_00102",
+        "correct": true,
+        "answer": "Umami Burger Oakland"
+      },
+      {
+        "dialogue_id": "1_00103",
+        "correct": false,
+        "answer": "5:30 pm today"
+      },
+      {
+        "dialogue_id": "1_00104",
+        "correct": true,
+        "answer": "11:30 am"
+      },
+      {
+        "dialogue_id": "1_00105",
+        "correct": true,
+        "answer": "37 North restaurant"
+      },
+      {
+        "dialogue_id": "1_00106",
+        "correct": true,
+        "answer": "Gay 90's Pizza Co."
+      },
+      {
+        "dialogue_id": "1_00107",
+        "correct": false,
+        "answer": "Bamboo restaurant"
+      },
+      {
+        "dialogue_id": "1_00108",
+        "correct": false,
+        "answer": "March 3rd"
+      },
+      {
+        "dialogue_id": "1_00109",
+        "correct": true,
+        "answer": "Panera Bread"
+      },
+      {
+        "dialogue_id": "1_00110",
+        "correct": true,
+        "answer": "Central Park Bistro"
+      },
+      {
+        "dialogue_id": "1_00111",
+        "correct": false,
+        "answer": "7:30 pm"
+      },
+      {
+        "dialogue_id": "1_00112",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00113",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00114",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00115",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "dialogue_id": "1_00116",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00117",
+        "correct": false,
+        "answer": "1"
+      },
+      {
+        "dialogue_id": "1_00118",
+        "correct": true,
+        "answer": "1 person"
+      },
+      {
+        "dialogue_id": "1_00119",
+        "correct": true,
+        "answer": "San Mateo"
+      },
+      {
+        "dialogue_id": "1_00120",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00121",
+        "correct": true,
+        "answer": "4 people"
+      },
+      {
+        "dialogue_id": "1_00122",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00123",
+        "correct": false,
+        "answer": "three people"
+      },
+      {
+        "dialogue_id": "1_00124",
+        "correct": false,
+        "answer": "Half past 12 in the afternoon."
+      },
+      {
+        "dialogue_id": "1_00125",
+        "correct": true,
+        "answer": "1760 restaurant"
+      },
+      {
+        "dialogue_id": "1_00126",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "1_00127",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00000",
+        "correct": true,
+        "answer": "Akira Japanese Restaurant"
+      },
+      {
+        "dialogue_id": "2_00001",
+        "correct": true,
+        "answer": "3 people"
+      },
+      {
+        "dialogue_id": "2_00002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00004",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00005",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00006",
+        "correct": false,
+        "answer": "one person"
+      },
+      {
+        "dialogue_id": "2_00007",
+        "correct": false,
+        "answer": "17:30"
+      },
+      {
+        "dialogue_id": "2_00008",
+        "correct": false,
+        "answer": "2 pm"
+      },
+      {
+        "dialogue_id": "2_00009",
+        "correct": false,
+        "answer": "It changed from March 13th to March 10th."
+      },
+      {
+        "dialogue_id": "2_00010",
+        "correct": true,
+        "answer": "one pm"
+      },
+      {
+        "dialogue_id": "2_00011",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00014",
+        "correct": false,
+        "answer": "12:15 pm"
+      },
+      {
+        "dialogue_id": "2_00015",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00016",
+        "correct": true,
+        "answer": "Hisui | Japanese Restaurant"
+      },
+      {
+        "dialogue_id": "2_00017",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00018",
+        "correct": false,
+        "answer": "11:45 in the morning"
+      },
+      {
+        "dialogue_id": "2_00019",
+        "correct": false,
+        "answer": "11 am"
+      },
+      {
+        "dialogue_id": "2_00020",
+        "correct": true,
+        "answer": "5a5 Steak Lounge"
+      },
+      {
+        "dialogue_id": "2_00021",
+        "correct": true,
+        "answer": "11:45 am"
+      },
+      {
+        "dialogue_id": "2_00022",
+        "correct": false,
+        "answer": "11:30 am"
+      },
+      {
+        "dialogue_id": "2_00023",
+        "correct": false,
+        "answer": "7:30 pm"
+      },
+      {
+        "dialogue_id": "2_00024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00025",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00026",
+        "correct": false,
+        "answer": "10:45 am"
+      },
+      {
+        "dialogue_id": "2_00027",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00028",
+        "correct": true,
+        "answer": "Kamdesh Afghan Kabab House"
+      },
+      {
+        "dialogue_id": "2_00029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00030",
+        "correct": true,
+        "answer": "Gary Chu's"
+      },
+      {
+        "dialogue_id": "2_00031",
+        "correct": false,
+        "answer": "1 in the afternoon"
+      },
+      {
+        "dialogue_id": "2_00032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00033",
+        "correct": true,
+        "answer": "Barbecue"
+      },
+      {
+        "dialogue_id": "2_00034",
+        "correct": false,
+        "answer": "Amber India"
+      },
+      {
+        "dialogue_id": "2_00035",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00036",
+        "correct": true,
+        "answer": "five pm"
+      },
+      {
+        "dialogue_id": "2_00037",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00038",
+        "correct": false,
+        "answer": "6 pm"
+      },
+      {
+        "dialogue_id": "2_00039",
+        "correct": false,
+        "answer": "The time was changed from 6 pm to 7 o'clock in the evening."
+      },
+      {
+        "dialogue_id": "2_00040",
+        "correct": false,
+        "answer": "King Sun Buffet"
+      },
+      {
+        "dialogue_id": "2_00041",
+        "correct": true,
+        "answer": "Akemi"
+      },
+      {
+        "dialogue_id": "2_00042",
+        "correct": true,
+        "answer": "Ace Wasabi Rock-n-roll Sushi"
+      },
+      {
+        "dialogue_id": "2_00043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00044",
+        "correct": false,
+        "answer": "Danville"
+      },
+      {
+        "dialogue_id": "2_00045",
+        "correct": true,
+        "answer": "4 people"
+      },
+      {
+        "dialogue_id": "2_00046",
+        "correct": true,
+        "answer": "the 3rd of this month"
+      },
+      {
+        "dialogue_id": "2_00047",
+        "correct": false,
+        "answer": "1:30 PM"
+      },
+      {
+        "dialogue_id": "2_00048",
+        "correct": true,
+        "answer": "7:30 in the evening"
+      },
+      {
+        "dialogue_id": "2_00049",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00050",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00051",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00052",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00053",
+        "correct": true,
+        "answer": "half past 6 in the evening"
+      },
+      {
+        "dialogue_id": "2_00054",
+        "correct": false,
+        "answer": "3"
+      },
+      {
+        "dialogue_id": "2_00055",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00056",
+        "correct": false,
+        "answer": "4 people"
+      },
+      {
+        "dialogue_id": "2_00057",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00058",
+        "correct": true,
+        "answer": "1 person"
+      },
+      {
+        "dialogue_id": "2_00059",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00061",
+        "correct": true,
+        "answer": "11 in the morning"
+      },
+      {
+        "dialogue_id": "2_00062",
+        "correct": false,
+        "answer": "11:15 am"
+      },
+      {
+        "dialogue_id": "2_00063",
+        "correct": true,
+        "answer": "1"
+      },
+      {
+        "dialogue_id": "2_00064",
+        "correct": true,
+        "answer": "12:00 pm"
+      },
+      {
+        "dialogue_id": "2_00065",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "2_00066",
+        "correct": false,
+        "answer": "next Thursday"
+      },
+      {
+        "dialogue_id": "2_00067",
+        "correct": true,
+        "answer": "6th"
+      },
+      {
+        "dialogue_id": "2_00068",
+        "correct": false,
+        "answer": "1:15 PM"
+      },
+      {
+        "dialogue_id": "2_00069",
+        "correct": true,
+        "answer": "Anchor & Hope"
+      },
+      {
+        "dialogue_id": "2_00070",
+        "correct": false,
+        "answer": "6:15 pm"
+      },
+      {
+        "dialogue_id": "2_00071",
+        "correct": false,
+        "answer": "7:45 pm"
+      }
+    ]
+  },
+  "excluded_conditions": {
+    "llmlingua2_cache": "The historical adapter extracted digits from word text rather than binary retention labels. Real-corpus corrected contexts differ, and matched-protocol reader regeneration has not been completed."
+  }
+}

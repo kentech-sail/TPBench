@@ -1,0 +1,3503 @@
+{
+  "complete": true,
+  "scope_probes": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "expected_requests": 14436,
+  "completed_requests": 14436,
+  "expanded_scored": 21210,
+  "cells": [
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "strict": 0.395,
+      "loose": 0.885,
+      "format_error": 0,
+      "input_tokens": 238.755,
+      "token_f1": 0.41160256410256413
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "strict": 0.105,
+      "loose": 0.455,
+      "format_error": 0,
+      "input_tokens": 241.87,
+      "token_f1": 0.17001778776778778
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_n",
+      "n": 200,
+      "strict": 0.44,
+      "loose": 0.91,
+      "format_error": 0,
+      "input_tokens": 273.32,
+      "token_f1": 0.4402999777999778
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_user_recent",
+      "n": 200,
+      "strict": 0.45,
+      "loose": 0.9,
+      "format_error": 0,
+      "input_tokens": 265.37,
+      "token_f1": 0.4360250027750028
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "full_context",
+      "n": 200,
+      "strict": 0.45,
+      "loose": 0.91,
+      "format_error": 0,
+      "input_tokens": 543.095,
+      "token_f1": 0.44243578643578646
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.115,
+      "loose": 0.545,
+      "format_error": 0,
+      "input_tokens": 240.015,
+      "token_f1": 0.207975690975691
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "random_seed42",
+      "n": 200,
+      "strict": 0.15,
+      "loose": 0.57,
+      "format_error": 0,
+      "input_tokens": 272.84,
+      "token_f1": 0.22418842268842268
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "recency",
+      "n": 200,
+      "strict": 0,
+      "loose": 0.075,
+      "format_error": 0,
+      "input_tokens": 267.805,
+      "token_f1": 0.020555916305916307
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "uniform_stride",
+      "n": 200,
+      "strict": 0.425,
+      "loose": 0.89,
+      "format_error": 0,
+      "input_tokens": 278.945,
+      "token_f1": 0.4249660894660895
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_n",
+      "n": 161,
+      "strict": 0.30434782608695654,
+      "loose": 0.32919254658385094,
+      "format_error": 0,
+      "input_tokens": 259.72670807453414
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "n": 161,
+      "strict": 0.062111801242236024,
+      "loose": 0.08695652173913043,
+      "format_error": 0,
+      "input_tokens": 251.47826086956522
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "full_context",
+      "n": 161,
+      "strict": 0.8012422360248447,
+      "loose": 0.8198757763975155,
+      "format_error": 0,
+      "input_tokens": 524.3975155279503
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "recency",
+      "n": 161,
+      "strict": 0.11180124223602485,
+      "loose": 0.13043478260869565,
+      "format_error": 0,
+      "input_tokens": 254.1055900621118
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "n": 161,
+      "strict": 0.2795031055900621,
+      "loose": 0.32298136645962733,
+      "format_error": 0,
+      "input_tokens": 264.1304347826087
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_n",
+      "n": 200,
+      "strict": 0.085,
+      "loose": 0.145,
+      "format_error": 0.005,
+      "input_tokens": 295.375,
+      "segment_strict": 0.045,
+      "segment_loose": 0.06,
+      "segment_parse": 0.835
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "n": 200,
+      "strict": 0.19,
+      "loose": 0.24,
+      "format_error": 0,
+      "input_tokens": 287.335,
+      "segment_strict": 0.155,
+      "segment_loose": 0.185,
+      "segment_parse": 0.935
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "full_context",
+      "n": 200,
+      "strict": 0.505,
+      "loose": 0.555,
+      "format_error": 0,
+      "input_tokens": 578.02,
+      "segment_strict": 0.495,
+      "segment_loose": 0.525,
+      "segment_parse": 0.92
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "recency",
+      "n": 200,
+      "strict": 0.07,
+      "loose": 0.08,
+      "format_error": 0,
+      "input_tokens": 289.815,
+      "segment_strict": 0.05,
+      "segment_loose": 0.05,
+      "segment_parse": 0.88
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "n": 200,
+      "strict": 0.225,
+      "loose": 0.285,
+      "format_error": 0,
+      "input_tokens": 301.47,
+      "segment_strict": 0.195,
+      "segment_loose": 0.235,
+      "segment_parse": 0.98
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "strict": 0.42,
+      "loose": 0.81,
+      "format_error": 0.005,
+      "input_tokens": 241.495,
+      "token_f1": 0.3970587468087468
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "strict": 0.175,
+      "loose": 0.505,
+      "format_error": 0,
+      "input_tokens": 244.705,
+      "token_f1": 0.21040534465534466
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_n",
+      "n": 200,
+      "strict": 0.41,
+      "loose": 0.83,
+      "format_error": 0.005,
+      "input_tokens": 277.25,
+      "token_f1": 0.40405330780330784
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_user_recent",
+      "n": 200,
+      "strict": 0.44,
+      "loose": 0.835,
+      "format_error": 0.005,
+      "input_tokens": 269.465,
+      "token_f1": 0.4142758214008214
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "full_context",
+      "n": 200,
+      "strict": 0.43,
+      "loose": 0.815,
+      "format_error": 0.005,
+      "input_tokens": 552.105,
+      "token_f1": 0.40074046786546785
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.125,
+      "loose": 0.515,
+      "format_error": 0,
+      "input_tokens": 238.315,
+      "token_f1": 0.2018368020868021
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "random_seed42",
+      "n": 200,
+      "strict": 0.125,
+      "loose": 0.52,
+      "format_error": 0,
+      "input_tokens": 274.965,
+      "token_f1": 0.2073495670995671
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "recency",
+      "n": 200,
+      "strict": 0.005,
+      "loose": 0.085,
+      "format_error": 0,
+      "input_tokens": 270.96,
+      "token_f1": 0.024206709956709958
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "uniform_stride",
+      "n": 200,
+      "strict": 0.385,
+      "loose": 0.835,
+      "format_error": 0.005,
+      "input_tokens": 282.53,
+      "token_f1": 0.3949962398712399
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_n",
+      "n": 168,
+      "strict": 0.2976190476190476,
+      "loose": 0.31547619047619047,
+      "format_error": 0,
+      "input_tokens": 262.92261904761904
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "n": 168,
+      "strict": 0.125,
+      "loose": 0.13690476190476192,
+      "format_error": 0,
+      "input_tokens": 256.1011904761905
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "full_context",
+      "n": 168,
+      "strict": 0.8035714285714286,
+      "loose": 0.8214285714285714,
+      "format_error": 0,
+      "input_tokens": 533.9345238095239
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "recency",
+      "n": 168,
+      "strict": 0.13095238095238096,
+      "loose": 0.14285714285714285,
+      "format_error": 0,
+      "input_tokens": 257.5833333333333
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "n": 168,
+      "strict": 0.32142857142857145,
+      "loose": 0.35714285714285715,
+      "format_error": 0,
+      "input_tokens": 268.5833333333333
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_n",
+      "n": 200,
+      "strict": 0.085,
+      "loose": 0.12,
+      "format_error": 0.01,
+      "input_tokens": 295.27,
+      "segment_strict": 0.055,
+      "segment_loose": 0.055,
+      "segment_parse": 0.86
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "n": 200,
+      "strict": 0.17,
+      "loose": 0.21,
+      "format_error": 0,
+      "input_tokens": 287.02,
+      "segment_strict": 0.13,
+      "segment_loose": 0.15,
+      "segment_parse": 0.935
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "full_context",
+      "n": 200,
+      "strict": 0.51,
+      "loose": 0.545,
+      "format_error": 0,
+      "input_tokens": 579.865,
+      "segment_strict": 0.485,
+      "segment_loose": 0.51,
+      "segment_parse": 0.94
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "recency",
+      "n": 200,
+      "strict": 0.055,
+      "loose": 0.06,
+      "format_error": 0,
+      "input_tokens": 289.78,
+      "segment_strict": 0.04,
+      "segment_loose": 0.04,
+      "segment_parse": 0.89
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "n": 200,
+      "strict": 0.225,
+      "loose": 0.285,
+      "format_error": 0,
+      "input_tokens": 301.295,
+      "segment_strict": 0.185,
+      "segment_loose": 0.225,
+      "segment_parse": 0.975
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "strict": 0.41,
+      "loose": 0.88,
+      "format_error": 0.005,
+      "input_tokens": 238.35,
+      "token_f1": 0.4066655844155844
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "strict": 0.105,
+      "loose": 0.485,
+      "format_error": 0,
+      "input_tokens": 239.27,
+      "token_f1": 0.17683452658452659
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_n",
+      "n": 200,
+      "strict": 0.38,
+      "loose": 0.86,
+      "format_error": 0.005,
+      "input_tokens": 273.035,
+      "token_f1": 0.39318870018870017
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_user_recent",
+      "n": 200,
+      "strict": 0.44,
+      "loose": 0.875,
+      "format_error": 0.005,
+      "input_tokens": 261.92,
+      "token_f1": 0.40970143745143744
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "full_context",
+      "n": 200,
+      "strict": 0.41,
+      "loose": 0.875,
+      "format_error": 0.005,
+      "input_tokens": 530.17,
+      "token_f1": 0.39751085026085026
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.11,
+      "loose": 0.505,
+      "format_error": 0,
+      "input_tokens": 235.815,
+      "token_f1": 0.183740342990343
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "random_seed42",
+      "n": 200,
+      "strict": 0.165,
+      "loose": 0.54,
+      "format_error": 0,
+      "input_tokens": 269.475,
+      "token_f1": 0.21129767454767456
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "recency",
+      "n": 200,
+      "strict": 0,
+      "loose": 0.115,
+      "format_error": 0,
+      "input_tokens": 264.155,
+      "token_f1": 0.03208405483405483
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "uniform_stride",
+      "n": 200,
+      "strict": 0.41,
+      "loose": 0.83,
+      "format_error": 0.005,
+      "input_tokens": 276.885,
+      "token_f1": 0.3810177045177045
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_n",
+      "n": 168,
+      "strict": 0.2857142857142857,
+      "loose": 0.3333333333333333,
+      "format_error": 0,
+      "input_tokens": 257.73809523809524
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "n": 168,
+      "strict": 0.07738095238095238,
+      "loose": 0.10714285714285714,
+      "format_error": 0,
+      "input_tokens": 246.9404761904762
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "full_context",
+      "n": 168,
+      "strict": 0.7380952380952381,
+      "loose": 0.7797619047619048,
+      "format_error": 0,
+      "input_tokens": 507.69642857142856
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "recency",
+      "n": 168,
+      "strict": 0.13690476190476192,
+      "loose": 0.15476190476190477,
+      "format_error": 0,
+      "input_tokens": 249.54166666666666
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "n": 168,
+      "strict": 0.25595238095238093,
+      "loose": 0.2857142857142857,
+      "format_error": 0,
+      "input_tokens": 260.9166666666667
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_n",
+      "n": 200,
+      "strict": 0.085,
+      "loose": 0.13,
+      "format_error": 0.01,
+      "input_tokens": 291.45,
+      "segment_strict": 0.045,
+      "segment_loose": 0.06,
+      "segment_parse": 0.85
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "n": 200,
+      "strict": 0.165,
+      "loose": 0.21,
+      "format_error": 0,
+      "input_tokens": 285.605,
+      "segment_strict": 0.125,
+      "segment_loose": 0.145,
+      "segment_parse": 0.94
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "full_context",
+      "n": 200,
+      "strict": 0.485,
+      "loose": 0.53,
+      "format_error": 0,
+      "input_tokens": 570.305,
+      "segment_strict": 0.455,
+      "segment_loose": 0.49,
+      "segment_parse": 0.945
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "recency",
+      "n": 200,
+      "strict": 0.05,
+      "loose": 0.065,
+      "format_error": 0,
+      "input_tokens": 288.495,
+      "segment_strict": 0.03,
+      "segment_loose": 0.03,
+      "segment_parse": 0.885
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "n": 200,
+      "strict": 0.185,
+      "loose": 0.27,
+      "format_error": 0,
+      "input_tokens": 298.495,
+      "segment_strict": 0.155,
+      "segment_loose": 0.215,
+      "segment_parse": 0.965
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "strict": 0.505,
+      "loose": 0.865,
+      "format_error": 0,
+      "input_tokens": 248.435,
+      "token_f1": 0.6054076479076479
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "strict": 0.165,
+      "loose": 0.435,
+      "format_error": 0,
+      "input_tokens": 248.18,
+      "token_f1": 0.2663730158730159
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_n",
+      "n": 200,
+      "strict": 0.48,
+      "loose": 0.86,
+      "format_error": 0,
+      "input_tokens": 293.5,
+      "token_f1": 0.5870402375402375
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_user_recent",
+      "n": 200,
+      "strict": 0.48,
+      "loose": 0.835,
+      "format_error": 0,
+      "input_tokens": 276.79,
+      "token_f1": 0.5836159951159952
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "full_context",
+      "n": 200,
+      "strict": 0.48,
+      "loose": 0.825,
+      "format_error": 0,
+      "input_tokens": 590.88,
+      "token_f1": 0.5776874236874237
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.19,
+      "loose": 0.505,
+      "format_error": 0,
+      "input_tokens": 236.295,
+      "token_f1": 0.29834498834498835
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "random_seed42",
+      "n": 200,
+      "strict": 0.15,
+      "loose": 0.51,
+      "format_error": 0,
+      "input_tokens": 291.42,
+      "token_f1": 0.2854062049062049
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "recency",
+      "n": 200,
+      "strict": 0.01,
+      "loose": 0.09,
+      "format_error": 0,
+      "input_tokens": 278.2,
+      "token_f1": 0.034134920634920636
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "uniform_stride",
+      "n": 200,
+      "strict": 0.49,
+      "loose": 0.855,
+      "format_error": 0,
+      "input_tokens": 291.975,
+      "token_f1": 0.5926466588966589
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_n",
+      "n": 128,
+      "strict": 0.140625,
+      "loose": 0.140625,
+      "format_error": 0,
+      "input_tokens": 278.9921875
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "n": 128,
+      "strict": 0.1484375,
+      "loose": 0.1640625,
+      "format_error": 0,
+      "input_tokens": 266.4609375
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "full_context",
+      "n": 128,
+      "strict": 0.6796875,
+      "loose": 0.703125,
+      "format_error": 0.0078125,
+      "input_tokens": 576.59375
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "recency",
+      "n": 128,
+      "strict": 0.25,
+      "loose": 0.2734375,
+      "format_error": 0.015625,
+      "input_tokens": 268.0625
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "n": 128,
+      "strict": 0.2890625,
+      "loose": 0.3125,
+      "format_error": 0,
+      "input_tokens": 279.2421875
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_n",
+      "n": 200,
+      "strict": 0.15,
+      "loose": 0.325,
+      "format_error": 0,
+      "input_tokens": 297.455,
+      "segment_strict": 0.14,
+      "segment_loose": 0.315,
+      "segment_parse": 0.945
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "n": 200,
+      "strict": 0.25,
+      "loose": 0.29,
+      "format_error": 0,
+      "input_tokens": 280.66,
+      "segment_strict": 0.245,
+      "segment_loose": 0.275,
+      "segment_parse": 0.905
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "full_context",
+      "n": 200,
+      "strict": 0.64,
+      "loose": 0.71,
+      "format_error": 0,
+      "input_tokens": 576.43,
+      "segment_strict": 0.63,
+      "segment_loose": 0.695,
+      "segment_parse": 0.965
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "recency",
+      "n": 200,
+      "strict": 0.08,
+      "loose": 0.085,
+      "format_error": 0,
+      "input_tokens": 282.005,
+      "segment_strict": 0.07,
+      "segment_loose": 0.07,
+      "segment_parse": 0.86
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "n": 200,
+      "strict": 0.28,
+      "loose": 0.43,
+      "format_error": 0.005,
+      "input_tokens": 297.7,
+      "segment_strict": 0.275,
+      "segment_loose": 0.42,
+      "segment_parse": 0.965
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "strict": 0.505,
+      "loose": 0.925,
+      "format_error": 0,
+      "input_tokens": 244.755,
+      "token_f1": 0.5952528582528582
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "strict": 0.2,
+      "loose": 0.505,
+      "format_error": 0,
+      "input_tokens": 241.345,
+      "token_f1": 0.29091292041292044
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_n",
+      "n": 200,
+      "strict": 0.485,
+      "loose": 0.92,
+      "format_error": 0,
+      "input_tokens": 288.465,
+      "token_f1": 0.5806954711954712
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_user_recent",
+      "n": 200,
+      "strict": 0.51,
+      "loose": 0.92,
+      "format_error": 0,
+      "input_tokens": 270.35,
+      "token_f1": 0.5970847208347209
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "full_context",
+      "n": 200,
+      "strict": 0.51,
+      "loose": 0.895,
+      "format_error": 0,
+      "input_tokens": 573.86,
+      "token_f1": 0.5830449272949273
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.185,
+      "loose": 0.48,
+      "format_error": 0,
+      "input_tokens": 230.93,
+      "token_f1": 0.26344827394827397
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "random_seed42",
+      "n": 200,
+      "strict": 0.125,
+      "loose": 0.55,
+      "format_error": 0,
+      "input_tokens": 281.895,
+      "token_f1": 0.2803910533910534
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "recency",
+      "n": 200,
+      "strict": 0.01,
+      "loose": 0.15,
+      "format_error": 0,
+      "input_tokens": 271.735,
+      "token_f1": 0.05059163059163059
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "uniform_stride",
+      "n": 200,
+      "strict": 0.505,
+      "loose": 0.92,
+      "format_error": 0,
+      "input_tokens": 287.37,
+      "token_f1": 0.5883189865689866
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_n",
+      "n": 125,
+      "strict": 0.184,
+      "loose": 0.2,
+      "format_error": 0,
+      "input_tokens": 271.456
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "n": 125,
+      "strict": 0.144,
+      "loose": 0.176,
+      "format_error": 0,
+      "input_tokens": 255.528
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "full_context",
+      "n": 125,
+      "strict": 0.696,
+      "loose": 0.712,
+      "format_error": 0.008,
+      "input_tokens": 549.888
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "recency",
+      "n": 125,
+      "strict": 0.216,
+      "loose": 0.24,
+      "format_error": 0.008,
+      "input_tokens": 257.584
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "n": 125,
+      "strict": 0.256,
+      "loose": 0.28,
+      "format_error": 0.008,
+      "input_tokens": 272.4
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_n",
+      "n": 200,
+      "strict": 0.21,
+      "loose": 0.325,
+      "format_error": 0,
+      "input_tokens": 298.75,
+      "segment_strict": 0.19,
+      "segment_loose": 0.305,
+      "segment_parse": 0.955
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "n": 200,
+      "strict": 0.24,
+      "loose": 0.3,
+      "format_error": 0,
+      "input_tokens": 281.73,
+      "segment_strict": 0.23,
+      "segment_loose": 0.275,
+      "segment_parse": 0.915
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "full_context",
+      "n": 200,
+      "strict": 0.64,
+      "loose": 0.725,
+      "format_error": 0,
+      "input_tokens": 583.255,
+      "segment_strict": 0.625,
+      "segment_loose": 0.7,
+      "segment_parse": 0.98
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "recency",
+      "n": 200,
+      "strict": 0.07,
+      "loose": 0.085,
+      "format_error": 0,
+      "input_tokens": 284.155,
+      "segment_strict": 0.06,
+      "segment_loose": 0.065,
+      "segment_parse": 0.895
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "n": 200,
+      "strict": 0.3,
+      "loose": 0.455,
+      "format_error": 0.005,
+      "input_tokens": 299.655,
+      "segment_strict": 0.29,
+      "segment_loose": 0.435,
+      "segment_parse": 0.965
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "strict": 0.47,
+      "loose": 0.855,
+      "format_error": 0,
+      "input_tokens": 245.68,
+      "token_f1": 0.5779052891552892
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "strict": 0.17,
+      "loose": 0.46,
+      "format_error": 0,
+      "input_tokens": 242.6,
+      "token_f1": 0.25947186147186146
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_n",
+      "n": 200,
+      "strict": 0.475,
+      "loose": 0.85,
+      "format_error": 0.005,
+      "input_tokens": 289.19,
+      "token_f1": 0.577815823065823
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_user_recent",
+      "n": 200,
+      "strict": 0.475,
+      "loose": 0.84,
+      "format_error": 0.005,
+      "input_tokens": 272.35,
+      "token_f1": 0.5727018697676592
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "full_context",
+      "n": 200,
+      "strict": 0.47,
+      "loose": 0.83,
+      "format_error": 0.005,
+      "input_tokens": 574.68,
+      "token_f1": 0.569304279054279
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.205,
+      "loose": 0.52,
+      "format_error": 0,
+      "input_tokens": 232.44,
+      "token_f1": 0.31320743145743146
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "random_seed42",
+      "n": 200,
+      "strict": 0.16,
+      "loose": 0.53,
+      "format_error": 0,
+      "input_tokens": 284.675,
+      "token_f1": 0.2911983571983572
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "recency",
+      "n": 200,
+      "strict": 0.01,
+      "loose": 0.165,
+      "format_error": 0,
+      "input_tokens": 273.095,
+      "token_f1": 0.0614963924963925
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "uniform_stride",
+      "n": 200,
+      "strict": 0.485,
+      "loose": 0.85,
+      "format_error": 0.005,
+      "input_tokens": 289.455,
+      "token_f1": 0.5810062992562992
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_n",
+      "n": 132,
+      "strict": 0.14393939393939395,
+      "loose": 0.1590909090909091,
+      "format_error": 0.007575757575757576,
+      "input_tokens": 276.2651515151515
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "n": 132,
+      "strict": 0.19696969696969696,
+      "loose": 0.22727272727272727,
+      "format_error": 0.007575757575757576,
+      "input_tokens": 260.9318181818182
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "full_context",
+      "n": 132,
+      "strict": 0.7045454545454546,
+      "loose": 0.7196969696969697,
+      "format_error": 0.007575757575757576,
+      "input_tokens": 562.0378787878788
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "recency",
+      "n": 132,
+      "strict": 0.2727272727272727,
+      "loose": 0.29545454545454547,
+      "format_error": 0.007575757575757576,
+      "input_tokens": 262.3863636363636
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "n": 132,
+      "strict": 0.29545454545454547,
+      "loose": 0.32575757575757575,
+      "format_error": 0.007575757575757576,
+      "input_tokens": 277.25757575757575
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_n",
+      "n": 200,
+      "strict": 0.16,
+      "loose": 0.34,
+      "format_error": 0,
+      "input_tokens": 298.95,
+      "segment_strict": 0.155,
+      "segment_loose": 0.32,
+      "segment_parse": 0.96
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "n": 200,
+      "strict": 0.275,
+      "loose": 0.34,
+      "format_error": 0,
+      "input_tokens": 282.61,
+      "segment_strict": 0.265,
+      "segment_loose": 0.315,
+      "segment_parse": 0.915
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "full_context",
+      "n": 200,
+      "strict": 0.685,
+      "loose": 0.775,
+      "format_error": 0,
+      "input_tokens": 583.175,
+      "segment_strict": 0.68,
+      "segment_loose": 0.765,
+      "segment_parse": 0.98
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "recency",
+      "n": 200,
+      "strict": 0.075,
+      "loose": 0.08,
+      "format_error": 0.005,
+      "input_tokens": 284.125,
+      "segment_strict": 0.065,
+      "segment_loose": 0.065,
+      "segment_parse": 0.875
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "n": 200,
+      "strict": 0.31,
+      "loose": 0.465,
+      "format_error": 0,
+      "input_tokens": 300.79,
+      "segment_strict": 0.295,
+      "segment_loose": 0.435,
+      "segment_parse": 0.975
+    }
+  ],
+  "methods": [
+    {
+      "dataset": "multiwoz",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "attention_h2o_cache",
+      "strict": {
+        "mean": 0.4083333333333334,
+        "ci95": [
+          0.3568939415316925,
+          0.4600008156606882
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.8583333333333333,
+        "ci95": [
+          0.820554649265907,
+          0.8927973199329993
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.40510896510896516,
+        "ci95": [
+          0.3771665020401596,
+          0.4319623764912852
+        ],
+        "clusters": 423,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "embedding_mmr_cache",
+      "strict": {
+        "mean": 0.12833333333333333,
+        "ci95": [
+          0.0958677685950422,
+          0.16405020808162338
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.48166666666666663,
+        "ci95": [
+          0.4290372433469791,
+          0.5333333333333361
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.185752553002553,
+        "ci95": [
+          0.16211973009647554,
+          0.20915958491669673
+        ],
+        "clusters": 423,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_n",
+      "strict": {
+        "mean": 0.41,
+        "ci95": [
+          0.35964804252009647,
+          0.461293227466389
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.8666666666666666,
+        "ci95": [
+          0.8300330033003315,
+          0.900163734201863
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.4125139952639953,
+        "ci95": [
+          0.3856667468777706,
+          0.43942166151581274
+        ],
+        "clusters": 423,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_user_recent",
+      "strict": {
+        "mean": 0.44333333333333336,
+        "ci95": [
+          0.39212251190449704,
+          0.49572758037225345
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.8700000000000001,
+        "ci95": [
+          0.8341706459328168,
+          0.9034372707263397
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.4200007538757539,
+        "ci95": [
+          0.3938051476253526,
+          0.44594139180424447
+        ],
+        "clusters": 423,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "full_context",
+      "strict": {
+        "mean": 0.43,
+        "ci95": [
+          0.37919023041370303,
+          0.48141891891892186
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.8666666666666667,
+        "ci95": [
+          0.829228170748631,
+          0.9016673728813569
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.4135623681873682,
+        "ci95": [
+          0.3871044654840866,
+          0.44005244042163977
+        ],
+        "clusters": 423,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "llmlingua2_cache",
+      "strict": {
+        "mean": 0.11666666666666665,
+        "ci95": [
+          0.08471628119261754,
+          0.14845024469820692
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.5216666666666666,
+        "ci95": [
+          0.4701937086092745,
+          0.5742267563938834
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.19785094535094536,
+        "ci95": [
+          0.17504409120858802,
+          0.22094883585577868
+        ],
+        "clusters": 423,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "random_seed42",
+      "strict": {
+        "mean": 0.1466666666666667,
+        "ci95": [
+          0.11073825503355808,
+          0.18438538205980234
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.5433333333333333,
+        "ci95": [
+          0.4924868499425368,
+          0.5931942367122343
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.21427855477855476,
+        "ci95": [
+          0.18911021870738032,
+          0.23840295207667833
+        ],
+        "clusters": 423,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "recency",
+      "strict": {
+        "mean": 0.0016666666666666668,
+        "ci95": [
+          0.0,
+          0.005154639175257776
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.09166666666666667,
+        "ci95": [
+          0.06229508196721369,
+          0.12439880767829188
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.02561556036556037,
+        "ci95": [
+          0.017325343621912865,
+          0.0351362471114038
+        ],
+        "clusters": 423,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "uniform_stride",
+      "strict": {
+        "mean": 0.4066666666666667,
+        "ci95": [
+          0.35562717361998425,
+          0.45742904841402693
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.8516666666666667,
+        "ci95": [
+          0.8127010846959574,
+          0.8879907274928474
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.4003266779516779,
+        "ci95": [
+          0.37315832692156503,
+          0.42634649186051743
+        ],
+        "clusters": 423,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_n",
+      "strict": {
+        "mean": 0.29589371980676327,
+        "ci95": [
+          0.2483318818669626,
+          0.3473787246209968
+        ],
+        "clusters": 367,
+        "n": 497
+      },
+      "loose": {
+        "mean": 0.3260006901311249,
+        "ci95": [
+          0.2766323005325385,
+          0.3765655508259371
+        ],
+        "clusters": 367,
+        "n": 497
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "strict": {
+        "mean": 0.08816425120772946,
+        "ci95": [
+          0.05882815658262023,
+          0.11985421545503673
+        ],
+        "clusters": 367,
+        "n": 497
+      },
+      "loose": {
+        "mean": 0.11033471359558315,
+        "ci95": [
+          0.07725758162308739,
+          0.14488793499231828
+        ],
+        "clusters": 367,
+        "n": 497
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "full_context",
+      "strict": {
+        "mean": 0.7809696342305038,
+        "ci95": [
+          0.7347479202052162,
+          0.825755964784477
+        ],
+        "clusters": 367,
+        "n": 497
+      },
+      "loose": {
+        "mean": 0.8070220841959971,
+        "ci95": [
+          0.761433981278822,
+          0.8502070178763589
+        ],
+        "clusters": 367,
+        "n": 497
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "recency",
+      "strict": {
+        "mean": 0.1265527950310559,
+        "ci95": [
+          0.09160724843022337,
+          0.16285759179946235
+        ],
+        "clusters": 367,
+        "n": 497
+      },
+      "loose": {
+        "mean": 0.1426846100759144,
+        "ci95": [
+          0.10640343406060562,
+          0.1797143422447142
+        ],
+        "clusters": 367,
+        "n": 497
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "strict": {
+        "mean": 0.2856280193236715,
+        "ci95": [
+          0.23571959857443112,
+          0.3353248938982102
+        ],
+        "clusters": 367,
+        "n": 497
+      },
+      "loose": {
+        "mean": 0.3219461697722567,
+        "ci95": [
+          0.2708967820119612,
+          0.37315349330467285
+        ],
+        "clusters": 367,
+        "n": 497
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_n",
+      "strict": {
+        "mean": 0.08499999999999999,
+        "ci95": [
+          0.052890379947085765,
+          0.11909027198251082
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.13166666666666663,
+        "ci95": [
+          0.09225433087247219,
+          0.17412160443787517
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": 0.048333333333333325,
+        "ci95": [
+          0.02411478790005838,
+          0.07550335570469824
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": 0.05833333333333331,
+        "ci95": [
+          0.03253285622292483,
+          0.08867059327479146
+        ],
+        "clusters": 263,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "strict": {
+        "mean": 0.17499999999999996,
+        "ci95": [
+          0.1277301866020044,
+          0.22425326203268556
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.21999999999999995,
+        "ci95": [
+          0.16981051990902454,
+          0.2745786407225701
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": 0.13666666666666663,
+        "ci95": [
+          0.09459291380933213,
+          0.18274473648349468
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": 0.15999999999999998,
+        "ci95": [
+          0.11627807592923907,
+          0.20813008130081376
+        ],
+        "clusters": 263,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "full_context",
+      "strict": {
+        "mean": 0.49999999999999983,
+        "ci95": [
+          0.437598764181524,
+          0.5643767780702466
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.5433333333333332,
+        "ci95": [
+          0.47909873590891305,
+          0.6083350840336139
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": 0.4783333333333332,
+        "ci95": [
+          0.4166634165366622,
+          0.5426621160409564
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": 0.5083333333333332,
+        "ci95": [
+          0.4440786685994657,
+          0.5736308047054922
+        ],
+        "clusters": 263,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "recency",
+      "strict": {
+        "mean": 0.05833333333333331,
+        "ci95": [
+          0.03130177033168293,
+          0.0895270270270273
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.06833333333333332,
+        "ci95": [
+          0.03940823436129306,
+          0.10085470085470115
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": 0.039999999999999994,
+        "ci95": [
+          0.018090622303710162,
+          0.06633788109694663
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": 0.039999999999999994,
+        "ci95": [
+          0.018090622303710162,
+          0.06633788109694663
+        ],
+        "clusters": 263,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "strict": {
+        "mean": 0.21166666666666661,
+        "ci95": [
+          0.1620699079755444,
+          0.26315789473684326
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.27999999999999997,
+        "ci95": [
+          0.22580645161290436,
+          0.33613480865319256
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": 0.1783333333333333,
+        "ci95": [
+          0.132651431179501,
+          0.22644787564479515
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": 0.22499999999999995,
+        "ci95": [
+          0.1749163710938162,
+          0.27684563758389347
+        ],
+        "clusters": 263,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "attention_h2o_cache",
+      "strict": {
+        "mean": 0.49333333333333335,
+        "ci95": [
+          0.4427061987704956,
+          0.5448432741116791
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.8816666666666665,
+        "ci95": [
+          0.847826086956523,
+          0.9144771951430306
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.5928552651052651,
+        "ci95": [
+          0.5603259901907118,
+          0.6260110966034137
+        ],
+        "clusters": 447,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "embedding_mmr_cache",
+      "strict": {
+        "mean": 0.17833333333333334,
+        "ci95": [
+          0.1386126216962279,
+          0.21803278688524816
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.4666666666666666,
+        "ci95": [
+          0.4166633545310047,
+          0.5173555153810865
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.27225259925259926,
+        "ci95": [
+          0.23880673591470816,
+          0.307654926578332
+        ],
+        "clusters": 447,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_n",
+      "strict": {
+        "mean": 0.48,
+        "ci95": [
+          0.4297658862876286,
+          0.5307820299500862
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.8766666666666666,
+        "ci95": [
+          0.8422874131687607,
+          0.9097254104062334
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.5818505106005106,
+        "ci95": [
+          0.5485256116098154,
+          0.6159049825539682
+        ],
+        "clusters": 447,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "first_user_recent",
+      "strict": {
+        "mean": 0.48833333333333334,
+        "ci95": [
+          0.43850744779891243,
+          0.5392160954532098
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.8649999999999999,
+        "ci95": [
+          0.8294692296617879,
+          0.8991596638655469
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.5844675285727917,
+        "ci95": [
+          0.5514524557301569,
+          0.6191815964335472
+        ],
+        "clusters": 447,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "full_context",
+      "strict": {
+        "mean": 0.48666666666666664,
+        "ci95": [
+          0.43585526315789813,
+          0.5391185564376031
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.85,
+        "ci95": [
+          0.8133528387863709,
+          0.8867932496175427
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.5766788766788767,
+        "ci95": [
+          0.5424880183245081,
+          0.6120360637330159
+        ],
+        "clusters": 447,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "llmlingua2_cache",
+      "strict": {
+        "mean": 0.19333333333333336,
+        "ci95": [
+          0.15421785605516927,
+          0.23394180491809832
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.5016666666666667,
+        "ci95": [
+          0.45144283159925463,
+          0.5519496862198228
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.29166689791689787,
+        "ci95": [
+          0.2570244958903266,
+          0.3260350057822265
+        ],
+        "clusters": 447,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "random_seed42",
+      "strict": {
+        "mean": 0.14500000000000002,
+        "ci95": [
+          0.1118379308041689,
+          0.18003273322422433
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.53,
+        "ci95": [
+          0.47868852459016714,
+          0.5798628826530635
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.28566520516520516,
+        "ci95": [
+          0.2551509015507117,
+          0.3179647962388666
+        ],
+        "clusters": 447,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "recency",
+      "strict": {
+        "mean": 0.01,
+        "ci95": [
+          0.0016806722689075796,
+          0.019900497512437998
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.135,
+        "ci95": [
+          0.1026458066670387,
+          0.16808779003961688
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.048740981240981245,
+        "ci95": [
+          0.03657393365041429,
+          0.06165590759256054
+        ],
+        "clusters": 447,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "method": "uniform_stride",
+      "strict": {
+        "mean": 0.49333333333333335,
+        "ci95": [
+          0.44246280015781253,
+          0.5442182549146568
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.875,
+        "ci95": [
+          0.8416666666666681,
+          0.907504363001746
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "token_f1": {
+        "mean": 0.5873239815739816,
+        "ci95": [
+          0.5538217458533103,
+          0.6211166672608193
+        ],
+        "clusters": 447,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_n",
+      "strict": {
+        "mean": 0.15618813131313133,
+        "ci95": [
+          0.11350745760488731,
+          0.20085948784313387
+        ],
+        "clusters": 286,
+        "n": 385
+      },
+      "loose": {
+        "mean": 0.16657196969696972,
+        "ci95": [
+          0.12208822542766776,
+          0.2131716087467771
+        ],
+        "clusters": 286,
+        "n": 385
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "strict": {
+        "mean": 0.1631357323232323,
+        "ci95": [
+          0.11854682011649441,
+          0.21081299172220244
+        ],
+        "clusters": 286,
+        "n": 385
+      },
+      "loose": {
+        "mean": 0.18911174242424242,
+        "ci95": [
+          0.14308817049770334,
+          0.23854171229153254
+        ],
+        "clusters": 286,
+        "n": 385
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "full_context",
+      "strict": {
+        "mean": 0.693410984848485,
+        "ci95": [
+          0.6359462495193969,
+          0.7493273625769425
+        ],
+        "clusters": 286,
+        "n": 385
+      },
+      "loose": {
+        "mean": 0.7116073232323231,
+        "ci95": [
+          0.654393768805764,
+          0.7669715065452442
+        ],
+        "clusters": 286,
+        "n": 385
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "recency",
+      "strict": {
+        "mean": 0.24624242424242423,
+        "ci95": [
+          0.19535798036853183,
+          0.2992601066321732
+        ],
+        "clusters": 286,
+        "n": 385
+      },
+      "loose": {
+        "mean": 0.2696306818181818,
+        "ci95": [
+          0.21623051715422606,
+          0.32277846262608445
+        ],
+        "clusters": 286,
+        "n": 385
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P2",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "strict": {
+        "mean": 0.28017234848484845,
+        "ci95": [
+          0.22707592849749728,
+          0.3349732999079397
+        ],
+        "clusters": 286,
+        "n": 385
+      },
+      "loose": {
+        "mean": 0.3060858585858586,
+        "ci95": [
+          0.2509899691414157,
+          0.3627030059628294
+        ],
+        "clusters": 286,
+        "n": 385
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_n",
+      "strict": {
+        "mean": 0.17333333333333334,
+        "ci95": [
+          0.1317063008130091,
+          0.2176154092215155
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.33,
+        "ci95": [
+          0.27777548209366587,
+          0.3852599900185886
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": 0.16166666666666665,
+        "ci95": [
+          0.12155362348543992,
+          0.20508474576271357
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": 0.31333333333333335,
+        "ci95": [
+          0.2626152279093477,
+          0.36798712871287376
+        ],
+        "clusters": 364,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "first_user_recent",
+      "strict": {
+        "mean": 0.255,
+        "ci95": [
+          0.20880776223353872,
+          0.3036027659369735
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.31,
+        "ci95": [
+          0.2593189161612176,
+          0.360799965760059
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": 0.24666666666666667,
+        "ci95": [
+          0.20066875766097206,
+          0.2947041439264859
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": 0.28833333333333333,
+        "ci95": [
+          0.23980087093686558,
+          0.33843602825745966
+        ],
+        "clusters": 364,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "full_context",
+      "strict": {
+        "mean": 0.655,
+        "ci95": [
+          0.5993485342019569,
+          0.7070728079463549
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.7366666666666667,
+        "ci95": [
+          0.6859058814757059,
+          0.7844827586206908
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": 0.6449999999999999,
+        "ci95": [
+          0.5889955061455162,
+          0.6974539400958072
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": 0.7199999999999999,
+        "ci95": [
+          0.6677573781743333,
+          0.7689714713461245
+        ],
+        "clusters": 364,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "recency",
+      "strict": {
+        "mean": 0.075,
+        "ci95": [
+          0.04745747818057289,
+          0.10579201101928441
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.08333333333333333,
+        "ci95": [
+          0.05400586693773506,
+          0.11651258699201039
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": 0.065,
+        "ci95": [
+          0.03947318504911774,
+          0.09380489763479745
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": 0.06666666666666667,
+        "ci95": [
+          0.040943406350186055,
+          0.09580005555941459
+        ],
+        "clusters": 364,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P3",
+      "condition": "original_question",
+      "method": "uniform_stride",
+      "strict": {
+        "mean": 0.2966666666666667,
+        "ci95": [
+          0.24711649058387566,
+          0.34669200292233604
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.45,
+        "ci95": [
+          0.3951189024390268,
+          0.5042308390767842
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": 0.2866666666666667,
+        "ci95": [
+          0.237094679514036,
+          0.33551581746920783
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": 0.43,
+        "ci95": [
+          0.3751937599364098,
+          0.48464191390936895
+        ],
+        "clusters": 364,
+        "n": 600
+      }
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "dataset": "multiwoz",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "comparison": "first_user_recent_minus_first_n",
+      "strict": {
+        "mean": 0.03333333333333333,
+        "ci95": [
+          -0.004983803986711007,
+          0.0708401976935756
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.003333333333333334,
+        "ci95": [
+          -0.024155563347358806,
+          0.030560271646859333
+        ],
+        "clusters": 423,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "comparison": "first_user_recent_minus_full_context",
+      "strict": {
+        "mean": 0.01333333333333333,
+        "ci95": [
+          -0.02096943835473449,
+          0.04761904761904801
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.003333333333333334,
+        "ci95": [
+          -0.0215231788079472,
+          0.02819354225550016
+        ],
+        "clusters": 423,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "comparison": "first_user_recent_minus_recency",
+      "strict": {
+        "mean": 0.44166666666666665,
+        "ci95": [
+          0.39052092418516304,
+          0.49419805540000133
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.7783333333333333,
+        "ci95": [
+          0.732990571019729,
+          0.8221888126595098
+        ],
+        "clusters": 423,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "comparison": "first_user_recent_minus_uniform_stride",
+      "strict": {
+        "mean": 0.036666666666666674,
+        "ci95": [
+          0.0017006802721088645,
+          0.07202982192843478
+        ],
+        "clusters": 423,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.018333333333333337,
+        "ci95": [
+          -0.006723255912820498,
+          0.0453020134228192
+        ],
+        "clusters": 423,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P2",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_first_n",
+      "strict": {
+        "mean": -0.20772946859903382,
+        "ci95": [
+          -0.266282147943017,
+          -0.1511469534863143
+        ],
+        "clusters": 367,
+        "n": 497
+      },
+      "loose": {
+        "mean": -0.21566597653554176,
+        "ci95": [
+          -0.27868866542730075,
+          -0.1538376483938761
+        ],
+        "clusters": 367,
+        "n": 497
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P2",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_full_context",
+      "strict": {
+        "mean": -0.6928053830227743,
+        "ci95": [
+          -0.7469415076230012,
+          -0.6362937412166046
+        ],
+        "clusters": 367,
+        "n": 497
+      },
+      "loose": {
+        "mean": -0.6966873706004139,
+        "ci95": [
+          -0.7518115854866696,
+          -0.6396961226836292
+        ],
+        "clusters": 367,
+        "n": 497
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P2",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_recency",
+      "strict": {
+        "mean": -0.03838854382332643,
+        "ci95": [
+          -0.0699688089885653,
+          -0.007821390300613962
+        ],
+        "clusters": 367,
+        "n": 497
+      },
+      "loose": {
+        "mean": -0.03234989648033126,
+        "ci95": [
+          -0.0652212249992498,
+          0.0019152961892580638
+        ],
+        "clusters": 367,
+        "n": 497
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P2",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_uniform_stride",
+      "strict": {
+        "mean": -0.19746376811594205,
+        "ci95": [
+          -0.2494954931676169,
+          -0.14559244229779836
+        ],
+        "clusters": 367,
+        "n": 497
+      },
+      "loose": {
+        "mean": -0.21161145617667357,
+        "ci95": [
+          -0.2677886178041628,
+          -0.15725643293273936
+        ],
+        "clusters": 367,
+        "n": 497
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P3",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_first_n",
+      "strict": {
+        "mean": 0.08999999999999998,
+        "ci95": [
+          0.03865384073092336,
+          0.1433392457193457
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.0883333333333333,
+        "ci95": [
+          0.03595569697916212,
+          0.14334980182759036
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": 0.0883333333333333,
+        "ci95": [
+          0.03872026718800923,
+          0.14006779141958337
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": 0.10166666666666663,
+        "ci95": [
+          0.051154897235755496,
+          0.1539796916659505
+        ],
+        "clusters": 263,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P3",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_full_context",
+      "strict": {
+        "mean": -0.32499999999999996,
+        "ci95": [
+          -0.39368803463520646,
+          -0.2574221378448535
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "loose": {
+        "mean": -0.32333333333333325,
+        "ci95": [
+          -0.3937397034596387,
+          -0.25281758454106396
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": -0.3416666666666666,
+        "ci95": [
+          -0.4135161620178391,
+          -0.2721120671204154
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": -0.3483333333333332,
+        "ci95": [
+          -0.4186459463972627,
+          -0.27528715482987876
+        ],
+        "clusters": 263,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P3",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_recency",
+      "strict": {
+        "mean": 0.11666666666666663,
+        "ci95": [
+          0.0719175218765751,
+          0.16363783704140325
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.15166666666666662,
+        "ci95": [
+          0.10445018103408553,
+          0.20418649772473696
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": 0.09666666666666665,
+        "ci95": [
+          0.05772495755517843,
+          0.13902958501114898
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": 0.11999999999999995,
+        "ci95": [
+          0.07899049093321565,
+          0.16555938494167596
+        ],
+        "clusters": 263,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "probe": "P3",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_uniform_stride",
+      "strict": {
+        "mean": -0.03666666666666666,
+        "ci95": [
+          -0.0983367996604418,
+          0.025553798760143985
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "loose": {
+        "mean": -0.05999999999999999,
+        "ci95": [
+          -0.12500521702838116,
+          0.006601481043626761
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": -0.04166666666666666,
+        "ci95": [
+          -0.10016434300434097,
+          0.016863406408094483
+        ],
+        "clusters": 263,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": -0.06499999999999999,
+        "ci95": [
+          -0.12758620689655228,
+          -1.343163903504971e-17
+        ],
+        "clusters": 263,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "comparison": "first_user_recent_minus_first_n",
+      "strict": {
+        "mean": 0.008333333333333333,
+        "ci95": [
+          -0.02184873949579853,
+          0.03865546218487429
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "loose": {
+        "mean": -0.011666666666666665,
+        "ci95": [
+          -0.03066515206975067,
+          0.006590330442359855
+        ],
+        "clusters": 447,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "comparison": "first_user_recent_minus_full_context",
+      "strict": {
+        "mean": 0.001666666666666668,
+        "ci95": [
+          -0.030252100840336422,
+          0.03511852741970757
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.015,
+        "ci95": [
+          -0.008576697730072639,
+          0.0402576489533015
+        ],
+        "clusters": 447,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "comparison": "first_user_recent_minus_recency",
+      "strict": {
+        "mean": 0.47833333333333333,
+        "ci95": [
+          0.42856574158326044,
+          0.5299058359684617
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.7300000000000001,
+        "ci95": [
+          0.685623880549702,
+          0.7739273927392759
+        ],
+        "clusters": 447,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P1",
+      "condition": "initial_goal",
+      "comparison": "first_user_recent_minus_uniform_stride",
+      "strict": {
+        "mean": -0.005,
+        "ci95": [
+          -0.02955786556909544,
+          0.02003338898163624
+        ],
+        "clusters": 447,
+        "n": 600
+      },
+      "loose": {
+        "mean": -0.01,
+        "ci95": [
+          -0.030746832051444,
+          0.008489325271704685
+        ],
+        "clusters": 447,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P2",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_first_n",
+      "strict": {
+        "mean": 0.006947601010101011,
+        "ci95": [
+          -0.06135251787367513,
+          0.07430217931336193
+        ],
+        "clusters": 286,
+        "n": 385
+      },
+      "loose": {
+        "mean": 0.022539772727272728,
+        "ci95": [
+          -0.048953936762446554,
+          0.09482856553616885
+        ],
+        "clusters": 286,
+        "n": 385
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P2",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_full_context",
+      "strict": {
+        "mean": -0.5302752525252525,
+        "ci95": [
+          -0.5980774575632025,
+          -0.46251559016586086
+        ],
+        "clusters": 286,
+        "n": 385
+      },
+      "loose": {
+        "mean": -0.5224955808080808,
+        "ci95": [
+          -0.5893102830854425,
+          -0.4556336491477925
+        ],
+        "clusters": 286,
+        "n": 385
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P2",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_recency",
+      "strict": {
+        "mean": -0.08310669191919193,
+        "ci95": [
+          -0.11865968352458138,
+          -0.050142946851273476
+        ],
+        "clusters": 286,
+        "n": 385
+      },
+      "loose": {
+        "mean": -0.0805189393939394,
+        "ci95": [
+          -0.11614337274576395,
+          -0.0479154741361189
+        ],
+        "clusters": 286,
+        "n": 385
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P2",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_uniform_stride",
+      "strict": {
+        "mean": -0.11703661616161616,
+        "ci95": [
+          -0.1811373236737927,
+          -0.0533309628049023
+        ],
+        "clusters": 286,
+        "n": 385
+      },
+      "loose": {
+        "mean": -0.11697411616161617,
+        "ci95": [
+          -0.18622418560481105,
+          -0.048155712647306774
+        ],
+        "clusters": 286,
+        "n": 385
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P3",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_first_n",
+      "strict": {
+        "mean": 0.08166666666666667,
+        "ci95": [
+          0.020442863188797254,
+          0.1430948419301176
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "loose": {
+        "mean": -0.020000000000000004,
+        "ci95": [
+          -0.08695837661374152,
+          0.04723319659282353
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": 0.085,
+        "ci95": [
+          0.024153618528356565,
+          0.14570140467639833
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": -0.025000000000000005,
+        "ci95": [
+          -0.0919770956230434,
+          0.042808853896324016
+        ],
+        "clusters": 364,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P3",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_full_context",
+      "strict": {
+        "mean": -0.4000000000000001,
+        "ci95": [
+          -0.4654336107041195,
+          -0.3327524598812416
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "loose": {
+        "mean": -0.4266666666666667,
+        "ci95": [
+          -0.4898674071228446,
+          -0.36272746713224685
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": -0.3983333333333334,
+        "ci95": [
+          -0.4642307042729295,
+          -0.3305647840531589
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": -0.4316666666666667,
+        "ci95": [
+          -0.4941373534338385,
+          -0.3680652161854868
+        ],
+        "clusters": 364,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P3",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_recency",
+      "strict": {
+        "mean": 0.18000000000000002,
+        "ci95": [
+          0.13084914542667028,
+          0.23116590672056855
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "loose": {
+        "mean": 0.22666666666666668,
+        "ci95": [
+          0.17240946834275314,
+          0.2810344827586229
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": 0.18166666666666667,
+        "ci95": [
+          0.13333059210526424,
+          0.2318351637330143
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": 0.22166666666666668,
+        "ci95": [
+          0.16974637630999825,
+          0.27479866737959324
+        ],
+        "clusters": 364,
+        "n": 600
+      }
+    },
+    {
+      "dataset": "sgd",
+      "probe": "P3",
+      "condition": "original_question",
+      "comparison": "first_user_recent_minus_uniform_stride",
+      "strict": {
+        "mean": -0.041666666666666664,
+        "ci95": [
+          -0.10581298309630634,
+          0.022014046833456247
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "loose": {
+        "mean": -0.14,
+        "ci95": [
+          -0.2080556010258106,
+          -0.06980425098157707
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_strict": {
+        "mean": -0.03999999999999999,
+        "ci95": [
+          -0.10499160929432097,
+          0.025167785234899504
+        ],
+        "clusters": 364,
+        "n": 600
+      },
+      "segment_loose": {
+        "mean": -0.14166666666666666,
+        "ci95": [
+          -0.21115343758707342,
+          -0.06988156913801724
+        ],
+        "clusters": 364,
+        "n": 600
+      }
+    }
+  ]
+}

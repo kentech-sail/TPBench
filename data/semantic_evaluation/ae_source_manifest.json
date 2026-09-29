@@ -1,0 +1,156 @@
+{
+  "source": "https://github.com/google-research-datasets/answer-equivalence-dataset",
+  "repository_commit": "5032298f3fe69bebab4a013de5606231a948cebc",
+  "archive_sha256": "a138688ff74437f0d33e1eb471cd9fda3b8e18b6085ff5f6860a0faa19502e4b",
+  "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "protocol": "Group identical (qid, reference, candidate), majority vote of released binary labels; ties remain unresolved. Never expose label or raw_rating to judge.",
+  "sampling_seed": 20260928,
+  "splits": {
+    "train": {
+      "ratings": 9090,
+      "pairs": 9090,
+      "questions": 9090,
+      "disagreement_pairs": 0,
+      "tied_pairs": 0,
+      "majority_counts": {
+        "True": 6353,
+        "False": 2737
+      }
+    },
+    "ae_dev": {
+      "ratings": 4446,
+      "pairs": 2734,
+      "questions": 1144,
+      "disagreement_pairs": 69,
+      "tied_pairs": 7,
+      "majority_counts": {
+        "True": 1053,
+        "None": 7,
+        "False": 1674
+      },
+      "full": {
+        "n_pairs": 2734,
+        "exact_match": {
+          "n_total": 2734,
+          "n_resolved": 2727,
+          "n_human_ties": 7,
+          "tp": 0,
+          "tn": 1674,
+          "fp": 0,
+          "fn": 1053,
+          "accuracy": 0.6138613861386139,
+          "balanced_accuracy": 0.5
+        },
+        "fixed_f1_ge_half": {
+          "n_total": 2734,
+          "n_resolved": 2727,
+          "n_human_ties": 7,
+          "tp": 712,
+          "tn": 1466,
+          "fp": 208,
+          "fn": 341,
+          "accuracy": 0.7986798679867987,
+          "balanced_accuracy": 0.7759550286432007
+        }
+      },
+      "selected_sample": {
+        "n_pairs": 200,
+        "exact_match": {
+          "n_total": 200,
+          "n_resolved": 199,
+          "n_human_ties": 1,
+          "tp": 0,
+          "tn": 124,
+          "fp": 0,
+          "fn": 75,
+          "accuracy": 0.6231155778894473,
+          "balanced_accuracy": 0.5
+        },
+        "fixed_f1_ge_half": {
+          "n_total": 200,
+          "n_resolved": 199,
+          "n_human_ties": 1,
+          "tp": 55,
+          "tn": 105,
+          "fp": 19,
+          "fn": 20,
+          "accuracy": 0.8040201005025126,
+          "balanced_accuracy": 0.7900537634408602
+        }
+      }
+    },
+    "ae_test": {
+      "ratings": 9724,
+      "pairs": 5831,
+      "questions": 2344,
+      "disagreement_pairs": 227,
+      "tied_pairs": 14,
+      "majority_counts": {
+        "False": 3572,
+        "True": 2245,
+        "None": 14
+      },
+      "full": {
+        "n_pairs": 5831,
+        "exact_match": {
+          "n_total": 5831,
+          "n_resolved": 5817,
+          "n_human_ties": 14,
+          "tp": 0,
+          "tn": 3572,
+          "fp": 0,
+          "fn": 2245,
+          "accuracy": 0.6140622313907512,
+          "balanced_accuracy": 0.5
+        },
+        "fixed_f1_ge_half": {
+          "n_total": 5831,
+          "n_resolved": 5817,
+          "n_human_ties": 14,
+          "tp": 1537,
+          "tn": 3071,
+          "fp": 501,
+          "fn": 708,
+          "accuracy": 0.7921609076843734,
+          "balanced_accuracy": 0.7721874789565963
+        }
+      },
+      "selected_sample": {
+        "n_pairs": 600,
+        "exact_match": {
+          "n_total": 600,
+          "n_resolved": 595,
+          "n_human_ties": 5,
+          "tp": 0,
+          "tn": 361,
+          "fp": 0,
+          "fn": 234,
+          "accuracy": 0.6067226890756302,
+          "balanced_accuracy": 0.5
+        },
+        "fixed_f1_ge_half": {
+          "n_total": 600,
+          "n_resolved": 595,
+          "n_human_ties": 5,
+          "tp": 149,
+          "tn": 309,
+          "fp": 52,
+          "fn": 85,
+          "accuracy": 0.7697478991596639,
+          "balanced_accuracy": 0.7463539077112484
+        }
+      }
+    }
+  },
+  "input_sha256": {
+    "v1/train.jsonl": "431c524a00800da114685b89b0066969284f6b947383e42bde9fd724ba57f9e3",
+    "v1/ae_dev.jsonl": "9ec7b8f1136a0363753fbbde0d73c32e5cf26551938378eda27d1c860743cd9f",
+    "v1/ae_test.jsonl": "7470acdfae03fa662740fb453b508de4e2c4dd1ec113a49142c017d59554202f"
+  },
+  "question_overlap": {
+    "train__ae_dev": 0,
+    "train__ae_test": 0,
+    "ae_dev__ae_test": 0
+  },
+  "purpose": "Input provenance; model judgments and execution records are under results/semantic_evaluation."
+}

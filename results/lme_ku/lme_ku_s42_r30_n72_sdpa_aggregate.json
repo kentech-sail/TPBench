@@ -1,0 +1,54 @@
+{
+  "lme_ku": {
+    "first_n": {
+      "n": 72,
+      "p3_em_strict": 0.0972,
+      "p3_em_loose": 0.1944,
+      "abstain_rate": 0.2778,
+      "support_in_ctx_rate": 0.1389,
+      "gold_in_ctx_rate": 0.2639,
+      "err_rate": 0.0,
+      "scorer_version": "lme_ku_bounded_variants_v1"
+    },
+    "full_context": {
+      "n": 72,
+      "p3_em_strict": 0.4444,
+      "p3_em_loose": 0.5139,
+      "abstain_rate": 0.0556,
+      "support_in_ctx_rate": 0.1806,
+      "gold_in_ctx_rate": 0.7361,
+      "err_rate": 0.0,
+      "scorer_version": "lme_ku_bounded_variants_v1"
+    },
+    "random_seed42": {
+      "n": 72,
+      "p3_em_strict": 0.2083,
+      "p3_em_loose": 0.2917,
+      "abstain_rate": 0.1806,
+      "support_in_ctx_rate": 0.2778,
+      "gold_in_ctx_rate": 0.4028,
+      "err_rate": 0.0,
+      "scorer_version": "lme_ku_bounded_variants_v1"
+    },
+    "recency": {
+      "n": 72,
+      "p3_em_strict": 0.3194,
+      "p3_em_loose": 0.3611,
+      "abstain_rate": 0.3194,
+      "support_in_ctx_rate": 0.25,
+      "gold_in_ctx_rate": 0.4722,
+      "err_rate": 0.0,
+      "scorer_version": "lme_ku_bounded_variants_v1"
+    },
+    "uniform_stride": {
+      "n": 72,
+      "p3_em_strict": 0.2361,
+      "p3_em_loose": 0.3056,
+      "abstain_rate": 0.1111,
+      "support_in_ctx_rate": 0.4306,
+      "gold_in_ctx_rate": 0.3889,
+      "err_rate": 0.0,
+      "scorer_version": "lme_ku_bounded_variants_v1"
+    }
+  }
+}

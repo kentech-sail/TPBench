@@ -1,0 +1,24 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "no_paid_api": true,
+  "counts": {
+    "P1_r30_expanded": 1200,
+    "changed_expanded": 4076,
+    "unchanged_expanded": 88,
+    "P2_r10_expanded": 882,
+    "P2_r30_expanded": 882,
+    "P3_r30_expanded": 1200,
+    "cached_changed_expanded": 10
+  },
+  "unique_new_requests": 2780,
+  "unique_reused_raw_requests": 8,
+  "cached_output_conflicts_requiring_new_inference": 0,
+  "requests_by_attention": {
+    "eager": 2141,
+    "sdpa": 639
+  },
+  "p1_semantic_upper_bound_records": 1170,
+  "scope": "Llama main P1/P2/P3 LLMLingua-2 only; original pools/seed sizes and prompt wording; no Mistral or paid API rerun",
+  "contexts_sha256": "c5ebad1aa821a1e6fae80b9db15a523c440d8cd940c7ad12fa8b0e9b041bda7e"
+}

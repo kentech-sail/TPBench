@@ -1,0 +1,4 @@
+{
+  "status": "Historical pre-correction evidence only; not current paper results",
+  "reason": "The historical adapter extracted digits from word text rather than binary retention labels. Real-corpus corrected contexts differ, and matched-protocol reader regeneration has not been completed."
+}

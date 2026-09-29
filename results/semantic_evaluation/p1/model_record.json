@@ -1,0 +1,15 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "provider": "OpenAI",
+  "endpoint": "https://api.openai.com/v1/responses",
+  "prompt_sha256": "7dfe9b83e54b42437396438188962735f73c6b8efe4661a640116efc5211b440",
+  "schema_sha256": "9f4ee86880e56f5bfba9788346e62fcfb6dbdd4a4f6087ff16a06e519851d66a",
+  "decoding": {
+    "reasoning_effort": "none",
+    "temperature": 0,
+    "max_output_tokens": 512
+  },
+  "store": false,
+  "released_input_sha256": "97eb1d63fd59ecfc4eb75668b4e19e74ec961f15a5d2adb9a0c29be63a9906ec",
+  "execution_scope": "One judgment per distinct reference-answer pair; exact requests and response texts accompany the labels."
+}

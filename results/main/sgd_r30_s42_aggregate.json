@@ -1,0 +1,50 @@
+{
+  "full_context": {
+    "n": 200,
+    "p1_em_strict": 0.48,
+    "p1_em_loose": 0.825,
+    "p1_token_f1": 0.5776874236874237
+  },
+  "recency": {
+    "n": 200,
+    "p1_em_strict": 0.01,
+    "p1_em_loose": 0.09,
+    "p1_token_f1": 0.034134920634920636
+  },
+  "random_seed42": {
+    "n": 200,
+    "p1_em_strict": 0.15,
+    "p1_em_loose": 0.51,
+    "p1_token_f1": 0.2854062049062049
+  },
+  "first_n": {
+    "n": 200,
+    "p1_em_strict": 0.48,
+    "p1_em_loose": 0.86,
+    "p1_token_f1": 0.5870402375402375
+  },
+  "uniform_stride": {
+    "n": 200,
+    "p1_em_strict": 0.49,
+    "p1_em_loose": 0.855,
+    "p1_token_f1": 0.5926466588966589
+  },
+  "attention_h2o_cache": {
+    "n": 200,
+    "p1_em_strict": 0.505,
+    "p1_em_loose": 0.865,
+    "p1_token_f1": 0.6054076479076479
+  },
+  "embedding_mmr_cache": {
+    "n": 200,
+    "p1_em_strict": 0.165,
+    "p1_em_loose": 0.435,
+    "p1_token_f1": 0.2663730158730159
+  },
+  "llmlingua2_cache": {
+    "n": 200,
+    "p1_em_strict": 0.19,
+    "p1_em_loose": 0.505,
+    "p1_token_f1": 0.29834498834498835
+  }
+}

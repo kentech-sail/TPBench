@@ -1,0 +1,15 @@
+Schema-Guided Dialogue (SGD)
+
+Source: https://github.com/google-research-datasets/dstc8-schema-guided-dialogue
+Upstream license: CC-BY-SA-4.0 (Creative Commons Attribution-ShareAlike 4.0).
+
+Use within this artifact:
+- Probe rows derived from SGD carry dialogue ids, gold turn sentences, gold slot
+  values, and prompts containing rendered turns. These probes are derivative of
+  SGD and are redistributed under CC-BY-SA-4.0 to comply with the upstream
+  ShareAlike obligation when source content is included.
+- Aggregate JSON files contain only summary statistics (per-method, per-cell
+  accuracy and effective n). They contain no source dialogue content.
+- Scripts contain no source dialogue content.
+
+Refer to the upstream release for the canonical license text.

@@ -1,0 +1,12 @@
+{
+  "expected": 600,
+  "completed": 600,
+  "remaining": [],
+  "estimated_cost_usd": 0.5147032499999998,
+  "finished_timestamp": "2026-09-28T02:51:00.560955+00:00",
+  "transport_failures": {
+    "AssertionError": 2
+  },
+  "failed_request_estimated_cost_usd": 0.001764,
+  "raw_response_scope": "Successful requests and corresponding model responses; transport failures are summarized here."
+}

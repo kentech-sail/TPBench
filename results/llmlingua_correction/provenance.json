@@ -1,0 +1,54 @@
+{
+  "readers": {
+    "llama": {
+      "reader": "llama",
+      "status": "complete_primary_local_rerun",
+      "scope": "LLMLingua-derived main conditions only; unchanged methods retain their saved evidence",
+      "primary_model_records": {
+        "P1": "results/llmlingua_correction/llama/p1_eager_batch8_model_record.json",
+        "P2": "results/llmlingua_correction/llama/p2_eager_serial_model_record.json",
+        "P3": "results/llmlingua_correction/llama/p3_sdpa_serial_model_record.json"
+      },
+      "paid_api_calls_performed": 0,
+      "logical_request_id": "SHA256 of exact system/user prompts, model ID/revision, dtype, greedy flag, attention, and input/output token limits; execution batch and library versions are separately recorded.",
+      "reuse": "Original parsed scores are reused only for exactly unchanged contexts. Original raw answers are reused only for identical prompt/model/attention/token settings. Reused rows retain their original execution provenance.",
+      "limitations": "Reader-score deltas combine corrected selections with recorded software/runtime changes and are not an experiment isolating the parser as the sole cause of every token difference.",
+      "historical_P1_record": "results/historical/llmlingua_llama_legacy_20260929/results/reader_evaluation/eager_model_record.json",
+      "runtime_comparison": {
+        "model_revision": "Same recorded original Llama revision 0e9e39f249a16976918f6564b8830bc894c89659",
+        "P1_batch": "Historical batch 8 / token budget 8000; corrected primary batch 8 / token budget 8000. Earlier batch 4 outputs are diagnostic only.",
+        "P2_P3_batch": "Corrected primary uses serial batch 1, preserving the original main workers. Earlier batched outputs are diagnostic only.",
+        "original_P1_python": "3.10.12",
+        "original_P1_torch": "2.5.1+cu121",
+        "original_P1_transformers": "5.13.1",
+        "corrected_python": "3.14.4",
+        "corrected_torch": "2.13.0+cu130",
+        "corrected_transformers": "5.14.1"
+      }
+    },
+    "mistral": {
+      "reader": "mistral",
+      "status": "complete_primary_local_rerun",
+      "scope": "LLMLingua-derived main conditions only; unchanged methods retain their saved evidence",
+      "primary_model_records": {
+        "P2": "results/llmlingua_correction/mistral/p2_sdpa_serial_model_record.json",
+        "P3": "results/llmlingua_correction/mistral/p3_eager_serial_model_record.json"
+      },
+      "paid_api_calls_performed": 0,
+      "logical_request_id": "SHA256 of exact system/user prompts, model ID/revision, dtype, greedy flag, attention, and input/output token limits; execution batch and library versions are separately recorded.",
+      "reuse": "Original parsed scores are reused only for exactly unchanged contexts. Original raw answers are reused only for identical prompt/model/attention/token settings. Reused rows retain their original execution provenance.",
+      "limitations": "Reader-score deltas combine corrected selections with recorded software/runtime changes and are not an experiment isolating the parser as the sole cause of every token difference.",
+      "runtime_comparison": {
+        "original_revision": "Not recorded in the original saved Mistral outputs",
+        "corrected_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+        "revision_comparability": "New explicitly pinned rerun; equality with the unrecorded original revision cannot be established",
+        "original_runtime_versions": "Not recorded in original Mistral raw outputs",
+        "corrected_python": "3.14.4",
+        "corrected_torch": "2.13.0+cu130",
+        "corrected_transformers": "5.14.1",
+        "preserved_settings": "bfloat16; greedy; P2 SDPA / P3 eager attention; serial batch 1; max input 7168 / max new tokens 128"
+      }
+    }
+  },
+  "complete": true
+}

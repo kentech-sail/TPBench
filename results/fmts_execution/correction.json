@@ -1,0 +1,27 @@
+{
+  "status": "LLMLingua reader condition excluded; corrected deterministic contexts retained",
+  "reason": "The historical adapter extracted digits from word text rather than binary retention labels. Real-corpus corrected contexts differ, and matched-protocol reader regeneration has not been completed.",
+  "excluded_reader_methods": [
+    "llmlingua2_cache"
+  ],
+  "original_reader_tasks": 8000,
+  "included_reader_tasks": 7000,
+  "original_archive": "results/historical/fmts_legacy_20260929",
+  "no_new_reader_calls": true,
+  "corrected_selector_model": {
+    "checkpoint": "microsoft/llmlingua-2-xlm-roberta-large-meetingbank",
+    "revision": "ebaba9b0e874dadd3003ffcff828e4397e568089",
+    "llmlingua": "0.2.2",
+    "torch": "2.13.0+cu130",
+    "transformers": "5.14.1",
+    "device": "NVIDIA GeForce RTX 4090",
+    "dtype": "torch.float32",
+    "rate": 0.5,
+    "force_tokens": [],
+    "word_sep": "\t\t|\t\t",
+    "label_sep": " ",
+    "scorer": "mean_binary_word_retention_labels",
+    "legacy_comparator": "mean_regex_all_digits_in_word_label_text",
+    "reader_calls": 0
+  }
+}

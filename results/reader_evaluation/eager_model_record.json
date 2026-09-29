@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "attention": "eager",
+  "dtype": "bfloat16",
+  "greedy": true,
+  "batch_size": 8,
+  "batch_tokens": 8000,
+  "status": "mixed_saved_executions",
+  "original_execution_record": "results/historical/llmlingua_llama_legacy_20260929/results/reader_evaluation/eager_model_record.json",
+  "corrected_LLMLingua_P1_execution_record": "results/llmlingua_correction/llama/p1_eager_batch8_model_record.json",
+  "corrected_fresh_request_ids": "data/llmlingua_correction/llama/inputs_p1_batch8.jsonl",
+  "record_selection": "Answer IDs in the corrected fresh request list use the corrected P1 record. Other unchanged/reused answers retain original execution provenance.",
+  "released_input_sha256": "c736f0120153a6b313c1d16cd2afb8d13307208b0274698c968021f5407fbe66"
+}

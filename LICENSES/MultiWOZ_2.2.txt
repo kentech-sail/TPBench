@@ -1,0 +1,14 @@
+MultiWOZ 2.2
+
+Source: https://github.com/budzianowski/multiwoz (MultiWOZ 2.2 release)
+Upstream license: MIT.
+
+Use within this artifact:
+- Probe rows derived from MultiWOZ 2.2 carry dialogue ids, gold turn sentences,
+  gold slot values, and prompts containing rendered turns. The MIT license
+  permits redistribution with attribution and retention of the license notice.
+- Aggregate JSON files contain only summary statistics. They contain no source
+  dialogue content.
+- Scripts contain no source dialogue content.
+
+Refer to the upstream release for the canonical MIT license text.

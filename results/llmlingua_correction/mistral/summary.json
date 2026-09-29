@@ -1,0 +1,383 @@
+{
+  "complete": true,
+  "reader": "mistral",
+  "scope_probes": [
+    "P2",
+    "P3"
+  ],
+  "expanded_scored": 2964,
+  "cells": [
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 161,
+      "strict": 0.07453416149068323,
+      "loose": 0.07453416149068323
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 161,
+      "strict": 0.3167701863354037,
+      "loose": 0.36645962732919257
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.07,
+      "loose": 0.08,
+      "parse_rate": 0.75,
+      "whole_field_strict": 0.12,
+      "whole_field_loose": 0.14
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 168,
+      "strict": 0.08928571428571429,
+      "loose": 0.10119047619047619
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 168,
+      "strict": 0.23809523809523808,
+      "loose": 0.26785714285714285
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.09,
+      "loose": 0.09,
+      "parse_rate": 0.765,
+      "whole_field_strict": 0.14,
+      "whole_field_loose": 0.145
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 168,
+      "strict": 0.10714285714285714,
+      "loose": 0.10714285714285714
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 168,
+      "strict": 0.26785714285714285,
+      "loose": 0.30952380952380953
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.075,
+      "loose": 0.085,
+      "parse_rate": 0.785,
+      "whole_field_strict": 0.12,
+      "whole_field_loose": 0.13
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 128,
+      "strict": 0.03125,
+      "loose": 0.03125
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 128,
+      "strict": 0.140625,
+      "loose": 0.140625
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.05,
+      "loose": 0.07,
+      "parse_rate": 0.785,
+      "whole_field_strict": 0.08,
+      "whole_field_loose": 0.125
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 125,
+      "strict": 0.048,
+      "loose": 0.048
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 125,
+      "strict": 0.168,
+      "loose": 0.168
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.055,
+      "loose": 0.075,
+      "parse_rate": 0.805,
+      "whole_field_strict": 0.08,
+      "whole_field_loose": 0.12
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 132,
+      "strict": 0.03787878787878788,
+      "loose": 0.03787878787878788
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 132,
+      "strict": 0.15151515151515152,
+      "loose": 0.15151515151515152
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.04,
+      "loose": 0.06,
+      "parse_rate": 0.755,
+      "whole_field_strict": 0.08,
+      "whole_field_loose": 0.13
+    }
+  ],
+  "means": [
+    {
+      "dataset": "multiwoz",
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        161,
+        168,
+        168
+      ],
+      "strict": {
+        "mean": 0.09032091097308488,
+        "std": 0.016328976764334733
+      },
+      "loose": {
+        "mean": 0.09428916494133885,
+        "std": 0.01736527658150392
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        161,
+        168,
+        168
+      ],
+      "strict": {
+        "mean": 0.2742408557625949,
+        "std": 0.03972405710640105
+      },
+      "loose": {
+        "mean": 0.3146135265700483,
+        "std": 0.04949789289175128
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        200,
+        200,
+        200
+      ],
+      "strict": {
+        "mean": 0.07833333333333334,
+        "std": 0.01040832999733066
+      },
+      "loose": {
+        "mean": 0.085,
+        "std": 0.0049999999999999975
+      },
+      "parse_rate": {
+        "mean": 0.7666666666666667,
+        "std": 0.017559422921421246
+      },
+      "whole_field_strict": {
+        "mean": 0.12666666666666668,
+        "std": 0.011547005383792526
+      },
+      "whole_field_loose": {
+        "mean": 0.13833333333333334,
+        "std": 0.007637626158259728
+      }
+    },
+    {
+      "dataset": "sgd",
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        128,
+        125,
+        132
+      ],
+      "strict": {
+        "mean": 0.039042929292929296,
+        "std": 0.00843546346824461
+      },
+      "loose": {
+        "mean": 0.039042929292929296,
+        "std": 0.00843546346824461
+      }
+    },
+    {
+      "dataset": "sgd",
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        128,
+        125,
+        132
+      ],
+      "strict": {
+        "mean": 0.15338005050505052,
+        "std": 0.013782454151271276
+      },
+      "loose": {
+        "mean": 0.15338005050505052,
+        "std": 0.013782454151271276
+      }
+    },
+    {
+      "dataset": "sgd",
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        200,
+        200,
+        200
+      ],
+      "strict": {
+        "mean": 0.04833333333333333,
+        "std": 0.007637626158259733
+      },
+      "loose": {
+        "mean": 0.06833333333333333,
+        "std": 0.007637626158259734
+      },
+      "parse_rate": {
+        "mean": 0.7816666666666667,
+        "std": 0.025166114784235853
+      },
+      "whole_field_strict": {
+        "mean": 0.08,
+        "std": 0.0
+      },
+      "whole_field_loose": {
+        "mean": 0.125,
+        "std": 0.0050000000000000044
+      }
+    }
+  ],
+  "missing_p1_unique_judge_pairs": 0,
+  "reused_p1_unique_judge_pairs": 0,
+  "semantic_status": "not_applicable_no_P1",
+  "paid_api_calls_performed": 0
+}

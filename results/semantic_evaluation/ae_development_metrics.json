@@ -1,0 +1,270 @@
+{
+  "status": "AI judge agreement with external human ratings; not TPBench human annotation",
+  "model": {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "provider": "OpenAI",
+    "endpoint": "https://api.openai.com/v1/responses",
+    "prompt_sha256": "7dfe9b83e54b42437396438188962735f73c6b8efe4661a640116efc5211b440",
+    "input_sha256": "d54798dd12d0ee7065b3580429ea377ab79e7f25042f6b4e25a20db0b69c7808",
+    "schema_sha256": "9f4ee86880e56f5bfba9788346e62fcfb6dbdd4a4f6087ff16a06e519851d66a",
+    "decoding": {
+      "reasoning_effort": "none",
+      "temperature": 0,
+      "max_output_tokens": 512
+    },
+    "store": false,
+    "rates_usd_per_million": {
+      "input": 0.75,
+      "output": 4.5
+    },
+    "runner_sha256": "a246b138a98e5404b0eccc81c71ede26ba55ab277c6687ba430cbf106955cb11",
+    "execution_timestamp": "2026-09-28T02:47:53.300342+00:00"
+  },
+  "overall": {
+    "n": 200,
+    "resolved": 199,
+    "human_ties": 1,
+    "judge": {
+      "tp": 71,
+      "tn": 100,
+      "fp": 24,
+      "fn": 4,
+      "uncertain_positive": 0,
+      "uncertain_negative": 0,
+      "accuracy": 0.8592964824120602,
+      "balanced_accuracy": 0.8765591397849462,
+      "uncertainty_rate": 0.0
+    },
+    "exact_match": {
+      "tp": 0,
+      "tn": 124,
+      "fp": 0,
+      "fn": 75,
+      "uncertain_positive": 0,
+      "uncertain_negative": 0,
+      "accuracy": 0.6231155778894473,
+      "balanced_accuracy": 0.5,
+      "uncertainty_rate": 0.0
+    },
+    "token_f1_ge_half": {
+      "tp": 55,
+      "tn": 105,
+      "fp": 19,
+      "fn": 20,
+      "uncertain_positive": 0,
+      "uncertain_negative": 0,
+      "accuracy": 0.8040201005025126,
+      "balanced_accuracy": 0.7900537634408602,
+      "uncertainty_rate": 0.0
+    }
+  },
+  "ci95": {
+    "judge": {
+      "accuracy": [
+        0.8071065989847716,
+        0.9076923076923077
+      ],
+      "balanced_accuracy": [
+        0.8304074839312414,
+        0.9194039253184508
+      ]
+    },
+    "exact_match": {
+      "accuracy": [
+        0.5510204081632653,
+        0.6934673366834171
+      ],
+      "balanced_accuracy": [
+        0.5,
+        0.5
+      ]
+    },
+    "token_f1_ge_half": {
+      "accuracy": [
+        0.7474226804123711,
+        0.8564102564102564
+      ],
+      "balanced_accuracy": [
+        0.7291653481012659,
+        0.8464589824461781
+      ]
+    }
+  },
+  "paired_accuracy_gain_ci95": {
+    "exact_match": [
+      0.14070351758793964,
+      0.3317073170731707
+    ],
+    "token_f1_ge_half": [
+      -0.010101010101010055,
+      0.12182741116751261
+    ]
+  },
+  "subsets": {
+    "non_exact": {
+      "n": 200,
+      "resolved": 199,
+      "human_ties": 1,
+      "judge": {
+        "tp": 71,
+        "tn": 100,
+        "fp": 24,
+        "fn": 4,
+        "uncertain_positive": 0,
+        "uncertain_negative": 0,
+        "accuracy": 0.8592964824120602,
+        "balanced_accuracy": 0.8765591397849462,
+        "uncertainty_rate": 0.0
+      },
+      "exact_match": {
+        "tp": 0,
+        "tn": 124,
+        "fp": 0,
+        "fn": 75,
+        "uncertain_positive": 0,
+        "uncertain_negative": 0,
+        "accuracy": 0.6231155778894473,
+        "balanced_accuracy": 0.5,
+        "uncertainty_rate": 0.0
+      },
+      "token_f1_ge_half": {
+        "tp": 55,
+        "tn": 105,
+        "fp": 19,
+        "fn": 20,
+        "uncertain_positive": 0,
+        "uncertain_negative": 0,
+        "accuracy": 0.8040201005025126,
+        "balanced_accuracy": 0.7900537634408602,
+        "uncertainty_rate": 0.0
+      }
+    },
+    "token_f1_below_half": {
+      "n": 125,
+      "resolved": 125,
+      "human_ties": 0,
+      "judge": {
+        "tp": 18,
+        "tn": 91,
+        "fp": 14,
+        "fn": 2,
+        "uncertain_positive": 0,
+        "uncertain_negative": 0,
+        "accuracy": 0.872,
+        "balanced_accuracy": 0.8833333333333333,
+        "uncertainty_rate": 0.0
+      },
+      "exact_match": {
+        "tp": 0,
+        "tn": 105,
+        "fp": 0,
+        "fn": 20,
+        "uncertain_positive": 0,
+        "uncertain_negative": 0,
+        "accuracy": 0.84,
+        "balanced_accuracy": 0.5,
+        "uncertainty_rate": 0.0
+      },
+      "token_f1_ge_half": {
+        "tp": 0,
+        "tn": 105,
+        "fp": 0,
+        "fn": 20,
+        "uncertain_positive": 0,
+        "uncertain_negative": 0,
+        "accuracy": 0.84,
+        "balanced_accuracy": 0.5,
+        "uncertainty_rate": 0.0
+      }
+    },
+    "human_disagreement": {
+      "n": 6,
+      "resolved": 5,
+      "human_ties": 1,
+      "judge": {
+        "tp": 1,
+        "tn": 3,
+        "fp": 1,
+        "fn": 0,
+        "uncertain_positive": 0,
+        "uncertain_negative": 0,
+        "accuracy": 0.8,
+        "balanced_accuracy": 0.875,
+        "uncertainty_rate": 0.0
+      },
+      "exact_match": {
+        "tp": 0,
+        "tn": 4,
+        "fp": 0,
+        "fn": 1,
+        "uncertain_positive": 0,
+        "uncertain_negative": 0,
+        "accuracy": 0.8,
+        "balanced_accuracy": 0.5,
+        "uncertainty_rate": 0.0
+      },
+      "token_f1_ge_half": {
+        "tp": 1,
+        "tn": 1,
+        "fp": 3,
+        "fn": 0,
+        "uncertain_positive": 0,
+        "uncertain_negative": 0,
+        "accuracy": 0.4,
+        "balanced_accuracy": 0.625,
+        "uncertainty_rate": 0.0
+      }
+    },
+    "human_unanimous": {
+      "n": 194,
+      "resolved": 194,
+      "human_ties": 0,
+      "judge": {
+        "tp": 70,
+        "tn": 97,
+        "fp": 23,
+        "fn": 4,
+        "uncertain_positive": 0,
+        "uncertain_negative": 0,
+        "accuracy": 0.8608247422680413,
+        "balanced_accuracy": 0.8771396396396396,
+        "uncertainty_rate": 0.0
+      },
+      "exact_match": {
+        "tp": 0,
+        "tn": 120,
+        "fp": 0,
+        "fn": 74,
+        "uncertain_positive": 0,
+        "uncertain_negative": 0,
+        "accuracy": 0.6185567010309279,
+        "balanced_accuracy": 0.5,
+        "uncertainty_rate": 0.0
+      },
+      "token_f1_ge_half": {
+        "tp": 54,
+        "tn": 104,
+        "fp": 16,
+        "fn": 20,
+        "uncertain_positive": 0,
+        "uncertain_negative": 0,
+        "accuracy": 0.8144329896907216,
+        "balanced_accuracy": 0.7981981981981983,
+        "uncertainty_rate": 0.0
+      }
+    }
+  },
+  "bootstrap": {
+    "unit": "question ID",
+    "clusters": 183,
+    "repetitions": 10000,
+    "seed": 20260928
+  },
+  "individual_rating_agreement": 0.8801169590643275,
+  "hashes": {
+    "ae_development_inputs.jsonl": "d54798dd12d0ee7065b3580429ea377ab79e7f25042f6b4e25a20db0b69c7808",
+    "ae_development_key.jsonl": "2bc9fcc6d0bfd17544e8ce400068058b1e834763310ff1bbc76468f06a93129c",
+    "judgments.jsonl": "7bf254d7393fadae470ab32b24ac53e21ef7f0e53ba1820f170c1a1c6c7f6e64",
+    "model_record.json": "0afd477d4797ef4e2265d476861490b5f0618d884f8b48128bd6bc77419b52dd"
+  }
+}

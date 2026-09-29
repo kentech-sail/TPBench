@@ -1,0 +1,1308 @@
+{
+  "provenance": {
+    "description": "Deterministic diagnostics on corrected LLMLingua contexts; all other methods unchanged. No model-generated QA scores here.",
+    "baseline": "results/historical/fmts_legacy_20260929",
+    "legacy_checks_passed": 40000,
+    "total_logical_rows": 8000,
+    "metric_note": "qa_exact is the historical text-retention heuristic: case-insensitive answer substring OR answer-token set overlap strictly above 0.5. It is not strict answer-span retention. answer_span_exact separately reports strict substring retention.",
+    "context_sha256": "c5ebad1aa821a1e6fae80b9db15a523c440d8cd940c7ad12fa8b0e9b041bda7e"
+  },
+  "groups": [
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.1,
+      "method": "attention_h2o_cache",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.0,
+        "answer_span_exact": 0.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.0,
+        "support_recall": 0.04333333333333333,
+        "adv_fp": 0.01,
+        "compression_ratio": 0.1,
+        "token_ratio": 0.10234600430817317
+      },
+      "corrected": {
+        "qa_exact": 0.0,
+        "answer_span_exact": 0.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.0,
+        "support_recall": 0.04333333333333333,
+        "adv_fp": 0.01,
+        "compression_ratio": 0.1,
+        "token_ratio": 0.10234600430817317
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.1,
+      "method": "embedding_mmr_cache",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.06,
+        "answer_span_exact": 0.06,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.11,
+        "support_recall": 0.09,
+        "adv_fp": 0.41,
+        "compression_ratio": 0.1,
+        "token_ratio": 0.09162472618204294
+      },
+      "corrected": {
+        "qa_exact": 0.06,
+        "answer_span_exact": 0.06,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.11,
+        "support_recall": 0.09,
+        "adv_fp": 0.41,
+        "compression_ratio": 0.1,
+        "token_ratio": 0.09162472618204294
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.1,
+      "method": "first_n",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.0,
+        "answer_span_exact": 0.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.0,
+        "support_recall": 0.04,
+        "adv_fp": 0.03,
+        "compression_ratio": 0.1,
+        "token_ratio": 0.1036807368635456
+      },
+      "corrected": {
+        "qa_exact": 0.0,
+        "answer_span_exact": 0.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.0,
+        "support_recall": 0.04,
+        "adv_fp": 0.03,
+        "compression_ratio": 0.1,
+        "token_ratio": 0.1036807368635456
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.1,
+      "method": "full_context",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 1.0,
+        "answer_span_exact": 1.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 1.0,
+        "support_recall": 1.0,
+        "adv_fp": 1.0,
+        "compression_ratio": 1.0,
+        "token_ratio": 1.0
+      },
+      "corrected": {
+        "qa_exact": 1.0,
+        "answer_span_exact": 1.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 1.0,
+        "support_recall": 1.0,
+        "adv_fp": 1.0,
+        "compression_ratio": 1.0,
+        "token_ratio": 1.0
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.61,
+        "answer_span_exact": 0.61,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.38,
+        "support_recall": 0.24666666666666665,
+        "adv_fp": 0.29,
+        "compression_ratio": 0.1,
+        "token_ratio": 0.10607844925190306
+      },
+      "corrected": {
+        "qa_exact": 0.61,
+        "answer_span_exact": 0.61,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.38,
+        "support_recall": 0.24666666666666665,
+        "adv_fp": 0.29,
+        "compression_ratio": 0.1,
+        "token_ratio": 0.10607844925190306
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.1,
+      "method": "random_seed42",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.1,
+        "answer_span_exact": 0.1,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.05,
+        "support_recall": 0.11666666666666665,
+        "adv_fp": 0.06,
+        "compression_ratio": 0.1,
+        "token_ratio": 0.10260348861113769
+      },
+      "corrected": {
+        "qa_exact": 0.1,
+        "answer_span_exact": 0.1,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.05,
+        "support_recall": 0.11666666666666665,
+        "adv_fp": 0.06,
+        "compression_ratio": 0.1,
+        "token_ratio": 0.10260348861113769
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.1,
+      "method": "recency",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.0,
+        "answer_span_exact": 0.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.0,
+        "support_recall": 0.0,
+        "adv_fp": 0.04,
+        "compression_ratio": 0.1,
+        "token_ratio": 0.10173929903859896
+      },
+      "corrected": {
+        "qa_exact": 0.0,
+        "answer_span_exact": 0.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.0,
+        "support_recall": 0.0,
+        "adv_fp": 0.04,
+        "compression_ratio": 0.1,
+        "token_ratio": 0.10173929903859896
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.1,
+      "method": "uniform_stride",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.03,
+        "answer_span_exact": 0.03,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.065,
+        "support_recall": 0.03666666666666667,
+        "adv_fp": 0.07,
+        "compression_ratio": 0.1,
+        "token_ratio": 0.10160280943929426
+      },
+      "corrected": {
+        "qa_exact": 0.03,
+        "answer_span_exact": 0.03,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.065,
+        "support_recall": 0.03666666666666667,
+        "adv_fp": 0.07,
+        "compression_ratio": 0.1,
+        "token_ratio": 0.10160280943929426
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.3,
+      "method": "attention_h2o_cache",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.69,
+        "answer_span_exact": 0.69,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.35,
+        "support_recall": 0.5133333333333333,
+        "adv_fp": 0.17,
+        "compression_ratio": 0.3,
+        "token_ratio": 0.30365814874103797
+      },
+      "corrected": {
+        "qa_exact": 0.69,
+        "answer_span_exact": 0.69,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.35,
+        "support_recall": 0.5133333333333333,
+        "adv_fp": 0.17,
+        "compression_ratio": 0.3,
+        "token_ratio": 0.30365814874103797
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.3,
+      "method": "embedding_mmr_cache",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.64,
+        "answer_span_exact": 0.64,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.585,
+        "support_recall": 0.4533333333333333,
+        "adv_fp": 0.59,
+        "compression_ratio": 0.3,
+        "token_ratio": 0.29131205788525316
+      },
+      "corrected": {
+        "qa_exact": 0.64,
+        "answer_span_exact": 0.64,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.585,
+        "support_recall": 0.4533333333333333,
+        "adv_fp": 0.59,
+        "compression_ratio": 0.3,
+        "token_ratio": 0.29131205788525316
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.3,
+      "method": "first_n",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.55,
+        "answer_span_exact": 0.55,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.275,
+        "support_recall": 0.5133333333333333,
+        "adv_fp": 0.23,
+        "compression_ratio": 0.3,
+        "token_ratio": 0.30252153976105894
+      },
+      "corrected": {
+        "qa_exact": 0.55,
+        "answer_span_exact": 0.55,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.275,
+        "support_recall": 0.5133333333333333,
+        "adv_fp": 0.23,
+        "compression_ratio": 0.3,
+        "token_ratio": 0.30252153976105894
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.3,
+      "method": "full_context",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 1.0,
+        "answer_span_exact": 1.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 1.0,
+        "support_recall": 1.0,
+        "adv_fp": 1.0,
+        "compression_ratio": 1.0,
+        "token_ratio": 1.0
+      },
+      "corrected": {
+        "qa_exact": 1.0,
+        "answer_span_exact": 1.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 1.0,
+        "support_recall": 1.0,
+        "adv_fp": 1.0,
+        "compression_ratio": 1.0,
+        "token_ratio": 1.0
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.85,
+        "answer_span_exact": 0.85,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.575,
+        "support_recall": 0.4633333333333333,
+        "adv_fp": 0.32,
+        "compression_ratio": 0.3,
+        "token_ratio": 0.3235016268114469
+      },
+      "corrected": {
+        "qa_exact": 0.85,
+        "answer_span_exact": 0.85,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.575,
+        "support_recall": 0.4633333333333333,
+        "adv_fp": 0.32,
+        "compression_ratio": 0.3,
+        "token_ratio": 0.3235016268114469
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.3,
+      "method": "random_seed42",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.41,
+        "answer_span_exact": 0.41,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.29,
+        "support_recall": 0.36666666666666664,
+        "adv_fp": 0.26,
+        "compression_ratio": 0.3,
+        "token_ratio": 0.3030420953985606
+      },
+      "corrected": {
+        "qa_exact": 0.41,
+        "answer_span_exact": 0.41,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.29,
+        "support_recall": 0.36666666666666664,
+        "adv_fp": 0.26,
+        "compression_ratio": 0.3,
+        "token_ratio": 0.3030420953985606
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.3,
+      "method": "recency",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.0,
+        "answer_span_exact": 0.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.235,
+        "support_recall": 0.003333333333333333,
+        "adv_fp": 0.32,
+        "compression_ratio": 0.3,
+        "token_ratio": 0.30105738777649926
+      },
+      "corrected": {
+        "qa_exact": 0.0,
+        "answer_span_exact": 0.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.235,
+        "support_recall": 0.003333333333333333,
+        "adv_fp": 0.32,
+        "compression_ratio": 0.3,
+        "token_ratio": 0.30105738777649926
+      }
+    },
+    {
+      "dataset": "indirect_seed42",
+      "ratio": 0.3,
+      "method": "uniform_stride",
+      "n": 100,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.26,
+        "answer_span_exact": 0.26,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.31,
+        "support_recall": 0.26666666666666666,
+        "adv_fp": 0.29,
+        "compression_ratio": 0.3,
+        "token_ratio": 0.30102901038955404
+      },
+      "corrected": {
+        "qa_exact": 0.26,
+        "answer_span_exact": 0.26,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.31,
+        "support_recall": 0.26666666666666666,
+        "adv_fp": 0.29,
+        "compression_ratio": 0.3,
+        "token_ratio": 0.30102901038955404
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.1,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.075,
+        "answer_span_exact": 0.075,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.025,
+        "support_recall": 0.04,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.08941665279165278,
+        "token_ratio": 0.0927010006541087
+      },
+      "corrected": {
+        "qa_exact": 0.075,
+        "answer_span_exact": 0.075,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.025,
+        "support_recall": 0.04,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.08941665279165278,
+        "token_ratio": 0.0927010006541087
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.1,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.24,
+        "answer_span_exact": 0.225,
+        "fallback_overlap_only": 0.015,
+        "boundary_recall": 0.14,
+        "support_recall": 0.1175,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.08941665279165278,
+        "token_ratio": 0.10390784576566545
+      },
+      "corrected": {
+        "qa_exact": 0.24,
+        "answer_span_exact": 0.225,
+        "fallback_overlap_only": 0.015,
+        "boundary_recall": 0.14,
+        "support_recall": 0.1175,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.08941665279165278,
+        "token_ratio": 0.10390784576566545
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.1,
+      "method": "first_n",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.075,
+        "answer_span_exact": 0.075,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.025,
+        "support_recall": 0.04,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.08941665279165278,
+        "token_ratio": 0.09375824242852378
+      },
+      "corrected": {
+        "qa_exact": 0.075,
+        "answer_span_exact": 0.075,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.025,
+        "support_recall": 0.04,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.08941665279165278,
+        "token_ratio": 0.09375824242852378
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.1,
+      "method": "full_context",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.99,
+        "answer_span_exact": 0.94,
+        "fallback_overlap_only": 0.05,
+        "boundary_recall": 1.0,
+        "support_recall": 1.0,
+        "adv_fp": 0.0,
+        "compression_ratio": 1.0,
+        "token_ratio": 1.0
+      },
+      "corrected": {
+        "qa_exact": 0.99,
+        "answer_span_exact": 0.94,
+        "fallback_overlap_only": 0.05,
+        "boundary_recall": 1.0,
+        "support_recall": 1.0,
+        "adv_fp": 0.0,
+        "compression_ratio": 1.0,
+        "token_ratio": 1.0
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "changed_contexts": 196,
+      "original": {
+        "qa_exact": 0.24,
+        "answer_span_exact": 0.24,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.065,
+        "support_recall": 0.0825,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.08941665279165278,
+        "token_ratio": 0.11509321689937423
+      },
+      "corrected": {
+        "qa_exact": 0.11,
+        "answer_span_exact": 0.105,
+        "fallback_overlap_only": 0.005,
+        "boundary_recall": 0.07,
+        "support_recall": 0.095,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.08941665279165278,
+        "token_ratio": 0.08817392256096317
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.1,
+      "method": "random_seed42",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.04,
+        "answer_span_exact": 0.04,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.015,
+        "support_recall": 0.035,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.08941665279165278,
+        "token_ratio": 0.09073614833234933
+      },
+      "corrected": {
+        "qa_exact": 0.04,
+        "answer_span_exact": 0.04,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.015,
+        "support_recall": 0.035,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.08941665279165278,
+        "token_ratio": 0.09073614833234933
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.1,
+      "method": "recency",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.025,
+        "answer_span_exact": 0.025,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.0,
+        "support_recall": 0.0,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.08941665279165278,
+        "token_ratio": 0.05636272746123102
+      },
+      "corrected": {
+        "qa_exact": 0.025,
+        "answer_span_exact": 0.025,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.0,
+        "support_recall": 0.0,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.08941665279165278,
+        "token_ratio": 0.05636272746123102
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.1,
+      "method": "uniform_stride",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.11,
+        "answer_span_exact": 0.11,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.07,
+        "support_recall": 0.07,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.08941665279165278,
+        "token_ratio": 0.09164233879455395
+      },
+      "corrected": {
+        "qa_exact": 0.11,
+        "answer_span_exact": 0.11,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.07,
+        "support_recall": 0.07,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.08941665279165278,
+        "token_ratio": 0.09164233879455395
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.3,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.225,
+        "answer_span_exact": 0.21,
+        "fallback_overlap_only": 0.015,
+        "boundary_recall": 0.08,
+        "support_recall": 0.1425,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2645808497058497,
+        "token_ratio": 0.27578894533962117
+      },
+      "corrected": {
+        "qa_exact": 0.225,
+        "answer_span_exact": 0.21,
+        "fallback_overlap_only": 0.015,
+        "boundary_recall": 0.08,
+        "support_recall": 0.1425,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2645808497058497,
+        "token_ratio": 0.27578894533962117
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.3,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.415,
+        "answer_span_exact": 0.395,
+        "fallback_overlap_only": 0.02,
+        "boundary_recall": 0.24,
+        "support_recall": 0.245,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2645808497058497,
+        "token_ratio": 0.26019959970781364
+      },
+      "corrected": {
+        "qa_exact": 0.415,
+        "answer_span_exact": 0.395,
+        "fallback_overlap_only": 0.02,
+        "boundary_recall": 0.24,
+        "support_recall": 0.245,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2645808497058497,
+        "token_ratio": 0.26019959970781364
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.3,
+      "method": "first_n",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.17,
+        "answer_span_exact": 0.16,
+        "fallback_overlap_only": 0.01,
+        "boundary_recall": 0.03,
+        "support_recall": 0.09,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2645808497058497,
+        "token_ratio": 0.27931533886094295
+      },
+      "corrected": {
+        "qa_exact": 0.17,
+        "answer_span_exact": 0.16,
+        "fallback_overlap_only": 0.01,
+        "boundary_recall": 0.03,
+        "support_recall": 0.09,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2645808497058497,
+        "token_ratio": 0.27931533886094295
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.3,
+      "method": "full_context",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.99,
+        "answer_span_exact": 0.94,
+        "fallback_overlap_only": 0.05,
+        "boundary_recall": 1.0,
+        "support_recall": 1.0,
+        "adv_fp": 0.0,
+        "compression_ratio": 1.0,
+        "token_ratio": 1.0
+      },
+      "corrected": {
+        "qa_exact": 0.99,
+        "answer_span_exact": 0.94,
+        "fallback_overlap_only": 0.05,
+        "boundary_recall": 1.0,
+        "support_recall": 1.0,
+        "adv_fp": 0.0,
+        "compression_ratio": 1.0,
+        "token_ratio": 1.0
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "changed_contexts": 198,
+      "original": {
+        "qa_exact": 0.51,
+        "answer_span_exact": 0.5,
+        "fallback_overlap_only": 0.01,
+        "boundary_recall": 0.255,
+        "support_recall": 0.315,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2645808497058497,
+        "token_ratio": 0.3237190490540517
+      },
+      "corrected": {
+        "qa_exact": 0.31,
+        "answer_span_exact": 0.295,
+        "fallback_overlap_only": 0.015,
+        "boundary_recall": 0.25,
+        "support_recall": 0.26,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2645808497058497,
+        "token_ratio": 0.26910701864295083
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.3,
+      "method": "random_seed42",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.31,
+        "answer_span_exact": 0.305,
+        "fallback_overlap_only": 0.005,
+        "boundary_recall": 0.18,
+        "support_recall": 0.1425,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2645808497058497,
+        "token_ratio": 0.2730839594398104
+      },
+      "corrected": {
+        "qa_exact": 0.31,
+        "answer_span_exact": 0.305,
+        "fallback_overlap_only": 0.005,
+        "boundary_recall": 0.18,
+        "support_recall": 0.1425,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2645808497058497,
+        "token_ratio": 0.2730839594398104
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.3,
+      "method": "recency",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.19,
+        "answer_span_exact": 0.185,
+        "fallback_overlap_only": 0.005,
+        "boundary_recall": 0.03,
+        "support_recall": 0.015,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2645808497058497,
+        "token_ratio": 0.21115469203441697
+      },
+      "corrected": {
+        "qa_exact": 0.19,
+        "answer_span_exact": 0.185,
+        "fallback_overlap_only": 0.005,
+        "boundary_recall": 0.03,
+        "support_recall": 0.015,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2645808497058497,
+        "token_ratio": 0.21115469203441697
+      }
+    },
+    {
+      "dataset": "multiwoz_scope",
+      "ratio": 0.3,
+      "method": "uniform_stride",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.37,
+        "answer_span_exact": 0.35,
+        "fallback_overlap_only": 0.02,
+        "boundary_recall": 0.285,
+        "support_recall": 0.265,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2645808497058497,
+        "token_ratio": 0.27051346009879246
+      },
+      "corrected": {
+        "qa_exact": 0.37,
+        "answer_span_exact": 0.35,
+        "fallback_overlap_only": 0.02,
+        "boundary_recall": 0.285,
+        "support_recall": 0.265,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2645808497058497,
+        "token_ratio": 0.27051346009879246
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.1,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.0,
+        "answer_span_exact": 0.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.0,
+        "support_recall": 0.0075,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.07730072358197358,
+        "token_ratio": 0.08539976181555876
+      },
+      "corrected": {
+        "qa_exact": 0.0,
+        "answer_span_exact": 0.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.0,
+        "support_recall": 0.0075,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.07730072358197358,
+        "token_ratio": 0.08539976181555876
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.1,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.215,
+        "answer_span_exact": 0.205,
+        "fallback_overlap_only": 0.01,
+        "boundary_recall": 0.17,
+        "support_recall": 0.1325,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.07730072358197358,
+        "token_ratio": 0.08184851495428253
+      },
+      "corrected": {
+        "qa_exact": 0.215,
+        "answer_span_exact": 0.205,
+        "fallback_overlap_only": 0.01,
+        "boundary_recall": 0.17,
+        "support_recall": 0.1325,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.07730072358197358,
+        "token_ratio": 0.08184851495428253
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.1,
+      "method": "first_n",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.005,
+        "answer_span_exact": 0.005,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.0,
+        "support_recall": 0.0025,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.07730072358197358,
+        "token_ratio": 0.09140800745925219
+      },
+      "corrected": {
+        "qa_exact": 0.005,
+        "answer_span_exact": 0.005,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.0,
+        "support_recall": 0.0025,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.07730072358197358,
+        "token_ratio": 0.09140800745925219
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.1,
+      "method": "full_context",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 1.0,
+        "answer_span_exact": 1.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 1.0,
+        "support_recall": 1.0,
+        "adv_fp": 0.0,
+        "compression_ratio": 1.0,
+        "token_ratio": 1.0
+      },
+      "corrected": {
+        "qa_exact": 1.0,
+        "answer_span_exact": 1.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 1.0,
+        "support_recall": 1.0,
+        "adv_fp": 0.0,
+        "compression_ratio": 1.0,
+        "token_ratio": 1.0
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "changed_contexts": 198,
+      "original": {
+        "qa_exact": 0.305,
+        "answer_span_exact": 0.3,
+        "fallback_overlap_only": 0.005,
+        "boundary_recall": 0.125,
+        "support_recall": 0.1725,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.07730072358197358,
+        "token_ratio": 0.0970761531107739
+      },
+      "corrected": {
+        "qa_exact": 0.015,
+        "answer_span_exact": 0.015,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.06,
+        "support_recall": 0.0475,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.07730072358197358,
+        "token_ratio": 0.07417097100092271
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.1,
+      "method": "random_seed42",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.025,
+        "answer_span_exact": 0.025,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.015,
+        "support_recall": 0.0075,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.07730072358197358,
+        "token_ratio": 0.0820850840462492
+      },
+      "corrected": {
+        "qa_exact": 0.025,
+        "answer_span_exact": 0.025,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.015,
+        "support_recall": 0.0075,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.07730072358197358,
+        "token_ratio": 0.0820850840462492
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.1,
+      "method": "recency",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.0,
+        "answer_span_exact": 0.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.0,
+        "support_recall": 0.0,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.07730072358197358,
+        "token_ratio": 0.03896095842095627
+      },
+      "corrected": {
+        "qa_exact": 0.0,
+        "answer_span_exact": 0.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 0.0,
+        "support_recall": 0.0,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.07730072358197358,
+        "token_ratio": 0.03896095842095627
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.1,
+      "method": "uniform_stride",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.125,
+        "answer_span_exact": 0.115,
+        "fallback_overlap_only": 0.01,
+        "boundary_recall": 0.115,
+        "support_recall": 0.105,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.07730072358197358,
+        "token_ratio": 0.08604722438987303
+      },
+      "corrected": {
+        "qa_exact": 0.125,
+        "answer_span_exact": 0.115,
+        "fallback_overlap_only": 0.01,
+        "boundary_recall": 0.115,
+        "support_recall": 0.105,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.07730072358197358,
+        "token_ratio": 0.08604722438987303
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.3,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.12,
+        "answer_span_exact": 0.105,
+        "fallback_overlap_only": 0.015,
+        "boundary_recall": 0.045,
+        "support_recall": 0.1075,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2787878545066045,
+        "token_ratio": 0.29122298310474715
+      },
+      "corrected": {
+        "qa_exact": 0.12,
+        "answer_span_exact": 0.105,
+        "fallback_overlap_only": 0.015,
+        "boundary_recall": 0.045,
+        "support_recall": 0.1075,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2787878545066045,
+        "token_ratio": 0.29122298310474715
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.3,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.545,
+        "answer_span_exact": 0.505,
+        "fallback_overlap_only": 0.04,
+        "boundary_recall": 0.375,
+        "support_recall": 0.3325,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2787878545066045,
+        "token_ratio": 0.2684166794323565
+      },
+      "corrected": {
+        "qa_exact": 0.545,
+        "answer_span_exact": 0.505,
+        "fallback_overlap_only": 0.04,
+        "boundary_recall": 0.375,
+        "support_recall": 0.3325,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2787878545066045,
+        "token_ratio": 0.2684166794323565
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.3,
+      "method": "first_n",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.105,
+        "answer_span_exact": 0.095,
+        "fallback_overlap_only": 0.01,
+        "boundary_recall": 0.0,
+        "support_recall": 0.03,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2787878545066045,
+        "token_ratio": 0.3019868529156736
+      },
+      "corrected": {
+        "qa_exact": 0.105,
+        "answer_span_exact": 0.095,
+        "fallback_overlap_only": 0.01,
+        "boundary_recall": 0.0,
+        "support_recall": 0.03,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2787878545066045,
+        "token_ratio": 0.3019868529156736
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.3,
+      "method": "full_context",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 1.0,
+        "answer_span_exact": 1.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 1.0,
+        "support_recall": 1.0,
+        "adv_fp": 0.0,
+        "compression_ratio": 1.0,
+        "token_ratio": 1.0
+      },
+      "corrected": {
+        "qa_exact": 1.0,
+        "answer_span_exact": 1.0,
+        "fallback_overlap_only": 0.0,
+        "boundary_recall": 1.0,
+        "support_recall": 1.0,
+        "adv_fp": 0.0,
+        "compression_ratio": 1.0,
+        "token_ratio": 1.0
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "changed_contexts": 200,
+      "original": {
+        "qa_exact": 0.87,
+        "answer_span_exact": 0.865,
+        "fallback_overlap_only": 0.005,
+        "boundary_recall": 0.505,
+        "support_recall": 0.495,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2787878545066045,
+        "token_ratio": 0.38980679435645477
+      },
+      "corrected": {
+        "qa_exact": 0.185,
+        "answer_span_exact": 0.17,
+        "fallback_overlap_only": 0.015,
+        "boundary_recall": 0.215,
+        "support_recall": 0.2025,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2787878545066045,
+        "token_ratio": 0.271352397541383
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.3,
+      "method": "random_seed42",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.29,
+        "answer_span_exact": 0.28,
+        "fallback_overlap_only": 0.01,
+        "boundary_recall": 0.135,
+        "support_recall": 0.1425,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2787878545066045,
+        "token_ratio": 0.27852002651532376
+      },
+      "corrected": {
+        "qa_exact": 0.29,
+        "answer_span_exact": 0.28,
+        "fallback_overlap_only": 0.01,
+        "boundary_recall": 0.135,
+        "support_recall": 0.1425,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2787878545066045,
+        "token_ratio": 0.27852002651532376
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.3,
+      "method": "recency",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.245,
+        "answer_span_exact": 0.23,
+        "fallback_overlap_only": 0.015,
+        "boundary_recall": 0.075,
+        "support_recall": 0.0425,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2787878545066045,
+        "token_ratio": 0.22155339278383795
+      },
+      "corrected": {
+        "qa_exact": 0.245,
+        "answer_span_exact": 0.23,
+        "fallback_overlap_only": 0.015,
+        "boundary_recall": 0.075,
+        "support_recall": 0.0425,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2787878545066045,
+        "token_ratio": 0.22155339278383795
+      }
+    },
+    {
+      "dataset": "sgd_scope",
+      "ratio": 0.3,
+      "method": "uniform_stride",
+      "n": 200,
+      "changed_contexts": 0,
+      "original": {
+        "qa_exact": 0.49,
+        "answer_span_exact": 0.42,
+        "fallback_overlap_only": 0.07,
+        "boundary_recall": 0.245,
+        "support_recall": 0.2325,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2787878545066045,
+        "token_ratio": 0.29175653944107616
+      },
+      "corrected": {
+        "qa_exact": 0.49,
+        "answer_span_exact": 0.42,
+        "fallback_overlap_only": 0.07,
+        "boundary_recall": 0.245,
+        "support_recall": 0.2325,
+        "adv_fp": 0.0,
+        "compression_ratio": 0.2787878545066045,
+        "token_ratio": 0.29175653944107616
+      }
+    }
+  ]
+}

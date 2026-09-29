@@ -1,0 +1,18 @@
+{
+  "status": "covered_subset_excluding_corrected_llmlingua",
+  "expected_pairs": 3049,
+  "expected_answers": 8400,
+  "conditions_including_full_context": 7,
+  "compressed_selectors": 6,
+  "excluded_methods": [
+    "llmlingua2_cache"
+  ],
+  "reason": "Corrected LLMLingua reader answers require new semantic judgments. No new paid judgments were obtained. Historical judgments do not validate changed answers.",
+  "selection_based_on_evaluation_coverage_not_scores": true,
+  "original_pairs": 3500,
+  "original_answers": 9600,
+  "historical_archive": "results/historical/semantic_p1_legacy_20260929",
+  "new_llmlingua_unique_pairs_without_judgment": 317,
+  "pending_inputs": "data/llmlingua_correction/semantic_pending_inputs.jsonl",
+  "pending_inputs_status": "Awaiting semantic judge; not included in headline scores"
+}

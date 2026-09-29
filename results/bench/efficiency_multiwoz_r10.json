@@ -1,0 +1,67 @@
+{
+  "full_context": {
+    "n_dialogues": 200,
+    "total_turns": 3236,
+    "median_total_s": 0.0011,
+    "per_dialogue_ms": 0.005,
+    "per_turn_us": 0.33,
+    "all_runs_s": [
+      0.0011,
+      0.0011,
+      0.0015
+    ],
+    "deps": "stdlib"
+  },
+  "recency": {
+    "n_dialogues": 200,
+    "total_turns": 3236,
+    "median_total_s": 0.0003,
+    "per_dialogue_ms": 0.001,
+    "per_turn_us": 0.08,
+    "all_runs_s": [
+      0.0003,
+      0.0003,
+      0.0003
+    ],
+    "deps": "stdlib"
+  },
+  "random_seed42": {
+    "n_dialogues": 200,
+    "total_turns": 3236,
+    "median_total_s": 0.0016,
+    "per_dialogue_ms": 0.008,
+    "per_turn_us": 0.5,
+    "all_runs_s": [
+      0.0016,
+      0.0016,
+      0.0017
+    ],
+    "deps": "stdlib"
+  },
+  "first_n": {
+    "n_dialogues": 200,
+    "total_turns": 3236,
+    "median_total_s": 0.0003,
+    "per_dialogue_ms": 0.001,
+    "per_turn_us": 0.08,
+    "all_runs_s": [
+      0.0003,
+      0.0003,
+      0.0003
+    ],
+    "deps": "stdlib"
+  },
+  "uniform_stride": {
+    "n_dialogues": 200,
+    "total_turns": 3236,
+    "median_total_s": 0.0004,
+    "per_dialogue_ms": 0.002,
+    "per_turn_us": 0.12,
+    "all_runs_s": [
+      0.0004,
+      0.0004,
+      0.0006
+    ],
+    "deps": "stdlib"
+  }
+}

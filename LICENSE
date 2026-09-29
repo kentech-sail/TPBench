@@ -1,21 +1,35 @@
-MIT License
+TPBench: A Turning-Point Benchmark for Dialogue Compression
+Research benchmark artifact, released 2026.
 
-Copyright (c) 2026 KENTECH Sustainable AI Laboratory
+This artifact is released under multiple licenses depending on the file class.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Code (scripts/, run_all.sh): Creative Commons Attribution 4.0
+   International (CC-BY-4.0). Full text in LICENSES/CC-BY-4.0.txt.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. Aggregate result JSONs (results/**/*.json), the flat summary
+   results/aggregates_flat.jsonl, the Croissant metadata files
+   (croissant.json, dataset_card/croissant.json), and the dataset README:
+   CC-BY-4.0.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+3. Probe data (data/probes/*.jsonl) and FMTS appendix artifacts
+   (batches/fmts_refpool/*.jsonl, results/fmts_refpool/*.json) inherit the
+   upstream corpus license of their source dialogue, because each probe
+   contains derived text from a public dialogue corpus. Per-corpus terms:
+
+     - SGD-derived probes:        CC-BY-SA-4.0  (LICENSES/SGD.txt)
+     - MultiWOZ 2.2-derived:      MIT           (LICENSES/MultiWOZ_2.2.txt)
+     - LongMemEval-KU-derived:    upstream LongMemEval-S terms
+                                                (LICENSES/LongMemEval.txt)
+     - RiSAWOZ-derived:           upstream RiSAWOZ terms
+                                                (LICENSES/RiSAWOZ.txt)
+
+   Where an upstream license is stricter than CC-BY-4.0, the upstream license
+   governs the corresponding probe file.
+
+4. Vendored third-party code (scripts/reader/chunkkv_vendored/) is distributed
+   under the Apache License 2.0, as declared by the upstream NVIDIA/kvpress
+   source and the SPDX headers in those files. The full license text is in
+   LICENSES/Apache-2.0.txt. This artifact does not relicense that code.
+
+For any conflict between this LICENSE and the per-corpus notices in
+LICENSES/, the per-corpus notice governs the affected file.

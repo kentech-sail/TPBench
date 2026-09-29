@@ -1,0 +1,14 @@
+{
+  "status": "incomplete_not_a_headline_condition",
+  "expanded_answers": 1200,
+  "distinct_reference_answer_pairs": 865,
+  "cached_exact_pair_judgments": 548,
+  "pending_distinct_pairs": 317,
+  "paid_api_calls_performed": 0,
+  "excluded_condition": "llmlingua2_cache",
+  "reason": "No fresh paid judgments; missing coverage is not imputed or scored as failure. Entire LLMLingua condition omitted from semantic headline.",
+  "key": "semantic_corrected_p1_key.jsonl",
+  "cached_labels": "semantic_cached_exact_judgments.jsonl",
+  "pending_inputs": "semantic_pending_inputs.jsonl",
+  "historical_full_cache": "results/historical/semantic_p1_legacy_20260929"
+}

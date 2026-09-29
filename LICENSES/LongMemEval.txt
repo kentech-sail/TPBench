@@ -1,0 +1,22 @@
+LongMemEval-KU (knowledge-update split, derivative of LongMemEval-S)
+
+Source: https://github.com/xiaowu0162/LongMemEval (LongMemEval-S release).
+
+Upstream license: MIT
+(per the LICENSE file in the upstream LongMemEval repository).
+License URL: https://opensource.org/licenses/MIT
+
+The LongMemEval-KU subset shipped here consists of probe rows built from the
+72 knowledge-update questions in LongMemEval-S that pass the support/boundary
+filter described in the paper.
+
+Use within this artifact:
+- Probe rows derived from LongMemEval-S carry session ids, gold answers, and
+  prompts containing rendered turns. They are redistributed under the
+  upstream MIT license terms.
+- Aggregate JSON files contain only summary statistics.
+
+Privacy note: LongMemEval-S is a public personal-memory benchmark. The KU
+subset contains synthetic-style personal-memory turns. No additional
+human-subject data is collected by this artifact. Reviewers and users should
+defer to upstream policy for treatment of any personally-styled content.

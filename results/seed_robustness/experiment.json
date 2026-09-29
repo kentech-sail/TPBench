@@ -1,0 +1,50 @@
+{
+  "experiment_id": "tpbench_seed_robustness",
+  "reporting_release": "1.0.0",
+  "sources": {
+    "risawoz": {
+      "repo": "terryqj0107/RiSAWOZ",
+      "commit": "1e2d3be2b25a0540519db1664a172d85ddd62b29",
+      "archive_path": "RiSAWOZ-data/source-data.zip",
+      "archive_sha256": "8f2396b96a5254df06ff7d856f78ff1f5438e1ce7d037e7a7f40152bb6e0c1cd",
+      "member": "source-data/all_test600_new.json",
+      "raw_records": 600,
+      "eligible_records_expected": 207
+    },
+    "longmemeval": {
+      "repo": "xiaowu0162/LongMemEval",
+      "repo_commit": "9e0b455f4ef0e2ab8f2e582289761153549043fc",
+      "dataset_repo": "xiaowu0162/longmemeval-cleaned",
+      "filename": "longmemeval_s_cleaned.json",
+      "sha256": "d6f21ea9d60a0d56f34a05b609c79c88a451d2ae03597821ea3d5a9678c3a442",
+      "raw_records": 500,
+      "knowledge_update_records": 78,
+      "eligible_records_expected": 72
+    }
+  },
+  "protocol": {
+    "ratio": 0.3,
+    "per_turn_char_cap": 200,
+    "compatibility_sample_seed": 42,
+    "random_selector_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "bootstrap_seed": 20260811,
+    "bootstrap_replicates": 10000,
+    "confidence_level": 0.95,
+    "reader": "meta-llama/Llama-3.1-8B-Instruct",
+    "reader_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "dtype": "bfloat16",
+    "decoding": "greedy",
+    "max_new_tokens": 128,
+    "risawoz_max_input_tokens": 7168,
+    "risawoz_attention": "eager",
+    "lme_max_input_tokens": 32768,
+    "lme_attention": "sdpa"
+  },
+  "scope": "RiSAWOZ and LongMemEval-KU current-value (P2) evaluation."
+}

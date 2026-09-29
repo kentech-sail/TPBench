@@ -1,0 +1,84 @@
+{
+  "multiwoz": {
+    "attention_h2o_cache": {
+      "n": 168,
+      "p3_em_strict": 0.029762,
+      "p3_em_loose": 0.035714,
+      "p3_overlap_strict": 0.0,
+      "p3_overlap_loose": 0.053571,
+      "abstain_rate": 0.267857,
+      "support_in_ctx_rate": 0.952381,
+      "err_rate": 0.0
+    },
+    "embedding_mmr_cache": {
+      "n": 168,
+      "p3_em_strict": 0.113095,
+      "p3_em_loose": 0.125,
+      "p3_overlap_strict": 0.029762,
+      "p3_overlap_loose": 0.154762,
+      "abstain_rate": 0.196429,
+      "support_in_ctx_rate": 0.910714,
+      "err_rate": 0.0
+    },
+    "first_n": {
+      "n": 168,
+      "p3_em_strict": 0.02381,
+      "p3_em_loose": 0.035714,
+      "p3_overlap_strict": 0.0,
+      "p3_overlap_loose": 0.053571,
+      "abstain_rate": 0.214286,
+      "support_in_ctx_rate": 0.886905,
+      "err_rate": 0.0
+    },
+    "full_context": {
+      "n": 168,
+      "p3_em_strict": 0.732143,
+      "p3_em_loose": 0.77381,
+      "p3_overlap_strict": 0.178571,
+      "p3_overlap_loose": 0.797619,
+      "abstain_rate": 0.0,
+      "support_in_ctx_rate": 0.339286,
+      "err_rate": 0.0
+    },
+    "llmlingua2_cache": {
+      "n": 168,
+      "p3_em_strict": 0.11904761904761904,
+      "p3_em_loose": 0.13095238095238096,
+      "p3_overlap_strict": 0,
+      "p3_overlap_loose": 0.13690476190476192,
+      "abstain_rate": 0.11904761904761904,
+      "support_in_ctx_rate": 0.9761904761904762,
+      "err_rate": 0
+    },
+    "random_seed42": {
+      "n": 168,
+      "p3_em_strict": 0.184524,
+      "p3_em_loose": 0.214286,
+      "p3_overlap_strict": 0.047619,
+      "p3_overlap_loose": 0.214286,
+      "abstain_rate": 0.172619,
+      "support_in_ctx_rate": 0.886905,
+      "err_rate": 0.0
+    },
+    "recency": {
+      "n": 168,
+      "p3_em_strict": 0.041667,
+      "p3_em_loose": 0.041667,
+      "p3_overlap_strict": 0.0,
+      "p3_overlap_loose": 0.035714,
+      "abstain_rate": 0.607143,
+      "support_in_ctx_rate": 0.761905,
+      "err_rate": 0.0
+    },
+    "uniform_stride": {
+      "n": 168,
+      "p3_em_strict": 0.059524,
+      "p3_em_loose": 0.083333,
+      "p3_overlap_strict": 0.011905,
+      "p3_overlap_loose": 0.10119,
+      "abstain_rate": 0.136905,
+      "support_in_ctx_rate": 0.886905,
+      "err_rate": 0.005952
+    }
+  }
+}

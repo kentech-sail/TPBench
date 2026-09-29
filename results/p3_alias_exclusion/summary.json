@@ -1,0 +1,3931 @@
+{
+  "scorer": "paper_p3_segment_local_v1",
+  "saved_answers": 19600,
+  "interpretation": "Heuristic sensitivity subset of original P3 generations; not a rebuilt n=200 pool or a new inference run.",
+  "exclusion": "The same is_alias_equivalent(old_value,new_value,dataset) function used by P2; domain-sensitive heuristic, not independent semantic labels.",
+  "averaging": "Unweighted mean of per-seed accuracies; variable denominators shown for every seed.",
+  "cells": [
+    {
+      "reader": "chunkkv",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "chunkkv_r03_kvpress",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.08839779005524862,
+      "original_strict": 0.085,
+      "loose": 0.10497237569060773,
+      "original_loose": 0.1
+    },
+    {
+      "reader": "chunkkv",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "chunkkv_r03_kvpress",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.1513157894736842,
+      "original_strict": 0.14,
+      "loose": 0.17105263157894737,
+      "original_loose": 0.155
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "attention_h2o_cache",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.055248618784530384,
+      "original_strict": 0.05,
+      "loose": 0.06629834254143646,
+      "original_loose": 0.075
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "embedding_mmr_cache",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.11602209944751381,
+      "original_strict": 0.115,
+      "loose": 0.1270718232044199,
+      "original_loose": 0.125
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "first_n",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.04419889502762431,
+      "original_strict": 0.045,
+      "loose": 0.049723756906077346,
+      "original_loose": 0.06
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "full_context",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.5138121546961326,
+      "original_strict": 0.485,
+      "loose": 0.5303867403314917,
+      "original_loose": 0.515
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "llmlingua2_cache",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.1270718232044199,
+      "original_strict": 0.115,
+      "loose": 0.1270718232044199,
+      "original_loose": 0.125
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "random_seed42",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.13259668508287292,
+      "original_strict": 0.125,
+      "loose": 0.143646408839779,
+      "original_loose": 0.145
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "recency",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.055248618784530384,
+      "original_strict": 0.05,
+      "loose": 0.055248618784530384,
+      "original_loose": 0.05
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "uniform_stride",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.20994475138121546,
+      "original_strict": 0.195,
+      "loose": 0.23756906077348067,
+      "original_loose": 0.23
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "attention_h2o_cache",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.060109289617486336,
+      "original_strict": 0.055,
+      "loose": 0.06557377049180328,
+      "original_loose": 0.06
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "embedding_mmr_cache",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.11475409836065574,
+      "original_strict": 0.12,
+      "loose": 0.12568306010928962,
+      "original_loose": 0.13
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "first_n",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.0546448087431694,
+      "original_strict": 0.055,
+      "loose": 0.0546448087431694,
+      "original_loose": 0.055
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "full_context",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.5027322404371585,
+      "original_strict": 0.485,
+      "loose": 0.5191256830601093,
+      "original_loose": 0.51
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "llmlingua2_cache",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.11475409836065574,
+      "original_strict": 0.105,
+      "loose": 0.11475409836065574,
+      "original_loose": 0.105
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "random_seed42",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.1366120218579235,
+      "original_strict": 0.13,
+      "loose": 0.14754098360655737,
+      "original_loose": 0.15
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "recency",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.04371584699453552,
+      "original_strict": 0.04,
+      "loose": 0.04371584699453552,
+      "original_loose": 0.04
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "uniform_stride",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.19672131147540983,
+      "original_strict": 0.185,
+      "loose": 0.22404371584699453,
+      "original_loose": 0.22
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "attention_h2o_cache",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.044444444444444446,
+      "original_strict": 0.04,
+      "loose": 0.06111111111111111,
+      "original_loose": 0.07
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "embedding_mmr_cache",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.08888888888888889,
+      "original_strict": 0.095,
+      "loose": 0.1,
+      "original_loose": 0.105
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "first_n",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.05,
+      "original_strict": 0.045,
+      "loose": 0.05555555555555555,
+      "original_loose": 0.06
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "full_context",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.4888888888888889,
+      "original_strict": 0.455,
+      "loose": 0.5055555555555555,
+      "original_loose": 0.49
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "llmlingua2_cache",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.12222222222222222,
+      "original_strict": 0.11,
+      "loose": 0.12222222222222222,
+      "original_loose": 0.12
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "random_seed42",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.14444444444444443,
+      "original_strict": 0.13,
+      "loose": 0.14444444444444443,
+      "original_loose": 0.14
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "recency",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.03333333333333333,
+      "original_strict": 0.03,
+      "loose": 0.03333333333333333,
+      "original_loose": 0.03
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "uniform_stride",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.16111111111111112,
+      "original_strict": 0.155,
+      "loose": 0.20555555555555555,
+      "original_loose": 0.21
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "attention_h2o_cache",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.02631578947368421,
+      "original_strict": 0.13,
+      "loose": 0.16447368421052633,
+      "original_loose": 0.255
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "embedding_mmr_cache",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.07894736842105263,
+      "original_strict": 0.125,
+      "loose": 0.16447368421052633,
+      "original_loose": 0.195
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "first_n",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.019736842105263157,
+      "original_strict": 0.135,
+      "loose": 0.21052631578947367,
+      "original_loose": 0.31
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "full_context",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.6052631578947368,
+      "original_strict": 0.64,
+      "loose": 0.6973684210526315,
+      "original_loose": 0.71
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "llmlingua2_cache",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.05921052631578947,
+      "original_strict": 0.08,
+      "loose": 0.13815789473684212,
+      "original_loose": 0.145
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "random_seed42",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.11842105263157894,
+      "original_strict": 0.155,
+      "loose": 0.21710526315789475,
+      "original_loose": 0.23
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "recency",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.06578947368421052,
+      "original_strict": 0.07,
+      "loose": 0.06578947368421052,
+      "original_loose": 0.07
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "uniform_stride",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.2565789473684211,
+      "original_strict": 0.28,
+      "loose": 0.4342105263157895,
+      "original_loose": 0.425
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "attention_h2o_cache",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.047619047619047616,
+      "original_strict": 0.2,
+      "loose": 0.16326530612244897,
+      "original_loose": 0.29
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "embedding_mmr_cache",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.08163265306122448,
+      "original_strict": 0.125,
+      "loose": 0.14285714285714285,
+      "original_loose": 0.185
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "first_n",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.047619047619047616,
+      "original_strict": 0.19,
+      "loose": 0.19727891156462585,
+      "original_loose": 0.31
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "full_context",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.5714285714285714,
+      "original_strict": 0.635,
+      "loose": 0.673469387755102,
+      "original_loose": 0.71
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "llmlingua2_cache",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.027210884353741496,
+      "original_strict": 0.05,
+      "loose": 0.08163265306122448,
+      "original_loose": 0.1
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "random_seed42",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.1292517006802721,
+      "original_strict": 0.17,
+      "loose": 0.21768707482993196,
+      "original_loose": 0.235
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "recency",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.047619047619047616,
+      "original_strict": 0.06,
+      "loose": 0.05442176870748299,
+      "original_loose": 0.065
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "uniform_stride",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.2585034013605442,
+      "original_strict": 0.29,
+      "loose": 0.43537414965986393,
+      "original_loose": 0.435
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "attention_h2o_cache",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.04081632653061224,
+      "original_strict": 0.175,
+      "loose": 0.2108843537414966,
+      "original_loose": 0.32
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "embedding_mmr_cache",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.10884353741496598,
+      "original_strict": 0.135,
+      "loose": 0.1564625850340136,
+      "original_loose": 0.175
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "first_n",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.04081632653061224,
+      "original_strict": 0.155,
+      "loose": 0.22448979591836735,
+      "original_loose": 0.32
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "full_context",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.6258503401360545,
+      "original_strict": 0.68,
+      "loose": 0.7278911564625851,
+      "original_loose": 0.765
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "llmlingua2_cache",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.034013605442176874,
+      "original_strict": 0.05,
+      "loose": 0.10204081632653061,
+      "original_loose": 0.105
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "random_seed42",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.14285714285714285,
+      "original_strict": 0.16,
+      "loose": 0.25170068027210885,
+      "original_loose": 0.25
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "recency",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.027210884353741496,
+      "original_strict": 0.065,
+      "loose": 0.027210884353741496,
+      "original_loose": 0.065
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "uniform_stride",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.272108843537415,
+      "original_strict": 0.295,
+      "loose": 0.4421768707482993,
+      "original_loose": 0.435
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "attention_h2o_cache",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.03314917127071823,
+      "original_strict": 0.03,
+      "loose": 0.049723756906077346,
+      "original_loose": 0.05
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "embedding_mmr_cache",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.055248618784530384,
+      "original_strict": 0.05,
+      "loose": 0.06629834254143646,
+      "original_loose": 0.065
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "first_n",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.011049723756906077,
+      "original_strict": 0.01,
+      "loose": 0.011049723756906077,
+      "original_loose": 0.02
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "full_context",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.17679558011049723,
+      "original_strict": 0.165,
+      "loose": 0.19337016574585636,
+      "original_loose": 0.18
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "llmlingua2_cache",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.0718232044198895,
+      "original_strict": 0.07,
+      "loose": 0.07734806629834254,
+      "original_loose": 0.08
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "random_seed42",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.06629834254143646,
+      "original_strict": 0.065,
+      "loose": 0.07734806629834254,
+      "original_loose": 0.08
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "recency",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.027624309392265192,
+      "original_strict": 0.03,
+      "loose": 0.03314917127071823,
+      "original_loose": 0.035
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "uniform_stride",
+      "original_n": 200,
+      "excluded_n": 19,
+      "n": 181,
+      "strict": 0.06629834254143646,
+      "original_strict": 0.065,
+      "loose": 0.0718232044198895,
+      "original_loose": 0.08
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "attention_h2o_cache",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.03278688524590164,
+      "original_strict": 0.03,
+      "loose": 0.03278688524590164,
+      "original_loose": 0.03
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "embedding_mmr_cache",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.060109289617486336,
+      "original_strict": 0.055,
+      "loose": 0.060109289617486336,
+      "original_loose": 0.055
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "first_n",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.01639344262295082,
+      "original_strict": 0.015,
+      "loose": 0.01639344262295082,
+      "original_loose": 0.015
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "full_context",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.14754098360655737,
+      "original_strict": 0.14,
+      "loose": 0.15846994535519127,
+      "original_loose": 0.155
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "llmlingua2_cache",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.09289617486338798,
+      "original_strict": 0.09,
+      "loose": 0.09289617486338798,
+      "original_loose": 0.09
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "random_seed42",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.060109289617486336,
+      "original_strict": 0.06,
+      "loose": 0.06557377049180328,
+      "original_loose": 0.065
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "recency",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.02185792349726776,
+      "original_strict": 0.02,
+      "loose": 0.0273224043715847,
+      "original_loose": 0.025
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "uniform_stride",
+      "original_n": 200,
+      "excluded_n": 17,
+      "n": 183,
+      "strict": 0.0546448087431694,
+      "original_strict": 0.06,
+      "loose": 0.06557377049180328,
+      "original_loose": 0.08
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "attention_h2o_cache",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.03888888888888889,
+      "original_strict": 0.035,
+      "loose": 0.05555555555555555,
+      "original_loose": 0.055
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "embedding_mmr_cache",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.044444444444444446,
+      "original_strict": 0.04,
+      "loose": 0.06111111111111111,
+      "original_loose": 0.06
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "first_n",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.011111111111111112,
+      "original_strict": 0.01,
+      "loose": 0.011111111111111112,
+      "original_loose": 0.02
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "full_context",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.12777777777777777,
+      "original_strict": 0.12,
+      "loose": 0.14444444444444443,
+      "original_loose": 0.14
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "llmlingua2_cache",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.08333333333333333,
+      "original_strict": 0.075,
+      "loose": 0.08888888888888889,
+      "original_loose": 0.085
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "random_seed42",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.06111111111111111,
+      "original_strict": 0.055,
+      "loose": 0.06666666666666667,
+      "original_loose": 0.065
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "recency",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.005555555555555556,
+      "original_strict": 0.01,
+      "loose": 0.011111111111111112,
+      "original_loose": 0.015
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "uniform_stride",
+      "original_n": 200,
+      "excluded_n": 20,
+      "n": 180,
+      "strict": 0.05,
+      "original_strict": 0.05,
+      "loose": 0.07222222222222222,
+      "original_loose": 0.085
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "attention_h2o_cache",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.006578947368421052,
+      "original_strict": 0.095,
+      "loose": 0.08552631578947369,
+      "original_loose": 0.175
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "embedding_mmr_cache",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.08552631578947369,
+      "original_strict": 0.11,
+      "loose": 0.14473684210526316,
+      "original_loose": 0.165
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "first_n",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.013157894736842105,
+      "original_strict": 0.075,
+      "loose": 0.16447368421052633,
+      "original_loose": 0.21
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "full_context",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.2631578947368421,
+      "original_strict": 0.285,
+      "loose": 0.2894736842105263,
+      "original_loose": 0.305
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "llmlingua2_cache",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.046052631578947366,
+      "original_strict": 0.05,
+      "loose": 0.06578947368421052,
+      "original_loose": 0.07
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "random_seed42",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.07236842105263158,
+      "original_strict": 0.1,
+      "loose": 0.13157894736842105,
+      "original_loose": 0.145
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "recency",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.03289473684210526,
+      "original_strict": 0.04,
+      "loose": 0.03289473684210526,
+      "original_loose": 0.04
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "uniform_stride",
+      "original_n": 200,
+      "excluded_n": 48,
+      "n": 152,
+      "strict": 0.1513157894736842,
+      "original_strict": 0.175,
+      "loose": 0.2631578947368421,
+      "original_loose": 0.26
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "attention_h2o_cache",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.02040816326530612,
+      "original_strict": 0.12,
+      "loose": 0.11564625850340136,
+      "original_loose": 0.19
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "embedding_mmr_cache",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.07482993197278912,
+      "original_strict": 0.12,
+      "loose": 0.1564625850340136,
+      "original_loose": 0.19
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "first_n",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.013605442176870748,
+      "original_strict": 0.075,
+      "loose": 0.1360544217687075,
+      "original_loose": 0.165
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "full_context",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.23129251700680273,
+      "original_strict": 0.27,
+      "loose": 0.2925170068027211,
+      "original_loose": 0.315
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "llmlingua2_cache",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.047619047619047616,
+      "original_strict": 0.055,
+      "loose": 0.06802721088435375,
+      "original_loose": 0.075
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "random_seed42",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.08163265306122448,
+      "original_strict": 0.115,
+      "loose": 0.14965986394557823,
+      "original_loose": 0.165
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "recency",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.02040816326530612,
+      "original_strict": 0.02,
+      "loose": 0.02040816326530612,
+      "original_loose": 0.02
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "uniform_stride",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.14285714285714285,
+      "original_strict": 0.16,
+      "loose": 0.23809523809523808,
+      "original_loose": 0.235
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "attention_h2o_cache",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.02040816326530612,
+      "original_strict": 0.105,
+      "loose": 0.10884353741496598,
+      "original_loose": 0.185
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "embedding_mmr_cache",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.08163265306122448,
+      "original_strict": 0.12,
+      "loose": 0.14965986394557823,
+      "original_loose": 0.18
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "first_n",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.027210884353741496,
+      "original_strict": 0.07,
+      "loose": 0.1292517006802721,
+      "original_loose": 0.165
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "full_context",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.2857142857142857,
+      "original_strict": 0.355,
+      "loose": 0.3469387755102041,
+      "original_loose": 0.405
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "llmlingua2_cache",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.034013605442176874,
+      "original_strict": 0.04,
+      "loose": 0.05442176870748299,
+      "original_loose": 0.06
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "random_seed42",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.07482993197278912,
+      "original_strict": 0.095,
+      "loose": 0.1360544217687075,
+      "original_loose": 0.14
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "recency",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.02040816326530612,
+      "original_strict": 0.04,
+      "loose": 0.02040816326530612,
+      "original_loose": 0.04
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "uniform_stride",
+      "original_n": 200,
+      "excluded_n": 53,
+      "n": 147,
+      "strict": 0.1360544217687075,
+      "original_strict": 0.185,
+      "loose": 0.2653061224489796,
+      "original_loose": 0.28
+    }
+  ],
+  "means": [
+    {
+      "reader": "chunkkv",
+      "dataset": "multiwoz",
+      "method": "chunkkv_r03_kvpress",
+      "seeds": [
+        42
+      ],
+      "n_by_seed": [
+        181
+      ],
+      "excluded_n_by_seed": [
+        19
+      ],
+      "strict": 0.08839779005524862,
+      "strict_seed_std": null,
+      "loose": 0.10497237569060773,
+      "loose_seed_std": null,
+      "original_strict": 0.085,
+      "original_strict_seed_std": null,
+      "original_loose": 0.1,
+      "original_loose_seed_std": null
+    },
+    {
+      "reader": "chunkkv",
+      "dataset": "sgd",
+      "method": "chunkkv_r03_kvpress",
+      "seeds": [
+        42
+      ],
+      "n_by_seed": [
+        152
+      ],
+      "excluded_n_by_seed": [
+        48
+      ],
+      "strict": 0.1513157894736842,
+      "strict_seed_std": null,
+      "loose": 0.17105263157894737,
+      "loose_seed_std": null,
+      "original_strict": 0.14,
+      "original_strict_seed_std": null,
+      "original_loose": 0.155,
+      "original_loose_seed_std": null
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "attention_h2o_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.05326745094882039,
+      "strict_seed_std": 0.00801814274435061,
+      "loose": 0.06432774138145028,
+      "loose_seed_std": 0.0028091429094697393,
+      "original_strict": 0.04833333333333333,
+      "original_strict_seed_std": 0.007637626158259733,
+      "original_loose": 0.06833333333333333,
+      "original_loose_seed_std": 0.007637626158259734
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "embedding_mmr_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.10655502889901948,
+      "strict_seed_std": 0.01531245681895041,
+      "loose": 0.11758496110456984,
+      "loose_seed_std": 0.01524484530982602,
+      "original_strict": 0.11,
+      "original_strict_seed_std": 0.013228756555322952,
+      "original_loose": 0.12,
+      "original_loose_seed_std": 0.013228756555322957
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "first_n",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.049614567923597905,
+      "strict_seed_std": 0.005233612208818397,
+      "loose": 0.05330804040160077,
+      "loose_seed_std": 0.003137304746319533,
+      "original_strict": 0.04833333333333333,
+      "original_strict_seed_std": 0.005773502691896259,
+      "original_loose": 0.058333333333333334,
+      "original_loose_seed_std": 0.0028867513459481273
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "full_context",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.5018110946740599,
+      "strict_seed_std": 0.012487140455776374,
+      "loose": 0.5183559929823855,
+      "loose_seed_std": 0.012433473024701535,
+      "original_strict": 0.475,
+      "original_strict_seed_std": 0.017320508075688756,
+      "original_loose": 0.505,
+      "original_loose_seed_std": 0.013228756555322964
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.12134938126243262,
+      "strict_seed_std": 0.0062050765376009676,
+      "loose": 0.12134938126243262,
+      "loose_seed_std": 0.0062050765376009676,
+      "original_strict": 0.11,
+      "original_strict_seed_std": 0.0050000000000000044,
+      "original_loose": 0.11666666666666667,
+      "original_loose_seed_std": 0.010408329997330665
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "random_seed42",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.13788438379508028,
+      "strict_seed_std": 0.006025489950765028,
+      "loose": 0.14521061229692694,
+      "loose_seed_std": 0.0020572282413820657,
+      "original_strict": 0.12833333333333333,
+      "original_strict_seed_std": 0.0028867513459481316,
+      "original_loose": 0.145,
+      "original_loose_seed_std": 0.0049999999999999906
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "recency",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.04409926637079974,
+      "strict_seed_std": 0.010962672662970168,
+      "loose": 0.04409926637079974,
+      "loose_seed_std": 0.010962672662970168,
+      "original_strict": 0.04,
+      "original_strict_seed_std": 0.010000000000000002,
+      "original_loose": 0.04,
+      "original_loose_seed_std": 0.010000000000000002
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "uniform_stride",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.18925905798924547,
+      "strict_seed_std": 0.025257573632998048,
+      "loose": 0.22238944405867692,
+      "loose_seed_std": 0.016070737084737198,
+      "original_strict": 0.17833333333333334,
+      "original_strict_seed_std": 0.02081665999466133,
+      "original_loose": 0.22,
+      "original_loose_seed_std": 0.010000000000000009
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "attention_h2o_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.038250387874448025,
+      "strict_seed_std": 0.010880957347237258,
+      "loose": 0.17954111469149064,
+      "loose_seed_std": 0.027150764630306475,
+      "original_strict": 0.16833333333333333,
+      "original_strict_seed_std": 0.03547299442298794,
+      "original_loose": 0.28833333333333333,
+      "original_loose_seed_std": 0.03253203549323856
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "embedding_mmr_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.0898078529657477,
+      "strict_seed_std": 0.016539971288891158,
+      "loose": 0.15459780403389425,
+      "loose_seed_std": 0.010928255631821536,
+      "original_strict": 0.12833333333333333,
+      "original_strict_seed_std": 0.005773502691896263,
+      "original_loose": 0.185,
+      "original_loose_seed_std": 0.010000000000000009
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "first_n",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.036057405418307674,
+      "strict_seed_std": 0.014537532242202654,
+      "loose": 0.21076500775748896,
+      "loose_seed_std": 0.013607012428151512,
+      "original_strict": 0.16,
+      "original_strict_seed_std": 0.027838821814150108,
+      "original_loose": 0.31333333333333335,
+      "original_loose_seed_std": 0.005773502691896263
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "full_context",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.6008473564864543,
+      "strict_seed_std": 0.027478295141269926,
+      "loose": 0.6995763217567729,
+      "loose_seed_std": 0.027277982814940812,
+      "original_strict": 0.6516666666666667,
+      "original_strict_seed_std": 0.02466441431158126,
+      "original_loose": 0.7283333333333333,
+      "original_loose_seed_std": 0.03175426480542944
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.04014500537056928,
+      "strict_seed_std": 0.01685793048497452,
+      "loose": 0.10727712137486574,
+      "loose_seed_std": 0.0286241140394102,
+      "original_strict": 0.060000000000000005,
+      "original_strict_seed_std": 0.017320508075688773,
+      "original_loose": 0.11666666666666667,
+      "original_loose_seed_std": 0.02466441431158123
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "random_seed42",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.1301766320563313,
+      "strict_seed_std": 0.012244274168597706,
+      "loose": 0.2288310060866452,
+      "loose_seed_std": 0.019807855114004062,
+      "original_strict": 0.16166666666666668,
+      "original_strict_seed_std": 0.00763762615825974,
+      "original_loose": 0.23833333333333334,
+      "original_loose_seed_std": 0.010408329997330662
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "recency",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.04687313521899988,
+      "strict_seed_std": 0.019300108229324865,
+      "loose": 0.04914070891514501,
+      "loose_seed_std": 0.019824078366469686,
+      "original_strict": 0.065,
+      "original_strict_seed_std": 0.0050000000000000044,
+      "original_loose": 0.06666666666666667,
+      "original_loose_seed_std": 0.0028867513459481316
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "uniform_stride",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.26239706408879343,
+      "strict_seed_std": 0.008465510961303562,
+      "loose": 0.43725384890798424,
+      "loose_seed_std": 0.004302977207920477,
+      "original_strict": 0.28833333333333333,
+      "original_strict_seed_std": 0.00763762615825971,
+      "original_loose": 0.43166666666666664,
+      "original_loose_seed_std": 0.005773502691896263
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "attention_h2o_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.03494164846850292,
+      "strict_seed_std": 0.003423206536741678,
+      "loose": 0.04602206590251151,
+      "loose_seed_std": 0.011827086459979866,
+      "original_strict": 0.03166666666666667,
+      "original_strict_seed_std": 0.0028867513459481316,
+      "original_loose": 0.045,
+      "original_loose_seed_std": 0.013228756555322954
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "embedding_mmr_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.05326745094882039,
+      "strict_seed_std": 0.00801814274435061,
+      "loose": 0.06250624775667797,
+      "loose_seed_std": 0.003322032317530424,
+      "original_strict": 0.04833333333333333,
+      "original_strict_seed_std": 0.007637626158259733,
+      "original_loose": 0.06,
+      "original_loose_seed_std": 0.005000000000000001
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "first_n",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.01285142583032267,
+      "strict_seed_std": 0.00306763008220661,
+      "loose": 0.01285142583032267,
+      "loose_seed_std": 0.00306763008220661,
+      "original_strict": 0.011666666666666667,
+      "original_strict_seed_std": 0.0028867513459481286,
+      "original_loose": 0.018333333333333333,
+      "original_loose_seed_std": 0.0028867513459481294
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "full_context",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.15070478049827746,
+      "strict_seed_std": 0.024661578304346878,
+      "loose": 0.1654281851818307,
+      "loose_seed_std": 0.025194133788039457,
+      "original_strict": 0.14166666666666666,
+      "original_strict_seed_std": 0.022546248764114478,
+      "original_loose": 0.15833333333333333,
+      "original_loose_seed_std": 0.020207259421636894
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.08268423753887028,
+      "strict_seed_std": 0.010551469795290721,
+      "loose": 0.08637771001687314,
+      "loose_seed_std": 0.008072511039512651,
+      "original_strict": 0.07833333333333334,
+      "original_strict_seed_std": 0.01040832999733066,
+      "original_loose": 0.085,
+      "original_loose_seed_std": 0.0049999999999999975
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "random_seed42",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.06250624775667797,
+      "strict_seed_std": 0.003322032317530424,
+      "loose": 0.06986283448560417,
+      "loose_seed_std": 0.00650539214652589,
+      "original_strict": 0.06,
+      "original_strict_seed_std": 0.005000000000000001,
+      "original_loose": 0.07,
+      "original_loose_seed_std": 0.008660254037844387
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "recency",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.01834592948169617,
+      "strict_seed_std": 0.011445874822414387,
+      "loose": 0.023860895584471346,
+      "loose_seed_std": 0.011419525218329476,
+      "original_strict": 0.02,
+      "original_strict_seed_std": 0.01,
+      "original_loose": 0.025,
+      "original_loose_seed_std": 0.010000000000000002
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "uniform_stride",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        181,
+        183,
+        180
+      ],
+      "excluded_n_by_seed": [
+        19,
+        17,
+        20
+      ],
+      "strict": 0.05698105042820195,
+      "strict_seed_std": 0.008396577356736623,
+      "loose": 0.069873065711305,
+      "loose_seed_std": 0.0037286402803122943,
+      "original_strict": 0.058333333333333334,
+      "original_strict_seed_std": 0.007637626158259732,
+      "original_loose": 0.08166666666666667,
+      "original_loose_seed_std": 0.0028867513459481316
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "attention_h2o_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.015798424633011097,
+      "strict_seed_std": 0.007984301520748046,
+      "loose": 0.10333870390261368,
+      "loose_seed_std": 0.015796522758873516,
+      "original_strict": 0.10666666666666666,
+      "original_strict_seed_std": 0.012583057392117913,
+      "original_loose": 0.18333333333333332,
+      "original_loose_seed_std": 0.00763762615825974
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "embedding_mmr_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.08066296694116243,
+      "strict_seed_std": 0.005413721000110613,
+      "loose": 0.15028643036161835,
+      "loose_seed_std": 0.0058879284059053655,
+      "original_strict": 0.11666666666666667,
+      "original_strict_seed_std": 0.0057735026918962545,
+      "original_loose": 0.17833333333333334,
+      "original_loose_seed_std": 0.012583057392117913
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "first_n",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.01799140708915145,
+      "strict_seed_std": 0.007987436726008452,
+      "loose": 0.14325993555316865,
+      "loose_seed_std": 0.018683859414610236,
+      "original_strict": 0.07333333333333333,
+      "original_strict_seed_std": 0.0028867513459481233,
+      "original_loose": 0.18,
+      "original_loose_seed_std": 0.02598076211353315
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "full_context",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.2600548991526435,
+      "strict_seed_std": 0.02734325627114225,
+      "loose": 0.3096431555078172,
+      "loose_seed_std": 0.03233477859243624,
+      "original_strict": 0.30333333333333334,
+      "original_strict_seed_std": 0.04536885862938732,
+      "original_loose": 0.3416666666666667,
+      "original_loose_seed_std": 0.05507570547286104
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.042561761546723954,
+      "strict_seed_std": 0.007444235648704973,
+      "loose": 0.06274615109201576,
+      "loose_seed_std": 0.007295435114314,
+      "original_strict": 0.04833333333333333,
+      "original_strict_seed_std": 0.007637626158259733,
+      "original_loose": 0.06833333333333333,
+      "original_loose_seed_std": 0.007637626158259734
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "random_seed42",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.07627700202888173,
+      "strict_seed_std": 0.004798646422449692,
+      "loose": 0.13909774436090225,
+      "loose_seed_std": 0.009416806537656577,
+      "original_strict": 0.10333333333333333,
+      "original_strict_seed_std": 0.010408329997330665,
+      "original_loose": 0.15,
+      "original_loose_seed_std": 0.013228756555322954
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "recency",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.0245703544575725,
+      "strict_seed_std": 0.007209126615821052,
+      "loose": 0.0245703544575725,
+      "loose_seed_std": 0.007209126615821052,
+      "original_strict": 0.03333333333333333,
+      "original_strict_seed_std": 0.011547005383792516,
+      "original_loose": 0.03333333333333333,
+      "original_loose_seed_std": 0.011547005383792516
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "uniform_stride",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        152,
+        147,
+        147
+      ],
+      "excluded_n_by_seed": [
+        48,
+        53,
+        53
+      ],
+      "strict": 0.14340911803317818,
+      "strict_seed_std": 0.007645642124952356,
+      "loose": 0.25551975176035324,
+      "loose_seed_std": 0.015128250986982537,
+      "original_strict": 0.17333333333333334,
+      "original_strict_seed_std": 0.012583057392117913,
+      "original_loose": 0.25833333333333336,
+      "original_loose_seed_std": 0.022546248764114492
+    }
+  ],
+  "excluded_examples": [
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_MUL0132.json__qa_02",
+      "slot": "hotel-name",
+      "old_value": "ashley",
+      "new_value": "ashley hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_MUL0195.json__qa_02",
+      "slot": "taxi-departure",
+      "old_value": "gonville",
+      "new_value": "gonville hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_MUL1014.json__qa_02",
+      "slot": "taxi-destination",
+      "old_value": "ashley",
+      "new_value": "ashley hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_MUL1411.json__qa_02",
+      "slot": "restaurant-food",
+      "old_value": "modern european",
+      "new_value": "european"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_MUL2554.json__qa_01",
+      "slot": "hotel-name",
+      "old_value": "ashley",
+      "new_value": "ashley hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_MUL2619.json__qa_02",
+      "slot": "taxi-departure",
+      "old_value": "b guesthouse",
+      "new_value": "a and b guest house"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_PMUL0714.json__qa_00",
+      "slot": "restaurant-name",
+      "old_value": "city stop restaurant.and",
+      "new_value": "city stop restaurant"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_PMUL0747.json__qa_01",
+      "slot": "restaurant-name",
+      "old_value": "ali",
+      "new_value": "ali baba"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_PMUL0983.json__qa_00",
+      "slot": "restaurant-name",
+      "old_value": "cote",
+      "new_value": "two two and cote"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_PMUL2158.json__qa_01",
+      "slot": "restaurant-name",
+      "old_value": "clown",
+      "new_value": "clowns cafe"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_PMUL2760.json__qa_02",
+      "slot": "taxi-destination",
+      "old_value": "abbey pool",
+      "new_value": "abbey pool and astroturf pitch"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_PMUL3675.json__qa_00",
+      "slot": "hotel-name",
+      "old_value": "aylesbray lodge",
+      "new_value": "aylesbray lodge guest house"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_PMUL3762.json__qa_01",
+      "slot": "taxi-destination",
+      "old_value": "holiday inn cambridge",
+      "new_value": "express by holiday inn cambridge"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_PMUL4322.json__qa_00",
+      "slot": "hotel-name",
+      "old_value": "gonville",
+      "new_value": "gonville hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_PMUL4580.json__qa_02",
+      "slot": "restaurant-food",
+      "old_value": "european",
+      "new_value": "modern european"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_PMUL4656.json__qa_00",
+      "slot": "taxi-destination",
+      "old_value": "kymmoy's",
+      "new_value": "kymmoy"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_SNG0606.json__qa_00",
+      "slot": "restaurant-name",
+      "old_value": "brasserie",
+      "new_value": "riverside brasserie"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_SNG0970.json__qa_00",
+      "slot": "hotel-name",
+      "old_value": "arbury lodge",
+      "new_value": "arbury lodge guesthouse"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "dialogue_id": "v20_multiwoz_WOZ20318.json__qa_01",
+      "slot": "restaurant-name",
+      "old_value": "binh",
+      "new_value": "thanh binh"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_MUL0195.json__qa_02",
+      "slot": "taxi-departure",
+      "old_value": "gonville",
+      "new_value": "gonville hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_MUL1013.json__qa_00",
+      "slot": "attraction-name",
+      "old_value": "club salsa's",
+      "new_value": "club salsa"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_MUL1411.json__qa_02",
+      "slot": "restaurant-food",
+      "old_value": "modern european",
+      "new_value": "european"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_MUL2026.json__qa_01",
+      "slot": "hotel-name",
+      "old_value": "aylesbray lodge",
+      "new_value": "aylesbray lodge guest house"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_MUL2548.json__qa_00",
+      "slot": "taxi-destination",
+      "old_value": "gonville",
+      "new_value": "gonville hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_MUL2554.json__qa_01",
+      "slot": "hotel-name",
+      "old_value": "ashley",
+      "new_value": "ashley hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_MUL2619.json__qa_02",
+      "slot": "taxi-departure",
+      "old_value": "b guesthouse",
+      "new_value": "a and b guest house"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_PMUL0714.json__qa_00",
+      "slot": "restaurant-name",
+      "old_value": "city stop restaurant.and",
+      "new_value": "city stop restaurant"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_PMUL0747.json__qa_01",
+      "slot": "restaurant-name",
+      "old_value": "ali",
+      "new_value": "ali baba"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_PMUL2590.json__qa_01",
+      "slot": "taxi-departure",
+      "old_value": "gonville hotell",
+      "new_value": "gonville hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_PMUL2760.json__qa_02",
+      "slot": "taxi-destination",
+      "old_value": "abbey pool",
+      "new_value": "abbey pool and astroturf pitch"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_PMUL3762.json__qa_01",
+      "slot": "taxi-destination",
+      "old_value": "holiday inn cambridge",
+      "new_value": "express by holiday inn cambridge"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_PMUL4656.json__qa_00",
+      "slot": "taxi-destination",
+      "old_value": "kymmoy's",
+      "new_value": "kymmoy"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_SNG0606.json__qa_00",
+      "slot": "restaurant-name",
+      "old_value": "brasserie",
+      "new_value": "riverside brasserie"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_SNG0744.json__qa_00",
+      "slot": "restaurant-name",
+      "old_value": "bloomsbury",
+      "new_value": "bloomsbury restaurant"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_SNG0970.json__qa_00",
+      "slot": "hotel-name",
+      "old_value": "arbury lodge",
+      "new_value": "arbury lodge guesthouse"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "dialogue_id": "v20_multiwoz_WOZ20318.json__qa_01",
+      "slot": "restaurant-name",
+      "old_value": "binh",
+      "new_value": "thanh binh"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_MUL0132.json__qa_02",
+      "slot": "hotel-name",
+      "old_value": "ashley",
+      "new_value": "ashley hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_MUL0195.json__qa_02",
+      "slot": "taxi-departure",
+      "old_value": "gonville",
+      "new_value": "gonville hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_MUL1013.json__qa_00",
+      "slot": "attraction-name",
+      "old_value": "club salsa's",
+      "new_value": "club salsa"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_MUL1014.json__qa_02",
+      "slot": "taxi-destination",
+      "old_value": "ashley",
+      "new_value": "ashley hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_MUL1306.json__qa_03",
+      "slot": "taxi-departure",
+      "old_value": "lensfield hotel",
+      "new_value": "lensfield"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_MUL2026.json__qa_01",
+      "slot": "hotel-name",
+      "old_value": "aylesbray lodge",
+      "new_value": "aylesbray lodge guest house"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_MUL2554.json__qa_01",
+      "slot": "hotel-name",
+      "old_value": "ashley",
+      "new_value": "ashley hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_PMUL0714.json__qa_00",
+      "slot": "restaurant-name",
+      "old_value": "city stop restaurant.and",
+      "new_value": "city stop restaurant"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_PMUL0747.json__qa_01",
+      "slot": "restaurant-name",
+      "old_value": "ali",
+      "new_value": "ali baba"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_PMUL0983.json__qa_00",
+      "slot": "restaurant-name",
+      "old_value": "cote",
+      "new_value": "two two and cote"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_PMUL2590.json__qa_01",
+      "slot": "taxi-departure",
+      "old_value": "gonville hotell",
+      "new_value": "gonville hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_PMUL2760.json__qa_02",
+      "slot": "taxi-destination",
+      "old_value": "abbey pool",
+      "new_value": "abbey pool and astroturf pitch"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_PMUL3675.json__qa_00",
+      "slot": "hotel-name",
+      "old_value": "aylesbray lodge",
+      "new_value": "aylesbray lodge guest house"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_PMUL3762.json__qa_01",
+      "slot": "taxi-destination",
+      "old_value": "holiday inn cambridge",
+      "new_value": "express by holiday inn cambridge"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_PMUL4322.json__qa_00",
+      "slot": "hotel-name",
+      "old_value": "gonville",
+      "new_value": "gonville hotel"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_PMUL4580.json__qa_02",
+      "slot": "restaurant-food",
+      "old_value": "european",
+      "new_value": "modern european"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_PMUL4656.json__qa_00",
+      "slot": "taxi-destination",
+      "old_value": "kymmoy's",
+      "new_value": "kymmoy"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_SNG0744.json__qa_00",
+      "slot": "restaurant-name",
+      "old_value": "bloomsbury",
+      "new_value": "bloomsbury restaurant"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_SNG0970.json__qa_00",
+      "slot": "hotel-name",
+      "old_value": "arbury lodge",
+      "new_value": "arbury lodge guesthouse"
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "dialogue_id": "v20_multiwoz_WOZ20318.json__qa_01",
+      "slot": "restaurant-name",
+      "old_value": "binh",
+      "new_value": "thanh binh"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_100_00098__qa_00",
+      "slot": "time",
+      "old_value": "afternoon 12:45",
+      "new_value": "12:45 PM"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_104_00085__qa_00",
+      "slot": "location",
+      "old_value": "Vancouver, BC",
+      "new_value": "Vancouver"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_104_00117__qa_00",
+      "slot": "destination",
+      "old_value": "Toronto, Ontario",
+      "new_value": "Toronto"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_10_00120__qa_00",
+      "slot": "city",
+      "old_value": "New York City",
+      "new_value": "New York"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_111_00013__qa_00",
+      "slot": "time",
+      "old_value": "morning 11:15",
+      "new_value": "11:15 am"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_124_00016__qa_00",
+      "slot": "location",
+      "old_value": "New York City",
+      "new_value": "New York"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_16_00092__qa_00",
+      "slot": "origin_city",
+      "old_value": "Toronto, Ontario",
+      "new_value": "Toronto"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_17_00056__qa_00",
+      "slot": "destination_city",
+      "old_value": "Vegas",
+      "new_value": "Las Vegas"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_18_00065__qa_01",
+      "slot": "origin_city",
+      "old_value": "Seattle, WA",
+      "new_value": "Seattle"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_18_00085__qa_00",
+      "slot": "destination_city",
+      "old_value": "Seattle, WA",
+      "new_value": "Seattle"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_19_00075__qa_00",
+      "slot": "outbound_departure_time",
+      "old_value": "7:15 in the morning",
+      "new_value": "7:15 am"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_19_00087__qa_01",
+      "slot": "origin_city",
+      "old_value": "Vegas",
+      "new_value": "Las Vegas"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_24_00078__qa_01",
+      "slot": "pickup_time",
+      "old_value": "afternoon 12:30",
+      "new_value": "12:30 pm"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_27_00040__qa_00",
+      "slot": "origin",
+      "old_value": "Sacramento, CA",
+      "new_value": "Sacramento"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_27_00068__qa_01",
+      "slot": "origin",
+      "old_value": "Long Beach, CA",
+      "new_value": "Long Beach"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_28_00056__qa_00",
+      "slot": "to_location",
+      "old_value": "Fresno, CA",
+      "new_value": "Fresno"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_34_00027__qa_00",
+      "slot": "where_to",
+      "old_value": "London, UK",
+      "new_value": "London"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_37_00013__qa_00",
+      "slot": "origin_city",
+      "old_value": "Atlanta, GA",
+      "new_value": "Atlanta"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_37_00044__qa_00",
+      "slot": "origin_city",
+      "old_value": "Seattle, WA",
+      "new_value": "Seattle"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_37_00090__qa_00",
+      "slot": "destination_city",
+      "old_value": "London, UK",
+      "new_value": "London"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_3_00118__qa_00",
+      "slot": "time",
+      "old_value": "morning 11:45",
+      "new_value": "11:45 am"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_41_00119__qa_00",
+      "slot": "location",
+      "old_value": "Paris, France",
+      "new_value": "Paris"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_44_00045__qa_01",
+      "slot": "departure_time",
+      "old_value": "morning 11:30",
+      "new_value": "11:30 am"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_46_00056__qa_01",
+      "slot": "location",
+      "old_value": "Paris, France",
+      "new_value": "Paris"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_4_00059__qa_00",
+      "slot": "city",
+      "old_value": "Phoenix, AZ",
+      "new_value": "Phoenix"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_4_00117__qa_00",
+      "slot": "city",
+      "old_value": "Seattle, WA",
+      "new_value": "Seattle"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_53_00107__qa_01",
+      "slot": "origin_city",
+      "old_value": "New York City",
+      "new_value": "New York"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_53_00113__qa_00",
+      "slot": "destination",
+      "old_value": "Portland, OR",
+      "new_value": "Portland"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_53_00126__qa_02",
+      "slot": "destination",
+      "old_value": "Vegas",
+      "new_value": "Las Vegas"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_54_00069__qa_00",
+      "slot": "to_location",
+      "old_value": "Vegas",
+      "new_value": "Las Vegas"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_55_00056__qa_00",
+      "slot": "origin_city",
+      "old_value": "Portland, OR",
+      "new_value": "Portland"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_55_00056__qa_01",
+      "slot": "destination_city",
+      "old_value": "Vancouver, BC",
+      "new_value": "Vancouver"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_55_00069__qa_00",
+      "slot": "destination_city",
+      "old_value": "Seattle, WA",
+      "new_value": "Seattle"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_58_00041__qa_00",
+      "slot": "destination_city",
+      "old_value": "Toronto, Canada",
+      "new_value": "Toronto"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_58_00045__qa_01",
+      "slot": "destination_city",
+      "old_value": "Toronto, Ontario",
+      "new_value": "Toronto"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_58_00086__qa_00",
+      "slot": "destination_city",
+      "old_value": "Phoenix, AZ",
+      "new_value": "Phoenix"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_75_00047__qa_02",
+      "slot": "pickup_time",
+      "old_value": "afternoon 12:30",
+      "new_value": "12:30 pm"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_76_00019__qa_01",
+      "slot": "theater_name",
+      "old_value": "Shattuck Cinemas",
+      "new_value": "Landmark's Shattuck Cinemas"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_89_00114__qa_00",
+      "slot": "from_location",
+      "old_value": "Fresno, CA",
+      "new_value": "Fresno"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_89_00124__qa_00",
+      "slot": "to_location",
+      "old_value": "New York City",
+      "new_value": "New York"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_8_00082__qa_00",
+      "slot": "city_of_event",
+      "old_value": "Atlanta, GA",
+      "new_value": "Atlanta"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_90_00005__qa_00",
+      "slot": "from_location",
+      "old_value": "Fresno, CA",
+      "new_value": "Fresno"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_91_00101__qa_00",
+      "slot": "location",
+      "old_value": "New York City",
+      "new_value": "New York"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_94_00049__qa_00",
+      "slot": "destination",
+      "old_value": "Vegas",
+      "new_value": "Las Vegas"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_94_00053__qa_00",
+      "slot": "origin",
+      "old_value": "Vegas",
+      "new_value": "Las Vegas"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_95_00049__qa_00",
+      "slot": "from_location",
+      "old_value": "Sacramento, CA",
+      "new_value": "Sacramento"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_99_00069__qa_01",
+      "slot": "city",
+      "old_value": "Toronto, Ontario",
+      "new_value": "Toronto"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "dialogue_id": "v20_sgd_9_00037__qa_00",
+      "slot": "city",
+      "old_value": "New York City",
+      "new_value": "New York"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_100_00098__qa_00",
+      "slot": "time",
+      "old_value": "afternoon 12:45",
+      "new_value": "12:45 PM"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_103_00056__qa_01",
+      "slot": "city_of_event",
+      "old_value": "New York City",
+      "new_value": "New York"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_103_00062__qa_00",
+      "slot": "city_of_event",
+      "old_value": "Portland, OR",
+      "new_value": "Portland"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_104_00085__qa_00",
+      "slot": "location",
+      "old_value": "Vancouver, BC",
+      "new_value": "Vancouver"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_104_00117__qa_00",
+      "slot": "destination",
+      "old_value": "Toronto, Ontario",
+      "new_value": "Toronto"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_10_00090__qa_00",
+      "slot": "city",
+      "old_value": "Phoenix, AZ",
+      "new_value": "Phoenix"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_111_00013__qa_00",
+      "slot": "time",
+      "old_value": "morning 11:15",
+      "new_value": "11:15 am"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_15_00010__qa_01",
+      "slot": "city_of_event",
+      "old_value": "London, UK",
+      "new_value": "London"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_17_00059__qa_00",
+      "slot": "origin_city",
+      "old_value": "New York City",
+      "new_value": "New York"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_17_00116__qa_00",
+      "slot": "destination_city",
+      "old_value": "Vancouver, BC",
+      "new_value": "Vancouver"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_19_00093__qa_01",
+      "slot": "destination_city",
+      "old_value": "Paris, France",
+      "new_value": "Paris"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_23_00083__qa_00",
+      "slot": "pickup_time",
+      "old_value": "morning 10:30",
+      "new_value": "10:30 am"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_24_00078__qa_01",
+      "slot": "pickup_time",
+      "old_value": "afternoon 12:30",
+      "new_value": "12:30 pm"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_27_00056__qa_00",
+      "slot": "destination",
+      "old_value": "Vancouver, BC",
+      "new_value": "Vancouver"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_27_00068__qa_01",
+      "slot": "origin",
+      "old_value": "Long Beach, CA",
+      "new_value": "Long Beach"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_34_00085__qa_00",
+      "slot": "where_to",
+      "old_value": "London, UK",
+      "new_value": "London"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_34_00103__qa_00",
+      "slot": "where_to",
+      "old_value": "London, England",
+      "new_value": "London"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_37_00013__qa_00",
+      "slot": "origin_city",
+      "old_value": "Atlanta, GA",
+      "new_value": "Atlanta"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_37_00044__qa_00",
+      "slot": "origin_city",
+      "old_value": "Seattle, WA",
+      "new_value": "Seattle"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_37_00090__qa_00",
+      "slot": "destination_city",
+      "old_value": "London, UK",
+      "new_value": "London"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_37_00093__qa_00",
+      "slot": "destination_city",
+      "old_value": "Paris, France",
+      "new_value": "Paris"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_41_00119__qa_00",
+      "slot": "location",
+      "old_value": "Paris, France",
+      "new_value": "Paris"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_41_00122__qa_00",
+      "slot": "destination",
+      "old_value": "London, UK",
+      "new_value": "London"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_42_00002__qa_00",
+      "slot": "destination",
+      "old_value": "New Delhi",
+      "new_value": "Delhi"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_42_00011__qa_00",
+      "slot": "destination",
+      "old_value": "Paris, France",
+      "new_value": "Paris"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_42_00014__qa_00",
+      "slot": "destination",
+      "old_value": "Paris, France",
+      "new_value": "Paris"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_42_00050__qa_00",
+      "slot": "destination",
+      "old_value": "New York City",
+      "new_value": "New York"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_44_00056__qa_01",
+      "slot": "destination",
+      "old_value": "Portland, OR",
+      "new_value": "Portland"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_46_00066__qa_00",
+      "slot": "location",
+      "old_value": "London, England",
+      "new_value": "London"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_46_00110__qa_01",
+      "slot": "location",
+      "old_value": "London, England",
+      "new_value": "London"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_47_00030__qa_00",
+      "slot": "destination",
+      "old_value": "Anaheim, CA",
+      "new_value": "Anaheim"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_4_00054__qa_02",
+      "slot": "city",
+      "old_value": "Toronto, Ontario",
+      "new_value": "Toronto"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_4_00059__qa_00",
+      "slot": "city",
+      "old_value": "Phoenix, AZ",
+      "new_value": "Phoenix"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_52_00027__qa_00",
+      "slot": "destination",
+      "old_value": "Paris, France",
+      "new_value": "Paris"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_54_00028__qa_00",
+      "slot": "origin",
+      "old_value": "Vancouver, BC",
+      "new_value": "Vancouver"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_54_00069__qa_00",
+      "slot": "to_location",
+      "old_value": "Vegas",
+      "new_value": "Las Vegas"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_54_00116__qa_01",
+      "slot": "to_location",
+      "old_value": "New York City",
+      "new_value": "New York"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_55_00056__qa_00",
+      "slot": "origin_city",
+      "old_value": "Portland, OR",
+      "new_value": "Portland"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_55_00056__qa_01",
+      "slot": "destination_city",
+      "old_value": "Vancouver, BC",
+      "new_value": "Vancouver"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_57_00032__qa_01",
+      "slot": "destination_city",
+      "old_value": "Nairobi, Kenya",
+      "new_value": "Nairobi"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_58_00041__qa_00",
+      "slot": "destination_city",
+      "old_value": "Toronto, Canada",
+      "new_value": "Toronto"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_58_00081__qa_00",
+      "slot": "destination_city",
+      "old_value": "Seattle, WA",
+      "new_value": "Seattle"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_58_00086__qa_00",
+      "slot": "destination_city",
+      "old_value": "Phoenix, AZ",
+      "new_value": "Phoenix"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_62_00035__qa_00",
+      "slot": "appointment_time",
+      "old_value": "afternoon 12:30",
+      "new_value": "12:30 pm"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_69_00120__qa_01",
+      "slot": "destination",
+      "old_value": "Sacramento, CA",
+      "new_value": "Sacramento"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_70_00008__qa_01",
+      "slot": "origin",
+      "old_value": "Long Beach, CA",
+      "new_value": "Long Beach"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_75_00047__qa_02",
+      "slot": "pickup_time",
+      "old_value": "afternoon 12:30",
+      "new_value": "12:30 pm"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_76_00019__qa_01",
+      "slot": "theater_name",
+      "old_value": "Shattuck Cinemas",
+      "new_value": "Landmark's Shattuck Cinemas"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_89_00098__qa_00",
+      "slot": "origin",
+      "old_value": "Long Beach, Ca",
+      "new_value": "Long Beach"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_89_00124__qa_00",
+      "slot": "to_location",
+      "old_value": "New York City",
+      "new_value": "New York"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_93_00019__qa_00",
+      "slot": "location",
+      "old_value": "Sydney, Australia",
+      "new_value": "Sydney"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_94_00076__qa_00",
+      "slot": "destination",
+      "old_value": "Sacramento, CA",
+      "new_value": "Sacramento"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "dialogue_id": "v20_sgd_95_00049__qa_00",
+      "slot": "from_location",
+      "old_value": "Sacramento, CA",
+      "new_value": "Sacramento"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_101_00078__qa_01",
+      "slot": "city_of_event",
+      "old_value": "Toronto, Canada",
+      "new_value": "Toronto"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_103_00056__qa_01",
+      "slot": "city_of_event",
+      "old_value": "New York City",
+      "new_value": "New York"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_108_00062__qa_00",
+      "slot": "time",
+      "old_value": "morning 11:30",
+      "new_value": "11:30 am"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_10_00067__qa_00",
+      "slot": "city",
+      "old_value": "Portland, OR",
+      "new_value": "POrtland"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_10_00120__qa_00",
+      "slot": "city",
+      "old_value": "New York City",
+      "new_value": "New York"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_111_00013__qa_00",
+      "slot": "time",
+      "old_value": "morning 11:15",
+      "new_value": "11:15 am"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_15_00010__qa_01",
+      "slot": "city_of_event",
+      "old_value": "London, UK",
+      "new_value": "London"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_16_00092__qa_00",
+      "slot": "origin_city",
+      "old_value": "Toronto, Ontario",
+      "new_value": "Toronto"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_17_00056__qa_00",
+      "slot": "destination_city",
+      "old_value": "Vegas",
+      "new_value": "Las Vegas"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_19_00087__qa_01",
+      "slot": "origin_city",
+      "old_value": "Vegas",
+      "new_value": "Las Vegas"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_19_00093__qa_01",
+      "slot": "destination_city",
+      "old_value": "Paris, France",
+      "new_value": "Paris"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_24_00078__qa_01",
+      "slot": "pickup_time",
+      "old_value": "afternoon 12:30",
+      "new_value": "12:30 pm"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_27_00040__qa_00",
+      "slot": "origin",
+      "old_value": "Sacramento, CA",
+      "new_value": "Sacramento"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_27_00056__qa_00",
+      "slot": "destination",
+      "old_value": "Vancouver, BC",
+      "new_value": "Vancouver"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_27_00068__qa_01",
+      "slot": "origin",
+      "old_value": "Long Beach, CA",
+      "new_value": "Long Beach"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_28_00056__qa_00",
+      "slot": "to_location",
+      "old_value": "Fresno, CA",
+      "new_value": "Fresno"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_28_00074__qa_00",
+      "slot": "to_location",
+      "old_value": "Seattle, WA",
+      "new_value": "Seattle"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_28_00083__qa_01",
+      "slot": "to_location",
+      "old_value": "Sacramento, CA",
+      "new_value": "Sacramento"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_34_00103__qa_00",
+      "slot": "where_to",
+      "old_value": "London, England",
+      "new_value": "London"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_37_00022__qa_00",
+      "slot": "destination_city",
+      "old_value": "New Delhi",
+      "new_value": "Delhi"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_37_00044__qa_00",
+      "slot": "origin_city",
+      "old_value": "Seattle, WA",
+      "new_value": "Seattle"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_37_00090__qa_00",
+      "slot": "destination_city",
+      "old_value": "London, UK",
+      "new_value": "London"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_37_00093__qa_00",
+      "slot": "destination_city",
+      "old_value": "Paris, France",
+      "new_value": "Paris"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_3_00027__qa_03",
+      "slot": "restaurant_name",
+      "old_value": "The Mexican restaurant",
+      "new_value": "The Mexican Restaurant & Bar"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_41_00119__qa_00",
+      "slot": "location",
+      "old_value": "Paris, France",
+      "new_value": "Paris"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_44_00045__qa_01",
+      "slot": "departure_time",
+      "old_value": "morning 11:30",
+      "new_value": "11:30 am"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_44_00056__qa_01",
+      "slot": "destination",
+      "old_value": "Portland, OR",
+      "new_value": "Portland"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_46_00110__qa_01",
+      "slot": "location",
+      "old_value": "London, England",
+      "new_value": "London"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_4_00054__qa_02",
+      "slot": "city",
+      "old_value": "Toronto, Ontario",
+      "new_value": "Toronto"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_52_00027__qa_00",
+      "slot": "destination",
+      "old_value": "Paris, France",
+      "new_value": "Paris"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_53_00044__qa_00",
+      "slot": "origin_city",
+      "old_value": "New Delhi",
+      "new_value": "Delhi"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_53_00108__qa_00",
+      "slot": "origin_city",
+      "old_value": "Phoenix, AZ",
+      "new_value": "Phoenix"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_54_00116__qa_01",
+      "slot": "to_location",
+      "old_value": "New York City",
+      "new_value": "New York"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_55_00056__qa_00",
+      "slot": "origin_city",
+      "old_value": "Portland, OR",
+      "new_value": "Portland"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_55_00056__qa_01",
+      "slot": "destination_city",
+      "old_value": "Vancouver, BC",
+      "new_value": "Vancouver"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_57_00010__qa_00",
+      "slot": "destination_city",
+      "old_value": "Seattle, WA",
+      "new_value": "Seattle"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_58_00041__qa_00",
+      "slot": "destination_city",
+      "old_value": "Toronto, Canada",
+      "new_value": "Toronto"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_63_00046__qa_00",
+      "slot": "event_time",
+      "old_value": "10:30 in the morning",
+      "new_value": "10:30 am"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_69_00120__qa_01",
+      "slot": "destination",
+      "old_value": "Sacramento, CA",
+      "new_value": "Sacramento"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_70_00008__qa_01",
+      "slot": "origin",
+      "old_value": "Long Beach, CA",
+      "new_value": "Long Beach"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_70_00080__qa_01",
+      "slot": "origin",
+      "old_value": "Sacramento, CA",
+      "new_value": "Sacramento"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_75_00047__qa_02",
+      "slot": "pickup_time",
+      "old_value": "afternoon 12:30",
+      "new_value": "12:30 pm"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_76_00119__qa_04",
+      "slot": "time",
+      "old_value": "afternoon 12:15",
+      "new_value": "12:15 pm"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_81_00066__qa_00",
+      "slot": "destination",
+      "old_value": "new york city",
+      "new_value": "new york"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_89_00098__qa_00",
+      "slot": "origin",
+      "old_value": "Long Beach, Ca",
+      "new_value": "Long Beach"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_91_00125__qa_00",
+      "slot": "location",
+      "old_value": "London, England",
+      "new_value": "London"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_93_00019__qa_00",
+      "slot": "location",
+      "old_value": "Sydney, Australia",
+      "new_value": "Sydney"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_93_00120__qa_00",
+      "slot": "destination",
+      "old_value": "Toronto, Ontario",
+      "new_value": "Toronto"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_94_00049__qa_00",
+      "slot": "destination",
+      "old_value": "Vegas",
+      "new_value": "Las Vegas"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_94_00053__qa_00",
+      "slot": "origin",
+      "old_value": "Vegas",
+      "new_value": "Las Vegas"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_95_00048__qa_00",
+      "slot": "from_location",
+      "old_value": "Fresno, CA",
+      "new_value": "Fresno"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_99_00027__qa_02",
+      "slot": "city",
+      "old_value": "Sacramento, CA",
+      "new_value": "Sacramento"
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "dialogue_id": "v20_sgd_99_00069__qa_01",
+      "slot": "city",
+      "old_value": "Toronto, Ontario",
+      "new_value": "Toronto"
+    }
+  ],
+  "input_sha256": {
+    "results/diagnostics/update_evidence/sgd_goal_labels.jsonl": "920a7583ca6b6db1eb1be64a134981cd95593f1b2c4c29111c3cd54060485ff9",
+    "results/diagnostics/update_evidence/multiwoz_goal_labels.jsonl": "3b6b76aaad254b7f24f09e8607082bca2d09e39c4000ea28be8a4274323062d6",
+    "results/diagnostics/update_evidence/p3_multiwoz_s42_scored_llama.jsonl": "5e042b60a30ddb89d43cb31d0f5c5b4ba435ef40f6ec78cff88aacdb54040464",
+    "results/diagnostics/update_evidence/p3_multiwoz_s43_scored_llama.jsonl": "2a78f912c89b3a977eda75617127b34cd0e7388bbc09243d7fc72f97d5f38671",
+    "results/diagnostics/update_evidence/p3_multiwoz_s44_scored_llama.jsonl": "6276dbd162d7aeffea934b00e0bd0b62e55f2c7de9be3b4347860813efb586ec",
+    "results/diagnostics/update_evidence/p3_sgd_s42_scored_llama.jsonl": "7318af2aa320fa259be70df8c2476e641075cc729a2deba8afa50d711bad1909",
+    "results/diagnostics/update_evidence/p3_sgd_s43_scored_llama.jsonl": "fa9449437c3ee9184cd014e34902d392f3cb39e2e51524cd47f82018601f5a36",
+    "results/diagnostics/update_evidence/p3_sgd_s44_scored_llama.jsonl": "430d0b5c8459f3784bb3e042423137c6a0bc0cfd89a105ba9709957087e9a6d4",
+    "results/diagnostics/update_evidence/p3_multiwoz_s42_scored_mistral.jsonl": "3e8bd1cf797b135c8520a5685434c9e85d901410acbd495c49c7d67f232e2991",
+    "results/diagnostics/update_evidence/p3_multiwoz_s43_scored_mistral.jsonl": "eb4f5fd89b7d6ae592bdcdf9f2ae780ce2ffc0e368222aae8d5e7e3ff97d8a3e",
+    "results/diagnostics/update_evidence/p3_multiwoz_s44_scored_mistral.jsonl": "b880a747ada257c2565b3c53adfef54a85a4aecd14541eb18a12a1ed3f6055c3",
+    "results/diagnostics/update_evidence/p3_sgd_s42_scored_mistral.jsonl": "0111b08cabeb1a265f410cfe2d45b6366909843b685cd25343a221e5403bd8da",
+    "results/diagnostics/update_evidence/p3_sgd_s43_scored_mistral.jsonl": "cf7b8a5755fbf1d43b0806bef56cab7378d7d85b602614dc2ed70e5d7a289248",
+    "results/diagnostics/update_evidence/p3_sgd_s44_scored_mistral.jsonl": "90d7b9bcaa2c9fd62f343ddb52ce22c92fd235e45331dba0ce4b995a25d2c03e",
+    "results/diagnostics/update_evidence/p3_multiwoz_s42_scored_chunkkv.jsonl": "fb67ac98c7ee1cbff2bc680c38b8906bc7bc342ec707085b8871766abd59a0c8",
+    "results/diagnostics/update_evidence/p3_sgd_s42_scored_chunkkv.jsonl": "09e999a1c194b76494568bf7749a6d7d647c5f2c1287de67c0a3fa5e0327febb",
+    "scripts/builders/construction.py": "bdd8aee148f1680370953df9fb6398d9cc920587bd52013c4e86711c895f27ae",
+    "scripts/normalize.py": "1f742001d65d48e89567590c48cef9217903f198740307d57dd8ad367dae4df0",
+    "scripts/scorer/scorer_p1_late.py": "02d54e17e891129886611546c3ac21d623b39638dfc0f586b24b714c929534d4",
+    "scripts/semantic_evaluation/audit_p3_segments.py": "f1ad9dbe6e22eaf7780ab3ff1bdf775f240aeedc9da15fc9f9a488c803fc56e7",
+    "scripts/audit/p3_alias_exclusion_sensitivity.py": "448f3a58bd2d81d56ff013e8aade448b232c817f6c7a994dd7be4c6e36d617df",
+    "scripts/scorer/scorer_paper_p3.py": "cce655754495980d36576d5199e34e0ed4890135c9771613883f889091bb3555"
+  }
+}

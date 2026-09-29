@@ -1,0 +1,14 @@
+{
+  "sgd": {
+    "chunkkv_r03_kvpress": {
+      "n": 128,
+      "p3_em_strict": 0.132812,
+      "p3_em_loose": 0.140625,
+      "p3_overlap_strict": 0.101562,
+      "p3_overlap_loose": 0.203125,
+      "abstain_rate": 0.242188,
+      "support_in_ctx_rate": 0.023438,
+      "err_rate": 0.117188
+    }
+  }
+}

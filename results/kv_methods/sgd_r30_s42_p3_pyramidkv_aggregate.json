@@ -1,0 +1,14 @@
+{
+  "sgd": {
+    "pyramidkv_r03_kvpress": {
+      "n": 128,
+      "p3_em_strict": 0.492188,
+      "p3_em_loose": 0.492188,
+      "p3_overlap_strict": 0.328125,
+      "p3_overlap_loose": 0.703125,
+      "abstain_rate": 0.023438,
+      "support_in_ctx_rate": 0.0625,
+      "err_rate": 0.03125
+    }
+  }
+}

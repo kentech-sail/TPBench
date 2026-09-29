@@ -1,0 +1,31 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "attention": "sdpa",
+  "dtype": "bfloat16",
+  "greedy": true,
+  "batch_size": 1,
+  "batch_tokens": 6000,
+  "torch": "2.13.0+cu130",
+  "transformers": "5.14.1",
+  "python": "3.14.4",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "runner_sha256": "d9f013cefc57613631f795338c36943b634a12736532c08f78ba816d116e9129",
+  "model_files": {
+    "tokenizer.json": "e553af6fff7d7ad76e830608b218c5c0b0822998d5a1a96099a74cd3c1cb1a49",
+    "model-00003-of-00003.safetensors": "905dd405363e43d95779c1c1155a2dbfd36155914ae95dbd934e12e490cfb4ca",
+    "generation_config.json": "b4669f1b8f4185324bd9b12a69e85a1ad2289bc48111ef739cfaaea3bba6b0a9",
+    "config.json": "affafc6478ec0fd07a32f0ca57aa2fc57743f4d17d6730f86a96ac24d1507f99",
+    "model-00002-of-00003.safetensors": "8c0e72f148366b6a3709e002a98706a33d31aec8515090c856c95b2044f92ae0",
+    "tokenizer_config.json": "0533dec9cfe319163801b6618d0f3ec9cfa126b6288e3df5deca6e32acb09cd2",
+    "special_tokens_map.json": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0",
+    "model.safetensors.index.json": "e489ba553b87cde188d921b1a8283c2e0b9d33d635b88147d96ff0fcd6250016",
+    "model-00001-of-00003.safetensors": "ce6fb6f6f4d0183f4813cbf4ece24109da629a08d4210da46f77e1d8b0bd5c19"
+  },
+  "input_sha256": "a901a2613b1a4b1d55583ca26772fd6d3b746e10b78b6ce14b9017ce2672dc08",
+  "primary_paper_probe": "P2",
+  "max_input_tokens": 7168,
+  "max_new_tokens": 128,
+  "requests": "data/llmlingua_correction/mistral/inputs.jsonl",
+  "answers": "results/llmlingua_correction/mistral/answers.jsonl"
+}

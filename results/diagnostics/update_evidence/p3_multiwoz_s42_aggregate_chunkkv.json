@@ -1,0 +1,20 @@
+{
+  "chunkkv_r03_kvpress": {
+    "n": 200,
+    "p1late_story_label_rate": 0.395,
+    "p1late_value_rate": 0.27,
+    "p1late_value_rate_strict": 0.21,
+    "p1late_combined_rate": 0.13,
+    "p1late_combined_rate_strict": 0.1,
+    "p1late_token_f1": 0.1375085535379653,
+    "p1late_embed_sim": null,
+    "p1late_embed_n": 0,
+    "abstain_rate": 0.1,
+    "support_in_ctx_rate": 0.0,
+    "err_rate": 0.08,
+    "p3_joint_strict": 0.085,
+    "p3_joint_loose": 0.1,
+    "p3_segment_parse_rate": 0.875,
+    "primary_scorer": "paper_p3_segment_local_v1"
+  }
+}

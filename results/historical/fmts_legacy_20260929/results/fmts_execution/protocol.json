@@ -1,0 +1,22 @@
+{
+  "system_prompt": "You are a deterministic closed-book QA judge. Use ONLY the Compressed Context that appears in the user message. Do NOT use outside knowledge. Do NOT speculate or infer beyond what is written. If the context does not contain enough information, the answer must be exactly \"not found\". For change/revision questions, mention BOTH the old and new values if both are visible in the context. Keep the answer to 1-2 sentences maximum. Return ONLY the JSON object {\"answer\": \"<your answer>\"} with no prose, no markdown, and no commentary outside the JSON.",
+  "user_template": "Compressed Context:\n{context}\n\nQuestion: {question}",
+  "output_schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "answer"
+    ],
+    "properties": {
+      "answer": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "model": "gpt-5.4-mini",
+  "backend": "Codex CLI",
+  "model_role": "answer generator from compressed context",
+  "decoding_parameters": "The recorded run specifies neither temperature nor an immutable model revision.",
+  "n": 8000
+}

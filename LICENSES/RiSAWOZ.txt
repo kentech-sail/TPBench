@@ -1,0 +1,24 @@
+RiSAWOZ (Chinese task-oriented dialogue)
+
+Source: https://github.com/terryqj0107/RiSAWOZ
+
+Upstream license:
+- Code (repository LICENSE file): MIT.
+- Data: Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+  As stated under the "Data License" section of the upstream README:
+  "We make the dataset under the following licenses: Attribution-NonCommercial
+  4.0 International (CC BY-NC 4.0) license."
+  License URL: https://creativecommons.org/licenses/by-nc/4.0/
+
+Use within this artifact:
+- Probe rows derived from RiSAWOZ carry dialogue ids, gold turn sentences,
+  gold slot values, and prompts with rendered Chinese turns. These probes are
+  redistributed for the cross-language probe comparison. The package also
+  includes the upstream test input used to construct these probes.
+- Because TPBench derives from the upstream RiSAWOZ data (not the upstream
+  code), the redistributed RiSAWOZ-derived probe rows inherit the CC BY-NC 4.0
+  NonCommercial restriction. Downstream use of the RiSAWOZ slice of TPBench
+  is therefore limited to non-commercial research.
+- RiSAWOZ P1 uses CJK codepoints as content tokens; P2 uses normalized exact
+  match. The scorer implementation specifies the complete rules.
+- Aggregate JSON files contain only summary statistics.

@@ -1,0 +1,506 @@
+{
+  "complete": true,
+  "reader": "llama",
+  "scope_probes": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "expanded_scored": 4164,
+  "cells": [
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "paper_probe": "P1",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.115,
+      "loose": 0.545,
+      "token_f1": 0.207975690975691
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 161,
+      "strict": 0.07453416149068323,
+      "loose": 0.09316770186335403
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 161,
+      "strict": 0.32919254658385094,
+      "loose": 0.37267080745341613
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 42,
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.115,
+      "loose": 0.125,
+      "parse_rate": 0.795,
+      "whole_field_strict": 0.14,
+      "whole_field_loose": 0.165
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "paper_probe": "P1",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.125,
+      "loose": 0.515,
+      "token_f1": 0.2018368020868021
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 168,
+      "strict": 0.07142857142857142,
+      "loose": 0.10119047619047619
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 168,
+      "strict": 0.2857142857142857,
+      "loose": 0.32142857142857145
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 43,
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.105,
+      "loose": 0.105,
+      "parse_rate": 0.8,
+      "whole_field_strict": 0.15,
+      "whole_field_loose": 0.155
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "paper_probe": "P1",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.11,
+      "loose": 0.505,
+      "token_f1": 0.183740342990343
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 168,
+      "strict": 0.11904761904761904,
+      "loose": 0.13095238095238096
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 168,
+      "strict": 0.30357142857142855,
+      "loose": 0.32142857142857145
+    },
+    {
+      "dataset": "multiwoz",
+      "seed": 44,
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.11,
+      "loose": 0.12,
+      "parse_rate": 0.82,
+      "whole_field_strict": 0.15,
+      "whole_field_loose": 0.175
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "paper_probe": "P1",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.19,
+      "loose": 0.505,
+      "token_f1": 0.29834498834498835
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 128,
+      "strict": 0.03125,
+      "loose": 0.03125
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 128,
+      "strict": 0.140625,
+      "loose": 0.15625
+    },
+    {
+      "dataset": "sgd",
+      "seed": 42,
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.08,
+      "loose": 0.145,
+      "parse_rate": 0.84,
+      "whole_field_strict": 0.085,
+      "whole_field_loose": 0.15
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "paper_probe": "P1",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.185,
+      "loose": 0.48,
+      "token_f1": 0.26344827394827397
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 125,
+      "strict": 0.048,
+      "loose": 0.048
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 125,
+      "strict": 0.176,
+      "loose": 0.176
+    },
+    {
+      "dataset": "sgd",
+      "seed": 43,
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.05,
+      "loose": 0.1,
+      "parse_rate": 0.89,
+      "whole_field_strict": 0.06,
+      "whole_field_loose": 0.115
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "paper_probe": "P1",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.205,
+      "loose": 0.52,
+      "token_f1": 0.31320743145743146
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "n": 132,
+      "strict": 0.05303030303030303,
+      "loose": 0.05303030303030303
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 132,
+      "strict": 0.17424242424242425,
+      "loose": 0.18181818181818182
+    },
+    {
+      "dataset": "sgd",
+      "seed": 44,
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "strict": 0.05,
+      "loose": 0.105,
+      "parse_rate": 0.85,
+      "whole_field_strict": 0.07,
+      "whole_field_loose": 0.14
+    }
+  ],
+  "means": [
+    {
+      "dataset": "multiwoz",
+      "paper_probe": "P1",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        200,
+        200,
+        200
+      ],
+      "strict": {
+        "mean": 0.11666666666666667,
+        "std": 0.007637626158259732
+      },
+      "loose": {
+        "mean": 0.5216666666666667,
+        "std": 0.020816659994661344
+      },
+      "token_f1": {
+        "mean": 0.19785094535094536,
+        "std": 0.012599734657198484
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        161,
+        168,
+        168
+      ],
+      "strict": {
+        "mean": 0.0883367839889579,
+        "std": 0.02664165375701534
+      },
+      "loose": {
+        "mean": 0.1084368530020704,
+        "std": 0.019907359848480532
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        161,
+        168,
+        168
+      ],
+      "strict": {
+        "mean": 0.30615942028985504,
+        "std": 0.021854360386693434
+      },
+      "loose": {
+        "mean": 0.33850931677018636,
+        "std": 0.029584718762822412
+      }
+    },
+    {
+      "dataset": "multiwoz",
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        200,
+        200,
+        200
+      ],
+      "strict": {
+        "mean": 0.11,
+        "std": 0.0050000000000000044
+      },
+      "loose": {
+        "mean": 0.11666666666666667,
+        "std": 0.010408329997330665
+      },
+      "parse_rate": {
+        "mean": 0.805,
+        "std": 0.013228756555322902
+      },
+      "whole_field_strict": {
+        "mean": 0.14666666666666667,
+        "std": 0.005773502691896247
+      },
+      "whole_field_loose": {
+        "mean": 0.165,
+        "std": 0.009999999999999995
+      }
+    },
+    {
+      "dataset": "sgd",
+      "paper_probe": "P1",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        200,
+        200,
+        200
+      ],
+      "strict": {
+        "mean": 0.19333333333333333,
+        "std": 0.010408329997330658
+      },
+      "loose": {
+        "mean": 0.5016666666666667,
+        "std": 0.020207259421636918
+      },
+      "token_f1": {
+        "mean": 0.2916668979168979,
+        "std": 0.02554292676710327
+      }
+    },
+    {
+      "dataset": "sgd",
+      "paper_probe": "P2",
+      "ratio": 0.1,
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        128,
+        125,
+        132
+      ],
+      "strict": {
+        "mean": 0.044093434343434344,
+        "std": 0.011403567049162755
+      },
+      "loose": {
+        "mean": 0.044093434343434344,
+        "std": 0.011403567049162755
+      }
+    },
+    {
+      "dataset": "sgd",
+      "paper_probe": "P2",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        128,
+        125,
+        132
+      ],
+      "strict": {
+        "mean": 0.16362247474747474,
+        "std": 0.01993577567355879
+      },
+      "loose": {
+        "mean": 0.1713560606060606,
+        "std": 0.013401776381988974
+      }
+    },
+    {
+      "dataset": "sgd",
+      "paper_probe": "P3",
+      "ratio": 0.3,
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n_by_seed": [
+        200,
+        200,
+        200
+      ],
+      "strict": {
+        "mean": 0.060000000000000005,
+        "std": 0.017320508075688773
+      },
+      "loose": {
+        "mean": 0.11666666666666667,
+        "std": 0.02466441431158123
+      },
+      "parse_rate": {
+        "mean": 0.86,
+        "std": 0.02645751311064593
+      },
+      "whole_field_strict": {
+        "mean": 0.07166666666666667,
+        "std": 0.01258305739211792
+      },
+      "whole_field_loose": {
+        "mean": 0.135,
+        "std": 0.01802775637731994
+      }
+    }
+  ],
+  "missing_p1_unique_judge_pairs": 317,
+  "reused_p1_unique_judge_pairs": 548,
+  "semantic_status": "partial_pending_missing_paid_judgments",
+  "paid_api_calls_performed": 0
+}

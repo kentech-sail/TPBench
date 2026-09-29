@@ -1,0 +1,106 @@
+{
+  "multiwoz": {
+    "full_context": {
+      "n": 161,
+      "p3_em_strict": 0.8012,
+      "p3_em_loose": 0.819876,
+      "p3_overlap_strict": 0.1429,
+      "p3_overlap_loose": 0.8323,
+      "abstain_rate": 0.0,
+      "support_in_ctx_rate": 0.2795,
+      "err_rate": 0.0
+    },
+    "cf_origin_minus_origin": {
+      "n": 161,
+      "p3_em_strict": 0.3913,
+      "p3_em_loose": 0.42236,
+      "p3_overlap_strict": 0.0683,
+      "p3_overlap_loose": 0.441,
+      "abstain_rate": 0.0,
+      "support_in_ctx_rate": 0.3354,
+      "err_rate": 0.0
+    },
+    "cf_origin_minus_transition_support": {
+      "n": 159,
+      "p3_em_strict": 0.0189,
+      "p3_em_loose": 0.018868,
+      "p3_overlap_strict": 0.0063,
+      "p3_overlap_loose": 0.0692,
+      "abstain_rate": 0.0126,
+      "support_in_ctx_rate": 0.3585,
+      "err_rate": 0.0
+    },
+    "cf_origin_minus_control_support": {
+      "n": 159,
+      "p3_em_strict": 0.8113,
+      "p3_em_loose": 0.830189,
+      "p3_overlap_strict": 0.1447,
+      "p3_overlap_loose": 0.8365,
+      "abstain_rate": 0.0,
+      "support_in_ctx_rate": 0.3019,
+      "err_rate": 0.0
+    },
+    "cf_origin_minus_control_origin": {
+      "n": 161,
+      "p3_em_strict": 0.8012,
+      "p3_em_loose": 0.813665,
+      "p3_overlap_strict": 0.1429,
+      "p3_overlap_loose": 0.8261,
+      "abstain_rate": 0.0,
+      "support_in_ctx_rate": 0.2857,
+      "err_rate": 0.0
+    }
+  },
+  "sgd": {
+    "cf_origin_minus_control_support": {
+      "n": 128,
+      "p3_em_strict": 0.6484,
+      "p3_em_loose": 0.671875,
+      "p3_overlap_strict": 0.4766,
+      "p3_overlap_loose": 0.7734,
+      "abstain_rate": 0.0,
+      "support_in_ctx_rate": 0.4531,
+      "err_rate": 0.0078
+    },
+    "full_context": {
+      "n": 128,
+      "p3_em_strict": 0.6719,
+      "p3_em_loose": 0.695312,
+      "p3_overlap_strict": 0.4844,
+      "p3_overlap_loose": 0.7891,
+      "abstain_rate": 0.0,
+      "support_in_ctx_rate": 0.4766,
+      "err_rate": 0.0078
+    },
+    "cf_origin_minus_transition_support": {
+      "n": 128,
+      "p3_em_strict": 0.0703,
+      "p3_em_loose": 0.078125,
+      "p3_overlap_strict": 0.0859,
+      "p3_overlap_loose": 0.4688,
+      "abstain_rate": 0.0078,
+      "support_in_ctx_rate": 0.5547,
+      "err_rate": 0.0
+    },
+    "cf_origin_minus_control_origin": {
+      "n": 128,
+      "p3_em_strict": 0.6719,
+      "p3_em_loose": 0.695312,
+      "p3_overlap_strict": 0.4844,
+      "p3_overlap_loose": 0.7891,
+      "abstain_rate": 0.0,
+      "support_in_ctx_rate": 0.4375,
+      "err_rate": 0.0078
+    },
+    "cf_origin_minus_origin": {
+      "n": 128,
+      "p3_em_strict": 0.5078,
+      "p3_em_loose": 0.53125,
+      "p3_overlap_strict": 0.4062,
+      "p3_overlap_loose": 0.6797,
+      "abstain_rate": 0.0078,
+      "support_in_ctx_rate": 0.5078,
+      "err_rate": 0.0
+    }
+  }
+}

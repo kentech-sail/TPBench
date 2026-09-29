@@ -1,0 +1,14 @@
+{
+  "multiwoz": {
+    "chunkkv_r03_kvpress": {
+      "n": 161,
+      "p3_em_strict": 0.093168,
+      "p3_em_loose": 0.099379,
+      "p3_overlap_strict": 0.037267,
+      "p3_overlap_loose": 0.111801,
+      "abstain_rate": 0.335404,
+      "support_in_ctx_rate": 0.024845,
+      "err_rate": 0.198758
+    }
+  }
+}

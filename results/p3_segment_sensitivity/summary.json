@@ -1,0 +1,4678 @@
+{
+  "n": 19600,
+  "parser": "one semicolon; nonempty goal; nonempty label:value; time colons preserved",
+  "interpretation": "Primary segment-local lexical scoring compared with the original whole-field scorer as sensitivity; neither is semantic evaluation. Unparseable is a format outcome, not evidence of semantic error.",
+  "bootstrap": {
+    "repetitions": 5000,
+    "seed": 20260928,
+    "unit": "source dialogue, paired, pooled across three seed sets"
+  },
+  "cells": [
+    {
+      "reader": "chunkkv",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "chunkkv_r03_kvpress",
+      "n": 200,
+      "parsed_n": 175,
+      "original_strict": 0.1,
+      "parsed_original_strict": 0.11428571428571428,
+      "original_loose": 0.13,
+      "parsed_original_loose": 0.14857142857142858,
+      "separated_strict": 0.085,
+      "parsed_separated_strict": 0.09714285714285714,
+      "separated_loose": 0.1,
+      "parsed_separated_loose": 0.11428571428571428,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 6,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 7
+    },
+    {
+      "reader": "chunkkv",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "chunkkv_r03_kvpress",
+      "n": 200,
+      "parsed_n": 173,
+      "original_strict": 0.16,
+      "parsed_original_strict": 0.1791907514450867,
+      "original_loose": 0.175,
+      "parsed_original_loose": 0.19653179190751446,
+      "separated_strict": 0.14,
+      "parsed_separated_strict": 0.16184971098265896,
+      "separated_loose": 0.155,
+      "parsed_separated_loose": 0.1791907514450867,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 1,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "parsed_n": 148,
+      "original_strict": 0.095,
+      "parsed_original_strict": 0.10810810810810811,
+      "original_loose": 0.155,
+      "parsed_original_loose": 0.18243243243243243,
+      "separated_strict": 0.05,
+      "parsed_separated_strict": 0.06756756756756757,
+      "separated_loose": 0.075,
+      "parsed_separated_loose": 0.10135135135135136,
+      "lost_unparseable_strict": 3,
+      "lost_cross_segment_strict": 6,
+      "lost_unparseable_loose": 4,
+      "lost_cross_segment_loose": 12,
+      "goal_cross_segment_n": 0,
+      "value_cross_segment_strict_n": 7
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "parsed_n": 152,
+      "original_strict": 0.115,
+      "parsed_original_strict": 0.1513157894736842,
+      "original_loose": 0.15,
+      "parsed_original_loose": 0.19736842105263158,
+      "separated_strict": 0.115,
+      "parsed_separated_strict": 0.1513157894736842,
+      "separated_loose": 0.125,
+      "parsed_separated_loose": 0.16447368421052633,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 0,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 5,
+      "goal_cross_segment_n": 7,
+      "value_cross_segment_strict_n": 5
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "first_n",
+      "n": 200,
+      "parsed_n": 164,
+      "original_strict": 0.085,
+      "parsed_original_strict": 0.10365853658536585,
+      "original_loose": 0.145,
+      "parsed_original_loose": 0.17073170731707318,
+      "separated_strict": 0.045,
+      "parsed_separated_strict": 0.054878048780487805,
+      "separated_loose": 0.06,
+      "parsed_separated_loose": 0.07317073170731707,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 8,
+      "lost_unparseable_loose": 1,
+      "lost_cross_segment_loose": 16,
+      "goal_cross_segment_n": 0,
+      "value_cross_segment_strict_n": 9
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "full_context",
+      "n": 200,
+      "parsed_n": 186,
+      "original_strict": 0.495,
+      "parsed_original_strict": 0.532258064516129,
+      "original_loose": 0.54,
+      "parsed_original_loose": 0.5698924731182796,
+      "separated_strict": 0.485,
+      "parsed_separated_strict": 0.521505376344086,
+      "separated_loose": 0.515,
+      "parsed_separated_loose": 0.553763440860215,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 2,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 1,
+      "value_cross_segment_strict_n": 3
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "parsed_n": 159,
+      "original_strict": 0.14,
+      "parsed_original_strict": 0.1509433962264151,
+      "original_loose": 0.165,
+      "parsed_original_loose": 0.18238993710691823,
+      "separated_strict": 0.115,
+      "parsed_separated_strict": 0.14465408805031446,
+      "separated_loose": 0.125,
+      "parsed_separated_loose": 0.15723270440251572,
+      "lost_unparseable_strict": 4,
+      "lost_cross_segment_strict": 1,
+      "lost_unparseable_loose": 4,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 4,
+      "value_cross_segment_strict_n": 6
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "random_seed42",
+      "n": 200,
+      "parsed_n": 184,
+      "original_strict": 0.135,
+      "parsed_original_strict": 0.14673913043478262,
+      "original_loose": 0.185,
+      "parsed_original_loose": 0.1956521739130435,
+      "separated_strict": 0.125,
+      "parsed_separated_strict": 0.1358695652173913,
+      "separated_loose": 0.145,
+      "parsed_separated_loose": 0.15760869565217392,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 1,
+      "lost_cross_segment_loose": 7,
+      "goal_cross_segment_n": 8,
+      "value_cross_segment_strict_n": 4
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "recency",
+      "n": 200,
+      "parsed_n": 176,
+      "original_strict": 0.07,
+      "parsed_original_strict": 0.07386363636363637,
+      "original_loose": 0.08,
+      "parsed_original_loose": 0.08522727272727272,
+      "separated_strict": 0.05,
+      "parsed_separated_strict": 0.056818181818181816,
+      "separated_loose": 0.05,
+      "parsed_separated_loose": 0.056818181818181816,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 1,
+      "lost_cross_segment_loose": 5,
+      "goal_cross_segment_n": 12,
+      "value_cross_segment_strict_n": 6
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "uniform_stride",
+      "n": 200,
+      "parsed_n": 194,
+      "original_strict": 0.235,
+      "parsed_original_strict": 0.23711340206185566,
+      "original_loose": 0.29,
+      "parsed_original_loose": 0.29381443298969073,
+      "separated_strict": 0.195,
+      "parsed_separated_strict": 0.20103092783505155,
+      "separated_loose": 0.23,
+      "parsed_separated_loose": 0.23711340206185566,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 7,
+      "lost_unparseable_loose": 1,
+      "lost_cross_segment_loose": 11,
+      "goal_cross_segment_n": 0,
+      "value_cross_segment_strict_n": 8
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "parsed_n": 148,
+      "original_strict": 0.105,
+      "parsed_original_strict": 0.11486486486486487,
+      "original_loose": 0.135,
+      "parsed_original_loose": 0.14864864864864866,
+      "separated_strict": 0.055,
+      "parsed_separated_strict": 0.07432432432432433,
+      "separated_loose": 0.06,
+      "parsed_separated_loose": 0.08108108108108109,
+      "lost_unparseable_strict": 4,
+      "lost_cross_segment_strict": 6,
+      "lost_unparseable_loose": 5,
+      "lost_cross_segment_loose": 10,
+      "goal_cross_segment_n": 0,
+      "value_cross_segment_strict_n": 7
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "parsed_n": 147,
+      "original_strict": 0.12,
+      "parsed_original_strict": 0.16326530612244897,
+      "original_loose": 0.14,
+      "parsed_original_loose": 0.19047619047619047,
+      "separated_strict": 0.12,
+      "parsed_separated_strict": 0.16326530612244897,
+      "separated_loose": 0.13,
+      "parsed_separated_loose": 0.17687074829931973,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 0,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 2,
+      "goal_cross_segment_n": 8,
+      "value_cross_segment_strict_n": 6
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "first_n",
+      "n": 200,
+      "parsed_n": 168,
+      "original_strict": 0.085,
+      "parsed_original_strict": 0.10119047619047619,
+      "original_loose": 0.12,
+      "parsed_original_loose": 0.13690476190476192,
+      "separated_strict": 0.055,
+      "parsed_separated_strict": 0.06547619047619048,
+      "separated_loose": 0.055,
+      "parsed_separated_loose": 0.06547619047619048,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 6,
+      "lost_unparseable_loose": 1,
+      "lost_cross_segment_loose": 12,
+      "goal_cross_segment_n": 1,
+      "value_cross_segment_strict_n": 6
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "full_context",
+      "n": 200,
+      "parsed_n": 190,
+      "original_strict": 0.51,
+      "parsed_original_strict": 0.531578947368421,
+      "original_loose": 0.545,
+      "parsed_original_loose": 0.5578947368421052,
+      "separated_strict": 0.485,
+      "parsed_separated_strict": 0.5105263157894737,
+      "separated_loose": 0.51,
+      "parsed_separated_loose": 0.5368421052631579,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 3,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 4
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "parsed_n": 160,
+      "original_strict": 0.15,
+      "parsed_original_strict": 0.15625,
+      "original_loose": 0.155,
+      "parsed_original_loose": 0.1625,
+      "separated_strict": 0.105,
+      "parsed_separated_strict": 0.13125,
+      "separated_loose": 0.105,
+      "parsed_separated_loose": 0.13125,
+      "lost_unparseable_strict": 5,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 5,
+      "lost_cross_segment_loose": 5,
+      "goal_cross_segment_n": 5,
+      "value_cross_segment_strict_n": 6
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "random_seed42",
+      "n": 200,
+      "parsed_n": 180,
+      "original_strict": 0.155,
+      "parsed_original_strict": 0.16666666666666666,
+      "original_loose": 0.195,
+      "parsed_original_loose": 0.2111111111111111,
+      "separated_strict": 0.13,
+      "parsed_separated_strict": 0.14444444444444443,
+      "separated_loose": 0.15,
+      "parsed_separated_loose": 0.16666666666666666,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 1,
+      "lost_cross_segment_loose": 8,
+      "goal_cross_segment_n": 8,
+      "value_cross_segment_strict_n": 6
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "recency",
+      "n": 200,
+      "parsed_n": 177,
+      "original_strict": 0.055,
+      "parsed_original_strict": 0.062146892655367235,
+      "original_loose": 0.06,
+      "parsed_original_loose": 0.06779661016949153,
+      "separated_strict": 0.04,
+      "parsed_separated_strict": 0.04519774011299435,
+      "separated_loose": 0.04,
+      "parsed_separated_loose": 0.04519774011299435,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 15,
+      "value_cross_segment_strict_n": 8
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "uniform_stride",
+      "n": 200,
+      "parsed_n": 194,
+      "original_strict": 0.235,
+      "parsed_original_strict": 0.23711340206185566,
+      "original_loose": 0.29,
+      "parsed_original_loose": 0.29381443298969073,
+      "separated_strict": 0.185,
+      "parsed_separated_strict": 0.19072164948453607,
+      "separated_loose": 0.22,
+      "parsed_separated_loose": 0.2268041237113402,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 9,
+      "lost_unparseable_loose": 1,
+      "lost_cross_segment_loose": 13,
+      "goal_cross_segment_n": 1,
+      "value_cross_segment_strict_n": 10
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "parsed_n": 139,
+      "original_strict": 0.09,
+      "parsed_original_strict": 0.10071942446043165,
+      "original_loose": 0.145,
+      "parsed_original_loose": 0.17985611510791366,
+      "separated_strict": 0.04,
+      "parsed_separated_strict": 0.05755395683453238,
+      "separated_loose": 0.07,
+      "parsed_separated_loose": 0.10071942446043165,
+      "lost_unparseable_strict": 4,
+      "lost_cross_segment_strict": 6,
+      "lost_unparseable_loose": 4,
+      "lost_cross_segment_loose": 11,
+      "goal_cross_segment_n": 0,
+      "value_cross_segment_strict_n": 7
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "parsed_n": 151,
+      "original_strict": 0.095,
+      "parsed_original_strict": 0.12582781456953643,
+      "original_loose": 0.13,
+      "parsed_original_loose": 0.17218543046357615,
+      "separated_strict": 0.095,
+      "parsed_separated_strict": 0.12582781456953643,
+      "separated_loose": 0.105,
+      "parsed_separated_loose": 0.1390728476821192,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 0,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 5,
+      "goal_cross_segment_n": 8,
+      "value_cross_segment_strict_n": 7
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "first_n",
+      "n": 200,
+      "parsed_n": 169,
+      "original_strict": 0.085,
+      "parsed_original_strict": 0.10059171597633136,
+      "original_loose": 0.13,
+      "parsed_original_loose": 0.15384615384615385,
+      "separated_strict": 0.045,
+      "parsed_separated_strict": 0.05325443786982249,
+      "separated_loose": 0.06,
+      "parsed_separated_loose": 0.07100591715976332,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 8,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 14,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 8
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "full_context",
+      "n": 200,
+      "parsed_n": 191,
+      "original_strict": 0.485,
+      "parsed_original_strict": 0.5026178010471204,
+      "original_loose": 0.525,
+      "parsed_original_loose": 0.5445026178010471,
+      "separated_strict": 0.455,
+      "parsed_separated_strict": 0.47643979057591623,
+      "separated_loose": 0.49,
+      "parsed_separated_loose": 0.5130890052356021,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 5,
+      "lost_unparseable_loose": 1,
+      "lost_cross_segment_loose": 6,
+      "goal_cross_segment_n": 1,
+      "value_cross_segment_strict_n": 5
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "parsed_n": 164,
+      "original_strict": 0.15,
+      "parsed_original_strict": 0.15853658536585366,
+      "original_loose": 0.175,
+      "parsed_original_loose": 0.18902439024390244,
+      "separated_strict": 0.11,
+      "parsed_separated_strict": 0.13414634146341464,
+      "separated_loose": 0.12,
+      "parsed_separated_loose": 0.14634146341463414,
+      "lost_unparseable_strict": 4,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 4,
+      "lost_cross_segment_loose": 7,
+      "goal_cross_segment_n": 7,
+      "value_cross_segment_strict_n": 5
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "random_seed42",
+      "n": 200,
+      "parsed_n": 180,
+      "original_strict": 0.155,
+      "parsed_original_strict": 0.16666666666666666,
+      "original_loose": 0.195,
+      "parsed_original_loose": 0.20555555555555555,
+      "separated_strict": 0.13,
+      "parsed_separated_strict": 0.14444444444444443,
+      "separated_loose": 0.14,
+      "parsed_separated_loose": 0.15555555555555556,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 2,
+      "lost_cross_segment_loose": 9,
+      "goal_cross_segment_n": 9,
+      "value_cross_segment_strict_n": 7
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "recency",
+      "n": 200,
+      "parsed_n": 178,
+      "original_strict": 0.05,
+      "parsed_original_strict": 0.056179775280898875,
+      "original_loose": 0.065,
+      "parsed_original_loose": 0.07303370786516854,
+      "separated_strict": 0.03,
+      "parsed_separated_strict": 0.033707865168539325,
+      "separated_loose": 0.03,
+      "parsed_separated_loose": 0.033707865168539325,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 7,
+      "goal_cross_segment_n": 14,
+      "value_cross_segment_strict_n": 8
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "uniform_stride",
+      "n": 200,
+      "parsed_n": 192,
+      "original_strict": 0.195,
+      "parsed_original_strict": 0.19791666666666666,
+      "original_loose": 0.275,
+      "parsed_original_loose": 0.28125,
+      "separated_strict": 0.155,
+      "parsed_separated_strict": 0.16145833333333334,
+      "separated_loose": 0.21,
+      "parsed_separated_loose": 0.21875,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 7,
+      "lost_unparseable_loose": 1,
+      "lost_cross_segment_loose": 12,
+      "goal_cross_segment_n": 1,
+      "value_cross_segment_strict_n": 8
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "parsed_n": 181,
+      "original_strict": 0.15,
+      "parsed_original_strict": 0.16022099447513813,
+      "original_loose": 0.29,
+      "parsed_original_loose": 0.30386740331491713,
+      "separated_strict": 0.13,
+      "parsed_separated_strict": 0.143646408839779,
+      "separated_loose": 0.255,
+      "parsed_separated_loose": 0.281767955801105,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 3,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 2
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "parsed_n": 149,
+      "original_strict": 0.145,
+      "parsed_original_strict": 0.18791946308724833,
+      "original_loose": 0.235,
+      "parsed_original_loose": 0.2953020134228188,
+      "separated_strict": 0.125,
+      "parsed_separated_strict": 0.16778523489932887,
+      "separated_loose": 0.195,
+      "parsed_separated_loose": 0.26174496644295303,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 3,
+      "lost_cross_segment_loose": 5,
+      "goal_cross_segment_n": 4,
+      "value_cross_segment_strict_n": 2
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "first_n",
+      "n": 200,
+      "parsed_n": 191,
+      "original_strict": 0.145,
+      "parsed_original_strict": 0.1518324607329843,
+      "original_loose": 0.32,
+      "parsed_original_loose": 0.33507853403141363,
+      "separated_strict": 0.135,
+      "parsed_separated_strict": 0.14136125654450263,
+      "separated_loose": 0.31,
+      "parsed_separated_loose": 0.32460732984293195,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 2,
+      "goal_cross_segment_n": 1,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "full_context",
+      "n": 200,
+      "parsed_n": 194,
+      "original_strict": 0.645,
+      "parsed_original_strict": 0.6597938144329897,
+      "original_loose": 0.72,
+      "parsed_original_loose": 0.7319587628865979,
+      "separated_strict": 0.64,
+      "parsed_separated_strict": 0.6597938144329897,
+      "separated_loose": 0.71,
+      "parsed_separated_loose": 0.7319587628865979,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 0,
+      "lost_unparseable_loose": 2,
+      "lost_cross_segment_loose": 0,
+      "goal_cross_segment_n": 0,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "parsed_n": 168,
+      "original_strict": 0.085,
+      "parsed_original_strict": 0.10119047619047619,
+      "original_loose": 0.15,
+      "parsed_original_loose": 0.17857142857142858,
+      "separated_strict": 0.08,
+      "parsed_separated_strict": 0.09523809523809523,
+      "separated_loose": 0.145,
+      "parsed_separated_loose": 0.17261904761904762,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 1,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 1,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "random_seed42",
+      "n": 200,
+      "parsed_n": 192,
+      "original_strict": 0.16,
+      "parsed_original_strict": 0.16666666666666666,
+      "original_loose": 0.245,
+      "parsed_original_loose": 0.2552083333333333,
+      "separated_strict": 0.155,
+      "parsed_separated_strict": 0.16145833333333334,
+      "separated_loose": 0.23,
+      "parsed_separated_loose": 0.23958333333333334,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 1,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "recency",
+      "n": 200,
+      "parsed_n": 171,
+      "original_strict": 0.08,
+      "parsed_original_strict": 0.0935672514619883,
+      "original_loose": 0.085,
+      "parsed_original_loose": 0.09941520467836257,
+      "separated_strict": 0.07,
+      "parsed_separated_strict": 0.08187134502923976,
+      "separated_loose": 0.07,
+      "parsed_separated_loose": 0.08187134502923976,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "uniform_stride",
+      "n": 200,
+      "parsed_n": 195,
+      "original_strict": 0.285,
+      "parsed_original_strict": 0.2923076923076923,
+      "original_loose": 0.435,
+      "parsed_original_loose": 0.4461538461538462,
+      "separated_strict": 0.28,
+      "parsed_separated_strict": 0.28717948717948716,
+      "separated_loose": 0.425,
+      "parsed_separated_loose": 0.4358974358974359,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 1,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 2,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "parsed_n": 183,
+      "original_strict": 0.215,
+      "parsed_original_strict": 0.22950819672131148,
+      "original_loose": 0.32,
+      "parsed_original_loose": 0.3333333333333333,
+      "separated_strict": 0.2,
+      "parsed_separated_strict": 0.2185792349726776,
+      "separated_loose": 0.29,
+      "parsed_separated_loose": 0.31693989071038253,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 3,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 2
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "parsed_n": 159,
+      "original_strict": 0.155,
+      "parsed_original_strict": 0.18238993710691823,
+      "original_loose": 0.24,
+      "parsed_original_loose": 0.27672955974842767,
+      "separated_strict": 0.125,
+      "parsed_separated_strict": 0.15723270440251572,
+      "separated_loose": 0.185,
+      "parsed_separated_loose": 0.23270440251572327,
+      "lost_unparseable_strict": 2,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 4,
+      "lost_cross_segment_loose": 7,
+      "goal_cross_segment_n": 5,
+      "value_cross_segment_strict_n": 2
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "first_n",
+      "n": 200,
+      "parsed_n": 191,
+      "original_strict": 0.21,
+      "parsed_original_strict": 0.2198952879581152,
+      "original_loose": 0.33,
+      "parsed_original_loose": 0.34554973821989526,
+      "separated_strict": 0.19,
+      "parsed_separated_strict": 0.19895287958115182,
+      "separated_loose": 0.31,
+      "parsed_separated_loose": 0.32460732984293195,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 1,
+      "value_cross_segment_strict_n": 3
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "full_context",
+      "n": 200,
+      "parsed_n": 196,
+      "original_strict": 0.65,
+      "parsed_original_strict": 0.6632653061224489,
+      "original_loose": 0.735,
+      "parsed_original_loose": 0.7448979591836735,
+      "separated_strict": 0.635,
+      "parsed_separated_strict": 0.6479591836734694,
+      "separated_loose": 0.71,
+      "parsed_separated_loose": 0.7244897959183674,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 1,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "parsed_n": 178,
+      "original_strict": 0.06,
+      "parsed_original_strict": 0.06741573033707865,
+      "original_loose": 0.115,
+      "parsed_original_loose": 0.12921348314606743,
+      "separated_strict": 0.05,
+      "parsed_separated_strict": 0.056179775280898875,
+      "separated_loose": 0.1,
+      "parsed_separated_loose": 0.11235955056179775,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 4,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "random_seed42",
+      "n": 200,
+      "parsed_n": 193,
+      "original_strict": 0.205,
+      "parsed_original_strict": 0.21243523316062177,
+      "original_loose": 0.285,
+      "parsed_original_loose": 0.29533678756476683,
+      "separated_strict": 0.17,
+      "parsed_separated_strict": 0.17616580310880828,
+      "separated_loose": 0.235,
+      "parsed_separated_loose": 0.24352331606217617,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 7,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 10,
+      "goal_cross_segment_n": 7,
+      "value_cross_segment_strict_n": 2
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "recency",
+      "n": 200,
+      "parsed_n": 177,
+      "original_strict": 0.07,
+      "parsed_original_strict": 0.07909604519774012,
+      "original_loose": 0.085,
+      "parsed_original_loose": 0.096045197740113,
+      "separated_strict": 0.06,
+      "parsed_separated_strict": 0.06779661016949153,
+      "separated_loose": 0.065,
+      "parsed_separated_loose": 0.07344632768361582,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 7,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "uniform_stride",
+      "n": 200,
+      "parsed_n": 194,
+      "original_strict": 0.3,
+      "parsed_original_strict": 0.30927835051546393,
+      "original_loose": 0.455,
+      "parsed_original_loose": 0.4690721649484536,
+      "separated_strict": 0.29,
+      "parsed_separated_strict": 0.29896907216494845,
+      "separated_loose": 0.435,
+      "parsed_separated_loose": 0.4484536082474227,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "parsed_n": 181,
+      "original_strict": 0.185,
+      "parsed_original_strict": 0.19889502762430938,
+      "original_loose": 0.355,
+      "parsed_original_loose": 0.3756906077348066,
+      "separated_strict": 0.175,
+      "parsed_separated_strict": 0.19337016574585636,
+      "separated_loose": 0.32,
+      "parsed_separated_loose": 0.35359116022099446,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 1,
+      "lost_unparseable_loose": 3,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "parsed_n": 149,
+      "original_strict": 0.17,
+      "parsed_original_strict": 0.21476510067114093,
+      "original_loose": 0.255,
+      "parsed_original_loose": 0.30201342281879195,
+      "separated_strict": 0.135,
+      "parsed_separated_strict": 0.18120805369127516,
+      "separated_loose": 0.175,
+      "parsed_separated_loose": 0.2348993288590604,
+      "lost_unparseable_strict": 2,
+      "lost_cross_segment_strict": 5,
+      "lost_unparseable_loose": 6,
+      "lost_cross_segment_loose": 10,
+      "goal_cross_segment_n": 7,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "first_n",
+      "n": 200,
+      "parsed_n": 190,
+      "original_strict": 0.16,
+      "parsed_original_strict": 0.16842105263157894,
+      "original_loose": 0.34,
+      "parsed_original_loose": 0.35789473684210527,
+      "separated_strict": 0.155,
+      "parsed_separated_strict": 0.1631578947368421,
+      "separated_loose": 0.32,
+      "parsed_separated_loose": 0.3368421052631579,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 1,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "full_context",
+      "n": 200,
+      "parsed_n": 196,
+      "original_strict": 0.68,
+      "parsed_original_strict": 0.6938775510204082,
+      "original_loose": 0.77,
+      "parsed_original_loose": 0.7857142857142857,
+      "separated_strict": 0.68,
+      "parsed_separated_strict": 0.6938775510204082,
+      "separated_loose": 0.765,
+      "parsed_separated_loose": 0.7806122448979592,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 0,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 1,
+      "goal_cross_segment_n": 0,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "parsed_n": 170,
+      "original_strict": 0.07,
+      "parsed_original_strict": 0.08235294117647059,
+      "original_loose": 0.14,
+      "parsed_original_loose": 0.16470588235294117,
+      "separated_strict": 0.05,
+      "parsed_separated_strict": 0.058823529411764705,
+      "separated_loose": 0.105,
+      "parsed_separated_loose": 0.12352941176470589,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 7,
+      "goal_cross_segment_n": 5,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "random_seed42",
+      "n": 200,
+      "parsed_n": 195,
+      "original_strict": 0.18,
+      "parsed_original_strict": 0.18461538461538463,
+      "original_loose": 0.295,
+      "parsed_original_loose": 0.30256410256410254,
+      "separated_strict": 0.16,
+      "parsed_separated_strict": 0.1641025641025641,
+      "separated_loose": 0.25,
+      "parsed_separated_loose": 0.2564102564102564,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 9,
+      "goal_cross_segment_n": 6,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "recency",
+      "n": 200,
+      "parsed_n": 174,
+      "original_strict": 0.075,
+      "parsed_original_strict": 0.08620689655172414,
+      "original_loose": 0.08,
+      "parsed_original_loose": 0.09195402298850575,
+      "separated_strict": 0.065,
+      "parsed_separated_strict": 0.07471264367816093,
+      "separated_loose": 0.065,
+      "parsed_separated_loose": 0.07471264367816093,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 6,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "uniform_stride",
+      "n": 200,
+      "parsed_n": 195,
+      "original_strict": 0.31,
+      "parsed_original_strict": 0.31794871794871793,
+      "original_loose": 0.465,
+      "parsed_original_loose": 0.47692307692307695,
+      "separated_strict": 0.295,
+      "parsed_separated_strict": 0.30256410256410254,
+      "separated_loose": 0.435,
+      "parsed_separated_loose": 0.4461538461538462,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 6,
+      "goal_cross_segment_n": 4,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "parsed_n": 145,
+      "original_strict": 0.075,
+      "parsed_original_strict": 0.08275862068965517,
+      "original_loose": 0.115,
+      "parsed_original_loose": 0.12413793103448276,
+      "separated_strict": 0.03,
+      "parsed_separated_strict": 0.041379310344827586,
+      "separated_loose": 0.05,
+      "parsed_separated_loose": 0.06896551724137931,
+      "lost_unparseable_strict": 3,
+      "lost_cross_segment_strict": 6,
+      "lost_unparseable_loose": 5,
+      "lost_cross_segment_loose": 8,
+      "goal_cross_segment_n": 1,
+      "value_cross_segment_strict_n": 7
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "parsed_n": 158,
+      "original_strict": 0.1,
+      "parsed_original_strict": 0.08227848101265822,
+      "original_loose": 0.135,
+      "parsed_original_loose": 0.12658227848101267,
+      "separated_strict": 0.05,
+      "parsed_separated_strict": 0.06329113924050633,
+      "separated_loose": 0.065,
+      "parsed_separated_loose": 0.08227848101265822,
+      "lost_unparseable_strict": 7,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 7,
+      "lost_cross_segment_loose": 7,
+      "goal_cross_segment_n": 6,
+      "value_cross_segment_strict_n": 12
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "first_n",
+      "n": 200,
+      "parsed_n": 120,
+      "original_strict": 0.045,
+      "parsed_original_strict": 0.058333333333333334,
+      "original_loose": 0.07,
+      "parsed_original_loose": 0.1,
+      "separated_strict": 0.01,
+      "parsed_separated_strict": 0.016666666666666666,
+      "separated_loose": 0.02,
+      "parsed_separated_loose": 0.03333333333333333,
+      "lost_unparseable_strict": 2,
+      "lost_cross_segment_strict": 5,
+      "lost_unparseable_loose": 2,
+      "lost_cross_segment_loose": 8,
+      "goal_cross_segment_n": 0,
+      "value_cross_segment_strict_n": 7
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "full_context",
+      "n": 200,
+      "parsed_n": 121,
+      "original_strict": 0.26,
+      "parsed_original_strict": 0.32231404958677684,
+      "original_loose": 0.28,
+      "parsed_original_loose": 0.34710743801652894,
+      "separated_strict": 0.165,
+      "parsed_separated_strict": 0.2727272727272727,
+      "separated_loose": 0.18,
+      "parsed_separated_loose": 0.2975206611570248,
+      "lost_unparseable_strict": 13,
+      "lost_cross_segment_strict": 6,
+      "lost_unparseable_loose": 14,
+      "lost_cross_segment_loose": 6,
+      "goal_cross_segment_n": 0,
+      "value_cross_segment_strict_n": 13
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "parsed_n": 150,
+      "original_strict": 0.12,
+      "parsed_original_strict": 0.11333333333333333,
+      "original_loose": 0.14,
+      "parsed_original_loose": 0.13333333333333333,
+      "separated_strict": 0.07,
+      "parsed_separated_strict": 0.09333333333333334,
+      "separated_loose": 0.08,
+      "parsed_separated_loose": 0.10666666666666667,
+      "lost_unparseable_strict": 7,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 8,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 6,
+      "value_cross_segment_strict_n": 8
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "random_seed42",
+      "n": 200,
+      "parsed_n": 151,
+      "original_strict": 0.095,
+      "parsed_original_strict": 0.11258278145695365,
+      "original_loose": 0.13,
+      "parsed_original_loose": 0.152317880794702,
+      "separated_strict": 0.065,
+      "parsed_separated_strict": 0.08609271523178808,
+      "separated_loose": 0.08,
+      "parsed_separated_loose": 0.10596026490066225,
+      "lost_unparseable_strict": 2,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 3,
+      "lost_cross_segment_loose": 7,
+      "goal_cross_segment_n": 4,
+      "value_cross_segment_strict_n": 14
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "recency",
+      "n": 200,
+      "parsed_n": 170,
+      "original_strict": 0.065,
+      "parsed_original_strict": 0.058823529411764705,
+      "original_loose": 0.08,
+      "parsed_original_loose": 0.07647058823529412,
+      "separated_strict": 0.03,
+      "parsed_separated_strict": 0.03529411764705882,
+      "separated_loose": 0.035,
+      "parsed_separated_loose": 0.041176470588235294,
+      "lost_unparseable_strict": 3,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 3,
+      "lost_cross_segment_loose": 6,
+      "goal_cross_segment_n": 7,
+      "value_cross_segment_strict_n": 14
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 42,
+      "method": "uniform_stride",
+      "n": 200,
+      "parsed_n": 117,
+      "original_strict": 0.11,
+      "parsed_original_strict": 0.1282051282051282,
+      "original_loose": 0.15,
+      "parsed_original_loose": 0.18803418803418803,
+      "separated_strict": 0.065,
+      "parsed_separated_strict": 0.1111111111111111,
+      "separated_loose": 0.08,
+      "parsed_separated_loose": 0.13675213675213677,
+      "lost_unparseable_strict": 7,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 8,
+      "lost_cross_segment_loose": 6,
+      "goal_cross_segment_n": 0,
+      "value_cross_segment_strict_n": 7
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "parsed_n": 139,
+      "original_strict": 0.07,
+      "parsed_original_strict": 0.07194244604316546,
+      "original_loose": 0.08,
+      "parsed_original_loose": 0.07913669064748201,
+      "separated_strict": 0.03,
+      "parsed_separated_strict": 0.04316546762589928,
+      "separated_loose": 0.03,
+      "parsed_separated_loose": 0.04316546762589928,
+      "lost_unparseable_strict": 4,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 5,
+      "lost_cross_segment_loose": 5,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 5
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "parsed_n": 157,
+      "original_strict": 0.1,
+      "parsed_original_strict": 0.08917197452229299,
+      "original_loose": 0.12,
+      "parsed_original_loose": 0.10828025477707007,
+      "separated_strict": 0.055,
+      "parsed_separated_strict": 0.07006369426751592,
+      "separated_loose": 0.055,
+      "parsed_separated_loose": 0.07006369426751592,
+      "lost_unparseable_strict": 6,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 7,
+      "lost_cross_segment_loose": 6,
+      "goal_cross_segment_n": 8,
+      "value_cross_segment_strict_n": 13
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "first_n",
+      "n": 200,
+      "parsed_n": 122,
+      "original_strict": 0.055,
+      "parsed_original_strict": 0.08196721311475409,
+      "original_loose": 0.07,
+      "parsed_original_loose": 0.10655737704918032,
+      "separated_strict": 0.015,
+      "parsed_separated_strict": 0.02459016393442623,
+      "separated_loose": 0.015,
+      "parsed_separated_loose": 0.02459016393442623,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 7,
+      "lost_unparseable_loose": 1,
+      "lost_cross_segment_loose": 10,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 9
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "full_context",
+      "n": 200,
+      "parsed_n": 109,
+      "original_strict": 0.245,
+      "parsed_original_strict": 0.3119266055045872,
+      "original_loose": 0.26,
+      "parsed_original_loose": 0.3394495412844037,
+      "separated_strict": 0.14,
+      "parsed_separated_strict": 0.25688073394495414,
+      "separated_loose": 0.155,
+      "parsed_separated_loose": 0.28440366972477066,
+      "lost_unparseable_strict": 15,
+      "lost_cross_segment_strict": 6,
+      "lost_unparseable_loose": 15,
+      "lost_cross_segment_loose": 6,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 10
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "parsed_n": 153,
+      "original_strict": 0.14,
+      "parsed_original_strict": 0.13071895424836602,
+      "original_loose": 0.145,
+      "parsed_original_loose": 0.13725490196078433,
+      "separated_strict": 0.09,
+      "parsed_separated_strict": 0.11764705882352941,
+      "separated_loose": 0.09,
+      "parsed_separated_loose": 0.11764705882352941,
+      "lost_unparseable_strict": 8,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 8,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 6
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "random_seed42",
+      "n": 200,
+      "parsed_n": 148,
+      "original_strict": 0.09,
+      "parsed_original_strict": 0.08783783783783784,
+      "original_loose": 0.1,
+      "parsed_original_loose": 0.10135135135135136,
+      "separated_strict": 0.06,
+      "parsed_separated_strict": 0.08108108108108109,
+      "separated_loose": 0.065,
+      "parsed_separated_loose": 0.08783783783783784,
+      "lost_unparseable_strict": 5,
+      "lost_cross_segment_strict": 1,
+      "lost_unparseable_loose": 5,
+      "lost_cross_segment_loose": 2,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 10
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "recency",
+      "n": 200,
+      "parsed_n": 173,
+      "original_strict": 0.06,
+      "parsed_original_strict": 0.05202312138728324,
+      "original_loose": 0.065,
+      "parsed_original_loose": 0.057803468208092484,
+      "separated_strict": 0.02,
+      "parsed_separated_strict": 0.023121387283236993,
+      "separated_loose": 0.025,
+      "parsed_separated_loose": 0.028901734104046242,
+      "lost_unparseable_strict": 3,
+      "lost_cross_segment_strict": 5,
+      "lost_unparseable_loose": 3,
+      "lost_cross_segment_loose": 5,
+      "goal_cross_segment_n": 11,
+      "value_cross_segment_strict_n": 16
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 43,
+      "method": "uniform_stride",
+      "n": 200,
+      "parsed_n": 123,
+      "original_strict": 0.12,
+      "parsed_original_strict": 0.13008130081300814,
+      "original_loose": 0.155,
+      "parsed_original_loose": 0.18699186991869918,
+      "separated_strict": 0.06,
+      "parsed_separated_strict": 0.0975609756097561,
+      "separated_loose": 0.08,
+      "parsed_separated_loose": 0.13008130081300814,
+      "lost_unparseable_strict": 8,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 8,
+      "lost_cross_segment_loose": 7,
+      "goal_cross_segment_n": 0,
+      "value_cross_segment_strict_n": 9
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "parsed_n": 148,
+      "original_strict": 0.06,
+      "parsed_original_strict": 0.07432432432432433,
+      "original_loose": 0.095,
+      "parsed_original_loose": 0.10810810810810811,
+      "separated_strict": 0.035,
+      "parsed_separated_strict": 0.0472972972972973,
+      "separated_loose": 0.055,
+      "parsed_separated_loose": 0.07432432432432433,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 3,
+      "lost_cross_segment_loose": 5,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 5
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "parsed_n": 164,
+      "original_strict": 0.08,
+      "parsed_original_strict": 0.06707317073170732,
+      "original_loose": 0.11,
+      "parsed_original_loose": 0.10365853658536585,
+      "separated_strict": 0.04,
+      "parsed_separated_strict": 0.04878048780487805,
+      "separated_loose": 0.06,
+      "parsed_separated_loose": 0.07317073170731707,
+      "lost_unparseable_strict": 5,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 5,
+      "lost_cross_segment_loose": 5,
+      "goal_cross_segment_n": 10,
+      "value_cross_segment_strict_n": 14
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "first_n",
+      "n": 200,
+      "parsed_n": 125,
+      "original_strict": 0.05,
+      "parsed_original_strict": 0.064,
+      "original_loose": 0.07,
+      "parsed_original_loose": 0.096,
+      "separated_strict": 0.01,
+      "parsed_separated_strict": 0.016,
+      "separated_loose": 0.02,
+      "parsed_separated_loose": 0.032,
+      "lost_unparseable_strict": 2,
+      "lost_cross_segment_strict": 6,
+      "lost_unparseable_loose": 2,
+      "lost_cross_segment_loose": 8,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 8
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "full_context",
+      "n": 200,
+      "parsed_n": 120,
+      "original_strict": 0.21,
+      "parsed_original_strict": 0.25833333333333336,
+      "original_loose": 0.235,
+      "parsed_original_loose": 0.2916666666666667,
+      "separated_strict": 0.12,
+      "parsed_separated_strict": 0.2,
+      "separated_loose": 0.14,
+      "parsed_separated_loose": 0.23333333333333334,
+      "lost_unparseable_strict": 11,
+      "lost_cross_segment_strict": 7,
+      "lost_unparseable_loose": 12,
+      "lost_cross_segment_loose": 7,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 12
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "parsed_n": 157,
+      "original_strict": 0.12,
+      "parsed_original_strict": 0.12101910828025478,
+      "original_loose": 0.13,
+      "parsed_original_loose": 0.1337579617834395,
+      "separated_strict": 0.075,
+      "parsed_separated_strict": 0.09554140127388536,
+      "separated_loose": 0.085,
+      "parsed_separated_loose": 0.10828025477707007,
+      "lost_unparseable_strict": 5,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 5,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 6,
+      "value_cross_segment_strict_n": 10
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "random_seed42",
+      "n": 200,
+      "parsed_n": 147,
+      "original_strict": 0.095,
+      "parsed_original_strict": 0.09523809523809523,
+      "original_loose": 0.125,
+      "parsed_original_loose": 0.1292517006802721,
+      "separated_strict": 0.055,
+      "parsed_separated_strict": 0.07482993197278912,
+      "separated_loose": 0.065,
+      "parsed_separated_loose": 0.08843537414965986,
+      "lost_unparseable_strict": 5,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 6,
+      "lost_cross_segment_loose": 6,
+      "goal_cross_segment_n": 4,
+      "value_cross_segment_strict_n": 12
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "recency",
+      "n": 200,
+      "parsed_n": 168,
+      "original_strict": 0.045,
+      "parsed_original_strict": 0.041666666666666664,
+      "original_loose": 0.06,
+      "parsed_original_loose": 0.05952380952380952,
+      "separated_strict": 0.01,
+      "parsed_separated_strict": 0.011904761904761904,
+      "separated_loose": 0.015,
+      "parsed_separated_loose": 0.017857142857142856,
+      "lost_unparseable_strict": 2,
+      "lost_cross_segment_strict": 5,
+      "lost_unparseable_loose": 2,
+      "lost_cross_segment_loose": 7,
+      "goal_cross_segment_n": 9,
+      "value_cross_segment_strict_n": 13
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "seed": 44,
+      "method": "uniform_stride",
+      "n": 200,
+      "parsed_n": 125,
+      "original_strict": 0.1,
+      "parsed_original_strict": 0.112,
+      "original_loose": 0.165,
+      "parsed_original_loose": 0.208,
+      "separated_strict": 0.05,
+      "parsed_separated_strict": 0.08,
+      "separated_loose": 0.085,
+      "parsed_separated_loose": 0.136,
+      "lost_unparseable_strict": 6,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 7,
+      "lost_cross_segment_loose": 9,
+      "goal_cross_segment_n": 0,
+      "value_cross_segment_strict_n": 10
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "parsed_n": 160,
+      "original_strict": 0.14,
+      "parsed_original_strict": 0.1375,
+      "original_loose": 0.275,
+      "parsed_original_loose": 0.2625,
+      "separated_strict": 0.095,
+      "parsed_separated_strict": 0.11875,
+      "separated_loose": 0.175,
+      "parsed_separated_loose": 0.21875,
+      "lost_unparseable_strict": 6,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 13,
+      "lost_cross_segment_loose": 7,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 2
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "parsed_n": 150,
+      "original_strict": 0.165,
+      "parsed_original_strict": 0.16666666666666666,
+      "original_loose": 0.26,
+      "parsed_original_loose": 0.26,
+      "separated_strict": 0.11,
+      "parsed_separated_strict": 0.14666666666666667,
+      "separated_loose": 0.165,
+      "parsed_separated_loose": 0.22,
+      "lost_unparseable_strict": 8,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 13,
+      "lost_cross_segment_loose": 6,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "first_n",
+      "n": 200,
+      "parsed_n": 137,
+      "original_strict": 0.12,
+      "parsed_original_strict": 0.13138686131386862,
+      "original_loose": 0.28,
+      "parsed_original_loose": 0.34306569343065696,
+      "separated_strict": 0.075,
+      "parsed_separated_strict": 0.10948905109489052,
+      "separated_loose": 0.21,
+      "parsed_separated_loose": 0.30656934306569344,
+      "lost_unparseable_strict": 6,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 9,
+      "lost_cross_segment_loose": 5,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 2
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "full_context",
+      "n": 200,
+      "parsed_n": 129,
+      "original_strict": 0.33,
+      "parsed_original_strict": 0.4573643410852713,
+      "original_loose": 0.36,
+      "parsed_original_loose": 0.4883720930232558,
+      "separated_strict": 0.285,
+      "parsed_separated_strict": 0.4418604651162791,
+      "separated_loose": 0.305,
+      "parsed_separated_loose": 0.4728682170542636,
+      "lost_unparseable_strict": 7,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 9,
+      "lost_cross_segment_loose": 2,
+      "goal_cross_segment_n": 1,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "parsed_n": 157,
+      "original_strict": 0.08,
+      "parsed_original_strict": 0.07006369426751592,
+      "original_loose": 0.125,
+      "parsed_original_loose": 0.11464968152866242,
+      "separated_strict": 0.05,
+      "parsed_separated_strict": 0.06369426751592357,
+      "separated_loose": 0.07,
+      "parsed_separated_loose": 0.08917197452229299,
+      "lost_unparseable_strict": 5,
+      "lost_cross_segment_strict": 1,
+      "lost_unparseable_loose": 7,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 1,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "random_seed42",
+      "n": 200,
+      "parsed_n": 160,
+      "original_strict": 0.12,
+      "parsed_original_strict": 0.13125,
+      "original_loose": 0.175,
+      "parsed_original_loose": 0.2,
+      "separated_strict": 0.1,
+      "parsed_separated_strict": 0.125,
+      "separated_loose": 0.145,
+      "parsed_separated_loose": 0.18125,
+      "lost_unparseable_strict": 3,
+      "lost_cross_segment_strict": 1,
+      "lost_unparseable_loose": 3,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "recency",
+      "n": 200,
+      "parsed_n": 155,
+      "original_strict": 0.06,
+      "parsed_original_strict": 0.06451612903225806,
+      "original_loose": 0.07,
+      "parsed_original_loose": 0.07096774193548387,
+      "separated_strict": 0.04,
+      "parsed_separated_strict": 0.05161290322580645,
+      "separated_loose": 0.04,
+      "parsed_separated_loose": 0.05161290322580645,
+      "lost_unparseable_strict": 2,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 3,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 42,
+      "method": "uniform_stride",
+      "n": 200,
+      "parsed_n": 152,
+      "original_strict": 0.2,
+      "parsed_original_strict": 0.24342105263157895,
+      "original_loose": 0.295,
+      "parsed_original_loose": 0.3618421052631579,
+      "separated_strict": 0.175,
+      "parsed_separated_strict": 0.23026315789473684,
+      "separated_loose": 0.26,
+      "parsed_separated_loose": 0.34210526315789475,
+      "lost_unparseable_strict": 3,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 4,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "parsed_n": 156,
+      "original_strict": 0.17,
+      "parsed_original_strict": 0.15384615384615385,
+      "original_loose": 0.265,
+      "parsed_original_loose": 0.2564102564102564,
+      "separated_strict": 0.12,
+      "parsed_separated_strict": 0.15384615384615385,
+      "separated_loose": 0.19,
+      "parsed_separated_loose": 0.24358974358974358,
+      "lost_unparseable_strict": 10,
+      "lost_cross_segment_strict": 0,
+      "lost_unparseable_loose": 13,
+      "lost_cross_segment_loose": 2,
+      "goal_cross_segment_n": 1,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "parsed_n": 161,
+      "original_strict": 0.18,
+      "parsed_original_strict": 0.16770186335403728,
+      "original_loose": 0.28,
+      "parsed_original_loose": 0.2795031055900621,
+      "separated_strict": 0.12,
+      "parsed_separated_strict": 0.14906832298136646,
+      "separated_loose": 0.19,
+      "parsed_separated_loose": 0.2360248447204969,
+      "lost_unparseable_strict": 9,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 11,
+      "lost_cross_segment_loose": 7,
+      "goal_cross_segment_n": 6,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "first_n",
+      "n": 200,
+      "parsed_n": 125,
+      "original_strict": 0.135,
+      "parsed_original_strict": 0.152,
+      "original_loose": 0.23,
+      "parsed_original_loose": 0.296,
+      "separated_strict": 0.075,
+      "parsed_separated_strict": 0.12,
+      "separated_loose": 0.165,
+      "parsed_separated_loose": 0.264,
+      "lost_unparseable_strict": 8,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 9,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "full_context",
+      "n": 200,
+      "parsed_n": 131,
+      "original_strict": 0.33,
+      "parsed_original_strict": 0.42748091603053434,
+      "original_loose": 0.39,
+      "parsed_original_loose": 0.4961832061068702,
+      "separated_strict": 0.27,
+      "parsed_separated_strict": 0.4122137404580153,
+      "separated_loose": 0.315,
+      "parsed_separated_loose": 0.48091603053435117,
+      "lost_unparseable_strict": 10,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 13,
+      "lost_cross_segment_loose": 2,
+      "goal_cross_segment_n": 1,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "parsed_n": 161,
+      "original_strict": 0.08,
+      "parsed_original_strict": 0.08074534161490683,
+      "original_loose": 0.12,
+      "parsed_original_loose": 0.11180124223602485,
+      "separated_strict": 0.055,
+      "parsed_separated_strict": 0.06832298136645963,
+      "separated_loose": 0.075,
+      "parsed_separated_loose": 0.09316770186335403,
+      "lost_unparseable_strict": 3,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 6,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 2
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "random_seed42",
+      "n": 200,
+      "parsed_n": 157,
+      "original_strict": 0.155,
+      "parsed_original_strict": 0.1592356687898089,
+      "original_loose": 0.22,
+      "parsed_original_loose": 0.2356687898089172,
+      "separated_strict": 0.115,
+      "parsed_separated_strict": 0.1464968152866242,
+      "separated_loose": 0.165,
+      "parsed_separated_loose": 0.21019108280254778,
+      "lost_unparseable_strict": 6,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 7,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "recency",
+      "n": 200,
+      "parsed_n": 160,
+      "original_strict": 0.04,
+      "parsed_original_strict": 0.0375,
+      "original_loose": 0.055,
+      "parsed_original_loose": 0.04375,
+      "separated_strict": 0.02,
+      "parsed_separated_strict": 0.025,
+      "separated_loose": 0.02,
+      "parsed_separated_loose": 0.025,
+      "lost_unparseable_strict": 2,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 4,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 6,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 43,
+      "method": "uniform_stride",
+      "n": 200,
+      "parsed_n": 151,
+      "original_strict": 0.205,
+      "parsed_original_strict": 0.24503311258278146,
+      "original_loose": 0.3,
+      "parsed_original_loose": 0.3576158940397351,
+      "separated_strict": 0.16,
+      "parsed_separated_strict": 0.2119205298013245,
+      "separated_loose": 0.235,
+      "parsed_separated_loose": 0.31125827814569534,
+      "lost_unparseable_strict": 4,
+      "lost_cross_segment_strict": 5,
+      "lost_unparseable_loose": 6,
+      "lost_cross_segment_loose": 7,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 3
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "attention_h2o_cache",
+      "n": 200,
+      "parsed_n": 154,
+      "original_strict": 0.155,
+      "parsed_original_strict": 0.14935064935064934,
+      "original_loose": 0.315,
+      "parsed_original_loose": 0.2857142857142857,
+      "separated_strict": 0.105,
+      "parsed_separated_strict": 0.13636363636363635,
+      "separated_loose": 0.185,
+      "parsed_separated_loose": 0.24025974025974026,
+      "lost_unparseable_strict": 8,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 19,
+      "lost_cross_segment_loose": 7,
+      "goal_cross_segment_n": 5,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "embedding_mmr_cache",
+      "n": 200,
+      "parsed_n": 150,
+      "original_strict": 0.185,
+      "parsed_original_strict": 0.18666666666666668,
+      "original_loose": 0.29,
+      "parsed_original_loose": 0.3,
+      "separated_strict": 0.12,
+      "parsed_separated_strict": 0.16,
+      "separated_loose": 0.18,
+      "parsed_separated_loose": 0.24,
+      "lost_unparseable_strict": 9,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 13,
+      "lost_cross_segment_loose": 9,
+      "goal_cross_segment_n": 5,
+      "value_cross_segment_strict_n": 2
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "first_n",
+      "n": 200,
+      "parsed_n": 126,
+      "original_strict": 0.12,
+      "parsed_original_strict": 0.12698412698412698,
+      "original_loose": 0.25,
+      "parsed_original_loose": 0.30158730158730157,
+      "separated_strict": 0.07,
+      "parsed_separated_strict": 0.1111111111111111,
+      "separated_loose": 0.165,
+      "parsed_separated_loose": 0.2619047619047619,
+      "lost_unparseable_strict": 8,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 12,
+      "lost_cross_segment_loose": 5,
+      "goal_cross_segment_n": 5,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "full_context",
+      "n": 200,
+      "parsed_n": 144,
+      "original_strict": 0.405,
+      "parsed_original_strict": 0.5069444444444444,
+      "original_loose": 0.475,
+      "parsed_original_loose": 0.5833333333333334,
+      "separated_strict": 0.355,
+      "parsed_separated_strict": 0.4930555555555556,
+      "separated_loose": 0.405,
+      "parsed_separated_loose": 0.5625,
+      "lost_unparseable_strict": 8,
+      "lost_cross_segment_strict": 2,
+      "lost_unparseable_loose": 11,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 2,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "llmlingua2_cache",
+      "n": 200,
+      "parsed_n": 151,
+      "original_strict": 0.08,
+      "parsed_original_strict": 0.059602649006622516,
+      "original_loose": 0.13,
+      "parsed_original_loose": 0.10596026490066225,
+      "separated_strict": 0.04,
+      "parsed_separated_strict": 0.052980132450331126,
+      "separated_loose": 0.06,
+      "parsed_separated_loose": 0.07947019867549669,
+      "lost_unparseable_strict": 7,
+      "lost_cross_segment_strict": 1,
+      "lost_unparseable_loose": 10,
+      "lost_cross_segment_loose": 4,
+      "goal_cross_segment_n": 1,
+      "value_cross_segment_strict_n": 0
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "random_seed42",
+      "n": 200,
+      "parsed_n": 157,
+      "original_strict": 0.13,
+      "parsed_original_strict": 0.12738853503184713,
+      "original_loose": 0.2,
+      "parsed_original_loose": 0.21656050955414013,
+      "separated_strict": 0.095,
+      "parsed_separated_strict": 0.12101910828025478,
+      "separated_loose": 0.14,
+      "parsed_separated_loose": 0.17834394904458598,
+      "lost_unparseable_strict": 6,
+      "lost_cross_segment_strict": 1,
+      "lost_unparseable_loose": 6,
+      "lost_cross_segment_loose": 6,
+      "goal_cross_segment_n": 3,
+      "value_cross_segment_strict_n": 1
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "recency",
+      "n": 200,
+      "parsed_n": 161,
+      "original_strict": 0.05,
+      "parsed_original_strict": 0.055900621118012424,
+      "original_loose": 0.065,
+      "parsed_original_loose": 0.06832298136645963,
+      "separated_strict": 0.04,
+      "parsed_separated_strict": 0.049689440993788817,
+      "separated_loose": 0.04,
+      "parsed_separated_loose": 0.049689440993788817,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 1,
+      "lost_unparseable_loose": 2,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 4,
+      "value_cross_segment_strict_n": 3
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "seed": 44,
+      "method": "uniform_stride",
+      "n": 200,
+      "parsed_n": 147,
+      "original_strict": 0.2,
+      "parsed_original_strict": 0.25170068027210885,
+      "original_loose": 0.315,
+      "parsed_original_loose": 0.4013605442176871,
+      "separated_strict": 0.185,
+      "parsed_separated_strict": 0.25170068027210885,
+      "separated_loose": 0.28,
+      "parsed_separated_loose": 0.38095238095238093,
+      "lost_unparseable_strict": 3,
+      "lost_cross_segment_strict": 0,
+      "lost_unparseable_loose": 4,
+      "lost_cross_segment_loose": 3,
+      "goal_cross_segment_n": 0,
+      "value_cross_segment_strict_n": 1
+    }
+  ],
+  "means": [
+    {
+      "reader": "chunkkv",
+      "dataset": "multiwoz",
+      "method": "chunkkv_r03_kvpress",
+      "seeds": [
+        42
+      ],
+      "original_strict": 0.1,
+      "original_strict_seed_std": null,
+      "original_loose": 0.13,
+      "original_loose_seed_std": null,
+      "separated_strict": 0.085,
+      "separated_strict_seed_std": null,
+      "separated_loose": 0.1,
+      "separated_loose_seed_std": null,
+      "parsed_rate": 0.875,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 6
+    },
+    {
+      "reader": "chunkkv",
+      "dataset": "sgd",
+      "method": "chunkkv_r03_kvpress",
+      "seeds": [
+        42
+      ],
+      "original_strict": 0.16,
+      "original_strict_seed_std": null,
+      "original_loose": 0.175,
+      "original_loose_seed_std": null,
+      "separated_strict": 0.14,
+      "separated_strict_seed_std": null,
+      "separated_loose": 0.155,
+      "separated_loose_seed_std": null,
+      "parsed_rate": 0.865,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 1,
+      "lost_cross_segment_loose": 3
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "attention_h2o_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.09666666666666666,
+      "original_strict_seed_std": 0.007637626158259732,
+      "original_loose": 0.145,
+      "original_loose_seed_std": 0.009999999999999995,
+      "separated_strict": 0.04833333333333333,
+      "separated_strict_seed_std": 0.007637626158259733,
+      "separated_loose": 0.06833333333333333,
+      "separated_loose_seed_std": 0.007637626158259734,
+      "parsed_rate": 0.725,
+      "lost_unparseable_strict": 11,
+      "lost_cross_segment_strict": 18,
+      "lost_unparseable_loose": 13,
+      "lost_cross_segment_loose": 33
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "embedding_mmr_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.11,
+      "original_strict_seed_std": 0.013228756555322952,
+      "original_loose": 0.14,
+      "original_loose_seed_std": 0.009999999999999995,
+      "separated_strict": 0.11,
+      "separated_strict_seed_std": 0.013228756555322952,
+      "separated_loose": 0.12,
+      "separated_loose_seed_std": 0.013228756555322957,
+      "parsed_rate": 0.75,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 0,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 12
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "first_n",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.085,
+      "original_strict_seed_std": 0.0,
+      "original_loose": 0.13166666666666665,
+      "original_loose_seed_std": 0.012583057392117913,
+      "separated_strict": 0.04833333333333333,
+      "separated_strict_seed_std": 0.005773502691896259,
+      "separated_loose": 0.058333333333333334,
+      "separated_loose_seed_std": 0.0028867513459481273,
+      "parsed_rate": 0.835,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 22,
+      "lost_unparseable_loose": 2,
+      "lost_cross_segment_loose": 42
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "full_context",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.49666666666666665,
+      "original_strict_seed_std": 0.012583057392117927,
+      "original_loose": 0.5366666666666667,
+      "original_loose_seed_std": 0.010408329997330672,
+      "separated_strict": 0.475,
+      "separated_strict_seed_std": 0.017320508075688756,
+      "separated_loose": 0.505,
+      "separated_loose_seed_std": 0.013228756555322964,
+      "parsed_rate": 0.945,
+      "lost_unparseable_strict": 2,
+      "lost_cross_segment_strict": 11,
+      "lost_unparseable_loose": 6,
+      "lost_cross_segment_loose": 13
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.14666666666666667,
+      "original_strict_seed_std": 0.005773502691896247,
+      "original_loose": 0.165,
+      "original_loose_seed_std": 0.009999999999999995,
+      "separated_strict": 0.11,
+      "separated_strict_seed_std": 0.0050000000000000044,
+      "separated_loose": 0.11666666666666667,
+      "separated_loose_seed_std": 0.010408329997330665,
+      "parsed_rate": 0.805,
+      "lost_unparseable_strict": 13,
+      "lost_cross_segment_strict": 9,
+      "lost_unparseable_loose": 13,
+      "lost_cross_segment_loose": 16
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "random_seed42",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.14833333333333334,
+      "original_strict_seed_std": 0.011547005383792509,
+      "original_loose": 0.19166666666666668,
+      "original_loose_seed_std": 0.005773502691896263,
+      "separated_strict": 0.12833333333333333,
+      "separated_strict_seed_std": 0.0028867513459481316,
+      "separated_loose": 0.145,
+      "separated_loose_seed_std": 0.0049999999999999906,
+      "parsed_rate": 0.9066666666666667,
+      "lost_unparseable_strict": 2,
+      "lost_cross_segment_strict": 10,
+      "lost_unparseable_loose": 4,
+      "lost_cross_segment_loose": 24
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "recency",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.058333333333333334,
+      "original_strict_seed_std": 0.010408329997330667,
+      "original_loose": 0.06833333333333333,
+      "original_loose_seed_std": 0.010408329997330665,
+      "separated_strict": 0.04,
+      "separated_strict_seed_std": 0.010000000000000002,
+      "separated_loose": 0.04,
+      "separated_loose_seed_std": 0.010000000000000002,
+      "parsed_rate": 0.885,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 10,
+      "lost_unparseable_loose": 1,
+      "lost_cross_segment_loose": 16
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "uniform_stride",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.22166666666666665,
+      "original_strict_seed_std": 0.023094010767585018,
+      "original_loose": 0.285,
+      "original_loose_seed_std": 0.008660254037844362,
+      "separated_strict": 0.17833333333333334,
+      "separated_strict_seed_std": 0.02081665999466133,
+      "separated_loose": 0.22,
+      "separated_loose_seed_std": 0.010000000000000009,
+      "parsed_rate": 0.9666666666666667,
+      "lost_unparseable_strict": 3,
+      "lost_cross_segment_strict": 23,
+      "lost_unparseable_loose": 3,
+      "lost_cross_segment_loose": 36
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "attention_h2o_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.18333333333333332,
+      "original_strict_seed_std": 0.03253203549323856,
+      "original_loose": 0.32166666666666666,
+      "original_loose_seed_std": 0.03253203549323856,
+      "separated_strict": 0.16833333333333333,
+      "separated_strict_seed_std": 0.03547299442298794,
+      "separated_loose": 0.28833333333333333,
+      "separated_loose_seed_std": 0.03253203549323856,
+      "parsed_rate": 0.9083333333333333,
+      "lost_unparseable_strict": 3,
+      "lost_cross_segment_strict": 6,
+      "lost_unparseable_loose": 9,
+      "lost_cross_segment_loose": 11
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "embedding_mmr_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.15666666666666668,
+      "original_strict_seed_std": 0.012583057392117927,
+      "original_loose": 0.24333333333333332,
+      "original_loose_seed_std": 0.010408329997330672,
+      "separated_strict": 0.12833333333333333,
+      "separated_strict_seed_std": 0.005773502691896263,
+      "separated_loose": 0.185,
+      "separated_loose_seed_std": 0.010000000000000009,
+      "parsed_rate": 0.7616666666666667,
+      "lost_unparseable_strict": 5,
+      "lost_cross_segment_strict": 12,
+      "lost_unparseable_loose": 13,
+      "lost_cross_segment_loose": 22
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "first_n",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.17166666666666666,
+      "original_strict_seed_std": 0.03403429642777023,
+      "original_loose": 0.33,
+      "original_loose_seed_std": 0.010000000000000009,
+      "separated_strict": 0.16,
+      "separated_strict_seed_std": 0.027838821814150108,
+      "separated_loose": 0.31333333333333335,
+      "separated_loose_seed_std": 0.005773502691896263,
+      "parsed_rate": 0.9533333333333333,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 7,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 10
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "full_context",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.6583333333333333,
+      "original_strict_seed_std": 0.018929694486000927,
+      "original_loose": 0.7416666666666667,
+      "original_loose_seed_std": 0.025658007197234444,
+      "separated_strict": 0.6516666666666667,
+      "separated_strict_seed_std": 0.02466441431158126,
+      "separated_loose": 0.7283333333333333,
+      "separated_loose_seed_std": 0.03175426480542944,
+      "parsed_rate": 0.9766666666666667,
+      "lost_unparseable_strict": 1,
+      "lost_cross_segment_strict": 3,
+      "lost_unparseable_loose": 3,
+      "lost_cross_segment_loose": 5
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.07166666666666667,
+      "original_strict_seed_std": 0.01258305739211792,
+      "original_loose": 0.135,
+      "original_loose_seed_std": 0.01802775637731994,
+      "separated_strict": 0.060000000000000005,
+      "separated_strict_seed_std": 0.017320508075688773,
+      "separated_loose": 0.11666666666666667,
+      "separated_loose_seed_std": 0.02466441431158123,
+      "parsed_rate": 0.86,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 7,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 11
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "random_seed42",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.18166666666666667,
+      "original_strict_seed_std": 0.022546248764114464,
+      "original_loose": 0.27499999999999997,
+      "original_loose_seed_std": 0.026457513110645897,
+      "separated_strict": 0.16166666666666668,
+      "separated_strict_seed_std": 0.00763762615825974,
+      "separated_loose": 0.23833333333333334,
+      "separated_loose_seed_std": 0.010408329997330662,
+      "parsed_rate": 0.9666666666666667,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 12,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 22
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "recency",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.075,
+      "original_strict_seed_std": 0.0049999999999999975,
+      "original_loose": 0.08333333333333334,
+      "original_loose_seed_std": 0.0028867513459481316,
+      "separated_strict": 0.065,
+      "separated_strict_seed_std": 0.0050000000000000044,
+      "separated_loose": 0.06666666666666667,
+      "separated_loose_seed_std": 0.0028867513459481316,
+      "parsed_rate": 0.87,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 6,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 10
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "uniform_stride",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.29833333333333334,
+      "original_strict_seed_std": 0.012583057392117927,
+      "original_loose": 0.45166666666666666,
+      "original_loose_seed_std": 0.01527525231651948,
+      "separated_strict": 0.28833333333333333,
+      "separated_strict_seed_std": 0.00763762615825971,
+      "separated_loose": 0.43166666666666664,
+      "separated_loose_seed_std": 0.005773502691896263,
+      "parsed_rate": 0.9733333333333333,
+      "lost_unparseable_strict": 0,
+      "lost_cross_segment_strict": 6,
+      "lost_unparseable_loose": 0,
+      "lost_cross_segment_loose": 12
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "attention_h2o_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.06833333333333333,
+      "original_strict_seed_std": 0.007637626158259734,
+      "original_loose": 0.09666666666666666,
+      "original_loose_seed_std": 0.017559422921421233,
+      "separated_strict": 0.03166666666666667,
+      "separated_strict_seed_std": 0.0028867513459481316,
+      "separated_loose": 0.045,
+      "separated_loose_seed_std": 0.013228756555322954,
+      "parsed_rate": 0.72,
+      "lost_unparseable_strict": 8,
+      "lost_cross_segment_strict": 14,
+      "lost_unparseable_loose": 13,
+      "lost_cross_segment_loose": 18
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "embedding_mmr_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.09333333333333334,
+      "original_strict_seed_std": 0.011547005383792518,
+      "original_loose": 0.12166666666666667,
+      "original_loose_seed_std": 0.012583057392117921,
+      "separated_strict": 0.04833333333333333,
+      "separated_strict_seed_std": 0.007637626158259733,
+      "separated_loose": 0.06,
+      "separated_loose_seed_std": 0.005000000000000001,
+      "parsed_rate": 0.7983333333333333,
+      "lost_unparseable_strict": 18,
+      "lost_cross_segment_strict": 9,
+      "lost_unparseable_loose": 19,
+      "lost_cross_segment_loose": 18
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "first_n",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.05,
+      "original_strict_seed_std": 0.005000000000000001,
+      "original_loose": 0.07,
+      "original_loose_seed_std": 0.0,
+      "separated_strict": 0.011666666666666667,
+      "separated_strict_seed_std": 0.0028867513459481286,
+      "separated_loose": 0.018333333333333333,
+      "separated_loose_seed_std": 0.0028867513459481294,
+      "parsed_rate": 0.6116666666666667,
+      "lost_unparseable_strict": 5,
+      "lost_cross_segment_strict": 18,
+      "lost_unparseable_loose": 5,
+      "lost_cross_segment_loose": 26
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "full_context",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.23833333333333334,
+      "original_strict_seed_std": 0.025658007197234427,
+      "original_loose": 0.25833333333333336,
+      "original_loose_seed_std": 0.022546248764114492,
+      "separated_strict": 0.14166666666666666,
+      "separated_strict_seed_std": 0.022546248764114478,
+      "separated_loose": 0.15833333333333333,
+      "separated_loose_seed_std": 0.020207259421636894,
+      "parsed_rate": 0.5833333333333334,
+      "lost_unparseable_strict": 39,
+      "lost_cross_segment_strict": 19,
+      "lost_unparseable_loose": 41,
+      "lost_cross_segment_loose": 19
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.12666666666666668,
+      "original_strict_seed_std": 0.011547005383792526,
+      "original_loose": 0.13833333333333334,
+      "original_loose_seed_std": 0.007637626158259728,
+      "separated_strict": 0.07833333333333334,
+      "separated_strict_seed_std": 0.01040832999733066,
+      "separated_loose": 0.085,
+      "separated_loose_seed_std": 0.0049999999999999975,
+      "parsed_rate": 0.7666666666666667,
+      "lost_unparseable_strict": 20,
+      "lost_cross_segment_strict": 9,
+      "lost_unparseable_loose": 21,
+      "lost_cross_segment_loose": 11
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "random_seed42",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.09333333333333334,
+      "original_strict_seed_std": 0.0028867513459481316,
+      "original_loose": 0.11833333333333333,
+      "original_loose_seed_std": 0.01607275126832159,
+      "separated_strict": 0.06,
+      "separated_strict_seed_std": 0.005000000000000001,
+      "separated_loose": 0.07,
+      "separated_loose_seed_std": 0.008660254037844387,
+      "parsed_rate": 0.7433333333333333,
+      "lost_unparseable_strict": 12,
+      "lost_cross_segment_strict": 8,
+      "lost_unparseable_loose": 14,
+      "lost_cross_segment_loose": 15
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "recency",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.056666666666666664,
+      "original_strict_seed_std": 0.010408329997330665,
+      "original_loose": 0.06833333333333333,
+      "original_loose_seed_std": 0.010408329997330665,
+      "separated_strict": 0.02,
+      "separated_strict_seed_std": 0.01,
+      "separated_loose": 0.025,
+      "separated_loose_seed_std": 0.010000000000000002,
+      "parsed_rate": 0.8516666666666667,
+      "lost_unparseable_strict": 8,
+      "lost_cross_segment_strict": 14,
+      "lost_unparseable_loose": 8,
+      "lost_cross_segment_loose": 18
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "uniform_stride",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.11,
+      "original_strict_seed_std": 0.009999999999999995,
+      "original_loose": 0.15666666666666668,
+      "original_loose_seed_std": 0.00763762615825974,
+      "separated_strict": 0.058333333333333334,
+      "separated_strict_seed_std": 0.007637626158259732,
+      "separated_loose": 0.08166666666666667,
+      "separated_loose_seed_std": 0.0028867513459481316,
+      "parsed_rate": 0.6083333333333333,
+      "lost_unparseable_strict": 21,
+      "lost_cross_segment_strict": 10,
+      "lost_unparseable_loose": 23,
+      "lost_cross_segment_loose": 22
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "attention_h2o_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.155,
+      "original_strict_seed_std": 0.015,
+      "original_loose": 0.28500000000000003,
+      "original_loose_seed_std": 0.026457513110645897,
+      "separated_strict": 0.10666666666666666,
+      "separated_strict_seed_std": 0.012583057392117913,
+      "separated_loose": 0.18333333333333332,
+      "separated_loose_seed_std": 0.00763762615825974,
+      "parsed_rate": 0.7833333333333333,
+      "lost_unparseable_strict": 24,
+      "lost_cross_segment_strict": 5,
+      "lost_unparseable_loose": 45,
+      "lost_cross_segment_loose": 16
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "embedding_mmr_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.17666666666666667,
+      "original_strict_seed_std": 0.010408329997330658,
+      "original_loose": 0.27666666666666667,
+      "original_loose_seed_std": 0.015275252316519456,
+      "separated_strict": 0.11666666666666667,
+      "separated_strict_seed_std": 0.0057735026918962545,
+      "separated_loose": 0.17833333333333334,
+      "separated_loose_seed_std": 0.012583057392117913,
+      "parsed_rate": 0.7683333333333333,
+      "lost_unparseable_strict": 26,
+      "lost_cross_segment_strict": 10,
+      "lost_unparseable_loose": 37,
+      "lost_cross_segment_loose": 22
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "first_n",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.125,
+      "original_strict_seed_std": 0.008660254037844393,
+      "original_loose": 0.25333333333333335,
+      "original_loose_seed_std": 0.025166114784235843,
+      "separated_strict": 0.07333333333333333,
+      "separated_strict_seed_std": 0.0028867513459481233,
+      "separated_loose": 0.18,
+      "separated_loose_seed_std": 0.02598076211353315,
+      "parsed_rate": 0.6466666666666667,
+      "lost_unparseable_strict": 22,
+      "lost_cross_segment_strict": 9,
+      "lost_unparseable_loose": 30,
+      "lost_cross_segment_loose": 14
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "full_context",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.35500000000000004,
+      "original_strict_seed_std": 0.04330127018922194,
+      "original_loose": 0.4083333333333333,
+      "original_loose_seed_std": 0.05965176722724426,
+      "separated_strict": 0.30333333333333334,
+      "separated_strict_seed_std": 0.04536885862938732,
+      "separated_loose": 0.3416666666666667,
+      "separated_loose_seed_std": 0.05507570547286104,
+      "parsed_rate": 0.6733333333333333,
+      "lost_unparseable_strict": 25,
+      "lost_cross_segment_strict": 6,
+      "lost_unparseable_loose": 33,
+      "lost_cross_segment_loose": 7
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "llmlingua2_cache",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.08,
+      "original_strict_seed_std": 0.0,
+      "original_loose": 0.125,
+      "original_loose_seed_std": 0.0050000000000000044,
+      "separated_strict": 0.04833333333333333,
+      "separated_strict_seed_std": 0.007637626158259733,
+      "separated_loose": 0.06833333333333333,
+      "separated_loose_seed_std": 0.007637626158259734,
+      "parsed_rate": 0.7816666666666667,
+      "lost_unparseable_strict": 15,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 23,
+      "lost_cross_segment_loose": 11
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "random_seed42",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.135,
+      "original_strict_seed_std": 0.01802775637731995,
+      "original_loose": 0.19833333333333333,
+      "original_loose_seed_std": 0.022546248764114478,
+      "separated_strict": 0.10333333333333333,
+      "separated_strict_seed_std": 0.010408329997330665,
+      "separated_loose": 0.15,
+      "separated_loose_seed_std": 0.013228756555322954,
+      "parsed_rate": 0.79,
+      "lost_unparseable_strict": 15,
+      "lost_cross_segment_strict": 4,
+      "lost_unparseable_loose": 16,
+      "lost_cross_segment_loose": 13
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "recency",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.05,
+      "original_strict_seed_std": 0.009999999999999998,
+      "original_loose": 0.06333333333333334,
+      "original_loose_seed_std": 0.007637626158259737,
+      "separated_strict": 0.03333333333333333,
+      "separated_strict_seed_std": 0.011547005383792516,
+      "separated_loose": 0.03333333333333333,
+      "separated_loose_seed_std": 0.011547005383792516,
+      "parsed_rate": 0.7933333333333333,
+      "lost_unparseable_strict": 5,
+      "lost_cross_segment_strict": 5,
+      "lost_unparseable_loose": 9,
+      "lost_cross_segment_loose": 9
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "uniform_stride",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "original_strict": 0.20166666666666666,
+      "original_strict_seed_std": 0.0028867513459481155,
+      "original_loose": 0.30333333333333334,
+      "original_loose_seed_std": 0.010408329997330672,
+      "separated_strict": 0.17333333333333334,
+      "separated_strict_seed_std": 0.012583057392117913,
+      "separated_loose": 0.25833333333333336,
+      "separated_loose_seed_std": 0.022546248764114492,
+      "parsed_rate": 0.75,
+      "lost_unparseable_strict": 10,
+      "lost_cross_segment_strict": 7,
+      "lost_unparseable_loose": 14,
+      "lost_cross_segment_loose": 13
+    }
+  ],
+  "full_context_contrasts": [
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "attention_h2o_cache",
+      "clusters": 263,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.4,
+          "ci95": [
+            0.3305921052631579,
+            0.46953167615279917
+          ]
+        },
+        "original_loose": {
+          "mean": 0.39166666666666666,
+          "ci95": [
+            0.3180977096251151,
+            0.46678617411396833
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.4266666666666667,
+          "ci95": [
+            0.35737655800575263,
+            0.49746214293662955
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.43666666666666665,
+          "ci95": [
+            0.3630252100840336,
+            0.5085661342082574
+          ]
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "embedding_mmr_cache",
+      "clusters": 263,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.38666666666666666,
+          "ci95": [
+            0.31899693305649424,
+            0.45675003952013765
+          ]
+        },
+        "original_loose": {
+          "mean": 0.39666666666666667,
+          "ci95": [
+            0.3284759455151427,
+            0.4654916717101281
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.365,
+          "ci95": [
+            0.2962918015102481,
+            0.4351399233342861
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.385,
+          "ci95": [
+            0.3160434060171881,
+            0.45516383970946306
+          ]
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "first_n",
+      "clusters": 263,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.4116666666666667,
+          "ci95": [
+            0.34189371801731355,
+            0.48270193462466854
+          ]
+        },
+        "original_loose": {
+          "mean": 0.405,
+          "ci95": [
+            0.3322200857528146,
+            0.4793399079833007
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.4266666666666667,
+          "ci95": [
+            0.3552620503278398,
+            0.5
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.44666666666666666,
+          "ci95": [
+            0.37627034737372045,
+            0.5183348662207358
+          ]
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "llmlingua2_cache",
+      "clusters": 263,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.35,
+          "ci95": [
+            0.2820798729375857,
+            0.4201705100644909
+          ]
+        },
+        "original_loose": {
+          "mean": 0.37166666666666665,
+          "ci95": [
+            0.30216553166168036,
+            0.44314812771279327
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.365,
+          "ci95": [
+            0.29830215284952394,
+            0.4335562829783076
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.3883333333333333,
+          "ci95": [
+            0.32006300157503936,
+            0.45819411435761215
+          ]
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "random_seed42",
+      "clusters": 263,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.34833333333333333,
+          "ci95": [
+            0.28019303540241,
+            0.4184552316003218
+          ]
+        },
+        "original_loose": {
+          "mean": 0.345,
+          "ci95": [
+            0.27597955706984667,
+            0.41442953020134227
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.3466666666666667,
+          "ci95": [
+            0.2764900662251656,
+            0.4181560576688806
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.36,
+          "ci95": [
+            0.29047874813727576,
+            0.4306256900993743
+          ]
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "recency",
+      "clusters": 263,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.43833333333333335,
+          "ci95": [
+            0.3708609271523179,
+            0.5025210084033613
+          ]
+        },
+        "original_loose": {
+          "mean": 0.4683333333333333,
+          "ci95": [
+            0.4019375945993008,
+            0.5325342465753424
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.435,
+          "ci95": [
+            0.36886393915375143,
+            0.5
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.465,
+          "ci95": [
+            0.39932857273747624,
+            0.5290366921627313
+          ]
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "uniform_stride",
+      "clusters": 263,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.275,
+          "ci95": [
+            0.2034173669467787,
+            0.3487603305785124
+          ]
+        },
+        "original_loose": {
+          "mean": 0.25166666666666665,
+          "ci95": [
+            0.17862956117338422,
+            0.323680954580891
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.2966666666666667,
+          "ci95": [
+            0.22408026755852842,
+            0.36851405154822103
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.285,
+          "ci95": [
+            0.2128351498483408,
+            0.3567867354011436
+          ]
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "attention_h2o_cache",
+      "clusters": 364,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.475,
+          "ci95": [
+            0.41166936790923825,
+            0.5391043522234185
+          ]
+        },
+        "original_loose": {
+          "mean": 0.42,
+          "ci95": [
+            0.3573711943793911,
+            0.4837159215133539
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.48333333333333334,
+          "ci95": [
+            0.42063425032175034,
+            0.5466666666666666
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.44,
+          "ci95": [
+            0.37851020321521567,
+            0.5031466828971394
+          ]
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "embedding_mmr_cache",
+      "clusters": 364,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.5016666666666667,
+          "ci95": [
+            0.44313904289466005,
+            0.5609348914858097
+          ]
+        },
+        "original_loose": {
+          "mean": 0.49833333333333335,
+          "ci95": [
+            0.43690486006564494,
+            0.5581404490273512
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.5233333333333333,
+          "ci95": [
+            0.4653453634006934,
+            0.581852765445911
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.5433333333333333,
+          "ci95": [
+            0.48366013071895425,
+            0.6027197594077066
+          ]
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "first_n",
+      "clusters": 364,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.4866666666666667,
+          "ci95": [
+            0.4228245662374071,
+            0.5476984015472097
+          ]
+        },
+        "original_loose": {
+          "mean": 0.4116666666666667,
+          "ci95": [
+            0.34912230617326345,
+            0.47386186696123767
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.49166666666666664,
+          "ci95": [
+            0.42857142857142855,
+            0.551500744644289
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.415,
+          "ci95": [
+            0.3525532627816715,
+            0.4768250043569187
+          ]
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "llmlingua2_cache",
+      "clusters": 364,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.5866666666666667,
+          "ci95": [
+            0.5281066427953711,
+            0.6440432948415844
+          ]
+        },
+        "original_loose": {
+          "mean": 0.6066666666666667,
+          "ci95": [
+            0.5467883240016219,
+            0.6660842154420921
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.5916666666666667,
+          "ci95": [
+            0.5352491258741259,
+            0.6470637173338553
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.6116666666666667,
+          "ci95": [
+            0.5536589170032988,
+            0.6694634409271478
+          ]
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "random_seed42",
+      "clusters": 364,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.4766666666666667,
+          "ci95": [
+            0.4140218139539926,
+            0.5382115115737145
+          ]
+        },
+        "original_loose": {
+          "mean": 0.4666666666666667,
+          "ci95": [
+            0.40553745928338764,
+            0.5292154944387832
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.49,
+          "ci95": [
+            0.42880787927726777,
+            0.5512221369730254
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.49,
+          "ci95": [
+            0.4278604878293098,
+            0.5507967644486843
+          ]
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "recency",
+      "clusters": 364,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.5833333333333334,
+          "ci95": [
+            0.5264053811684405,
+            0.6396725401528146
+          ]
+        },
+        "original_loose": {
+          "mean": 0.6583333333333333,
+          "ci95": [
+            0.6041959861651722,
+            0.711892797319933
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.5866666666666667,
+          "ci95": [
+            0.5303024103556018,
+            0.64309224370902
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.6616666666666666,
+          "ci95": [
+            0.6070234113712375,
+            0.714782010564038
+          ]
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "uniform_stride",
+      "clusters": 364,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.36,
+          "ci95": [
+            0.29765786749482404,
+            0.4220032840722496
+          ]
+        },
+        "original_loose": {
+          "mean": 0.29,
+          "ci95": [
+            0.2287145242070117,
+            0.3507369286919014
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.36333333333333334,
+          "ci95": [
+            0.30098644289729176,
+            0.42525196909179136
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.2966666666666667,
+          "ci95": [
+            0.23509685430463578,
+            0.35880497547856355
+          ]
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "attention_h2o_cache",
+      "clusters": 263,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.17,
+          "ci95": [
+            0.11184183869316727,
+            0.22852356406480115
+          ]
+        },
+        "original_loose": {
+          "mean": 0.16166666666666665,
+          "ci95": [
+            0.10225114596669076,
+            0.22259150218776086
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.11,
+          "ci95": [
+            0.06609971614945823,
+            0.15772035050948735
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.11333333333333333,
+          "ci95": [
+            0.06807021025590139,
+            0.16302521008403362
+          ]
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "embedding_mmr_cache",
+      "clusters": 263,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.145,
+          "ci95": [
+            0.08524330167765948,
+            0.20618899771857893
+          ]
+        },
+        "original_loose": {
+          "mean": 0.13666666666666666,
+          "ci95": [
+            0.07925675788489472,
+            0.19735381370176136
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.09333333333333334,
+          "ci95": [
+            0.046123247486803624,
+            0.14216998439254122
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.09833333333333333,
+          "ci95": [
+            0.04886451777813034,
+            0.149041313559322
+          ]
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "first_n",
+      "clusters": 263,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.18833333333333332,
+          "ci95": [
+            0.12811877576780897,
+            0.24959710743801639
+          ]
+        },
+        "original_loose": {
+          "mean": 0.18833333333333332,
+          "ci95": [
+            0.1233507981105519,
+            0.25255209664139894
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.13,
+          "ci95": [
+            0.08687896792757425,
+            0.17529433541568715
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.14,
+          "ci95": [
+            0.09348638506169026,
+            0.18867924528301888
+          ]
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "llmlingua2_cache",
+      "clusters": 263,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.11166666666666666,
+          "ci95": [
+            0.05305279913119397,
+            0.1739148795534665
+          ]
+        },
+        "original_loose": {
+          "mean": 0.12,
+          "ci95": [
+            0.060655737704918035,
+            0.18315397638659908
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.06333333333333334,
+          "ci95": [
+            0.01658237736935159,
+            0.11352631926357214
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.07333333333333333,
+          "ci95": [
+            0.02417444460217191,
+            0.12565906215959793
+          ]
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "random_seed42",
+      "clusters": 263,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.145,
+          "ci95": [
+            0.08468771776297665,
+            0.20588356429886615
+          ]
+        },
+        "original_loose": {
+          "mean": 0.14,
+          "ci95": [
+            0.07601351351351351,
+            0.20496716107492735
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.08166666666666667,
+          "ci95": [
+            0.036182725131795004,
+            0.12914161379708777
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.08833333333333333,
+          "ci95": [
+            0.03958571400216068,
+            0.1399662731871838
+          ]
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "recency",
+      "clusters": 263,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.18166666666666667,
+          "ci95": [
+            0.12799767441860466,
+            0.23718003412969282
+          ]
+        },
+        "original_loose": {
+          "mean": 0.19,
+          "ci95": [
+            0.13536253371530046,
+            0.24592833876221498
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.12166666666666667,
+          "ci95": [
+            0.08125700141675728,
+            0.16556345144921306
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.13333333333333333,
+          "ci95": [
+            0.09198574359095277,
+            0.17927716651542647
+          ]
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "uniform_stride",
+      "clusters": 263,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.12833333333333333,
+          "ci95": [
+            0.06953188421277505,
+            0.18781747958508055
+          ]
+        },
+        "original_loose": {
+          "mean": 0.10166666666666667,
+          "ci95": [
+            0.039493386877809664,
+            0.16613027656879922
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.08333333333333333,
+          "ci95": [
+            0.03540869710379484,
+            0.13333333333333333
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.07666666666666666,
+          "ci95": [
+            0.026665557404326124,
+            0.12724380839388996
+          ]
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "attention_h2o_cache",
+      "clusters": 364,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.2,
+          "ci95": [
+            0.1397533539177771,
+            0.25974081097171076
+          ]
+        },
+        "original_loose": {
+          "mean": 0.12333333333333334,
+          "ci95": [
+            0.06333172231985941,
+            0.1860106915339244
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.19666666666666666,
+          "ci95": [
+            0.13845833333333335,
+            0.2544899163431992
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.15833333333333333,
+          "ci95": [
+            0.10034587364357507,
+            0.2185469159415803
+          ]
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "embedding_mmr_cache",
+      "clusters": 364,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.17833333333333334,
+          "ci95": [
+            0.12136234357224118,
+            0.23618155432334084
+          ]
+        },
+        "original_loose": {
+          "mean": 0.13166666666666665,
+          "ci95": [
+            0.0691914316115249,
+            0.19463087248322147
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.18666666666666668,
+          "ci95": [
+            0.13235167778451587,
+            0.24525391091473608
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.16333333333333333,
+          "ci95": [
+            0.10260546173194394,
+            0.22491463116686836
+          ]
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "first_n",
+      "clusters": 364,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.23,
+          "ci95": [
+            0.17060810810810811,
+            0.2903268400726942
+          ]
+        },
+        "original_loose": {
+          "mean": 0.155,
+          "ci95": [
+            0.09515668190152987,
+            0.21680824136883667
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.23,
+          "ci95": [
+            0.17369286411644627,
+            0.2888614725262451
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.16166666666666665,
+          "ci95": [
+            0.10542291569158137,
+            0.2239346512904997
+          ]
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "llmlingua2_cache",
+      "clusters": 364,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.275,
+          "ci95": [
+            0.21512556746836667,
+            0.33442636454479163
+          ]
+        },
+        "original_loose": {
+          "mean": 0.2833333333333333,
+          "ci95": [
+            0.22203658420948283,
+            0.34417885036537127
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.255,
+          "ci95": [
+            0.20272458259497372,
+            0.30960264900662254
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.2733333333333333,
+          "ci95": [
+            0.21833274647887324,
+            0.3300008250825083
+          ]
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "random_seed42",
+      "clusters": 364,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.22,
+          "ci95": [
+            0.16417910447761194,
+            0.2764244467775803
+          ]
+        },
+        "original_loose": {
+          "mean": 0.21,
+          "ci95": [
+            0.15094261397415437,
+            0.26885383661661383
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.2,
+          "ci95": [
+            0.14449408205772474,
+            0.25566528728314497
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.19166666666666668,
+          "ci95": [
+            0.13321843857150112,
+            0.25208681135225375
+          ]
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "recency",
+      "clusters": 364,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.305,
+          "ci95": [
+            0.2508046213008229,
+            0.3590184393231435
+          ]
+        },
+        "original_loose": {
+          "mean": 0.345,
+          "ci95": [
+            0.28780153691947874,
+            0.4030106679375321
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.27,
+          "ci95": [
+            0.21717171717171718,
+            0.32377740303541314
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.30833333333333335,
+          "ci95": [
+            0.25435103072960974,
+            0.36348684210526316
+          ]
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "uniform_stride",
+      "clusters": 364,
+      "n": 600,
+      "differences": {
+        "original_strict": {
+          "mean": 0.15333333333333332,
+          "ci95": [
+            0.09735973597359736,
+            0.21428870543192147
+          ]
+        },
+        "original_loose": {
+          "mean": 0.105,
+          "ci95": [
+            0.04208754208754209,
+            0.17032133838565203
+          ]
+        },
+        "separated_strict": {
+          "mean": 0.13,
+          "ci95": [
+            0.07394674723822113,
+            0.1900708791825735
+          ]
+        },
+        "separated_loose": {
+          "mean": 0.08333333333333333,
+          "ci95": [
+            0.022613008892274297,
+            0.14590252290460265
+          ]
+        }
+      }
+    }
+  ],
+  "common_parseable_contrasts": [
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "attention_h2o_cache",
+      "n": 412,
+      "metrics": {
+        "original_strict": {
+          "full": 0.5145631067961165,
+          "compressed": 0.11407766990291263
+        },
+        "original_loose": {
+          "full": 0.5509708737864077,
+          "compressed": 0.1796116504854369
+        },
+        "separated_strict": {
+          "full": 0.49271844660194175,
+          "compressed": 0.0703883495145631
+        },
+        "separated_loose": {
+          "full": 0.5242718446601942,
+          "compressed": 0.09951456310679611
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "embedding_mmr_cache",
+      "n": 425,
+      "metrics": {
+        "original_strict": {
+          "full": 0.5458823529411765,
+          "compressed": 0.14588235294117646
+        },
+        "original_loose": {
+          "full": 0.5764705882352941,
+          "compressed": 0.18823529411764706
+        },
+        "separated_strict": {
+          "full": 0.52,
+          "compressed": 0.14588235294117646
+        },
+        "separated_loose": {
+          "full": 0.5458823529411765,
+          "compressed": 0.16
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "first_n",
+      "n": 474,
+      "metrics": {
+        "original_strict": {
+          "full": 0.5042194092827004,
+          "compressed": 0.10759493670886076
+        },
+        "original_loose": {
+          "full": 0.5464135021097046,
+          "compressed": 0.16244725738396623
+        },
+        "separated_strict": {
+          "full": 0.48945147679324896,
+          "compressed": 0.06118143459915612
+        },
+        "separated_loose": {
+          "full": 0.5274261603375527,
+          "compressed": 0.07383966244725738
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "llmlingua2_cache",
+      "n": 459,
+      "metrics": {
+        "original_strict": {
+          "full": 0.5076252723311547,
+          "compressed": 0.1568627450980392
+        },
+        "original_loose": {
+          "full": 0.55119825708061,
+          "compressed": 0.18082788671023964
+        },
+        "separated_strict": {
+          "full": 0.48366013071895425,
+          "compressed": 0.13725490196078433
+        },
+        "separated_loose": {
+          "full": 0.5228758169934641,
+          "compressed": 0.14596949891067537
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "random_seed42",
+      "n": 513,
+      "metrics": {
+        "original_strict": {
+          "full": 0.5126705653021443,
+          "compressed": 0.15984405458089668
+        },
+        "original_loose": {
+          "full": 0.5380116959064327,
+          "compressed": 0.20272904483430798
+        },
+        "separated_strict": {
+          "full": 0.4951267056530214,
+          "compressed": 0.14035087719298245
+        },
+        "separated_loose": {
+          "full": 0.5165692007797271,
+          "compressed": 0.15984405458089668
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "recency",
+      "n": 506,
+      "metrics": {
+        "original_strict": {
+          "full": 0.5237154150197628,
+          "compressed": 0.06719367588932806
+        },
+        "original_loose": {
+          "full": 0.5553359683794467,
+          "compressed": 0.07905138339920949
+        },
+        "separated_strict": {
+          "full": 0.5019762845849802,
+          "compressed": 0.04743083003952569
+        },
+        "separated_loose": {
+          "full": 0.5296442687747036,
+          "compressed": 0.04743083003952569
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "multiwoz",
+      "method": "uniform_stride",
+      "n": 547,
+      "metrics": {
+        "original_strict": {
+          "full": 0.5173674588665448,
+          "compressed": 0.2303473491773309
+        },
+        "original_loose": {
+          "full": 0.5539305301645339,
+          "compressed": 0.29981718464351004
+        },
+        "separated_strict": {
+          "full": 0.49725776965265084,
+          "compressed": 0.1882998171846435
+        },
+        "separated_loose": {
+          "full": 0.5301645338208409,
+          "compressed": 0.2340036563071298
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "attention_h2o_cache",
+      "n": 531,
+      "metrics": {
+        "original_strict": {
+          "full": 0.6760828625235404,
+          "compressed": 0.19397363465160075
+        },
+        "original_loose": {
+          "full": 0.7532956685499058,
+          "compressed": 0.3389830508474576
+        },
+        "separated_strict": {
+          "full": 0.6704331450094162,
+          "compressed": 0.18267419962335216
+        },
+        "separated_loose": {
+          "full": 0.743879472693032,
+          "compressed": 0.3182674199623352
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "embedding_mmr_cache",
+      "n": 447,
+      "metrics": {
+        "original_strict": {
+          "full": 0.6666666666666666,
+          "compressed": 0.19463087248322147
+        },
+        "original_loose": {
+          "full": 0.7315436241610739,
+          "compressed": 0.2930648769574944
+        },
+        "separated_strict": {
+          "full": 0.6599552572706935,
+          "compressed": 0.17225950782997762
+        },
+        "separated_loose": {
+          "full": 0.7203579418344519,
+          "compressed": 0.2483221476510067
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "first_n",
+      "n": 558,
+      "metrics": {
+        "original_strict": {
+          "full": 0.6756272401433692,
+          "compressed": 0.1774193548387097
+        },
+        "original_loose": {
+          "full": 0.7508960573476703,
+          "compressed": 0.34767025089605735
+        },
+        "separated_strict": {
+          "full": 0.6702508960573477,
+          "compressed": 0.16487455197132617
+        },
+        "separated_loose": {
+          "full": 0.7419354838709677,
+          "compressed": 0.32974910394265233
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "llmlingua2_cache",
+      "n": 508,
+      "metrics": {
+        "original_strict": {
+          "full": 0.6889763779527559,
+          "compressed": 0.08070866141732283
+        },
+        "original_loose": {
+          "full": 0.7618110236220472,
+          "compressed": 0.1515748031496063
+        },
+        "separated_strict": {
+          "full": 0.6830708661417323,
+          "compressed": 0.06692913385826772
+        },
+        "separated_loose": {
+          "full": 0.7539370078740157,
+          "compressed": 0.13385826771653545
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "random_seed42",
+      "n": 567,
+      "metrics": {
+        "original_strict": {
+          "full": 0.6772486772486772,
+          "compressed": 0.18871252204585537
+        },
+        "original_loose": {
+          "full": 0.7548500881834215,
+          "compressed": 0.2874779541446208
+        },
+        "separated_strict": {
+          "full": 0.671957671957672,
+          "compressed": 0.1675485008818342
+        },
+        "separated_loose": {
+          "full": 0.746031746031746,
+          "compressed": 0.24867724867724866
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "recency",
+      "n": 508,
+      "metrics": {
+        "original_strict": {
+          "full": 0.6614173228346457,
+          "compressed": 0.08858267716535433
+        },
+        "original_loose": {
+          "full": 0.7381889763779528,
+          "compressed": 0.0984251968503937
+        },
+        "separated_strict": {
+          "full": 0.655511811023622,
+          "compressed": 0.07677165354330709
+        },
+        "separated_loose": {
+          "full": 0.7283464566929134,
+          "compressed": 0.07874015748031496
+        }
+      }
+    },
+    {
+      "reader": "llama",
+      "dataset": "sgd",
+      "method": "uniform_stride",
+      "n": 570,
+      "metrics": {
+        "original_strict": {
+          "full": 0.6701754385964912,
+          "compressed": 0.30701754385964913
+        },
+        "original_loose": {
+          "full": 0.7508771929824561,
+          "compressed": 0.4649122807017544
+        },
+        "separated_strict": {
+          "full": 0.6649122807017543,
+          "compressed": 0.2964912280701754
+        },
+        "separated_loose": {
+          "full": 0.7421052631578947,
+          "compressed": 0.443859649122807
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "attention_h2o_cache",
+      "n": 256,
+      "metrics": {
+        "original_strict": {
+          "full": 0.30078125,
+          "compressed": 0.09375
+        },
+        "original_loose": {
+          "full": 0.33984375,
+          "compressed": 0.140625
+        },
+        "separated_strict": {
+          "full": 0.25,
+          "compressed": 0.0390625
+        },
+        "separated_loose": {
+          "full": 0.2890625,
+          "compressed": 0.0703125
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "embedding_mmr_cache",
+      "n": 298,
+      "metrics": {
+        "original_strict": {
+          "full": 0.28859060402684567,
+          "compressed": 0.07046979865771812
+        },
+        "original_loose": {
+          "full": 0.3053691275167785,
+          "compressed": 0.12416107382550336
+        },
+        "separated_strict": {
+          "full": 0.24161073825503357,
+          "compressed": 0.05704697986577181
+        },
+        "separated_loose": {
+          "full": 0.25838926174496646,
+          "compressed": 0.08053691275167785
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "first_n",
+      "n": 236,
+      "metrics": {
+        "original_strict": {
+          "full": 0.2711864406779661,
+          "compressed": 0.07627118644067797
+        },
+        "original_loose": {
+          "full": 0.2966101694915254,
+          "compressed": 0.1271186440677966
+        },
+        "separated_strict": {
+          "full": 0.21610169491525424,
+          "compressed": 0.012711864406779662
+        },
+        "separated_loose": {
+          "full": 0.24152542372881355,
+          "compressed": 0.029661016949152543
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "llmlingua2_cache",
+      "n": 268,
+      "metrics": {
+        "original_strict": {
+          "full": 0.332089552238806,
+          "compressed": 0.12313432835820895
+        },
+        "original_loose": {
+          "full": 0.3694029850746269,
+          "compressed": 0.13059701492537312
+        },
+        "separated_strict": {
+          "full": 0.26865671641791045,
+          "compressed": 0.09701492537313433
+        },
+        "separated_loose": {
+          "full": 0.30597014925373134,
+          "compressed": 0.1044776119402985
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "random_seed42",
+      "n": 257,
+      "metrics": {
+        "original_strict": {
+          "full": 0.2723735408560311,
+          "compressed": 0.08949416342412451
+        },
+        "original_loose": {
+          "full": 0.311284046692607,
+          "compressed": 0.13229571984435798
+        },
+        "separated_strict": {
+          "full": 0.22957198443579765,
+          "compressed": 0.06614785992217899
+        },
+        "separated_loose": {
+          "full": 0.26848249027237353,
+          "compressed": 0.08171206225680934
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "recency",
+      "n": 296,
+      "metrics": {
+        "original_strict": {
+          "full": 0.30405405405405406,
+          "compressed": 0.04391891891891892
+        },
+        "original_loose": {
+          "full": 0.33783783783783783,
+          "compressed": 0.06418918918918919
+        },
+        "separated_strict": {
+          "full": 0.24662162162162163,
+          "compressed": 0.02702702702702703
+        },
+        "separated_loose": {
+          "full": 0.28040540540540543,
+          "compressed": 0.037162162162162164
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "multiwoz",
+      "method": "uniform_stride",
+      "n": 243,
+      "metrics": {
+        "original_strict": {
+          "full": 0.2757201646090535,
+          "compressed": 0.102880658436214
+        },
+        "original_loose": {
+          "full": 0.3168724279835391,
+          "compressed": 0.20164609053497942
+        },
+        "separated_strict": {
+          "full": 0.205761316872428,
+          "compressed": 0.06995884773662552
+        },
+        "separated_loose": {
+          "full": 0.24691358024691357,
+          "compressed": 0.11934156378600823
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "attention_h2o_cache",
+      "n": 328,
+      "metrics": {
+        "original_strict": {
+          "full": 0.43597560975609756,
+          "compressed": 0.13719512195121952
+        },
+        "original_loose": {
+          "full": 0.4847560975609756,
+          "compressed": 0.2804878048780488
+        },
+        "separated_strict": {
+          "full": 0.42378048780487804,
+          "compressed": 0.12195121951219512
+        },
+        "separated_loose": {
+          "full": 0.4695121951219512,
+          "compressed": 0.2347560975609756
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "embedding_mmr_cache",
+      "n": 314,
+      "metrics": {
+        "original_strict": {
+          "full": 0.4554140127388535,
+          "compressed": 0.17834394904458598
+        },
+        "original_loose": {
+          "full": 0.5222929936305732,
+          "compressed": 0.2898089171974522
+        },
+        "separated_strict": {
+          "full": 0.4426751592356688,
+          "compressed": 0.14968152866242038
+        },
+        "separated_loose": {
+          "full": 0.5063694267515924,
+          "compressed": 0.2356687898089172
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "first_n",
+      "n": 260,
+      "metrics": {
+        "original_strict": {
+          "full": 0.4653846153846154,
+          "compressed": 0.13846153846153847
+        },
+        "original_loose": {
+          "full": 0.5423076923076923,
+          "compressed": 0.3576923076923077
+        },
+        "separated_strict": {
+          "full": 0.45,
+          "compressed": 0.11538461538461539
+        },
+        "separated_loose": {
+          "full": 0.5230769230769231,
+          "compressed": 0.3153846153846154
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "llmlingua2_cache",
+      "n": 331,
+      "metrics": {
+        "original_strict": {
+          "full": 0.4622356495468278,
+          "compressed": 0.0755287009063444
+        },
+        "original_loose": {
+          "full": 0.5226586102719033,
+          "compressed": 0.11782477341389729
+        },
+        "separated_strict": {
+          "full": 0.4471299093655589,
+          "compressed": 0.0634441087613293
+        },
+        "separated_loose": {
+          "full": 0.5045317220543807,
+          "compressed": 0.09365558912386707
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "random_seed42",
+      "n": 333,
+      "metrics": {
+        "original_strict": {
+          "full": 0.44744744744744747,
+          "compressed": 0.13813813813813813
+        },
+        "original_loose": {
+          "full": 0.4984984984984985,
+          "compressed": 0.19519519519519518
+        },
+        "separated_strict": {
+          "full": 0.4294294294294294,
+          "compressed": 0.13513513513513514
+        },
+        "separated_loose": {
+          "full": 0.4774774774774775,
+          "compressed": 0.17417417417417416
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "recency",
+      "n": 329,
+      "metrics": {
+        "original_strict": {
+          "full": 0.46504559270516715,
+          "compressed": 0.0486322188449848
+        },
+        "original_loose": {
+          "full": 0.5106382978723404,
+          "compressed": 0.05167173252279635
+        },
+        "separated_strict": {
+          "full": 0.45288753799392095,
+          "compressed": 0.03951367781155015
+        },
+        "separated_loose": {
+          "full": 0.49544072948328266,
+          "compressed": 0.03951367781155015
+        }
+      }
+    },
+    {
+      "reader": "mistral",
+      "dataset": "sgd",
+      "method": "uniform_stride",
+      "n": 313,
+      "metrics": {
+        "original_strict": {
+          "full": 0.48242811501597443,
+          "compressed": 0.268370607028754
+        },
+        "original_loose": {
+          "full": 0.5143769968051118,
+          "compressed": 0.3929712460063898
+        },
+        "separated_strict": {
+          "full": 0.46325878594249204,
+          "compressed": 0.25559105431309903
+        },
+        "separated_loose": {
+          "full": 0.49201277955271566,
+          "compressed": 0.3706070287539936
+        }
+      }
+    }
+  ],
+  "input_sha256": {
+    "results/diagnostics/update_evidence/p3_multiwoz_s42_scored_llama.jsonl": "5e042b60a30ddb89d43cb31d0f5c5b4ba435ef40f6ec78cff88aacdb54040464",
+    "results/diagnostics/update_evidence/p3_multiwoz_s43_scored_llama.jsonl": "2a78f912c89b3a977eda75617127b34cd0e7388bbc09243d7fc72f97d5f38671",
+    "results/diagnostics/update_evidence/p3_multiwoz_s44_scored_llama.jsonl": "6276dbd162d7aeffea934b00e0bd0b62e55f2c7de9be3b4347860813efb586ec",
+    "results/diagnostics/update_evidence/p3_sgd_s42_scored_llama.jsonl": "7318af2aa320fa259be70df8c2476e641075cc729a2deba8afa50d711bad1909",
+    "results/diagnostics/update_evidence/p3_sgd_s43_scored_llama.jsonl": "fa9449437c3ee9184cd014e34902d392f3cb39e2e51524cd47f82018601f5a36",
+    "results/diagnostics/update_evidence/p3_sgd_s44_scored_llama.jsonl": "430d0b5c8459f3784bb3e042423137c6a0bc0cfd89a105ba9709957087e9a6d4",
+    "results/diagnostics/update_evidence/p3_multiwoz_s42_scored_mistral.jsonl": "3e8bd1cf797b135c8520a5685434c9e85d901410acbd495c49c7d67f232e2991",
+    "results/diagnostics/update_evidence/p3_multiwoz_s43_scored_mistral.jsonl": "eb4f5fd89b7d6ae592bdcdf9f2ae780ce2ffc0e368222aae8d5e7e3ff97d8a3e",
+    "results/diagnostics/update_evidence/p3_multiwoz_s44_scored_mistral.jsonl": "b880a747ada257c2565b3c53adfef54a85a4aecd14541eb18a12a1ed3f6055c3",
+    "results/diagnostics/update_evidence/p3_sgd_s42_scored_mistral.jsonl": "0111b08cabeb1a265f410cfe2d45b6366909843b685cd25343a221e5403bd8da",
+    "results/diagnostics/update_evidence/p3_sgd_s43_scored_mistral.jsonl": "cf7b8a5755fbf1d43b0806bef56cab7378d7d85b602614dc2ed70e5d7a289248",
+    "results/diagnostics/update_evidence/p3_sgd_s44_scored_mistral.jsonl": "90d7b9bcaa2c9fd62f343ddb52ce22c92fd235e45331dba0ce4b995a25d2c03e",
+    "results/diagnostics/update_evidence/p3_multiwoz_s42_scored_chunkkv.jsonl": "fb67ac98c7ee1cbff2bc680c38b8906bc7bc342ec707085b8871766abd59a0c8",
+    "results/diagnostics/update_evidence/p3_sgd_s42_scored_chunkkv.jsonl": "09e999a1c194b76494568bf7749a6d7d647c5f2c1287de67c0a3fa5e0327febb",
+    "scripts/scorer/scorer_p1_late.py": "02d54e17e891129886611546c3ac21d623b39638dfc0f586b24b714c929534d4",
+    "scripts/normalize.py": "1f742001d65d48e89567590c48cef9217903f198740307d57dd8ad367dae4df0"
+  }
+}

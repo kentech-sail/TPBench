@@ -1,0 +1,123 @@
+{
+  "model": {
+    "checkpoint": "microsoft/llmlingua-2-xlm-roberta-large-meetingbank",
+    "revision": "ebaba9b0e874dadd3003ffcff828e4397e568089",
+    "llmlingua": "0.2.2",
+    "torch": "2.13.0+cu130",
+    "transformers": "5.14.1",
+    "device": "NVIDIA GeForce RTX 4090",
+    "dtype": "torch.float32",
+    "rate": 0.5,
+    "force_tokens": [],
+    "word_sep": "\t\t|\t\t",
+    "label_sep": " ",
+    "scorer": "mean_binary_word_retention_labels",
+    "legacy_comparator": "mean_regex_all_digits_in_word_label_text",
+    "reader_calls": 0
+  },
+  "cached_turns": 33166,
+  "groups": [
+    {
+      "family": "fmts",
+      "dataset": "indirect_seed42",
+      "ratio": 0.1,
+      "n": 100,
+      "legacy_matches_saved": 100,
+      "corrected_matches_saved": 100,
+      "corrected_differs_legacy": 0
+    },
+    {
+      "family": "fmts",
+      "dataset": "indirect_seed42",
+      "ratio": 0.3,
+      "n": 100,
+      "legacy_matches_saved": 100,
+      "corrected_matches_saved": 100,
+      "corrected_differs_legacy": 0
+    },
+    {
+      "family": "fmts",
+      "dataset": "multiwoz_scope",
+      "ratio": 0.1,
+      "n": 200,
+      "legacy_matches_saved": 200,
+      "corrected_matches_saved": 4,
+      "corrected_differs_legacy": 196
+    },
+    {
+      "family": "fmts",
+      "dataset": "multiwoz_scope",
+      "ratio": 0.3,
+      "n": 200,
+      "legacy_matches_saved": 200,
+      "corrected_matches_saved": 2,
+      "corrected_differs_legacy": 198
+    },
+    {
+      "family": "fmts",
+      "dataset": "sgd_scope",
+      "ratio": 0.1,
+      "n": 200,
+      "legacy_matches_saved": 200,
+      "corrected_matches_saved": 2,
+      "corrected_differs_legacy": 198
+    },
+    {
+      "family": "fmts",
+      "dataset": "sgd_scope",
+      "ratio": 0.3,
+      "n": 200,
+      "legacy_matches_saved": 200,
+      "corrected_matches_saved": 0,
+      "corrected_differs_legacy": 200
+    },
+    {
+      "family": "main",
+      "dataset": "multiwoz",
+      "ratio": 0.1,
+      "n": 738,
+      "legacy_matches_saved": 738,
+      "corrected_matches_saved": 10,
+      "corrected_differs_legacy": 728
+    },
+    {
+      "family": "main",
+      "dataset": "multiwoz",
+      "ratio": 0.3,
+      "n": 738,
+      "legacy_matches_saved": 738,
+      "corrected_matches_saved": 20,
+      "corrected_differs_legacy": 718
+    },
+    {
+      "family": "main",
+      "dataset": "sgd",
+      "ratio": 0.1,
+      "n": 949,
+      "legacy_matches_saved": 949,
+      "corrected_matches_saved": 24,
+      "corrected_differs_legacy": 925
+    },
+    {
+      "family": "main",
+      "dataset": "sgd",
+      "ratio": 0.3,
+      "n": 949,
+      "legacy_matches_saved": 949,
+      "corrected_matches_saved": 20,
+      "corrected_differs_legacy": 929
+    }
+  ],
+  "unwrapped_saved_contexts": 769,
+  "original_artifact_hf_revision": "11dcc75532f5d949a09b67f9c921eb254f3f1604",
+  "original_source_file_sha256": {
+    "data/construction/sgd_compressed_r10.jsonl": "e316547f7b42a17459df3df00bac7b1d5d5f3b84d27edf49e7b524a8e11706b3",
+    "data/construction/sgd_compressed_r30.jsonl": "0ff601c1df0759bd88a8478229ba50c9965d90dd81e24da284da987e1bd58135",
+    "data/construction/multiwoz_compressed_r10.jsonl": "e0e2ea5ac12b101c952349c4789cb674763d9b11ff5b9b82c83c0b0d461c18a9",
+    "data/construction/multiwoz_compressed_r30.jsonl": "2e31de1ec82ee0b71c7fb3716bbb9972c8e5eec7104f42610bc70ebb424fa937",
+    "data/fmts/fmts_indirect_seed42.jsonl": "4ef59403da9cfa0cdcb4cc497b78599425a1342da69d1c3d732aced7a3029f3c",
+    "data/fmts/fmts_sgd_scope.jsonl": "356f267a52fd480f4ef5d5573ed704ae249f3ba95371afba5fa798fa857b1083",
+    "data/fmts/fmts_multiwoz_scope.jsonl": "ef64d3752e8346929f5d39dc4776dbad0d7012e92041b9e9ae96aef8a4069c3d"
+  },
+  "verification": "CPU replay of saved model word labels; model-label inference itself requires the pinned external checkpoint."
+}

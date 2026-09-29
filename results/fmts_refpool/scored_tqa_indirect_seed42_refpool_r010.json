@@ -1,0 +1,3560 @@
+{
+  "kind": "tqa",
+  "tag": "indirect_seed42_refpool_r010",
+  "summary": {
+    "full_context": {
+      "n": 100,
+      "correct": 87,
+      "tqa": 0.87
+    },
+    "recency": {
+      "n": 100,
+      "correct": 0,
+      "tqa": 0.0
+    },
+    "random_seed42": {
+      "n": 100,
+      "correct": 9,
+      "tqa": 0.09
+    },
+    "first_n": {
+      "n": 100,
+      "correct": 0,
+      "tqa": 0.0
+    },
+    "uniform_stride": {
+      "n": 100,
+      "correct": 3,
+      "tqa": 0.03
+    },
+    "attention_h2o_cache": {
+      "n": 100,
+      "correct": 0,
+      "tqa": 0.0
+    },
+    "embedding_mmr_cache": {
+      "n": 100,
+      "correct": 6,
+      "tqa": 0.06
+    }
+  },
+  "per_item": {
+    "full_context": [
+      {
+        "dialogue_id": "indirect_stress_0000",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0001",
+        "correct": true,
+        "answer": "The second approach was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0002",
+        "correct": true,
+        "answer": "the shorter version"
+      },
+      {
+        "dialogue_id": "indirect_stress_0003",
+        "correct": true,
+        "answer": "Route B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0004",
+        "correct": true,
+        "answer": "Route B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0005",
+        "correct": true,
+        "answer": "The shorter version was preferred; the second visual template also looked better."
+      },
+      {
+        "dialogue_id": "indirect_stress_0006",
+        "correct": true,
+        "answer": "autumn"
+      },
+      {
+        "dialogue_id": "indirect_stress_0007",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0008",
+        "correct": true,
+        "answer": "Route B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0009",
+        "correct": true,
+        "answer": "autumn"
+      },
+      {
+        "dialogue_id": "indirect_stress_0010",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0011",
+        "correct": true,
+        "answer": "The second approach, the experimental method."
+      },
+      {
+        "dialogue_id": "indirect_stress_0012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0014",
+        "correct": true,
+        "answer": "Building B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0015",
+        "correct": true,
+        "answer": "Alex"
+      },
+      {
+        "dialogue_id": "indirect_stress_0016",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0017",
+        "correct": true,
+        "answer": "the second approach"
+      },
+      {
+        "dialogue_id": "indirect_stress_0018",
+        "correct": true,
+        "answer": "The shorter version was preferred, and the second visual template also looked better."
+      },
+      {
+        "dialogue_id": "indirect_stress_0019",
+        "correct": true,
+        "answer": "Phase B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0020",
+        "correct": true,
+        "answer": "Building B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0021",
+        "correct": true,
+        "answer": "Route B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0022",
+        "correct": true,
+        "answer": "Route B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0023",
+        "correct": true,
+        "answer": "The shorter version was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0024",
+        "correct": true,
+        "answer": "The shorter version was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0025",
+        "correct": true,
+        "answer": "autumn"
+      },
+      {
+        "dialogue_id": "indirect_stress_0026",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0027",
+        "correct": true,
+        "answer": "autumn"
+      },
+      {
+        "dialogue_id": "indirect_stress_0028",
+        "correct": true,
+        "answer": "Phase B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0030",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0031",
+        "correct": true,
+        "answer": "Phase B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0032",
+        "correct": true,
+        "answer": "Route B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0033",
+        "correct": true,
+        "answer": "autumn"
+      },
+      {
+        "dialogue_id": "indirect_stress_0034",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0035",
+        "correct": true,
+        "answer": "Phase B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0036",
+        "correct": true,
+        "answer": "The shorter version was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0037",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0038",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0041",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0042",
+        "correct": true,
+        "answer": "Route B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0043",
+        "correct": true,
+        "answer": "Alex"
+      },
+      {
+        "dialogue_id": "indirect_stress_0044",
+        "correct": true,
+        "answer": "The shorter version was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0045",
+        "correct": true,
+        "answer": "the shorter version"
+      },
+      {
+        "dialogue_id": "indirect_stress_0046",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0047",
+        "correct": true,
+        "answer": "Phase B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0048",
+        "correct": true,
+        "answer": "The second approach was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0049",
+        "correct": true,
+        "answer": "Building B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0050",
+        "correct": true,
+        "answer": "The shorter version was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0051",
+        "correct": true,
+        "answer": "Building B."
+      },
+      {
+        "dialogue_id": "indirect_stress_0052",
+        "correct": true,
+        "answer": "autumn"
+      },
+      {
+        "dialogue_id": "indirect_stress_0053",
+        "correct": true,
+        "answer": "Route B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0054",
+        "correct": true,
+        "answer": "Building B was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0055",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0056",
+        "correct": true,
+        "answer": "the second approach"
+      },
+      {
+        "dialogue_id": "indirect_stress_0057",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0058",
+        "correct": true,
+        "answer": "Phase B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0059",
+        "correct": true,
+        "answer": "Phase B was selected."
+      },
+      {
+        "dialogue_id": "indirect_stress_0060",
+        "correct": true,
+        "answer": "The second approach was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0062",
+        "correct": true,
+        "answer": "The second approach was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0063",
+        "correct": true,
+        "answer": "autumn"
+      },
+      {
+        "dialogue_id": "indirect_stress_0064",
+        "correct": true,
+        "answer": "Building B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0065",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0066",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0067",
+        "correct": true,
+        "answer": "autumn"
+      },
+      {
+        "dialogue_id": "indirect_stress_0068",
+        "correct": true,
+        "answer": "Phase B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0069",
+        "correct": true,
+        "answer": "Phase B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0070",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0071",
+        "correct": true,
+        "answer": "The second approach was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0072",
+        "correct": true,
+        "answer": "autumn"
+      },
+      {
+        "dialogue_id": "indirect_stress_0073",
+        "correct": true,
+        "answer": "Route B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0074",
+        "correct": true,
+        "answer": "The second approach was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0075",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0076",
+        "correct": true,
+        "answer": "Alex"
+      },
+      {
+        "dialogue_id": "indirect_stress_0077",
+        "correct": true,
+        "answer": "The shorter version was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0078",
+        "correct": true,
+        "answer": "Building B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0079",
+        "correct": true,
+        "answer": "Phase B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0080",
+        "correct": true,
+        "answer": "Building B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0081",
+        "correct": true,
+        "answer": "autumn"
+      },
+      {
+        "dialogue_id": "indirect_stress_0082",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0083",
+        "correct": true,
+        "answer": "Alex"
+      },
+      {
+        "dialogue_id": "indirect_stress_0084",
+        "correct": true,
+        "answer": "The shorter version was preferred, and the second visual template also looked better."
+      },
+      {
+        "dialogue_id": "indirect_stress_0085",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0086",
+        "correct": true,
+        "answer": "Building B seemed like the better fit."
+      },
+      {
+        "dialogue_id": "indirect_stress_0087",
+        "correct": true,
+        "answer": "The shorter version was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0088",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0089",
+        "correct": true,
+        "answer": "Route B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0090",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0091",
+        "correct": true,
+        "answer": "Building B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0092",
+        "correct": true,
+        "answer": "autumn"
+      },
+      {
+        "dialogue_id": "indirect_stress_0093",
+        "correct": true,
+        "answer": "Route B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0094",
+        "correct": true,
+        "answer": "autumn"
+      },
+      {
+        "dialogue_id": "indirect_stress_0095",
+        "correct": true,
+        "answer": "Route B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0096",
+        "correct": true,
+        "answer": "the second approach"
+      },
+      {
+        "dialogue_id": "indirect_stress_0097",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0098",
+        "correct": true,
+        "answer": "The second approach was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0099",
+        "correct": true,
+        "answer": "Phase B"
+      }
+    ],
+    "recency": [
+      {
+        "dialogue_id": "indirect_stress_0000",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0001",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0004",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0005",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0006",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0007",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0008",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0010",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0011",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0014",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0015",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0016",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0017",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0018",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0019",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0021",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0022",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0025",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0027",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0028",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0030",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0031",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0033",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0034",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0035",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0036",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0037",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0038",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0041",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0042",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0044",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0045",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0046",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0047",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0048",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0049",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0050",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0051",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0052",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0053",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0054",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0055",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0056",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0057",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0058",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0059",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0062",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0063",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0064",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0065",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0068",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0069",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0070",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0071",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0072",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0073",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0074",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0075",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0076",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0077",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0078",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0079",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0080",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0081",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0082",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0083",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0084",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0085",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0086",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0087",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0088",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0089",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0090",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0091",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0092",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0093",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0094",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0095",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0096",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0097",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0098",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0099",
+        "correct": false,
+        "answer": "not found"
+      }
+    ],
+    "random_seed42": [
+      {
+        "dialogue_id": "indirect_stress_0000",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0001",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0004",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0005",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0006",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0007",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0008",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0010",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0011",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0014",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0015",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0016",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0017",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0018",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0019",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0021",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0022",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0025",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0027",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0028",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0030",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0031",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0033",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0034",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0035",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0036",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0037",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0038",
+        "correct": true,
+        "answer": "Alex"
+      },
+      {
+        "dialogue_id": "indirect_stress_0039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0041",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0042",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0044",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0045",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0046",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0047",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0048",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0049",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0050",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0051",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0052",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0053",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0054",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0055",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0056",
+        "correct": true,
+        "answer": "The second approach was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0057",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0058",
+        "correct": true,
+        "answer": "Phase B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0059",
+        "correct": true,
+        "answer": "Phase B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0062",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0063",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0064",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0065",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0068",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0069",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0070",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0071",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0072",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0073",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0074",
+        "correct": true,
+        "answer": "the second approach"
+      },
+      {
+        "dialogue_id": "indirect_stress_0075",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0076",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0077",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0078",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0079",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0080",
+        "correct": true,
+        "answer": "Building B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0081",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0082",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0083",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0084",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0085",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0086",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0087",
+        "correct": true,
+        "answer": "the shorter version"
+      },
+      {
+        "dialogue_id": "indirect_stress_0088",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0089",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0090",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0091",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0092",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0093",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0094",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0095",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0096",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0097",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0098",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0099",
+        "correct": false,
+        "answer": "not found"
+      }
+    ],
+    "first_n": [
+      {
+        "dialogue_id": "indirect_stress_0000",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0001",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0004",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0005",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0006",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0007",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0008",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0010",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0011",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0014",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0015",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0016",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0017",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0018",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0019",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0021",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0022",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0025",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0027",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0028",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0030",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0031",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0033",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0034",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0035",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0036",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0037",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0038",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0041",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0042",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0044",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0045",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0046",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0047",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0048",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0049",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0050",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0051",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0052",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0053",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0054",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0055",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0056",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0057",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0058",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0059",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0062",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0063",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0064",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0065",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0068",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0069",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0070",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0071",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0072",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0073",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0074",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0075",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0076",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0077",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0078",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0079",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0080",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0081",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0082",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0083",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0084",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0085",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0086",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0087",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0088",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0089",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0090",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0091",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0092",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0093",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0094",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0095",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0096",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0097",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0098",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0099",
+        "correct": false,
+        "answer": "not found"
+      }
+    ],
+    "uniform_stride": [
+      {
+        "dialogue_id": "indirect_stress_0000",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0001",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0004",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0005",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0006",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0007",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0008",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0010",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0011",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0014",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0015",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0016",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0017",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0018",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0019",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0021",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0022",
+        "correct": true,
+        "answer": "Route B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0025",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0027",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0028",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0030",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0031",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0033",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0034",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0035",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0036",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0037",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0038",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0041",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0042",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0044",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0045",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0046",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0047",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0048",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0049",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0050",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0051",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0052",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0053",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0054",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0055",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0056",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0057",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0058",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0059",
+        "correct": false,
+        "answer": "a smaller pilot group for the first wave"
+      },
+      {
+        "dialogue_id": "indirect_stress_0060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0062",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0063",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0064",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0065",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0068",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0069",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0070",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0071",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0072",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0073",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0074",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0075",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0076",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0077",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0078",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0079",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0080",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0081",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0082",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0083",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0084",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0085",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0086",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0087",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0088",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0089",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0090",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0091",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0092",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0093",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0094",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0095",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0096",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0097",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0098",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0099",
+        "correct": true,
+        "answer": "Phase B"
+      }
+    ],
+    "attention_h2o_cache": [
+      {
+        "dialogue_id": "indirect_stress_0000",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0001",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0004",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0005",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0006",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0007",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0008",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0010",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0011",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0014",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0015",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0016",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0017",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0018",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0019",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0021",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0022",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0024",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0025",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0027",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0028",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0030",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0031",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0033",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0034",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0035",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0036",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0037",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0038",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0041",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0042",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0044",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0045",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0046",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0047",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0048",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0049",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0050",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0051",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0052",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0053",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0054",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0055",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0056",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0057",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0058",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0059",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0062",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0063",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0064",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0065",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0068",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0069",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0070",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0071",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0072",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0073",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0074",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0075",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0076",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0077",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0078",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0079",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0080",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0081",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0082",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0083",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0084",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0085",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0086",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0087",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0088",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0089",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0090",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0091",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0092",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0093",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0094",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0095",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0096",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0097",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0098",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0099",
+        "correct": false,
+        "answer": "not found"
+      }
+    ],
+    "embedding_mmr_cache": [
+      {
+        "dialogue_id": "indirect_stress_0000",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0001",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0002",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0003",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0004",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0005",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0006",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0007",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0008",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0009",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0010",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0011",
+        "correct": false,
+        "answer": "the lightweight configuration"
+      },
+      {
+        "dialogue_id": "indirect_stress_0012",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0013",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0014",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0015",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0016",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0017",
+        "correct": false,
+        "answer": "the lightweight configuration"
+      },
+      {
+        "dialogue_id": "indirect_stress_0018",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0019",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0020",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0021",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0022",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0023",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0024",
+        "correct": true,
+        "answer": "the shorter version"
+      },
+      {
+        "dialogue_id": "indirect_stress_0025",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0026",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0027",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0028",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0029",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0030",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0031",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0032",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0033",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0034",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0035",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0036",
+        "correct": true,
+        "answer": "the shorter version"
+      },
+      {
+        "dialogue_id": "indirect_stress_0037",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0038",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0039",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0040",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0041",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0042",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0043",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0044",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0045",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0046",
+        "correct": true,
+        "answer": "Supplier B"
+      },
+      {
+        "dialogue_id": "indirect_stress_0047",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0048",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0049",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0050",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0051",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0052",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0053",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0054",
+        "correct": false,
+        "answer": "ground floor configuration"
+      },
+      {
+        "dialogue_id": "indirect_stress_0055",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0056",
+        "correct": false,
+        "answer": "The lightweight configuration was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0057",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0058",
+        "correct": false,
+        "answer": "a smaller pilot group for the first wave"
+      },
+      {
+        "dialogue_id": "indirect_stress_0059",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0060",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0061",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0062",
+        "correct": true,
+        "answer": "The second approach was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0063",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0064",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0065",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0066",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0067",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0068",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0069",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0070",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0071",
+        "correct": true,
+        "answer": "The second approach was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0072",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0073",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0074",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0075",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0076",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0077",
+        "correct": true,
+        "answer": "The shorter version was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0078",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0079",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0080",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0081",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0082",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0083",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0084",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0085",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0086",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0087",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0088",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0089",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0090",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0091",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0092",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0093",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0094",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0095",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0096",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0097",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "indirect_stress_0098",
+        "correct": false,
+        "answer": "The lightweight configuration was preferred."
+      },
+      {
+        "dialogue_id": "indirect_stress_0099",
+        "correct": false,
+        "answer": "not found"
+      }
+    ]
+  },
+  "excluded_conditions": {
+    "llmlingua2_cache": "The historical adapter extracted digits from word text rather than binary retention labels. Real-corpus corrected contexts differ, and matched-protocol reader regeneration has not been completed."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "multiwoz": {
+    "chunkkv_r03_chunk10": {
+      "n": 161,
+      "p3_em_strict": 0.086957,
+      "p3_em_loose": 0.099379,
+      "p3_overlap_strict": 0.037267,
+      "p3_overlap_loose": 0.086957,
+      "abstain_rate": 0.322981,
+      "support_in_ctx_rate": 0.031056,
+      "err_rate": 0.124224
+    },
+    "chunkkv_r03_chunk20": {
+      "n": 161,
+      "p3_em_strict": 0.086957,
+      "p3_em_loose": 0.093168,
+      "p3_overlap_strict": 0.037267,
+      "p3_overlap_loose": 0.10559,
+      "abstain_rate": 0.341615,
+      "support_in_ctx_rate": 0.031056,
+      "err_rate": 0.198758
+    },
+    "chunkkv_r03_chunk40": {
+      "n": 161,
+      "p3_em_strict": 0.049689,
+      "p3_em_loose": 0.055901,
+      "p3_overlap_strict": 0.018634,
+      "p3_overlap_loose": 0.055901,
+      "abstain_rate": 0.310559,
+      "support_in_ctx_rate": 0.018634,
+      "err_rate": 0.478261
+    }
+  }
+}

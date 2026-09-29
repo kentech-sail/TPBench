@@ -1,0 +1,1053 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "equivalentProperty": "cr:equivalentProperty",
+    "samplingRate": "cr:samplingRate",
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "dct:conformsTo": "http://mlcommons.org/croissant/RAI/1.0",
+  "name": "TPBench",
+  "description": "TPBench evaluates whether dialogue compression retains the user's initial goal (P1), the final value of an updated slot (P2), and both when the update occurs late in the dialogue (P3). Reference answers come from SGD and MultiWOZ dialogue text and dialogue-state annotations. A paired P2 experiment separately removes the annotated update turn and every turn that states the answer, with matched deletions of irrelevant turns as controls. The same normalized phrase matcher requires the complete reference in both answer-bearing turns and loose P2 answers. The release also includes all-eligible RiSAWOZ and LongMemEval-KU comparisons with five random-selector seeds. P1 uses the initial-goal question with Llama at r=0.30. The release includes AI-assisted full-equivalence scores and a matched first-user-plus-recent baseline.",
+  "conformsTo": "http://mlcommons.org/croissant/1.1",
+  "version": "1.3.0",
+  "datePublished": "2026-05-06",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://github.com/kentech-sail/TPBench",
+  "citeAs": "@misc{park2026tpbench, title = {{TPBench}: A Turning-Point Benchmark for Dialogue Compression}, author = {Park, Minji and Yoon, Seunghyun and Lim, Hyuk}, year = {2026}, note = {https://github.com/kentech-sail/TPBench}}",
+  "keywords": [
+    "dialogue compression",
+    "context compression",
+    "turning-point benchmark",
+    "long-context evaluation",
+    "task-oriented dialogue",
+    "dialogue-state updates",
+    "kv-cache pruning",
+    "prompt compression",
+    "schema-guided dialogue",
+    "multiwoz",
+    "longmemeval",
+    "risawoz"
+  ],
+  "creator": {
+    "@type": "Organization",
+    "name": "KENTECH Sustainable AI Laboratory, Korea Institute of Energy Technology"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "KENTECH Sustainable AI Laboratory, Korea Institute of Energy Technology"
+  },
+  "isLiveDataset": false,
+  "rai:dataCollection": "Probe items are derived programmatically from the public SGD, MultiWOZ 2.2, LongMemEval-S, and RiSAWOZ datasets. No new human-subject data was collected. For SGD and MultiWOZ, update turns are reconstructed by replaying the released dataset conversion and checking the corresponding dialogue-state change.",
+  "rai:dataAnnotationProtocol": "P1 uses the first sentence of the first user turn. P2 uses the value after the last update to a queried slot and requires that the value also occur in the dialogue. P2 additionally excludes value pairs accepted by its alias-equivalence heuristic. P3 uses annotation-defined changes without that alias filter and keeps dialogues with at least ten turns whose last update occurs at index six or later and in the second half. Every P2 question maps to a user update turn. Sixteen MultiWOZ questions repeat the same state change at more than one turn; recorded conversion order resolves those ties. The s_evidence field lists every user or system turn containing a phrase accepted by the loose P2 scorer, and s_transition_support contains the update turn together with those answer-bearing turns. Auxiliary P1 semantic labels are model-generated using a fixed GPT-5.4-mini snapshot. External Answer Equivalence human ratings evaluate that judge; TPBench semantic judgments are not human annotations. Current P1 semantic evaluation covers 8,400 answers and 3,049 distinct judged pairs, excluding the LLMLingua condition pending fresh judgments for corrected outputs.",
+  "rai:dataPreprocessingProtocol": "For the main positional selectors, r is the retained fraction of dialogue turns and k=max(1,round(n_turns*r)); FMTS selectors use k=max(1,floor(n_turns*r)); the LLMLingua-derived selector also uses floor rounding and averages only binary word-retention labels within each turn. The corrected parser excludes numbers occurring in the dialogue text; archived H2O/MMR implementations also use floor rounding. For KV-cache methods, r is the retained cache fraction, while the kvpress compression_ratio argument is the drop fraction 1-r. P1--P3 use deterministic lexical or normalized string scoring. Primary P3 parses goal and slot-value segments, applies each criterion only to its segment, and assigns zero to unparseable outputs; whole-field scoring is a sensitivity analysis. Llama P1/P2 runs use greedy decoding with at most 96 output tokens; the Llama P3 and P2 deletion runs use at most 128 output tokens. Mistral and KV-cache configurations are recorded with each result file. The separate FMTS comparison uses GPT-5.4-mini as its reader and deterministic reference matching for scoring. Token counts are empirical outputs, not the definition of r. The RiSAWOZ and LongMemEval-KU robustness comparison evaluates deterministic selectors once, varies random selection over seeds 42--46, and uses 10,000 dialogue-level bootstrap samples. Main full-context and positional inputs use turn/speaker markers, while content-aware proxy inputs concatenate retained raw turn text. Corrected LLMLingua preserves its original renderer. Comparisons therefore concern the released pipelines under nominal budgets, not selector-only interventions with identical rendering.",
+  "rai:dataReleaseMaintenancePlan": "Questions about the data and code can be raised through the dataset repository's community discussion. Releases identify the data version and documentation date. FileObjects use SHA-256 fingerprints to pin the distributed evidence and code.",
+  "rai:dataUseCases": "TPBench is intended for comparing dialogue compressors on initial-goal, current-value, and joint recovery. Reporting the three probes separately shows which information a method preserves. The released questions are evaluation data and should not be used to train or tune the systems being compared.",
+  "rai:dataLimitations": "P1 uses a lexical scorer and one initial-goal sentence per dialogue. The main construction requires dialogue-state annotations. The P3 eligible pools contain 452 SGD and 277 MultiWOZ examples, so the three seeded samples overlap. Two of 161 MultiWOZ examples lack a valid matched control for the all-answer deletion comparison and are excluded only from that comparison. LongMemEval-KU and RiSAWOZ use complete but smaller eligible sets. Five seeds vary random turn selection, while deterministic selectors have one saved reader run. Only ChunkKV has a P3 result among the KV-cache methods. The original P3 prompt asks for the user task rather than explicitly specifying the initial goal; alias-exclusion results are a saved-output sensitivity, not independent semantic annotation. Main H2O/MMR feature-model identity and complete original generation state were not recorded. Corrected local-reader runs record their runtime differences from historical conditions. P1 semantic and FMTS reader comparisons exclude LLMLingua because replacement judgments/answers are unavailable; corrected FMTS context diagnostics still include it. Historical results are archived and are not current comparisons.",
+  "rai:personalSensitiveInformation": "Dialogue text and task values inherit the public source datasets. LongMemEval includes personal-context narratives and example user paths. No author credentials, private machine identifiers, or research-workflow records are distributed. Source licenses and notices remain applicable.",
+  "rai:dataSocialImpact": "Separating initial-goal and current-value recovery can make dialogue-compression evaluation more informative. The release contains benchmark data and evaluation code, with no generative model. Its scores are tied to the chosen reader, corpus, language, and scoring rule and serve as diagnostic results for those settings.",
+  "rai:dataBiases": "SGD and MultiWOZ 2.2 are English task-oriented datasets concentrated in travel, restaurant, and service-booking domains. RiSAWOZ contributes one Chinese comparison; English travel and service domains still dominate. The construction selects dialogues with explicit slot updates, and P1's lexical scoring favors answers that reuse words from the initial user turn.",
+  "rai:hasSyntheticData": true,
+  "prov:wasDerivedFrom": [
+    {
+      "@id": "https://github.com/google-research-datasets/dstc8-schema-guided-dialogue",
+      "name": "Schema-Guided Dialogue (SGD)",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "@id": "https://github.com/budzianowski/multiwoz",
+      "name": "MultiWOZ 2.2",
+      "license": "https://opensource.org/licenses/MIT"
+    },
+    {
+      "@id": "https://github.com/xiaowu0162/LongMemEval",
+      "name": "LongMemEval-S",
+      "license": "https://opensource.org/licenses/MIT"
+    },
+    {
+      "@id": "https://github.com/terryqj0107/RiSAWOZ",
+      "name": "RiSAWOZ",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/"
+    }
+  ],
+  "prov:wasGeneratedBy": [
+    {
+      "@id": "tpbench:probe-extraction",
+      "@type": "prov:Activity",
+      "name": "Probe extraction",
+      "description": "Deterministic builders create P1--P3 examples from the source corpora using the released seeds, budgets, value-normalization rules, and update-position filters."
+    },
+    {
+      "@id": "tpbench:context-compression",
+      "@type": "prov:Activity",
+      "name": "Context compression",
+      "description": "Compression adapters produce full-context, turn-selected, and KV-cache-compressed inputs at the reported budgets."
+    },
+    {
+      "@id": "tpbench:reader-scoring",
+      "@type": "prov:Activity",
+      "name": "Reader scoring",
+      "description": "Reader outputs use deterministic decoding and are evaluated by the bundled P1--P3 scorers. Aggregate JSON files and aggregates_flat.jsonl are derived from the scored rows."
+    },
+    {
+      "@id": "tpbench:update-turn-reconstruction",
+      "@type": "prov:Activity",
+      "name": "Update-turn reconstruction and validation",
+      "description": "Replays the SGD and MultiWOZ conversions with their recorded seeds and order, matches each generated question to its user-side dialogue-state change, and keeps P2/P3 items only when that change is the last update to the queried slot."
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "cr:FileSet",
+      "@id": "tpbench-repo",
+      "name": "tpbench-repo",
+      "description": "Root of the TPBench benchmark release. The GitHub repository at https://github.com/kentech-sail/TPBench hosts the artifact tree referenced by the FileSets and FileObjects below.",
+      "contentUrl": "https://github.com/kentech-sail/TPBench/tree/main",
+      "encodingFormat": "git+https",
+      "includes": "**/*"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "probes-fileset",
+      "name": "probes-fileset",
+      "description": "All probe JSONL files in data/probes/.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/jsonlines",
+      "includes": "data/probes/*.jsonl"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "fmts-refpool-results",
+      "name": "fmts-refpool-results",
+      "description": "Compressed contexts and free-form answer-accuracy aggregates. Context diagnostics cover eight turn-selection methods; answer accuracy covers seven, because LLMLingua-2 answers were withdrawn after a scoring correction. GPT-5.4-mini supplies the answers, which are scored by deterministic reference matching.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/json",
+      "includes": "results/fmts_refpool/*.json"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "fmts-refpool-batches",
+      "name": "fmts-refpool-batches",
+      "description": "FMTS reference answers and GPT-5.4-mini response files used for deterministic answer matching.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/jsonlines",
+      "includes": "batches/fmts_refpool/*.jsonl"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "aggregates-flat",
+      "name": "aggregates_flat.jsonl",
+      "description": "Flat per-setting, per-method summary derived from the main and replication aggregate files. Each line records the setting, dataset, budget, seed, probe, reader, method, sample size, and strict and loose accuracy.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "contentUrl": "results/aggregates_flat.jsonl",
+      "encodingFormat": "application/jsonlines",
+      "sha256": "e92126fb22a75533fdadf68bfacafd325281e2a0437c25c9ebdec54b28b27db7"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "seed-summary",
+      "name": "seed_summary.json",
+      "description": "Cross-seed P1 and P2 aggregates for SGD and MultiWOZ. The on-disk p3 key corresponds to paper P2.",
+      "contentUrl": "results/main/seed_summary.json",
+      "encodingFormat": "application/json",
+      "sha256": "57a46c85d1d1ff6779c4c91712aa5f3f6aaf72cb730cd19e357eeff8c11081f4"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "mistral-128-aggregates",
+      "name": "mistral-128-aggregates",
+      "description": "Mistral-7B-Instruct result files with at most 128 output tokens. P2 contains only questions about a slot's final update; P3 results are distributed with the update-turn validation files.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/json",
+      "includes": "results/diagnostics/mistral_128/*_aggregate.json"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "mistral-128-seed-summary",
+      "name": "seed_summary_mistral128.json",
+      "description": "Cross-seed Mistral aggregates for P1 and final-value P2. P3 aggregates are distributed separately.",
+      "contentUrl": "results/diagnostics/mistral_128/seed_summary_mistral128.json",
+      "encodingFormat": "application/json",
+      "sha256": "4885b39cf17326fbfb70b330ec2133eef8febea9edb8eab8670829671c365d37"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "kv-methods-aggregates",
+      "name": "kv-methods-aggregates",
+      "description": "Single-seed P1 and P2 aggregates at r=0.30 for SnapKV, PyramidKV, and StreamingLLM. P3 is not reported for these methods.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/json",
+      "includes": "results/kv_methods/*_aggregate.json"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "kv-methods-reader-extra",
+      "name": "reader_worker_kvpress_extra.py",
+      "description": "Reader for the KV-method extension. Mirrors the headline ChunkKV reader I/O schema but pulls SnapKVPress, PyramidKVPress, and StreamingLLMPress from a pip-installed kvpress package. Two-stage prefill: compress system+context cache under the press hook, then prefill the question on top uncompressed. Emits compression_mode, split_attempted, and fail_stage fields to distinguish split-failure from kvpress-internal exceptions.",
+      "contentUrl": "scripts/reader/reader_worker_kvpress_extra.py",
+      "encodingFormat": "text/x-python",
+      "sha256": "f172cda84d346157bb1b811a4ab01008368d746efc3242601ee87c4d0563989e"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "seed-summary-wider",
+      "name": "seed_summary_wider.json",
+      "description": "Cross-seed P1 and P2 aggregates at turn-retention budgets r in {0.50, 0.70}.",
+      "contentUrl": "results/main/seed_summary_wider.json",
+      "encodingFormat": "application/json",
+      "sha256": "59cbad420d72cb72c108f948b6edaebe4654e03441814e8165d6a7407ee51790"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "scorer-p1",
+      "name": "scorer_p1.py",
+      "description": "P1 scorer. Strict accuracy requires at least two shared content words with the initial-goal sentence; loose accuracy requires one. It also reports token F1 for sensitivity analysis.",
+      "contentUrl": "scripts/scorer/scorer_p1.py",
+      "encodingFormat": "text/x-python",
+      "sha256": "a30f91e8cc1cd39d424a2cec2c3468e6d68c9dbbd7fbc4041c92d33f8e8bc9e6"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "scorer-p3",
+      "name": "scorer_p3.py",
+      "description": "Current-value P2 scorer. Strict accuracy requires normalized exact match. Loose accuracy also accepts a longer prediction containing the complete normalized reference at phrase boundaries; a fragment of the reference is not enough.",
+      "contentUrl": "scripts/scorer/scorer_p3.py",
+      "encodingFormat": "text/x-python",
+      "sha256": "72c379c236da4a5a3daf6eb578efad8f9de904cb04acb7e2e2632bba97a09136"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "scorer-p1-late",
+      "name": "scorer_p1_late.py",
+      "description": "Joint-recovery P3 scorer. Both joint scores require one shared initial-goal content word. Strict also requires the complete lowercased current value at word boundaries; loose accepts the complete value or at least half of its content words, rounded down with a minimum of one.",
+      "contentUrl": "scripts/scorer/scorer_p1_late.py",
+      "encodingFormat": "text/x-python",
+      "sha256": "02d54e17e891129886611546c3ac21d623b39638dfc0f586b24b714c929534d4"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "scorer-lme-ku",
+      "name": "scorer_lme_ku.py",
+      "description": "LongMemEval-KU scorer with bounded answer variants and complete numeric signatures.",
+      "contentUrl": "scripts/scorer/scorer_lme_ku.py",
+      "encodingFormat": "text/x-python",
+      "sha256": "da7d22cd95e4c5d3d01a1449e0a53a195431d162b7fcd56619ed075cbd2190b6"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "scorer-p1-zh",
+      "name": "scorer_p1_zh.py",
+      "description": "RiSAWOZ P1 scorer using CJK codepoints and Latin or numeric word tokens.",
+      "contentUrl": "scripts/scorer/scorer_p1_zh.py",
+      "encodingFormat": "text/x-python",
+      "sha256": "a4dea6e7abd17ab89d93fa8d2c35a91c2e9a2998993c273347e40cebf9b8f438"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "seed-robustness-summary",
+      "name": "summary.json",
+      "description": "All-eligible RiSAWOZ and LongMemEval-KU results with five random-selector seeds and dialogue-bootstrap intervals.",
+      "contentUrl": "results/seed_robustness/stats/summary.json",
+      "encodingFormat": "application/json",
+      "sha256": "f91e49bc7046faeec0052633ded0440543f6d7fab1eeea4af3966e1d490890c9"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "seed-robustness-manifest",
+      "name": "manifest.json",
+      "description": "Model revision, protocol, row counts, reader-format errors, and SHA-256 fingerprints for the seed-robustness files.",
+      "contentUrl": "results/seed_robustness/manifest.json",
+      "encodingFormat": "application/json",
+      "sha256": "61b2035ef07a6b087056332b46279c8a61988f782d3546f8886f55598dee8a0e"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "seed-robustness-risawoz-probes",
+      "name": "probes_risawoz_all207_r30_s42-46.jsonl",
+      "description": "P1 and P2 probes for all 207 eligible RiSAWOZ dialogues and random-selector seeds 42--46.",
+      "contentUrl": "data/probes/probes_risawoz_all207_r30_s42-46.jsonl",
+      "encodingFormat": "application/jsonl",
+      "sha256": "592f8aaac7d11bebcb61f2c08f1d46083a3fd09359d4d0d5ac50dc379811b475"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "seed-robustness-lme-probes",
+      "name": "probes_lme_ku_all72_r30_s42-46.jsonl",
+      "description": "P2 probes for all 72 eligible LongMemEval-KU questions and random-selector seeds 42--46.",
+      "contentUrl": "data/probes/probes_lme_ku_all72_r30_s42-46.jsonl",
+      "encodingFormat": "application/jsonl",
+      "sha256": "4cff2db83727dceaf707c3fc41b4808e83fc2a85fb81cb321d51c7e4548b6920"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "seed-robustness-risawoz-reader",
+      "name": "risawoz_all207_r30_llama.jsonl",
+      "description": "Saved Llama reader outputs for the all-eligible RiSAWOZ robustness comparison.",
+      "contentUrl": "results/seed_robustness/reader/risawoz_all207_r30_llama.jsonl",
+      "encodingFormat": "application/jsonl",
+      "sha256": "bda41ed0cc1c26523c95462881fca39dfa7a19272ad42593a7e53b0a4892e033"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "seed-robustness-lme-reader",
+      "name": "lme_ku_all72_r30_llama.jsonl",
+      "description": "Saved Llama reader outputs for the all-eligible LongMemEval-KU robustness comparison.",
+      "contentUrl": "results/seed_robustness/reader/lme_ku_all72_r30_llama.jsonl",
+      "encodingFormat": "application/jsonl",
+      "sha256": "a6f82dd7348d1e3b4f5a090cea654f3b19e83e1ac434ec7d012298ca423e7376"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "seed-robustness-risawoz-p2-scored",
+      "name": "risawoz_p2.jsonl",
+      "description": "Per-example normalized P2 scores for the RiSAWOZ robustness comparison.",
+      "contentUrl": "results/seed_robustness/scored/risawoz_p2.jsonl",
+      "encodingFormat": "application/jsonl",
+      "sha256": "0dd2ceeb726ff26225cb324b6c6eb88fb0cd1496642158af7556481b27aab30d"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "seed-robustness-lme-p2-scored",
+      "name": "lme_ku_p2.jsonl",
+      "description": "Per-example corpus-specific P2 scores for the LongMemEval-KU robustness comparison.",
+      "contentUrl": "results/seed_robustness/scored/lme_ku_p2.jsonl",
+      "encodingFormat": "application/jsonl",
+      "sha256": "0ee5d389a1a0c40a4e5801a32fdfd1e7b9ad0f0c9470ba624876ff24f63d6210"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "seed-robustness-builder",
+      "name": "build_seed_robustness.py",
+      "description": "Deterministic all-eligible probe builder with explicit random-selector seeds.",
+      "contentUrl": "scripts/seed_robustness/build_seed_robustness.py",
+      "encodingFormat": "text/x-python",
+      "sha256": "8e401a499a7751a23c79ac7585a8ed89cd8851c5406b834a6f14a53a1439f28e"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "seed-robustness-bootstrap",
+      "name": "bootstrap_stats.py",
+      "description": "Dialogue-bootstrap intervals, selector-seed summaries, and compressed-method rank comparison.",
+      "contentUrl": "scripts/seed_robustness/bootstrap_stats.py",
+      "encodingFormat": "text/x-python",
+      "sha256": "b50d85c2f6b6fcfba36f4181b97fcd17daf8d513960559c46213b878782d1ed3"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "seed-robustness-validator",
+      "name": "validate_seed_robustness.py",
+      "description": "CPU validation of probe, reader, scored, summary, and manifest files.",
+      "contentUrl": "scripts/seed_robustness/validate_seed_robustness.py",
+      "encodingFormat": "text/x-python",
+      "sha256": "78f2c600987d78aa1b73b0cbaf1158e3fe6fa8502bb9bbcc6f5701ad2a8ff4fb"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "manuscript-evidence-map",
+      "name": "RESULTS_MAP.md",
+      "description": "Manuscript evidence map, scoring conventions, update-turn field definitions, and validation scope.",
+      "contentUrl": "RESULTS_MAP.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "61f862fd81ca3147059eb3c4cb7ec76c2a05760e0663f27e25e0db9869b2f385"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "update-evidence-origin-summary",
+      "name": "origin_summary.json",
+      "description": "Counts from reconstructing and validating update turns for all filtered SGD and MultiWOZ questions, including repeated identical state changes.",
+      "contentUrl": "results/diagnostics/update_evidence/origin_summary.json",
+      "encodingFormat": "application/json",
+      "sha256": "fd8792af782f333b794b17da6f58b86568ef4dfd6a173067adafaeb53cc113a4"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "update-evidence-p2-summary-llama",
+      "name": "p2_summary_llama.json",
+      "description": "Paired P2 results for deleting the update turn or all answer-bearing turns, with matched controls, using the Llama reader.",
+      "contentUrl": "results/diagnostics/update_evidence/p2_summary_llama.json",
+      "encodingFormat": "application/json",
+      "sha256": "494fac98d858dbae05068d6a79b684ab5a5093e4fb7f28c62aa80974e4649b31"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "update-evidence-p3-summary-llama",
+      "name": "p3_crossseed_llama.json",
+      "description": "P3 cross-seed aggregates for Llama-3.1-8B-Instruct.",
+      "contentUrl": "results/diagnostics/update_evidence/p3_crossseed_llama.json",
+      "encodingFormat": "application/json",
+      "sha256": "7d5ca1318279019c49e38c0c3125d5655ece0bbe644c292545a4861bcd3a88ea"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "update-evidence-p3-summary-mistral",
+      "name": "p3_crossseed_mistral.json",
+      "description": "P3 cross-seed aggregates for Mistral-7B-Instruct-v0.3.",
+      "contentUrl": "results/diagnostics/update_evidence/p3_crossseed_mistral.json",
+      "encodingFormat": "application/json",
+      "sha256": "5c0394c5aaf1965d4ea041b36d33b18df777ed309ea8e8164de15c5c30eb23da"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "update-evidence-fmts-support-ablation",
+      "name": "fmts_support_ablation_summary_llama.json",
+      "description": "Validated synthetic FMTS deletion experiment with matched irrelevant-turn controls; strict uses normalized exact match and loose uses phrase-bounded containment in either direction.",
+      "contentUrl": "results/diagnostics/update_evidence/fmts_support_ablation_summary_llama.json",
+      "encodingFormat": "application/json",
+      "sha256": "8ffdc1597b4852ff197ddeda4248cf5b958cd6e48b34fc755c5c81e6e9c6ff01"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "update-evidence-files",
+      "name": "update-evidence-files",
+      "description": "Update-turn indices, P2 deletion variants, P3 probes, saved reader outputs, rescored rows, and validation reports.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/json",
+      "includes": "results/diagnostics/update_evidence/*"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "fmts-execution",
+      "name": "answers.jsonl",
+      "contentUrl": "results/fmts_execution/answers.jsonl",
+      "description": "Saved execution metadata for 7,000 retained FMTS answers across full context and six selectors. The LLMLingua reader condition is excluded; original records are archived.",
+      "encodingFormat": "application/jsonl",
+      "sha256": "db34fdc8efc7e6ae1fa20008a0c535f725ad09e3935ef97d7d37cd802d715151"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "fmts-tasks",
+      "name": "tasks.jsonl",
+      "contentUrl": "results/fmts_execution/tasks.jsonl",
+      "description": "Compressed contexts and questions for the saved FMTS answers.",
+      "encodingFormat": "application/jsonl",
+      "sha256": "d4f94494677bf33505f330601c033672c88fe11b7604f675f0595be6f02be2cb"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "fmts-protocol",
+      "name": "protocol.json",
+      "contentUrl": "results/fmts_execution/protocol.json",
+      "description": "Actual FMTS prompt, output schema, backend, and execution-file hashes.",
+      "encodingFormat": "application/json",
+      "sha256": "b30447ccda1d9d0989768d31fdeb3342bc0bd7ec76fe5d1f1221ef0c9d622124"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "saved-reader-validator",
+      "name": "validate_saved_readers.py",
+      "contentUrl": "scripts/audit/validate_saved_readers.py",
+      "description": "CPU rescoring and provenance checks for FMTS and P1.",
+      "encodingFormat": "text/x-python",
+      "sha256": "8583c1dde22d9f88ade6cabc9562f4a48f0981e058d12c890ea2f31e83c992a6"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "construction-inputs",
+      "name": "construction-inputs",
+      "description": "Ordered SGD and MultiWOZ candidate pools with fixed method contexts.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "includes": "data/construction/*.jsonl",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "fmts-inputs",
+      "name": "fmts-inputs",
+      "description": "Questions, dialogue turns, and evidence for the FMTS comparison.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "includes": "data/fmts/*.jsonl",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "corpus-inputs",
+      "name": "corpus-inputs",
+      "description": "Source inputs for the RiSAWOZ and LongMemEval knowledge-update comparisons.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "includes": "data/sources/*.json",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "release-scripts",
+      "name": "release-scripts",
+      "description": "Self-contained construction, compression, reader, and scoring code.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "includes": "scripts/**/*.py",
+      "encodingFormat": "text/x-python"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "semantic-evaluation-data",
+      "name": "semantic-evaluation-data",
+      "description": "Blinded semantic-evaluation inputs, analysis keys, fixed prompt, and source metadata.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/octet-stream",
+      "includes": "data/semantic_evaluation/*"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "semantic-evaluation-results",
+      "name": "semantic-evaluation-results",
+      "description": "External human-label agreement and AI-assisted P1 judgments, raw responses, and aggregates. Current P1 comparison covers 8,400 answers and 3,049 distinct judged pairs, excluding LLMLingua.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/octet-stream",
+      "includes": "results/semantic_evaluation/**/*"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "p3-segment-results",
+      "name": "p3-segment-results",
+      "description": "Segment-local P3 scores and paired source-dialogue-cluster intervals.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/octet-stream",
+      "includes": "results/p3_segment_sensitivity/*"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "semantic-evaluation-code",
+      "name": "semantic-evaluation-code",
+      "description": "Reproducible auxiliary inference and deterministic aggregation code.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/octet-stream",
+      "includes": "scripts/semantic_evaluation/*.py"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "reader-evaluation-inputs",
+      "name": "reader-evaluation-inputs",
+      "description": "Reader prompts and example-to-request keys.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/octet-stream",
+      "includes": "data/reader_evaluation/*"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "reader-evaluation-results",
+      "name": "reader-evaluation-results",
+      "description": "Saved reader answers, runtime metadata, and matched position-baseline scores.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/octet-stream",
+      "includes": "results/reader_evaluation/**/*"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "reader-evaluation-code",
+      "name": "reader-evaluation-code",
+      "description": "GPU reader and deterministic current-protocol scoring.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/octet-stream",
+      "includes": "scripts/reader_evaluation/*.py"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "llmlingua-correction-data",
+      "name": "llmlingua-correction-data",
+      "description": "Word-label evidence, legacy/corrected context comparisons, and pending unjudged P1 pairs for the LLMLingua adapter correction.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/octet-stream",
+      "includes": "data/llmlingua_correction/*"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "historical-results",
+      "name": "historical-results",
+      "description": "Superseded results preserved for audit. These are excluded from current reported comparisons.",
+      "containedIn": {
+        "@id": "tpbench-repo"
+      },
+      "encodingFormat": "application/octet-stream",
+      "includes": "results/historical/**/*"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "probes",
+      "name": "probes",
+      "description": "One record per probe item. SGD and MultiWOZ P2/P3 records include the value before and after an update, the user turn where the update occurs, and every turn that states the final value.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "probes/dialogue_id",
+          "name": "dialogue_id",
+          "description": "Source dialogue identifier (SGD, MultiWOZ 2.2, LongMemEval-S, or RiSAWOZ).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.dialogue_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/dataset",
+          "name": "dataset",
+          "description": "Source corpus, one of {sgd, multiwoz, lme_ku, risawoz}.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.dataset"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/probe_type",
+          "name": "probe_type",
+          "description": "On-disk probe family, one of {P1, P3, P1_LATE}; paper-facing names are {P1, P2, P3}.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.probe_type"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/method",
+          "name": "method",
+          "description": "Compression-method identifier, such as full_context, recency, random_seed42, first_n, uniform_stride, attention_h2o_cache, embedding_mmr_cache, llmlingua2_cache, or chunkkv.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.method"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/compression_ratio",
+          "name": "compression_ratio",
+          "description": "Protocol ratio r: target retained dialogue-turn fraction for turn selectors and target retained KV-cache fraction for KV methods; full_context is uncompressed. Stored on the row as meta.ratio.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.meta.ratio"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/slot",
+          "name": "slot",
+          "description": "Slot identifier for state-recovery probes (on-disk P3 and P1_LATE, paper-facing P2 and P3); absent for P1.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.slot"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/old_value",
+          "name": "old_value",
+          "description": "Slot value before the update.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.old_value"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/new_value",
+          "name": "new_value",
+          "description": "Current slot value after the update.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.new_value"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/gold",
+          "name": "gold",
+          "description": "Reference answer, stored under the field name gold. P1 uses the initial-goal sentence; paper P2 (on-disk P3) uses the normalized current slot value; paper P3 (on-disk P1_LATE) combines both answers.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.gold"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/prompt_system",
+          "name": "prompt_system",
+          "description": "System prompt presented to the reader.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.prompt_system"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/prompt_user",
+          "name": "prompt_user",
+          "description": "User prompt: compressed context plus probe question, presented verbatim to the reader.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.prompt_user"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/origin_turn_id",
+          "name": "origin_turn_id",
+          "description": "User turn where the question's final slot update is generated, reconstructed from the recorded dataset conversion; stored as meta.origin_turn_id.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.meta.origin_turn_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/final_slot_update_turn_id",
+          "name": "final_slot_update_turn_id",
+          "description": "Last user-side dialogue-state update to the queried slot; stored as meta.final_slot_update_turn_id.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.meta.final_slot_update_turn_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/is_final_slot_update",
+          "name": "is_final_slot_update",
+          "description": "True when origin_turn_id is the last dialogue-state update to the queried slot; required for released P2 and P3 items.",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.meta.is_final_slot_update"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/origin_source",
+          "name": "origin_source",
+          "description": "Machine-readable label describing how the update turn was reconstructed and validated.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.meta.origin_source"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "probes/s_transition_support",
+          "name": "s_transition_support",
+          "description": "Optional P2 deletion field containing the update turn together with all turns whose text states the normalized current value.",
+          "dataType": "sc:Integer",
+          "repeated": true,
+          "source": {
+            "fileSet": {
+              "@id": "probes-fileset"
+            },
+            "extract": {
+              "jsonPath": "$.meta.s_transition_support[*]"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "aggregates",
+      "name": "aggregates",
+      "description": "Summary statistics for one experimental setting and method, derived from the detailed aggregate results and distributed as results/aggregates_flat.jsonl.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "aggregates/cell_id",
+          "name": "cell_id",
+          "description": "Identifier for an experimental setting. Seeded settings use {dataset}_r{ratio}_s{seed}_{probe}; ChunkKV settings use {dataset}_r{ratio}_chunkkv_{probe}; Mistral variants end in _mistral128 or _mistral96.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "aggregates-flat"
+            },
+            "extract": {
+              "jsonPath": "$.cell_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "aggregates/dataset",
+          "name": "dataset",
+          "description": "Source corpus, one of {sgd, multiwoz, lme_ku, risawoz}.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "aggregates-flat"
+            },
+            "extract": {
+              "jsonPath": "$.dataset"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "aggregates/compression_ratio",
+          "name": "compression_ratio",
+          "description": "Protocol ratio r in {0.10, 0.30, 0.50, 0.70}: target retained dialogue-turn fraction for turn selectors and target retained KV-cache fraction for KV methods; full_context is uncompressed.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": {
+              "@id": "aggregates-flat"
+            },
+            "extract": {
+              "jsonPath": "$.compression_ratio"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "aggregates/seed",
+          "name": "seed",
+          "description": "Probe-construction seed; null for the single-seed ChunkKV results.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "aggregates-flat"
+            },
+            "extract": {
+              "jsonPath": "$.seed"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "aggregates/probe_type",
+          "name": "probe_type",
+          "description": "On-disk probe family, one of {P1, P3, P1_LATE}; paper-facing names are {P1, P2, P3}.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "aggregates-flat"
+            },
+            "extract": {
+              "jsonPath": "$.probe_type"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "aggregates/reader",
+          "name": "reader",
+          "description": "Reader model identifier, e.g., llama-3.1-8b-instruct, mistral-7b-instruct-128, or mistral-7b-instruct-96.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "aggregates-flat"
+            },
+            "extract": {
+              "jsonPath": "$.reader"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "aggregates/method",
+          "name": "method",
+          "description": "Compression-method name.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "aggregates-flat"
+            },
+            "extract": {
+              "jsonPath": "$.method"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "aggregates/n",
+          "name": "n",
+          "description": "Number of eligible probe examples in the setting.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "aggregates-flat"
+            },
+            "extract": {
+              "jsonPath": "$.n"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "aggregates/strict_acc",
+          "name": "strict_acc",
+          "description": "Strict accuracy. P1 requires at least two shared content words; P2 requires normalized exact match; P3 requires one shared initial-goal content word and the complete lowercased current value at word boundaries.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": {
+              "@id": "aggregates-flat"
+            },
+            "extract": {
+              "jsonPath": "$.strict_acc"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "aggregates/loose_acc",
+          "name": "loose_acc",
+          "description": "Loose accuracy. P1 requires at least one shared content word; P2 also accepts a longer prediction containing the complete normalized reference at phrase boundaries; P3 requires one shared initial-goal content word and accepts either the complete current value or at least half of its content words, rounded down with a minimum of one.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": {
+              "@id": "aggregates-flat"
+            },
+            "extract": {
+              "jsonPath": "$.loose_acc"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "dateModified": "2026-09-29"
+}

@@ -1,0 +1,317 @@
+{"id": "015bbbe50376097c5d88", "question": "What did the user initially want?", "reference": "I am looking for a park east of town with a playground", "candidate": "find a moderately priced restaurant"}
+{"id": "01e759acb0d452c1a663", "question": "What did the user initially want?", "reference": "I need a train leaving from kings lynn", "candidate": "book a trip"}
+{"id": "0517aecc2238b8f1ce0b", "question": "What did the user initially want?", "reference": "I'd like to look for a salon located in Los Gatos", "candidate": "reserve a restaurant"}
+{"id": "0538e6eb4d3b0753f3eb", "question": "What did the user initially want?", "reference": "Search my calendar for events", "candidate": "check a day"}
+{"id": "058ad4282ce7a84e5c27", "question": "What did the user initially want?", "reference": "I'm hoping to find a french restaurant in Cambridge", "candidate": "book a tour"}
+{"id": "0674b604c6c4909cd13f", "question": "What did the user initially want?", "reference": "Reserve me tickets for an event", "candidate": "book a venue"}
+{"id": "0680f3564b9903b5a7a2", "question": "What did the user initially want?", "reference": "I am planning a trip in Cambridge", "candidate": "book a trip"}
+{"id": "07572a996ba775e85871", "question": "What did the user initially want?", "reference": "Hello, can you help me find a cheap guesthouse", "candidate": "choose an area"}
+{"id": "07b26112a0075f494778", "question": "What did the user initially want?", "reference": "I want you to find me a dentist in Fairfield", "candidate": "make a reservation"}
+{"id": "082dcf1d18fc1bdc5995", "question": "What did the user initially want?", "reference": "I'm looking for an expensive place to stay with free parking please", "candidate": "find a 3-star expensive guesthouse with free parking"}
+{"id": "08321c8fc421bebbaf28", "question": "What did the user initially want?", "reference": "Could you help me find a train that leaves on a wednesday after 8:45", "candidate": "book a flight"}
+{"id": "090b2f00901a70ca60c6", "question": "What did the user initially want?", "reference": "I need to get a small rental car", "candidate": "pick up something"}
+{"id": "092fe2bd70b0be0cfa86", "question": "What did the user initially want?", "reference": "Can you help me find a place to dine on the east side of the city, please", "candidate": "book a table"}
+{"id": "0a37e4f6af003ef484e4", "question": "What did the user initially want?", "reference": "Hey, get me a good deal on one-way flights", "candidate": "book a flight"}
+{"id": "0a91ed89aa89508b3cef", "question": "What did the user initially want?", "reference": "I am searching for a place to eat", "candidate": "book a restaurant"}
+{"id": "0b14a36787b161180992", "question": "What did the user initially want?", "reference": "I want to find one-way flights", "candidate": "find a flight"}
+{"id": "0b7b42bbe89e8c5b8c58", "question": "What did the user initially want?", "reference": "Can you help me find a german restaurant in the east please", "candidate": "find a restaurant"}
+{"id": "0bb8bd7ab0c38a197630", "question": "What did the user initially want?", "reference": "Please find me some information about the mutliple sports in the centre", "candidate": "find a sports complex"}
+{"id": "0bf7837dda3dd89030c5", "question": "What did the user initially want?", "reference": "I want to find a place to visit in the centre in Cambridge please", "candidate": "plan a trip"}
+{"id": "0d0482d36e87d2f38f43", "question": "What did the user initially want?", "reference": "I am looking for a mexican restaurant in south cambridge", "candidate": "get the address"}
+{"id": "0f194fd8ece1fd4cdf3c", "question": "What did the user initially want?", "reference": "Would you find me round trip flights for the 9th of this month and returning on the 12th", "candidate": "purchase tickets"}
+{"id": "0f4f63b73ed5dde5de8e", "question": "What did the user initially want?", "reference": "I need to find a dentist in Hayward", "candidate": "book a trip"}
+{"id": "0f751d0b155eee249f39", "question": "What did the user initially want?", "reference": "Find me a few attractions", "candidate": "get contact information"}
+{"id": "101255e6c6994ac39d79", "question": "What did the user initially want?", "reference": "Can you get me some flexible tickets for four on a 07:30 bus", "candidate": "book a flight"}
+{"id": "10375acaab306d6cf044", "question": "What did the user initially want?", "reference": "I'm looking for a train schedule after 15:15, going to Cambridge", "candidate": "book a reservation"}
+{"id": "10c6b3fc6438b0dc40f3", "question": "What did the user initially want?", "reference": "I need to book train tickets", "candidate": "reserve a restaurant"}
+{"id": "11dfffa66183c03d4758", "question": "What did the user initially want?", "reference": "I'd like to look for a rental vehicle, which I require rom the 11th of March", "candidate": "book a vehicle"}
+{"id": "11e425d0e37cf66035dc", "question": "What did the user initially want?", "reference": "I need a train that leaves Cambridge at 21:30", "candidate": "go to London Liverpool Street"}
+{"id": "125b4f48ee47d9b2e44b", "question": "What did the user initially want?", "reference": "I want to find out if there are any moderately priced hotels in the north part of the city", "candidate": "reserve a restaurant"}
+{"id": "12886f13bfe940e550a0", "question": "What did the user initially want?", "reference": "I am traveling to Cambridge and am super excited to see some of the local tourist attractions and I am looking for a restaurant call The Varsity Restaurant", "candidate": "book a time"}
+{"id": "12bbc7736c70b0c8739b", "question": "What did the user initially want?", "reference": "I am traveling to Cambridge and am excited to see some tourist attractions", "candidate": "find a cheap attraction"}
+{"id": "137cce1729e9375171d1", "question": "What did the user initially want?", "reference": "I need to find an apartment in Brentwood", "candidate": "reserve an apartment"}
+{"id": "138a986aedb6148eceb1", "question": "What did the user initially want?", "reference": "I need to find a train into Cambridge that will arrive by 09:15", "candidate": "book a hotel"}
+{"id": "13a4891725ea7f7c3f53", "question": "What did the user initially want?", "reference": "I need a doctor", "candidate": "find something in San Jose"}
+{"id": "140a5137e3d663227395", "question": "What did the user initially want?", "reference": "i want you to recommend a place to go in the centre that is type of entertainment", "candidate": "find entertainment attractions"}
+{"id": "15bfb5e3e15298873000", "question": "What did the user initially want?", "reference": "Hey, could you tell me if there are any panasian restaurants in the east side of town", "candidate": "check for a different type of cuisine"}
+{"id": "1775e50635117c7402f1", "question": "What did the user initially want?", "reference": "I'm looking for a good place for entertainment in the centre", "candidate": "find a place"}
+{"id": "18fc9d6a301dac9ea5c5", "question": "What did the user initially want?", "reference": "I need to find some new music, on a kitchen device", "candidate": "enjoy a selection"}
+{"id": "193e740b326b732111d9", "question": "What did the user initially want?", "reference": "I want to find bus tickets", "candidate": "book a flight"}
+{"id": "1ac58181aabbc8de8562", "question": "What did the user initially want?", "reference": "Can you help me find some music events", "candidate": "find a location"}
+{"id": "1cd8012ff3565f5a26a7", "question": "What did the user initially want?", "reference": "I'm entertaining some clients this week and I need something interesting to do", "candidate": "find information"}
+{"id": "1d5236125f47240bc579", "question": "What did the user initially want?", "reference": "i want somewhere that serves traditional food", "candidate": "get information"}
+{"id": "1dc1d351719349fbe33e", "question": "What did the user initially want?", "reference": "I'm looking for a place to eat christmas food", "candidate": "find a restaurant"}
+{"id": "1e53187b46c0bde73e2e", "question": "What did the user initially want?", "reference": "Yes, I'm visiting Cambridge and want to know about Cambridge Artworks in town", "candidate": "get phone number"}
+{"id": "1e595809d427ebe4be53", "question": "What did the user initially want?", "reference": "Hi I want to find a place to eat in the moderate price range in the east part of town", "candidate": "reserve a restaurant"}
+{"id": "1f9de880969cfe850b57", "question": "What did the user initially want?", "reference": "Can you check the weather in Kuala Lumpur on the March 13th", "candidate": "reserve a place"}
+{"id": "1fc22876d72f904a3ac8", "question": "What did the user initially want?", "reference": "I would like to make an appointment at a Supercuts salon", "candidate": "book a hair appointment"}
+{"id": "1fc5fd6458d635fe954f", "question": "What did the user initially want?", "reference": "I need help to find a dentist", "candidate": "see a dentist"}
+{"id": "2025ecbe6c5fc4883a47", "question": "What did the user initially want?", "reference": "Hello", "candidate": "places to go"}
+{"id": "20c752e4be3b5d8abdd5", "question": "What did the user initially want?", "reference": "I am looking for college attractions in the centre", "candidate": "college attractions"}
+{"id": "21ac320f0bc931640f41", "question": "What did the user initially want?", "reference": "I am in search of an apartment", "candidate": "book a place to stay"}
+{"id": "21e6fc6172754afd77f8", "question": "What did the user initially want?", "reference": "Find me a doctor in San Jose", "candidate": "check the weather"}
+{"id": "22aa413166e5e7b70301", "question": "What did the user initially want?", "reference": "I need to rent a car until Wednesday next week", "candidate": "buy a car"}
+{"id": "2652f358a178e40e6c81", "question": "What did the user initially want?", "reference": "I'm finally off bed rest and would like to find something to do in Vancouver, can you help me", "candidate": "search for an event"}
+{"id": "2683fbb3cdc7143d6a10", "question": "What did the user initially want?", "reference": "I need to find a cheap place to eat in Cambridge", "candidate": "find a restaurant"}
+{"id": "274d90a9957a1d5baa01", "question": "What did the user initially want?", "reference": "I am looking for an expensive gastropub restaurant in Cambridge", "candidate": "book a hotel"}
+{"id": "27bc3847fe8614c5d328", "question": "What did the user initially want?", "reference": "Can you find me a compact rental car in Long Beach, CA until the 5th of this month", "candidate": "place a reservation"}
+{"id": "2a282ee8115bdc7aa29b", "question": "What did the user initially want?", "reference": "I need to search for a movie to watch", "candidate": "make a booking"}
+{"id": "2a428530d17f15df1a41", "question": "What did the user initially want?", "reference": "Hello", "candidate": "get train information"}
+{"id": "2af9a18898e5d11ee6b6", "question": "What did the user initially want?", "reference": "I am not feeling well", "candidate": "get a ride"}
+{"id": "2b4f426f27d3ca6daf97", "question": "What did the user initially want?", "reference": "I AM looking for a restaurant", "candidate": "find information"}
+{"id": "2cc9ac41743ae52c136d", "question": "What did the user initially want?", "reference": "I wanna check the weather in ATL on the 13th of March", "candidate": "reserve a room"}
+{"id": "2d1e8a1098f243d1dd7e", "question": "What did the user initially want?", "reference": "Can you help me book a 1 star hotel that has free parking please", "candidate": "find local restaurants"}
+{"id": "2dbc9cbcadce7312703d", "question": "What did the user initially want?", "reference": "I'm in the mood to go do something in Vancouver", "candidate": "get more information"}
+{"id": "2dd6313bb0a35ca7cb8c", "question": "What did the user initially want?", "reference": "I need to buy plane tickets", "candidate": "make a reservation"}
+{"id": "2de766e4d0aa08f2add2", "question": "What did the user initially want?", "reference": "I would like to blow my budget at an expensive restaurant in the centre area", "candidate": "blow my budget"}
+{"id": "2deec18723cff00131b4", "question": "What did the user initially want?", "reference": "Do you book trains for the bishops stortford", "candidate": "book tickets"}
+{"id": "2f702f4939ac9561d9fb", "question": "What did the user initially want?", "reference": "Hi, could you help me locate a General Practitioner in Burlingame please", "candidate": "make an appointment"}
+{"id": "2fccf285365a81845623", "question": "What did the user initially want?", "reference": "I'm traveling to cambridge and I was hoping you could find me a train on tuesday that arrives by 13:30", "candidate": "book a train"}
+{"id": "309ec722b2a4fadc6124", "question": "What did the user initially want?", "reference": "fantasy regular danville", "candidate": "reserve a restaurant"}
+{"id": "30fdddad047f750febf3", "question": "What did the user initially want?", "reference": "I'm looking for a guesthouse style place to stay", "candidate": "stay in the West"}
+{"id": "32cae86f2b04e42d7c18", "question": "What did the user initially want?", "reference": "Help me find a moderate priced british food place please", "candidate": "book a restaurant"}
+{"id": "33087bace70272a26852", "question": "What did the user initially want?", "reference": "Phoenix forecast", "candidate": "find a place"}
+{"id": "331788a95c95d440a593", "question": "What did the user initially want?", "reference": "I need a salon", "candidate": "reserve a restaurant"}
+{"id": "34c186eea37441140db1", "question": "What did the user initially want?", "reference": "Can you tell me about the Carolina B&B", "candidate": "book a room"}
+{"id": "34c4ce425c4c417935f0", "question": "What did the user initially want?", "reference": "I'd like to get some tickets for an event", "candidate": "search"}
+{"id": "34e29fbda43eadf30593", "question": "What did the user initially want?", "reference": "Hello, I'm looking for a place to stay that is moderately priced and a star rating of 0", "candidate": "find a hotel"}
+{"id": "35be63a34518788e63c6", "question": "What did the user initially want?", "reference": "Can you find me a movie to watch", "candidate": "find movies"}
+{"id": "36cbcf2a18a5c5350b82", "question": "What did the user initially want?", "reference": "I'm heading out on Saturday and need a train that arrives by 17:45", "candidate": "get information"}
+{"id": "37d527a1052e34859a36", "question": "What did the user initially want?", "reference": "I am looking for something to amuse me", "candidate": "book event tickets"}
+{"id": "380a5e0896c7a73702c3", "question": "What did the user initially want?", "reference": "I need to get a cab", "candidate": "get help"}
+{"id": "38200dcf741b25c79954", "question": "What did the user initially want?", "reference": "It'd be neat if I could find a date for an event", "candidate": "stay in a hotel"}
+{"id": "3868b77e8f5317428c1a", "question": "What did the user initially want?", "reference": "I'm looking for something to do", "candidate": "book events"}
+{"id": "392aa0cba1b8b27c2604", "question": "What did the user initially want?", "reference": "I'm looking for a salon", "candidate": "book an appointment"}
+{"id": "3a1e970d25ab7c96f684", "question": "What did the user initially want?", "reference": "On Saturday I need a train that will arrive by 21:45", "candidate": "book a hotel"}
+{"id": "3ac0021af0111b523d24", "question": "What did the user initially want?", "reference": "Hello, I'd like some information on a train departing from cambridge", "candidate": "book a flight"}
+{"id": "3b00fa473bb4ed3e5f04", "question": "What did the user initially want?", "reference": "I heard Owls Vs Huskies is good, I would like to buy tickets to that event", "candidate": "book tickets"}
+{"id": "3c9d3861364887c93bb1", "question": "What did the user initially want?", "reference": "I am looking for a place to dine near the centre", "candidate": "find something"}
+{"id": "3e481a8359073ad64481", "question": "What did the user initially want?", "reference": "I need to find a Gynecologist", "candidate": "schedule an appointment"}
+{"id": "3fbc2bf4b0bb8e95fec0", "question": "What did the user initially want?", "reference": "I have to book a place to eat that serves irish food and is located in the centre, can you help me", "candidate": "book a reservation"}
+{"id": "423673863ffc77daf8f0", "question": "What did the user initially want?", "reference": "I need a train that leaves on Sunday for Broxbourne", "candidate": "look up times"}
+{"id": "43555c5df4dc592efb22", "question": "What did the user initially want?", "reference": "I am looking for places to go in the centre of town", "candidate": "find a church"}
+{"id": "48f950dac2d24aca6550", "question": "What did the user initially want?", "reference": "I want to go all out this St Patricks day, can you find me an Irish restaurant", "candidate": "find a restaurant"}
+{"id": "49edbfb4dfc48af209cf", "question": "What did the user initially want?", "reference": "Hi, can you fill me in on some details about a place called jesus green outdoor pool, please", "candidate": "find a place to eat"}
+{"id": "4a191fa7dbc0fc410fea", "question": "What did the user initially want?", "reference": "I would like to take a train from Cambridge to Kings Lynn", "candidate": "book a hotel"}
+{"id": "4ae096d752b8a8b75e03", "question": "What did the user initially want?", "reference": "I am looking for information in Cambridge", "candidate": "get information"}
+{"id": "4b7837192267a03f08f8", "question": "What did the user initially want?", "reference": "I'm looking for a nice guesthouse to stay at during my trip to Cambridge", "candidate": "find a restaurant"}
+{"id": "4b8ad323cccbbe9d50b6", "question": "What did the user initially want?", "reference": "I want to eat at a place that serves Ramen noddles", "candidate": "make a reservation"}
+{"id": "4c30ba39aadff1cb51a0", "question": "What did the user initially want?", "reference": "I'm looking for a moderate priced place to stay in the north part of town", "candidate": "choose a hotel"}
+{"id": "4ce977d15f7a7afdd3f0", "question": "What did the user initially want?", "reference": "I'm headed to Fresno, CA pretty soon", "candidate": "buy bus tickets"}
+{"id": "4d65a78440f2528170c2", "question": "What did the user initially want?", "reference": "I'm looking for attractions that are in the centre, could you help me find some", "candidate": "get information about attractions"}
+{"id": "4da81efeccfaaa3ff363", "question": "What did the user initially want?", "reference": "Hello, I need to book a ticket on a train from broxbourne on Friday", "candidate": "find a place to dine"}
+{"id": "4e1918d63c2b66d40730", "question": "What did the user initially want?", "reference": "Hi, I could use some help with information on places to stay", "candidate": "find places to stay"}
+{"id": "4e2cbf7025b7ea5bd19e", "question": "What did the user initially want?", "reference": "I need a good doctor", "candidate": "book a meeting"}
+{"id": "4e78acae449bf8ec3e5a", "question": "What did the user initially want?", "reference": "Is there a moderately priced restaurant in the centre", "candidate": "find a match"}
+{"id": "5088b7092d0581120f2f", "question": "What did the user initially want?", "reference": "I'll be taking a vacation soon and I'm looking for some attractions to check out", "candidate": "check a date"}
+{"id": "50a76b62fd571c6e2fb0", "question": "What did the user initially want?", "reference": "I'd like to get some Latin American food, nothing cheap, but shouldn't be expensive either", "candidate": "find restaurants"}
+{"id": "5131eb2eb2b0a0dcf724", "question": "What did the user initially want?", "reference": "I'm looking for a moderately priced steakhouse", "candidate": "find a restaurant"}
+{"id": "537f0b1ea73aa525bd84", "question": "What did the user initially want?", "reference": "I'm looking for a rental car", "candidate": "reserve a location"}
+{"id": "542c4b23a028521446ef", "question": "What did the user initially want?", "reference": "I want to visit some colleges", "candidate": "book a cinema"}
+{"id": "5555bf41965e0ff13e63", "question": "What did the user initially want?", "reference": "I'd like a rental car", "candidate": "collect something"}
+{"id": "567346f34703cf0e81cf", "question": "What did the user initially want?", "reference": "I need a train that leaves after 10:00 on Wednesday", "candidate": "book a hotel"}
+{"id": "573c4de794592a252fd3", "question": "What did the user initially want?", "reference": "Hi I am trying to find a regular show to watch at ShowPlace ICON Valley Fair in Santa Clara", "candidate": "make ticket reservations"}
+{"id": "5afa3833ec70c786a2a6", "question": "What did the user initially want?", "reference": "I'm looking for a certain hotel someone recommended, I think it's called the Gonville", "candidate": "make a booking"}
+{"id": "5b7b1c41d8d4eb65f1ba", "question": "What did the user initially want?", "reference": "I need to book a flight out of Chi-town", "candidate": "book a trip"}
+{"id": "5b8ad53a4dd4c3edb54e", "question": "What did the user initially want?", "reference": "Hello, I am hoping you can help me find out when some events are happening", "candidate": "find information"}
+{"id": "5c4cb3d75717268a3efd", "question": "What did the user initially want?", "reference": "I need a train to cambridge", "candidate": "book a train"}
+{"id": "5d6621ba54b73c3e1760", "question": "What did the user initially want?", "reference": "I need something interesting to do", "candidate": "plan an event"}
+{"id": "5dc951573be0a7a3831e", "question": "What did the user initially want?", "reference": "I am looking for a attraction called whipple museum of the history of science", "candidate": "find information"}
+{"id": "5ebaeb2bbb70297f3acf", "question": "What did the user initially want?", "reference": "I need to find a train, please", "candidate": "book a flight"}
+{"id": "5ecc6a1fb4271782e726", "question": "What did the user initially want?", "reference": "Hi, I'll be traveling to Cambridge soon and would like to find a restaurant that serves Indian food", "candidate": "book a restaurant"}
+{"id": "5eddefd8dfb054ce9c2b", "question": "What did the user initially want?", "reference": "Hi I'm planning a trip to Cambridge and want to book a train", "candidate": "find a cinema"}
+{"id": "5f1a86717368ee4e57af", "question": "What did the user initially want?", "reference": "I would like to get three tickets for the Raiders Vs Lions game in Oakland", "candidate": "book a reservation"}
+{"id": "60cad017c42004f9c729", "question": "What did the user initially want?", "reference": "What cheap restaurants are there in the west of Cambridge", "candidate": "book a reservation"}
+{"id": "64c17e4b8a2bdc5db3f3", "question": "What did the user initially want?", "reference": "I'm searching for a physician", "candidate": "find a day"}
+{"id": "65d01154e509575244ab", "question": "What did the user initially want?", "reference": "I will be leaving for a brief trip", "candidate": "find a travel companion"}
+{"id": "66aa85745f9941e61d8e", "question": "What did the user initially want?", "reference": "Find a salon in San Francisco", "candidate": "book an appointment"}
+{"id": "6729d5f5f7ae59c2520c", "question": "What did the user initially want?", "reference": "Hey, I was wondering if there are any multiple sports venues on the west side", "candidate": "find a college"}
+{"id": "6748d144db8812054812", "question": "What did the user initially want?", "reference": "Can you help me find a very cheap restaurant in the north", "candidate": "reserve a restaurant"}
+{"id": "67c42774446a769fbf28", "question": "What did the user initially want?", "reference": "Hey, can you tell me the weather on March 1st in Valley Ford", "candidate": "decide on a song"}
+{"id": "67d886ac0d006266900a", "question": "What did the user initially want?", "reference": "Can you find a bus leaving from Sacramento, CA", "candidate": "reserve a train"}
+{"id": "68442cdfcacfc41f954d", "question": "What did the user initially want?", "reference": "I wanted to visit the Center, could you tell the the hours it is open", "candidate": "make suggestions"}
+{"id": "68b8c1b9748dcbda7ef0", "question": "What did the user initially want?", "reference": "I am interested in a Park I can visit in New York City", "candidate": "find information about Astoria Park"}
+{"id": "6996a3586942dff63208", "question": "What did the user initially want?", "reference": "I'd like to get four tickets for the Lights event", "candidate": "book a trip"}
+{"id": "6a1481b4910df8e2c9d2", "question": "What did the user initially want?", "reference": "Hello I am looking for a good, cheap, Spanish restaurant", "candidate": "book a hotel"}
+{"id": "6a50c9b07dd74b1fae24", "question": "What did the user initially want?", "reference": "Hi, I'm looking for entertainment attractions that are available in the centre", "candidate": "find an entertainment attraction"}
+{"id": "6a9e395065940ac25063", "question": "What did the user initially want?", "reference": "I feel kinda bored", "candidate": "search for an event"}
+{"id": "6f31907ea70f80e0d856", "question": "What did the user initially want?", "reference": "I need to make a bus reservation please", "candidate": "book a flight"}
+{"id": "6f6a7ea679f065e6652e", "question": "What did the user initially want?", "reference": "Assistant, I am looking to purchase bus tickets", "candidate": "purchase tickets"}
+{"id": "6f8dd225e2d4362ab98b", "question": "What did the user initially want?", "reference": "I'm looking for someplace to get British cuisine in the center of town", "candidate": "book a restaurant"}
+{"id": "6ff1f8dd6f8d1e7ba8de", "question": "What did the user initially want?", "reference": "I need a train leaving Cambridge sometime after 13:15 please", "candidate": "depart from Cambridge"}
+{"id": "70c54eefe795926a9d29", "question": "What did the user initially want?", "reference": "I need to take a train to here from Broxbourne, this will be on saturday", "candidate": "book trains"}
+{"id": "71e2730e2324cb5b88b9", "question": "What did the user initially want?", "reference": "I want to know my balance", "candidate": "know my balance"}
+{"id": "72bd1642384d76579f62", "question": "What did the user initially want?", "reference": "Hello, can you help me find a pricey Singaporean restaurant in Cambridge", "candidate": "have Singaporean food"}
+{"id": "72cb40440d66f896c4ae", "question": "What did the user initially want?", "reference": "Are there trains leaving Cambridge after 18:15", "candidate": "narrow down choices"}
+{"id": "72f9900c6a52fac91e9e", "question": "What did the user initially want?", "reference": "I'd like to find a unisex salon", "candidate": "book an appointment"}
+{"id": "73287116a50155f7d629", "question": "What did the user initially want?", "reference": "Hey, I need help with finding interesting events for March 10th", "candidate": "help with something"}
+{"id": "7552f90e8979df8228ff", "question": "What did the user initially want?", "reference": "I'm looking for a high end Asian restaurant", "candidate": "book a space"}
+{"id": "75def28c3cba8554cd05", "question": "What did the user initially want?", "reference": "I'm looking for child-friendly attractions in SF", "candidate": "find sports movies"}
+{"id": "777e0214523c4385b173", "question": "What did the user initially want?", "reference": "Please find me a date for an event", "candidate": "find an event"}
+{"id": "786f765acd66e3d26be3", "question": "What did the user initially want?", "reference": "Hi there, could you help me reserve one ticket for an event on 14th of march", "candidate": "book a car"}
+{"id": "7894a53480400bb49650", "question": "What did the user initially want?", "reference": "I need a one-way flight, please", "candidate": "book a ticket"}
+{"id": "7898cc06fba92791c99e", "question": "What did the user initially want?", "reference": "Hello, can you recommend a moderately-priced 4-star hotel, please", "candidate": "book a booking"}
+{"id": "7959339a76626de24f75", "question": "What did the user initially want?", "reference": "Can you find me oneway flights to Seattle, WA for my upcoming trip", "candidate": "book a flight"}
+{"id": "7a2bda049ffb6e089b4f", "question": "What did the user initially want?", "reference": "I'm looking for places to go see good architecture in the centre of the city", "candidate": "book a place to stay"}
+{"id": "7a55ff5ee197d42ccac8", "question": "What did the user initially want?", "reference": "Can you help me find an expensive Panasian restaurant, please", "candidate": "find a restaurant"}
+{"id": "7cb67e2e12683cc0a896", "question": "What did the user initially want?", "reference": "Would you search round trip flights for me", "candidate": "book tickets"}
+{"id": "7cdb00b1d95daee0c90c", "question": "What did the user initially want?", "reference": "Are there any Australian food places in the south part of town", "candidate": "expensive Australian place to dine"}
+{"id": "7d5b27bc336458734e4a", "question": "What did the user initially want?", "reference": "Hi, are there any nice attractions which I can visit", "candidate": "get contact information"}
+{"id": "7ea229d6a976169005f1", "question": "What did the user initially want?", "reference": "Will you help me find a portuguese restaurant in the east please", "candidate": "reserve a restaurant"}
+{"id": "7f8d28b465b61f422318", "question": "What did the user initially want?", "reference": "I am looking for a entertainment attraction in the centre of town", "candidate": "find entertainment options"}
+{"id": "7fff08085b139f583974", "question": "What did the user initially want?", "reference": "I am looking for a train arriving by 9:45 on Tuesday", "candidate": "get departure and destination information"}
+{"id": "8184e4cf0780d712b446", "question": "What did the user initially want?", "reference": "i want a place for dinner and serves a mexican food,where can i find it", "candidate": "reserve a restaurant"}
+{"id": "82ca869d536901f72c58", "question": "What did the user initially want?", "reference": "Hi, I'm looking for a place to stay in Cambridge", "candidate": "book a hotel"}
+{"id": "8318b52488316bd95708", "question": "What did the user initially want?", "reference": "Can you help me find a train leaving on thursday going to cambridge", "candidate": "find an expensive place to stay"}
+{"id": "8363c6cd0d56f31a1f45", "question": "What did the user initially want?", "reference": "I'm looking for a high end restaurant in the centre, can you help me out", "candidate": "find restaurants"}
+{"id": "83f0a8bc74383d841305", "question": "What did the user initially want?", "reference": "I'm looking for a place called kambar, can you help me", "candidate": "book a restaurant"}
+{"id": "8596995fd744cbf46422", "question": "What did the user initially want?", "reference": "My health needs a bit of checking", "candidate": "check health"}
+{"id": "85cffced3c14033ded6b", "question": "What did the user initially want?", "reference": "I'm looking for a moderate priced place to stay with free parking please", "candidate": "find a hotel"}
+{"id": "8642778a3487453bda92", "question": "What did the user initially want?", "reference": "Find me some Blues Concert events", "candidate": "get two tickets"}
+{"id": "872ac6eb0ac12b3227a6", "question": "What did the user initially want?", "reference": "Please help me find a bus", "candidate": "book a trip"}
+{"id": "874d006c3e101bfdad85", "question": "What did the user initially want?", "reference": "I need some help choosing a train to Leicester", "candidate": "book a flight"}
+{"id": "88a0a583a87e0c199b32", "question": "What did the user initially want?", "reference": "I want to enjoy some event", "candidate": "enjoy some event"}
+{"id": "8a13b944778dd849812e", "question": "What did the user initially want?", "reference": "Hello", "candidate": "get the address of a concerthall"}
+{"id": "8a4403202e3b25a09e2e", "question": "What did the user initially want?", "reference": "I am looking for places to go", "candidate": "show 79 of them"}
+{"id": "8c14d969c939a5512045", "question": "What did the user initially want?", "reference": "Hi there, I'm hoping you can help me find a hotel in the south of Cambridge", "candidate": "find a guesthouse"}
+{"id": "8c930a46c792927f83b7", "question": "What did the user initially want?", "reference": "I am looking for some attractions to visit", "candidate": "get information"}
+{"id": "8d29a8b457a7bb858e61", "question": "What did the user initially want?", "reference": "Can you help me find a train departing from cambridge going to stevenage", "candidate": "book a room"}
+{"id": "8f2c99b6a96a7821bd0e", "question": "What did the user initially want?", "reference": "I am interested in finding dates for Electric Feels events around San Francisco", "candidate": "book a bus"}
+{"id": "8f37d32322788f1e1052", "question": "What did the user initially want?", "reference": "I want to reserve tickets for an event", "candidate": "find a car"}
+{"id": "90eaab03def30aeb2a56", "question": "What did the user initially want?", "reference": "I need a one bed hotel room near Cambridge on Friday", "candidate": "find something to do"}
+{"id": "92705fbc644abf2f0980", "question": "What did the user initially want?", "reference": "I need to find a place to dine in the expensive price range that serves indian food", "candidate": "eat on the west side"}
+{"id": "92d420524990d4121a51", "question": "What did the user initially want?", "reference": "I'm looking for a train in Cambridge that will arrive by 18:30", "candidate": "get information"}
+{"id": "941d94e8e639770fb957", "question": "What did the user initially want?", "reference": "I need to check for 3 bus tickets from Los Angeles to SD", "candidate": "reserve tickets"}
+{"id": "947710b04c912d9b8f6d", "question": "What did the user initially want?", "reference": "I will be making a trip soon with some friends and I need to find a car in Seattle", "candidate": "book a bus"}
+{"id": "950b6b767c9d1cae8e81", "question": "What did the user initially want?", "reference": "i am not feeling well", "candidate": "search for a city"}
+{"id": "9522cd5fb60c597c3dc5", "question": "What did the user initially want?", "reference": "Any good drama movies on the interwebs tonight", "candidate": "recommend a movie"}
+{"id": "96bbe0a1ca3a3424cc7b", "question": "What did the user initially want?", "reference": "I like to book ticket for an event and searching around something in New york city", "candidate": "event"}
+{"id": "97a50e298c3604993882", "question": "What did the user initially want?", "reference": "Can you find me round trip flights for three passengers please", "candidate": "plan a trip"}
+{"id": "97f2bea86c39523c205a", "question": "What did the user initially want?", "reference": "I would like to make a hotel reservation in Sydney, NSW on March 9th", "candidate": "check in"}
+{"id": "99193515cdf443b81597", "question": "What did the user initially want?", "reference": "Hi there, could you help me search for a salon please", "candidate": "schedule an appointment"}
+{"id": "994ba8d9a91bb4488b73", "question": "What did the user initially want?", "reference": "Yo Man, anything interesting going on", "candidate": "score tickets"}
+{"id": "996cb7475879bff76cfb", "question": "What did the user initially want?", "reference": "Please help me check the weather in Clayton", "candidate": "find a restaurant"}
+{"id": "9a70c50e00aad633c54a", "question": "What did the user initially want?", "reference": "What's the weather gonna be like March 7th", "candidate": "find information"}
+{"id": "9ac67918784881e981da", "question": "What did the user initially want?", "reference": "I'm looking to rent a Standard car", "candidate": "find a car"}
+{"id": "9bc89225a6e21428371c", "question": "What did the user initially want?", "reference": "I'm looking for a movie", "candidate": "book a table"}
+{"id": "9c29ac2360e5e8533b18", "question": "What did the user initially want?", "reference": "i am looking for a salon", "candidate": "book a city"}
+{"id": "9cf1d6728dc191b2ed75", "question": "What did the user initially want?", "reference": "I need to go out tonight - what's the hottest nightclub on the west side", "candidate": "reserve a museum"}
+{"id": "9d3d50e33101572d70db", "question": "What did the user initially want?", "reference": "I have a rash, can you find me a Dermatologist in San Ramon please", "candidate": "get more options"}
+{"id": "9db0b6bf03201452354d", "question": "What did the user initially want?", "reference": "Hello, I need to book a train at 07:15 leaving Cambridge going to the town center on Thursday for 7 people", "candidate": "travel to town centre"}
+{"id": "9e2f923552bd6752890e", "question": "What did the user initially want?", "reference": "I am looking for a hot nightclub around the centre", "candidate": "reserve a nightclub"}
+{"id": "9e9b21931ff49e5ebaf1", "question": "What did the user initially want?", "reference": "Can you suggest some places I can go on my upcoming visit", "candidate": "suggest places to visit"}
+{"id": "a0ea1f362711e749d870", "question": "What did the user initially want?", "reference": "Can you tell me a bit about the entertainment type places in the center of town", "candidate": "find a college"}
+{"id": "a2df6a492d8a8fcb42a1", "question": "What did the user initially want?", "reference": "I want to make a reservation at a restaurant", "candidate": "reserve a restaurant"}
+{"id": "a35b1cc5f5d215059845", "question": "What did the user initially want?", "reference": "I am looking to stay at a guesthouse with free wfii", "candidate": "book a room"}
+{"id": "a3e0040fab1bdea20c20", "question": "What did the user initially want?", "reference": "hi I want a train to Ely arrived by 13:45, can you help me do that", "candidate": "book a flight"}
+{"id": "a4bfbc36470885d9462d", "question": "What did the user initially want?", "reference": "Can you help me find Arbury Lodge Guesthouse", "candidate": "reserve a restaurant"}
+{"id": "a57d7cfe56e70d2cc607", "question": "What did the user initially want?", "reference": "i am looking for a place to dine", "candidate": "cancel a reservation"}
+{"id": "a5cb2fd1fb955129f304", "question": "What did the user initially want?", "reference": "Can you assist me with finding a moderately priced restaurant", "candidate": "book a table"}
+{"id": "a60a40a05082829b834e", "question": "What did the user initially want?", "reference": "I need a good physician", "candidate": "reserve a restaurant"}
+{"id": "a6711ef52501ed2420c6", "question": "What did the user initially want?", "reference": "I'm interested in going to an event", "candidate": "buy tickets"}
+{"id": "a75858ed9579441c40f0", "question": "What did the user initially want?", "reference": "I'm looking for a salon please", "candidate": "book a city"}
+{"id": "a765ab2bcfd994ac4e02", "question": "What did the user initially want?", "reference": "I like to spend my freed time with the valuable ones", "candidate": "search for an event"}
+{"id": "a7f72474f92ace6c3b8b", "question": "What did the user initially want?", "reference": "Hi", "candidate": "choose a restaurant"}
+{"id": "a85cc2a83b3319699080", "question": "What did the user initially want?", "reference": "Could you find me some hotels", "candidate": "search NYC"}
+{"id": "a8699c0ce146e08a466d", "question": "What did the user initially want?", "reference": "I am getting a haircut", "candidate": "get an appointment"}
+{"id": "a92433d7b0c2733008ef", "question": "What did the user initially want?", "reference": "I'm looking for a fantasy movie at Century Oakridge", "candidate": "find something else"}
+{"id": "a9a0854d80e232337921", "question": "What did the user initially want?", "reference": "I am searching for a place to eat around Fremont and i want some korean barbeque", "candidate": "book a salon"}
+{"id": "ab76423ab4ac864f8c1b", "question": "What did the user initially want?", "reference": "I want afghan food in the centre of town", "candidate": "reserve a restaurant"}
+{"id": "abc7289b5993ff9acbe8", "question": "What did the user initially want?", "reference": "I'd like to find a cheap Indonesian restaurant", "candidate": "find a restaurant"}
+{"id": "ae0592e00cf4ccf5c6a8", "question": "What did the user initially want?", "reference": "I was thinking about going to an event, I could use some time off", "candidate": "help you with that"}
+{"id": "ae4e9c3aac05eed31c1d", "question": "What did the user initially want?", "reference": "I need a bite to eat somewhere", "candidate": "contact them"}
+{"id": "aeb45286b74d5945c7a4", "question": "What did the user initially want?", "reference": "I am looking for an Italian restaurant in the centre of town", "candidate": "find a restaurant"}
+{"id": "af92fc7653a2633459b0", "question": "What did the user initially want?", "reference": "I would like to find a hotel room", "candidate": "reserve a room"}
+{"id": "b053f7c3892339fb02de", "question": "What did the user initially want?", "reference": "I'm looking for something interesting to do like American Football on 8th of this month", "candidate": "ask about a city"}
+{"id": "b0a3956b7edb494d5374", "question": "What did the user initially want?", "reference": "Could you recommend an expensive restaurant in the city centre", "candidate": "show several restaurants"}
+{"id": "b2c505845711c5dcc795", "question": "What did the user initially want?", "reference": "Get me your best room in New Delhi, pronto", "candidate": "check wifi availability"}
+{"id": "b42a5fe75c085c75e3de", "question": "What did the user initially want?", "reference": "Find me a place to eat", "candidate": "make a reservation"}
+{"id": "b435ad56b843b7f00387", "question": "What did the user initially want?", "reference": "There is one meeting for me, can you find a bus", "candidate": "book a trip"}
+{"id": "b4cb006064bb16767b11", "question": "What did the user initially want?", "reference": "Can you make a hotel reservation for me", "candidate": "reserve a ticket"}
+{"id": "b69726c03c6cd883d90c", "question": "What did the user initially want?", "reference": "Can you help me find a very expensive place to eat that serves crossover food", "candidate": "reserve a restaurant"}
+{"id": "b81164f55e6a3e84c226", "question": "What did the user initially want?", "reference": "Would you look for a bus for me", "candidate": "plan a trip"}
+{"id": "b8153bda5a2aa0bb124d", "question": "What did the user initially want?", "reference": "I need a rental car form the 10th till March 12th", "candidate": "make a reservation"}
+{"id": "b98a3b5ce7e57cc2fede", "question": "What did the user initially want?", "reference": "What is the weather status in Redwood city", "candidate": "book a restaurant"}
+{"id": "baa9c09c18206bf5d9a8", "question": "What did the user initially want?", "reference": "I'd like some help finding a hotel", "candidate": "book a hotel"}
+{"id": "bb7c4dfe756371d4891a", "question": "What did the user initially want?", "reference": "I need to book a train for 18:45 that leaves Cambridge", "candidate": "book a trip"}
+{"id": "bb92817ba3b448792f06", "question": "What did the user initially want?", "reference": "I am looking ffor a economy extra bus ticket for 1 people leaving from sacramento, ca", "candidate": "book a flight"}
+{"id": "bccf4c8dd21334efa29b", "question": "What did the user initially want?", "reference": "Hi, I am looking for information on a place to stay", "candidate": "book a guesthouse"}
+{"id": "bd56625d20071ab7bc7b", "question": "What did the user initially want?", "reference": "Can you place a restaurant reservation for me", "candidate": "book a table"}
+{"id": "bd7ec697ba17ca3ae5dd", "question": "What did the user initially want?", "reference": "I'd like to find a house to stay in, I\"m travelling to New York City", "candidate": "make a reservation"}
+{"id": "bda006666e90c92e79c5", "question": "What did the user initially want?", "reference": "I want one person in san fran and am leaving the 5th of march", "candidate": "find events"}
+{"id": "bf6746d88acf18a6a5fe", "question": "What did the user initially want?", "reference": "Hello", "candidate": "recommend a theatre"}
+{"id": "c05635a7a01fae1eaf27", "question": "What did the user initially want?", "reference": "I'm wondering if there are any boat attractions in town", "candidate": "get train information"}
+{"id": "c111a84092ea2e3de594", "question": "What did the user initially want?", "reference": "I need a ticket on an airplane", "candidate": "get a ticket"}
+{"id": "c14fdc7d28d38706056e", "question": "What did the user initially want?", "reference": "Do you have an appointment at the salon on the 13th", "candidate": "check appointments"}
+{"id": "c1791ef12d05c4068a27", "question": "What did the user initially want?", "reference": "I'm looking for a place to dine that serves expensive european food", "candidate": "reserve a restaurant"}
+{"id": "c1e676441fc2b2268c88", "question": "What did the user initially want?", "reference": "I am looking for a place to eat some moderate priced austrian food", "candidate": "reserve a venue"}
+{"id": "c235157bc5e1b60a23eb", "question": "What did the user initially want?", "reference": "Could you help me find a restaurant in the Cambridge area called La Margherita", "candidate": "get hotel information"}
+{"id": "c25b0634dbd0524e3cd8", "question": "What did the user initially want?", "reference": "I need to book a train on friday", "candidate": "help with travel plans"}
+{"id": "c38492c7e1817acbf733", "question": "What did the user initially want?", "reference": "Find me a moderately priced place to dine in the west", "candidate": "book a train"}
+{"id": "c52a3a8f483d6dccd6c1", "question": "What did the user initially want?", "reference": "I'm looking for a hotel in the north", "candidate": "find a hotel"}
+{"id": "c59d826b1050da49e466", "question": "What did the user initially want?", "reference": "I need to visit my hometown, please help me find a rental car", "candidate": "book something"}
+{"id": "c7257a2543e000dd2e6f", "question": "What did the user initially want?", "reference": "I'd like to find a date for an event", "candidate": "reserve tickets"}
+{"id": "c751b454601ffe8ecb2d", "question": "What did the user initially want?", "reference": "Hi, I am looking for a concerthall in the east", "candidate": "book a reservation"}
+{"id": "c7d0a6ff2cec5b5e2c8c", "question": "What did the user initially want?", "reference": "I am interested in finding a movie I can watch", "candidate": "find movies"}
+{"id": "c873c132d4e6d391d46c", "question": "What did the user initially want?", "reference": "Ok, help me out getting a car to rent on the 8th", "candidate": "reserve a car"}
+{"id": "c8b223c744cc82486b0f", "question": "What did the user initially want?", "reference": "Where can I go that is located in the west in town", "candidate": "book a hotel"}
+{"id": "ca44b04c66d4dd4e0422", "question": "What did the user initially want?", "reference": "I need to find dates to an event in LAX", "candidate": "reserve tickets"}
+{"id": "cb01f447995fd3b8e365", "question": "What did the user initially want?", "reference": "I am planning a trip in Cambridge", "candidate": "browse a campus"}
+{"id": "cbc634e22762f11e70ce", "question": "What did the user initially want?", "reference": "I need to find a train that will arrive cambridge by 13:45 on friday", "candidate": "find a restaurant"}
+{"id": "cd98fa1c4dad81bd9660", "question": "What did the user initially want?", "reference": "I'm looking for a restaurant that serves moroccan food in the centre", "candidate": "find information"}
+{"id": "d1cdc9227293e3553e95", "question": "What did the user initially want?", "reference": "I want to eat Pasta in Walnut Creek", "candidate": "book a reservation"}
+{"id": "d418239f1d879c9954db", "question": "What did the user initially want?", "reference": "I want to book a train from stansted airport on thursday", "candidate": "book a hotel"}
+{"id": "d4505a82fab8714c1d55", "question": "What did the user initially want?", "reference": "Hi, I need a place to stay in the north please", "candidate": "choose a place to stay"}
+{"id": "d63087f6ef8ff28c8fda", "question": "What did the user initially want?", "reference": "Can you help me find some local tourist attractions", "candidate": "find a restaurant"}
+{"id": "d6c6c1c942dbc659b99c", "question": "What did the user initially want?", "reference": "My trip is coming up soon", "candidate": "pick up a car"}
+{"id": "d768136e34373d854a25", "question": "What did the user initially want?", "reference": "I am looking for a moderately priced restaurant in the centre of Cambridge", "candidate": "book a hotel"}
+{"id": "d7ed4325b46095ea99da", "question": "What did the user initially want?", "reference": "I would like to listen to musing on the speaker in the kitchen", "candidate": "enjoy the song"}
+{"id": "d9301dada60d11ca2bee", "question": "What did the user initially want?", "reference": "I need a place to eat that serves traditional food in the centre", "candidate": "find cheap places to eat"}
+{"id": "d9a65016c498d06b8d18", "question": "What did the user initially want?", "reference": "I'm looking for bus tickets to Las Vegas", "candidate": "book a flight"}
+{"id": "d9e97da58b7ac7b9cdbc", "question": "What did the user initially want?", "reference": "I would like some Lebanese food in the west part of town", "candidate": "Lebanese food"}
+{"id": "db4ff298bd9270e50f90", "question": "What did the user initially want?", "reference": "Find me a Gynecologist in San Jose", "candidate": "reserve a service"}
+{"id": "db5a4876e9feb65671b1", "question": "What did the user initially want?", "reference": "Please search for a bus for one to Long Beach, CA", "candidate": "book tickets"}
+{"id": "dbde3fad22b017b8fb9c", "question": "What did the user initially want?", "reference": "Fine me three tickets for an event in NY on the 12th of this month", "candidate": "reserve a car"}
+{"id": "dc599f5eedf761574447", "question": "What did the user initially want?", "reference": "i am looking for a place to stay", "candidate": "get information on guesthouses"}
+{"id": "df427e326da097963169", "question": "What did the user initially want?", "reference": "Will you find a movie at California Theatre in Berkeley", "candidate": "reserve a restaurant"}
+{"id": "e05556a761a0d131527f", "question": "What did the user initially want?", "reference": "Hello, I am looking for a restaurant that serves halal food", "candidate": "find restaurants"}
+{"id": "e2882f382c149fe77ff3", "question": "What did the user initially want?", "reference": "Hi there, are there any nice 3d drama movies I can watch in the SFO area", "candidate": "find restaurants"}
+{"id": "e3266add192462ff5669", "question": "What did the user initially want?", "reference": "Hello", "candidate": "decide on food"}
+{"id": "e35ee77694876172030d", "question": "What did the user initially want?", "reference": "I need to reserve some tickets to the Star City Music Festival on the 10th", "candidate": "reserve a table"}
+{"id": "e38686e82899096737d1", "question": "What did the user initially want?", "reference": "I'm looking for a dentist", "candidate": "find on in Sunnyvale"}
+{"id": "e5f3addf1a7d79c4fa76", "question": "What did the user initially want?", "reference": "Yes I am looking for colleges in town to go visit", "candidate": "suggest a college"}
+{"id": "e731d4769886ee5ea841", "question": "What did the user initially want?", "reference": "Hi, yes, I'm looking for a 4 star hotel to stay in", "candidate": "find a restaurant"}
+{"id": "e813ebcb45b52d36314c", "question": "What did the user initially want?", "reference": "Hello, I am going to nee a place to go in the centre of town", "candidate": "a place to go"}
+{"id": "e907665ff44537216994", "question": "What did the user initially want?", "reference": "I would like to find a unisex salon", "candidate": "get a salon phone number"}
+{"id": "e9a360c2c764e42890b4", "question": "What did the user initially want?", "reference": "please help me find dates for events", "candidate": "find events"}
+{"id": "e9ae38517708ae0a179a", "question": "What did the user initially want?", "reference": "I have this tingling in my skin that may be an allergic reaction", "candidate": "find a doctor"}
+{"id": "e9c252dd2d687e599512", "question": "What did the user initially want?", "reference": "I'm looking for information on a placed called riverboat georgina", "candidate": "find an attraction"}
+{"id": "ea50e7f8e514ce453030", "question": "What did the user initially want?", "reference": "I need to find somewhere that serves freshwater fish", "candidate": "book a reservation"}
+{"id": "ea82d69036f2aae93e56", "question": "What did the user initially want?", "reference": "Could you find me a cheap restaurant in the centre please", "candidate": "find a restaurant"}
+{"id": "eb7c18759f4d378b8dd4", "question": "What did the user initially want?", "reference": "Greetings", "candidate": "find information"}
+{"id": "ec993553cce79e308c54", "question": "What did the user initially want?", "reference": "I'm coming to visit Cambridge", "candidate": "reserve a restaurant"}
+{"id": "ed1c11cb88b5a919d501", "question": "What did the user initially want?", "reference": "Hi, I'd like to book a hotel reservation for next Wednesday at Doubletree by Hilton Hotel San Diego - Del Mar", "candidate": "book a flight"}
+{"id": "eda60b66a0282320fa1e", "question": "What did the user initially want?", "reference": "Can you help me find a guesthouse that includes free parking", "candidate": "get information"}
+{"id": "edb5333f0e6bb716e187", "question": "What did the user initially want?", "reference": "Hello", "candidate": "visit an office"}
+{"id": "eeabda81d62f559de504", "question": "What did the user initially want?", "reference": "Hi, I am planning my Cambridge trip and could use some help with a particular attraction", "candidate": "find an attraction"}
+{"id": "f0bed39be1624b2dd86f", "question": "What did the user initially want?", "reference": "I'm looking for dates for some events", "candidate": "book a ticket"}
+{"id": "f1ff7b2158b1acc50644", "question": "What did the user initially want?", "reference": "I'm hoping to find a moderately priced korean restaurant", "candidate": "find a restaurant"}
+{"id": "f44305f86d47fca0fbc7", "question": "What did the user initially want?", "reference": "I would like to have a taxi and I am 1 person", "candidate": "book a ride"}
+{"id": "f51e29a52dab319fcd5f", "question": "What did the user initially want?", "reference": "I am looking for a place to stay in the centre of town that includes free wifi", "candidate": "check hotel amenities"}
+{"id": "f5f313d6099c11f9aace", "question": "What did the user initially want?", "reference": "I'm looking for unusual food in the south part of town", "candidate": "find a phone number"}
+{"id": "f76ea8a934bf1e2247d5", "question": "What did the user initially want?", "reference": "I need a rental car in Sacramento, CA from March 7th until March 11th", "candidate": "book a reservation"}
+{"id": "f80310a16dc576d252ec", "question": "What did the user initially want?", "reference": "There's a New Found Glory event that's happening and I want tickets preferably for the 10th", "candidate": "book a ticket"}
+{"id": "f80c57d679af1cd2dfcb", "question": "What did the user initially want?", "reference": "Do you have any museums there", "candidate": "find a train"}
+{"id": "f81b5c97256508a19821", "question": "What did the user initially want?", "reference": "I'm looking for round trip flights", "candidate": "book a flight"}
+{"id": "f83cfe7f8c6683666f6d", "question": "What did the user initially want?", "reference": "I need to reserve a seat on a bus", "candidate": "book bus tickets"}
+{"id": "f846bd1242658f0a1f4f", "question": "What did the user initially want?", "reference": "Are there any restaurants that serve international food", "candidate": "book a hotel"}
+{"id": "f8b92984c83538b0895f", "question": "What did the user initially want?", "reference": "I'd like to find an expensive place to dine that specifically serves italian food", "candidate": "decide where to go"}
+{"id": "fb65949ef8d9fd6b18de", "question": "What did the user initially want?", "reference": "I need a salon in Palo Alto", "candidate": "book an appointment"}
+{"id": "fbc23073819c1c31df19", "question": "What did the user initially want?", "reference": "Are there any places that serve Christmas food", "candidate": "find a restaurant"}
+{"id": "fc1dd68a35b94fe12adb", "question": "What did the user initially want?", "reference": "I'm trying to find a unisex salon located in Pleasanton", "candidate": "find information"}
+{"id": "fc47269376ae7e693ac1", "question": "What did the user initially want?", "reference": "Can you help me find a train leaving Cambridge at 5:30pm on Friday", "candidate": "book tickets"}
+{"id": "fd4389ad787410a484b1", "question": "What did the user initially want?", "reference": "Hi there, are there any salons which I can cut my hair at", "candidate": "schedule an appointment"}
+{"id": "fde41928efbbd3f6584e", "question": "What did the user initially want?", "reference": "Tell me what the weather will be in Paris on March 1st", "candidate": "book a hotel"}
+{"id": "fe13be46d30556c5b618", "question": "What did the user initially want?", "reference": "Can you help me find a Games event", "candidate": "find a game"}
+{"id": "fe8ff54647598dccc75c", "question": "What did the user initially want?", "reference": "I want something in the north part of town with swedish food", "candidate": "reserve a restaurant"}
+{"id": "fefa7f001a1627bb41ba", "question": "What did the user initially want?", "reference": "Hi, can you help me find a cheap hotel with free wifi", "candidate": "make a reservation"}

@@ -1,0 +1,26 @@
+# TPBench - minimal runtime requirements.
+#
+# Probe builders and main scorers use the standard library.
+# The reader harness and ChunkKV require torch and transformers.
+# These are minimum package requirements, not a frozen inference environment.
+
+# Reader (required to reproduce reader-level numbers):
+torch>=2.3.0
+transformers>=4.46.0
+accelerate>=0.34.0
+sentencepiece>=0.2.0
+
+# ChunkKV head-to-head (vendored under scripts/reader/chunkkv_vendored/):
+# the ChunkKV Press subclass is vendored to keep the headline ChunkKV
+# reproduction self-contained; torch and transformers above are the only
+# external dependencies the vendored copy requires.
+#
+# KV-method extension (SnapKV, PyramidKV, StreamingLLM via
+# scripts/reader/reader_worker_kvpress_extra.py): requires the pip-installed
+# kvpress package (the Press subclasses for these three are not vendored).
+# kvpress>=0.2.0  # uncomment when reproducing the KV-method extension
+
+# Offline artifact validation:
+mlcroissant>=1.0.0
+numpy>=1.24
+rouge-score>=0.1.2

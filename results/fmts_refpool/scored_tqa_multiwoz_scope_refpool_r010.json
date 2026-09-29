@@ -1,0 +1,7060 @@
+{
+  "kind": "tqa",
+  "tag": "multiwoz_scope_refpool_r010",
+  "summary": {
+    "full_context": {
+      "n": 200,
+      "correct": 133,
+      "tqa": 0.665
+    },
+    "recency": {
+      "n": 200,
+      "correct": 0,
+      "tqa": 0.0
+    },
+    "random_seed42": {
+      "n": 200,
+      "correct": 5,
+      "tqa": 0.025
+    },
+    "first_n": {
+      "n": 200,
+      "correct": 8,
+      "tqa": 0.04
+    },
+    "uniform_stride": {
+      "n": 200,
+      "correct": 13,
+      "tqa": 0.065
+    },
+    "attention_h2o_cache": {
+      "n": 200,
+      "correct": 9,
+      "tqa": 0.045
+    },
+    "embedding_mmr_cache": {
+      "n": 200,
+      "correct": 26,
+      "tqa": 0.13
+    }
+  },
+  "per_item": {
+    "full_context": [
+      {
+        "dialogue_id": "PMUL4398.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1013.json",
+        "correct": true,
+        "answer": "Aylesbray Lodge Guest House for 4 people, 3 nights starting from Tuesday."
+      },
+      {
+        "dialogue_id": "PMUL0121.json",
+        "correct": true,
+        "answer": "west"
+      },
+      {
+        "dialogue_id": "PMUL3484.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0389.json",
+        "correct": true,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "SNG01520.json",
+        "correct": true,
+        "answer": "Saturday"
+      },
+      {
+        "dialogue_id": "PMUL3951.json",
+        "correct": true,
+        "answer": "centre"
+      },
+      {
+        "dialogue_id": "PMUL0843.json",
+        "correct": true,
+        "answer": "Saturday"
+      },
+      {
+        "dialogue_id": "PMUL2979.json",
+        "correct": false,
+        "answer": "free parking"
+      },
+      {
+        "dialogue_id": "MUL1681.json",
+        "correct": true,
+        "answer": "south"
+      },
+      {
+        "dialogue_id": "MUL0928.json",
+        "correct": true,
+        "answer": "east area of town"
+      },
+      {
+        "dialogue_id": "SNG02152.json",
+        "correct": true,
+        "answer": "Primavera"
+      },
+      {
+        "dialogue_id": "PMUL2460.json",
+        "correct": true,
+        "answer": "Friday"
+      },
+      {
+        "dialogue_id": "MUL0358.json",
+        "correct": true,
+        "answer": "13:00"
+      },
+      {
+        "dialogue_id": "PMUL4450.json",
+        "correct": true,
+        "answer": "1 ticket"
+      },
+      {
+        "dialogue_id": "PMUL1251.json",
+        "correct": false,
+        "answer": "train"
+      },
+      {
+        "dialogue_id": "PMUL1842.json",
+        "correct": true,
+        "answer": "Tuesday"
+      },
+      {
+        "dialogue_id": "PMUL4896.json",
+        "correct": true,
+        "answer": "the northern part of town"
+      },
+      {
+        "dialogue_id": "MUL2431.json",
+        "correct": false,
+        "answer": "entertainment"
+      },
+      {
+        "dialogue_id": "SNG1375.json",
+        "correct": true,
+        "answer": "Sunday"
+      },
+      {
+        "dialogue_id": "PMUL1031.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20027.json",
+        "correct": true,
+        "answer": "Italian food"
+      },
+      {
+        "dialogue_id": "PMUL4827.json",
+        "correct": true,
+        "answer": "East"
+      },
+      {
+        "dialogue_id": "PMUL3086.json",
+        "correct": true,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "SNG0598.json",
+        "correct": true,
+        "answer": "Italian"
+      },
+      {
+        "dialogue_id": "PMUL1146.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0018.json",
+        "correct": true,
+        "answer": "monday"
+      },
+      {
+        "dialogue_id": "MUL2293.json",
+        "correct": true,
+        "answer": "Friday"
+      },
+      {
+        "dialogue_id": "PMUL1586.json",
+        "correct": true,
+        "answer": "moderate"
+      },
+      {
+        "dialogue_id": "SNG0039.json",
+        "correct": true,
+        "answer": "gourmet burger kitchen"
+      },
+      {
+        "dialogue_id": "SSNG0142.json",
+        "correct": true,
+        "answer": "centre of town"
+      },
+      {
+        "dialogue_id": "SNG01795.json",
+        "correct": true,
+        "answer": "10:43"
+      },
+      {
+        "dialogue_id": "PMUL4433.json",
+        "correct": true,
+        "answer": "the north"
+      },
+      {
+        "dialogue_id": "SNG1116.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1165.json",
+        "correct": true,
+        "answer": "Monday"
+      },
+      {
+        "dialogue_id": "PMUL3460.json",
+        "correct": false,
+        "answer": "16:58"
+      },
+      {
+        "dialogue_id": "PMUL2583.json",
+        "correct": true,
+        "answer": "Sunday"
+      },
+      {
+        "dialogue_id": "MUL1914.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2097.json",
+        "correct": false,
+        "answer": "goodbye"
+      },
+      {
+        "dialogue_id": "PMUL0949.json",
+        "correct": true,
+        "answer": "Wednesday"
+      },
+      {
+        "dialogue_id": "PMUL3847.json",
+        "correct": true,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL2710.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20385.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0172.json",
+        "correct": true,
+        "answer": "centre"
+      },
+      {
+        "dialogue_id": "PMUL3867.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01373.json",
+        "correct": true,
+        "answer": "finches bed and breakfast"
+      },
+      {
+        "dialogue_id": "PMUL3555.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0935.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3529.json",
+        "correct": false,
+        "answer": "5-star"
+      },
+      {
+        "dialogue_id": "PMUL1576.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2676.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0485.json",
+        "correct": true,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "SNG1382.json",
+        "correct": true,
+        "answer": "Wednesday"
+      },
+      {
+        "dialogue_id": "SSNG0095.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1969.json",
+        "correct": true,
+        "answer": "after 10:30"
+      },
+      {
+        "dialogue_id": "MUL0015.json",
+        "correct": false,
+        "answer": "North"
+      },
+      {
+        "dialogue_id": "MUL0969.json",
+        "correct": true,
+        "answer": "centre"
+      },
+      {
+        "dialogue_id": "PMUL0800.json",
+        "correct": true,
+        "answer": "west"
+      },
+      {
+        "dialogue_id": "PMUL3610.json",
+        "correct": true,
+        "answer": "16:45"
+      },
+      {
+        "dialogue_id": "MUL1151.json",
+        "correct": true,
+        "answer": "1 night starting Tuesday"
+      },
+      {
+        "dialogue_id": "PMUL1873.json",
+        "correct": true,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL4349.json",
+        "correct": true,
+        "answer": "Monday"
+      },
+      {
+        "dialogue_id": "SNG0509.json",
+        "correct": true,
+        "answer": "Tuesday"
+      },
+      {
+        "dialogue_id": "PMUL1566.json",
+        "correct": false,
+        "answer": "Wednesday"
+      },
+      {
+        "dialogue_id": "PMUL3566.json",
+        "correct": false,
+        "answer": "mid-range"
+      },
+      {
+        "dialogue_id": "PMUL1209.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0115.json",
+        "correct": true,
+        "answer": "hotel"
+      },
+      {
+        "dialogue_id": "PMUL3769.json",
+        "correct": true,
+        "answer": "west"
+      },
+      {
+        "dialogue_id": "SNG0819.json",
+        "correct": true,
+        "answer": "Thursday"
+      },
+      {
+        "dialogue_id": "PMUL1714.json",
+        "correct": true,
+        "answer": "2"
+      },
+      {
+        "dialogue_id": "PMUL2135.json",
+        "correct": true,
+        "answer": "east side of town"
+      },
+      {
+        "dialogue_id": "PMUL1941.json",
+        "correct": true,
+        "answer": "0 star"
+      },
+      {
+        "dialogue_id": "MUL0616.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0952.json",
+        "correct": true,
+        "answer": "Friday"
+      },
+      {
+        "dialogue_id": "PMUL1254.json",
+        "correct": true,
+        "answer": "19:30"
+      },
+      {
+        "dialogue_id": "WOZ20556.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20251.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1961.json",
+        "correct": true,
+        "answer": "Monday"
+      },
+      {
+        "dialogue_id": "SNG1239.json",
+        "correct": true,
+        "answer": "6"
+      },
+      {
+        "dialogue_id": "WOZ20364.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2160.json",
+        "correct": true,
+        "answer": "boat"
+      },
+      {
+        "dialogue_id": "MUL0564.json",
+        "correct": true,
+        "answer": "Monday"
+      },
+      {
+        "dialogue_id": "PMUL1398.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20486.json",
+        "correct": true,
+        "answer": "Chinese"
+      },
+      {
+        "dialogue_id": "SNG0702.json",
+        "correct": true,
+        "answer": "French"
+      },
+      {
+        "dialogue_id": "PMUL2406.json",
+        "correct": true,
+        "answer": "British food"
+      },
+      {
+        "dialogue_id": "PMUL4611.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0818.json",
+        "correct": true,
+        "answer": "hotel"
+      },
+      {
+        "dialogue_id": "SSNG0100.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2534.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0144.json",
+        "correct": true,
+        "answer": "Monday"
+      },
+      {
+        "dialogue_id": "PMUL3268.json",
+        "correct": true,
+        "answer": "12:15"
+      },
+      {
+        "dialogue_id": "SNG1111.json",
+        "correct": true,
+        "answer": "the east side of town"
+      },
+      {
+        "dialogue_id": "PMUL0788.json",
+        "correct": true,
+        "answer": "18:15"
+      },
+      {
+        "dialogue_id": "PMUL0540.json",
+        "correct": true,
+        "answer": "Tuesday"
+      },
+      {
+        "dialogue_id": "MUL1101.json",
+        "correct": true,
+        "answer": "It was originally 4 nights, but the current bookstay is 2 nights."
+      },
+      {
+        "dialogue_id": "SSNG0343.json",
+        "correct": true,
+        "answer": "Tuesday"
+      },
+      {
+        "dialogue_id": "MUL2257.json",
+        "correct": true,
+        "answer": "1 night"
+      },
+      {
+        "dialogue_id": "WOZ20580.json",
+        "correct": true,
+        "answer": "North American food"
+      },
+      {
+        "dialogue_id": "PMUL0135.json",
+        "correct": true,
+        "answer": "guesthouse"
+      },
+      {
+        "dialogue_id": "WOZ20389.json",
+        "correct": true,
+        "answer": "the north"
+      },
+      {
+        "dialogue_id": "SNG01669.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3659.json",
+        "correct": true,
+        "answer": "north"
+      },
+      {
+        "dialogue_id": "MUL0526.json",
+        "correct": true,
+        "answer": "18:30"
+      },
+      {
+        "dialogue_id": "SSNG0297.json",
+        "correct": true,
+        "answer": "south"
+      },
+      {
+        "dialogue_id": "PMUL2797.json",
+        "correct": false,
+        "answer": "No, the user does not need internet, but they want to know whether the guesthouse offers free internet."
+      },
+      {
+        "dialogue_id": "MUL0905.json",
+        "correct": true,
+        "answer": "the centre area"
+      },
+      {
+        "dialogue_id": "PMUL1547.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0932.json",
+        "correct": true,
+        "answer": "museum"
+      },
+      {
+        "dialogue_id": "PMUL2035.json",
+        "correct": true,
+        "answer": "centre area"
+      },
+      {
+        "dialogue_id": "PMUL1820.json",
+        "correct": true,
+        "answer": "broxbourne"
+      },
+      {
+        "dialogue_id": "PMUL0917.json",
+        "correct": true,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "WOZ20210.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1390.json",
+        "correct": true,
+        "answer": "Saturday"
+      },
+      {
+        "dialogue_id": "SNG0238.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1303.json",
+        "correct": true,
+        "answer": "Stevenage"
+      },
+      {
+        "dialogue_id": "MUL0216.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2656.json",
+        "correct": true,
+        "answer": "museum"
+      },
+      {
+        "dialogue_id": "PMUL4420.json",
+        "correct": true,
+        "answer": "6"
+      },
+      {
+        "dialogue_id": "PMUL4983.json",
+        "correct": true,
+        "answer": "13:30"
+      },
+      {
+        "dialogue_id": "PMUL3111.json",
+        "correct": true,
+        "answer": "expensive"
+      },
+      {
+        "dialogue_id": "PMUL2904.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2517.json",
+        "correct": true,
+        "answer": "moderate"
+      },
+      {
+        "dialogue_id": "SNG0375.json",
+        "correct": true,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL1007.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "MUL2572.json",
+        "correct": true,
+        "answer": "1 person"
+      },
+      {
+        "dialogue_id": "PMUL4498.json",
+        "correct": false,
+        "answer": "free parking"
+      },
+      {
+        "dialogue_id": "PMUL3762.json",
+        "correct": true,
+        "answer": "Monday"
+      },
+      {
+        "dialogue_id": "SNG02339.json",
+        "correct": true,
+        "answer": "centre of town"
+      },
+      {
+        "dialogue_id": "PMUL3489.json",
+        "correct": true,
+        "answer": "Saturday"
+      },
+      {
+        "dialogue_id": "PMUL2893.json",
+        "correct": false,
+        "answer": "23:30"
+      },
+      {
+        "dialogue_id": "PMUL2791.json",
+        "correct": true,
+        "answer": "moderate"
+      },
+      {
+        "dialogue_id": "PMUL0366.json",
+        "correct": true,
+        "answer": "centre of town"
+      },
+      {
+        "dialogue_id": "MUL1467.json",
+        "correct": true,
+        "answer": "10:15"
+      },
+      {
+        "dialogue_id": "PMUL3499.json",
+        "correct": true,
+        "answer": "North"
+      },
+      {
+        "dialogue_id": "WOZ20505.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20484.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0141.json",
+        "correct": false,
+        "answer": "Thursday"
+      },
+      {
+        "dialogue_id": "PMUL3901.json",
+        "correct": false,
+        "answer": "five days"
+      },
+      {
+        "dialogue_id": "MUL0907.json",
+        "correct": true,
+        "answer": "Tuesday at 12:15"
+      },
+      {
+        "dialogue_id": "PMUL2037.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1315.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0812.json",
+        "correct": true,
+        "answer": "Meze Bar restaurant, 196 Mill Road City Centre"
+      },
+      {
+        "dialogue_id": "SNG0761.json",
+        "correct": true,
+        "answer": "Thursday"
+      },
+      {
+        "dialogue_id": "SNG01729.json",
+        "correct": true,
+        "answer": "oncology"
+      },
+      {
+        "dialogue_id": "PMUL3447.json",
+        "correct": false,
+        "answer": "Broxbourne"
+      },
+      {
+        "dialogue_id": "SNG02348.json",
+        "correct": true,
+        "answer": "22:30"
+      },
+      {
+        "dialogue_id": "SNG02229.json",
+        "correct": true,
+        "answer": "after 21:15"
+      },
+      {
+        "dialogue_id": "PMUL4372.json",
+        "correct": false,
+        "answer": "3 nights starting on Wednesday"
+      },
+      {
+        "dialogue_id": "MUL1403.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0319.json",
+        "correct": false,
+        "answer": "free parking"
+      },
+      {
+        "dialogue_id": "SNG0868.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0029.json",
+        "correct": true,
+        "answer": "Thai"
+      },
+      {
+        "dialogue_id": "PMUL2321.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4214.json",
+        "correct": true,
+        "answer": "cheap"
+      },
+      {
+        "dialogue_id": "SSNG0159.json",
+        "correct": true,
+        "answer": "Wednesday"
+      },
+      {
+        "dialogue_id": "PMUL1073.json",
+        "correct": true,
+        "answer": "the centre"
+      },
+      {
+        "dialogue_id": "PMUL1489.json",
+        "correct": true,
+        "answer": "Stevenage"
+      },
+      {
+        "dialogue_id": "SNG0606.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2273.json",
+        "correct": true,
+        "answer": "European food"
+      },
+      {
+        "dialogue_id": "SNG0462.json",
+        "correct": true,
+        "answer": "Wednesday"
+      },
+      {
+        "dialogue_id": "PMUL2619.json",
+        "correct": true,
+        "answer": "cheap"
+      },
+      {
+        "dialogue_id": "SNG0306.json",
+        "correct": true,
+        "answer": "14:15"
+      },
+      {
+        "dialogue_id": "SNG0157.json",
+        "correct": false,
+        "answer": "children's oncology and haematology department"
+      },
+      {
+        "dialogue_id": "PMUL3822.json",
+        "correct": true,
+        "answer": "south"
+      },
+      {
+        "dialogue_id": "WOZ20144.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4957.json",
+        "correct": true,
+        "answer": "centre"
+      },
+      {
+        "dialogue_id": "MUL1306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1867.json",
+        "correct": true,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL1401.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1951.json",
+        "correct": true,
+        "answer": "Thursday"
+      },
+      {
+        "dialogue_id": "PMUL2639.json",
+        "correct": true,
+        "answer": "east"
+      },
+      {
+        "dialogue_id": "PMUL1169.json",
+        "correct": true,
+        "answer": "museum"
+      },
+      {
+        "dialogue_id": "PMUL0490.json",
+        "correct": true,
+        "answer": "Venetian"
+      },
+      {
+        "dialogue_id": "SNG01268.json",
+        "correct": false,
+        "answer": "It changed from not needing internet to needing free wifi."
+      },
+      {
+        "dialogue_id": "MUL1032.json",
+        "correct": false,
+        "answer": "east part of town"
+      },
+      {
+        "dialogue_id": "SNG0947.json",
+        "correct": false,
+        "answer": "free parking"
+      },
+      {
+        "dialogue_id": "MUL0793.json",
+        "correct": true,
+        "answer": "5 stars, then 4 stars"
+      },
+      {
+        "dialogue_id": "PMUL0735.json",
+        "correct": true,
+        "answer": "South area"
+      },
+      {
+        "dialogue_id": "MUL1307.json",
+        "correct": true,
+        "answer": "The stay was changed from 4 nights for 2 people to 1 night for 2 people at the Acorn Guest House."
+      },
+      {
+        "dialogue_id": "PMUL1437.json",
+        "correct": true,
+        "answer": "entertainment"
+      },
+      {
+        "dialogue_id": "MUL0347.json",
+        "correct": false,
+        "answer": "center of town"
+      },
+      {
+        "dialogue_id": "SNG0957.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20087.json",
+        "correct": true,
+        "answer": "cheap"
+      },
+      {
+        "dialogue_id": "WOZ20373.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0514.json",
+        "correct": false,
+        "answer": "center of town"
+      },
+      {
+        "dialogue_id": "PMUL2735.json",
+        "correct": true,
+        "answer": "expensive"
+      },
+      {
+        "dialogue_id": "MUL2406.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2294.json",
+        "correct": true,
+        "answer": "museum"
+      },
+      {
+        "dialogue_id": "MUL1464.json",
+        "correct": true,
+        "answer": "16:15"
+      },
+      {
+        "dialogue_id": "PMUL4223.json",
+        "correct": true,
+        "answer": "Saturday"
+      },
+      {
+        "dialogue_id": "PMUL2032.json",
+        "correct": true,
+        "answer": "Wednesday"
+      },
+      {
+        "dialogue_id": "SSNG0079.json",
+        "correct": true,
+        "answer": "Wednesday"
+      },
+      {
+        "dialogue_id": "PMUL0840.json",
+        "correct": true,
+        "answer": "7 people"
+      },
+      {
+        "dialogue_id": "SSNG0218.json",
+        "correct": true,
+        "answer": "north"
+      },
+      {
+        "dialogue_id": "PMUL4625.json",
+        "correct": true,
+        "answer": "Saturday"
+      },
+      {
+        "dialogue_id": "SNG1306.json",
+        "correct": true,
+        "answer": "Thursday"
+      },
+      {
+        "dialogue_id": "PMUL0850.json",
+        "correct": true,
+        "answer": "15:00"
+      },
+      {
+        "dialogue_id": "PMUL3633.json",
+        "correct": true,
+        "answer": "south"
+      },
+      {
+        "dialogue_id": "MUL2079.json",
+        "correct": true,
+        "answer": "Kings Lynn"
+      }
+    ],
+    "recency": [
+      {
+        "dialogue_id": "PMUL4398.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1013.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0121.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3484.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0389.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01520.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3951.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0843.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2979.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1681.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0928.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02152.json",
+        "correct": false,
+        "answer": "Goodbye."
+      },
+      {
+        "dialogue_id": "PMUL2460.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0358.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4450.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1251.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1842.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4896.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2431.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1375.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1031.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20027.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4827.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3086.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0598.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1146.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0018.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2293.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1586.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0039.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0142.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01795.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4433.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1116.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1165.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3460.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2583.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1914.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2097.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0949.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3847.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2710.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20385.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0172.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3867.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01373.json",
+        "correct": false,
+        "answer": "Have a great night!"
+      },
+      {
+        "dialogue_id": "PMUL3555.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0935.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3529.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1576.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2676.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0485.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1382.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0095.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1969.json",
+        "correct": false,
+        "answer": "good bye"
+      },
+      {
+        "dialogue_id": "MUL0015.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0969.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL0800.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3610.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1151.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1873.json",
+        "correct": false,
+        "answer": "No thank you that will be all"
+      },
+      {
+        "dialogue_id": "PMUL4349.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0509.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1566.json",
+        "correct": false,
+        "answer": "great day"
+      },
+      {
+        "dialogue_id": "PMUL3566.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1209.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0115.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3769.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0819.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1714.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2135.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1941.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0616.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0952.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1254.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20556.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20251.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1961.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1239.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20364.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2160.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0564.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1398.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20486.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0702.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2406.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4611.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0818.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0100.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2534.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0144.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3268.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1111.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0788.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0540.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1101.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0343.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2257.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20580.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0135.json",
+        "correct": false,
+        "answer": "signing off"
+      },
+      {
+        "dialogue_id": "WOZ20389.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01669.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3659.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0526.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0297.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2797.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0905.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL1547.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0932.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2035.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1820.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0917.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20210.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1390.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0238.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1303.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0216.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2656.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4420.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4983.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3111.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2904.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2517.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0375.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1007.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2572.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4498.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3762.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02339.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3489.json",
+        "correct": false,
+        "answer": "Sunday"
+      },
+      {
+        "dialogue_id": "PMUL2893.json",
+        "correct": false,
+        "answer": "goodbye"
+      },
+      {
+        "dialogue_id": "PMUL2791.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0366.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1467.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3499.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20505.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20484.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0141.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3901.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0907.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2037.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1315.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0812.json",
+        "correct": false,
+        "answer": "Okay, have a nice day."
+      },
+      {
+        "dialogue_id": "SNG0761.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01729.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3447.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02348.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02229.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4372.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1403.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0319.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0868.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0029.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2321.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4214.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0159.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1073.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1489.json",
+        "correct": false,
+        "answer": "Have a nice day."
+      },
+      {
+        "dialogue_id": "SNG0606.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2273.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0462.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2619.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0157.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3822.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20144.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4957.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1867.json",
+        "correct": false,
+        "answer": "Good Bye"
+      },
+      {
+        "dialogue_id": "PMUL1401.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1951.json",
+        "correct": false,
+        "answer": "great"
+      },
+      {
+        "dialogue_id": "PMUL2639.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1169.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0490.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01268.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1032.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0947.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0793.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0735.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1307.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1437.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0347.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0957.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20087.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20373.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0514.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2735.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2406.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2294.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1464.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4223.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2032.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0079.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0840.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0218.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4625.json",
+        "correct": false,
+        "answer": "great"
+      },
+      {
+        "dialogue_id": "SNG1306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0850.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3633.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2079.json",
+        "correct": false,
+        "answer": "a great trip"
+      }
+    ],
+    "random_seed42": [
+      {
+        "dialogue_id": "PMUL4398.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1013.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0121.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3484.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0389.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01520.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3951.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0843.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2979.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1681.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0928.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02152.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2460.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0358.json",
+        "correct": false,
+        "answer": "12:30"
+      },
+      {
+        "dialogue_id": "PMUL4450.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1251.json",
+        "correct": false,
+        "answer": "question"
+      },
+      {
+        "dialogue_id": "PMUL1842.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4896.json",
+        "correct": false,
+        "answer": "Cherry Hinton Hall and Grounds"
+      },
+      {
+        "dialogue_id": "MUL2431.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1375.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1031.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20027.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4827.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3086.json",
+        "correct": true,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "SNG0598.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1146.json",
+        "correct": false,
+        "answer": "requesting a recommendation"
+      },
+      {
+        "dialogue_id": "SSNG0018.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2293.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1586.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0039.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0142.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01795.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4433.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1116.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1165.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3460.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2583.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1914.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2097.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0949.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3847.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2710.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20385.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0172.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL3867.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01373.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3555.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0935.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3529.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1576.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2676.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0485.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1382.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0095.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1969.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0015.json",
+        "correct": false,
+        "answer": "North"
+      },
+      {
+        "dialogue_id": "MUL0969.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0800.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3610.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1151.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1873.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4349.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0509.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1566.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3566.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1209.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0115.json",
+        "correct": true,
+        "answer": "hotel"
+      },
+      {
+        "dialogue_id": "PMUL3769.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0819.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1714.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2135.json",
+        "correct": false,
+        "answer": "Fen Ditton"
+      },
+      {
+        "dialogue_id": "PMUL1941.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0616.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0952.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1254.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20556.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20251.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1961.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1239.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20364.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2160.json",
+        "correct": true,
+        "answer": "boat type"
+      },
+      {
+        "dialogue_id": "MUL0564.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1398.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20486.json",
+        "correct": false,
+        "answer": "british food"
+      },
+      {
+        "dialogue_id": "SNG0702.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2406.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4611.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0818.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0100.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2534.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0144.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3268.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1111.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0788.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0540.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1101.json",
+        "correct": false,
+        "answer": "Acorn guest house"
+      },
+      {
+        "dialogue_id": "SSNG0343.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2257.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20580.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0135.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20389.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01669.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3659.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0526.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0297.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2797.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0905.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1547.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0932.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2035.json",
+        "correct": true,
+        "answer": "centre area"
+      },
+      {
+        "dialogue_id": "PMUL1820.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0917.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20210.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1390.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0238.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1303.json",
+        "correct": false,
+        "answer": "the town center"
+      },
+      {
+        "dialogue_id": "MUL0216.json",
+        "correct": false,
+        "answer": "12:09 on friday"
+      },
+      {
+        "dialogue_id": "MUL2656.json",
+        "correct": false,
+        "answer": "requesting address and phone number"
+      },
+      {
+        "dialogue_id": "PMUL4420.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4983.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3111.json",
+        "correct": false,
+        "answer": "cheap"
+      },
+      {
+        "dialogue_id": "PMUL2904.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2517.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0375.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1007.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2572.json",
+        "correct": false,
+        "answer": "2"
+      },
+      {
+        "dialogue_id": "PMUL4498.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3762.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02339.json",
+        "correct": true,
+        "answer": "centre of town"
+      },
+      {
+        "dialogue_id": "PMUL3489.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2893.json",
+        "correct": false,
+        "answer": "Thank you that is all for now."
+      },
+      {
+        "dialogue_id": "PMUL2791.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0366.json",
+        "correct": false,
+        "answer": "city center"
+      },
+      {
+        "dialogue_id": "MUL1467.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3499.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20505.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20484.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0141.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3901.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0907.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2037.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1315.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0812.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0761.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01729.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3447.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02348.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02229.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4372.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1403.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0319.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0868.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0029.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2321.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4214.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0159.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1073.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1489.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0606.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2273.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0462.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2619.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0157.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3822.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20144.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4957.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1867.json",
+        "correct": false,
+        "answer": "That sounds perfect, that's all that I needed to know, thank you for your help!"
+      },
+      {
+        "dialogue_id": "PMUL1401.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1951.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2639.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1169.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0490.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01268.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1032.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0947.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0793.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0735.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1307.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1437.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0347.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0957.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20087.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20373.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0514.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2735.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2406.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2294.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1464.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4223.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2032.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0079.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0840.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0218.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4625.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0850.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3633.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2079.json",
+        "correct": false,
+        "answer": "not found"
+      }
+    ],
+    "first_n": [
+      {
+        "dialogue_id": "PMUL4398.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1013.json",
+        "correct": false,
+        "answer": "staying overnight in Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL0121.json",
+        "correct": false,
+        "answer": "Cityroomz"
+      },
+      {
+        "dialogue_id": "PMUL3484.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0389.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01520.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3951.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL0843.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2979.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1681.json",
+        "correct": false,
+        "answer": "cambridge"
+      },
+      {
+        "dialogue_id": "MUL0928.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02152.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2460.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0358.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4450.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1251.json",
+        "correct": false,
+        "answer": "train"
+      },
+      {
+        "dialogue_id": "PMUL1842.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4896.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "MUL2431.json",
+        "correct": false,
+        "answer": "restaurant booking request"
+      },
+      {
+        "dialogue_id": "SNG1375.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1031.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20027.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4827.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3086.json",
+        "correct": true,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "SNG0598.json",
+        "correct": false,
+        "answer": "Bistro"
+      },
+      {
+        "dialogue_id": "PMUL1146.json",
+        "correct": false,
+        "answer": "train"
+      },
+      {
+        "dialogue_id": "SSNG0018.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2293.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1586.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0039.json",
+        "correct": false,
+        "answer": "sometime after 08:45"
+      },
+      {
+        "dialogue_id": "SSNG0142.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01795.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4433.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1116.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1165.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3460.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2583.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1914.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2097.json",
+        "correct": false,
+        "answer": "restaurant"
+      },
+      {
+        "dialogue_id": "PMUL0949.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3847.json",
+        "correct": false,
+        "answer": "the East"
+      },
+      {
+        "dialogue_id": "PMUL2710.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20385.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0172.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL3867.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01373.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3555.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0935.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3529.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1576.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2676.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0485.json",
+        "correct": false,
+        "answer": "the centre"
+      },
+      {
+        "dialogue_id": "SNG1382.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0095.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1969.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0015.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0969.json",
+        "correct": true,
+        "answer": "centre of town"
+      },
+      {
+        "dialogue_id": "PMUL0800.json",
+        "correct": true,
+        "answer": "west side of town"
+      },
+      {
+        "dialogue_id": "PMUL3610.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1151.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1873.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4349.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0509.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1566.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3566.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1209.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0115.json",
+        "correct": false,
+        "answer": "expensive"
+      },
+      {
+        "dialogue_id": "PMUL3769.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "SNG0819.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1714.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2135.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1941.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0616.json",
+        "correct": false,
+        "answer": "looking for a train to Norwich on Saturday"
+      },
+      {
+        "dialogue_id": "SNG0952.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1254.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20556.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20251.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1961.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1239.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20364.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2160.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0564.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1398.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20486.json",
+        "correct": false,
+        "answer": "british food"
+      },
+      {
+        "dialogue_id": "SNG0702.json",
+        "correct": true,
+        "answer": "french"
+      },
+      {
+        "dialogue_id": "PMUL2406.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4611.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0818.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0100.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2534.json",
+        "correct": false,
+        "answer": "hotel seeker"
+      },
+      {
+        "dialogue_id": "SSNG0144.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3268.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1111.json",
+        "correct": true,
+        "answer": "east side"
+      },
+      {
+        "dialogue_id": "PMUL0788.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0540.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1101.json",
+        "correct": false,
+        "answer": "a guesthouse in the moderate price range"
+      },
+      {
+        "dialogue_id": "SSNG0343.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2257.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20580.json",
+        "correct": false,
+        "answer": "Corsica food"
+      },
+      {
+        "dialogue_id": "PMUL0135.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20389.json",
+        "correct": false,
+        "answer": "Scandinavian food"
+      },
+      {
+        "dialogue_id": "SNG01669.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3659.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0526.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0297.json",
+        "correct": false,
+        "answer": "centre"
+      },
+      {
+        "dialogue_id": "PMUL2797.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0905.json",
+        "correct": true,
+        "answer": "town centre"
+      },
+      {
+        "dialogue_id": "PMUL1547.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0932.json",
+        "correct": false,
+        "answer": "restaurant"
+      },
+      {
+        "dialogue_id": "PMUL2035.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1820.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0917.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20210.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1390.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0238.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1303.json",
+        "correct": false,
+        "answer": "the town center"
+      },
+      {
+        "dialogue_id": "MUL0216.json",
+        "correct": false,
+        "answer": "11:45"
+      },
+      {
+        "dialogue_id": "MUL2656.json",
+        "correct": false,
+        "answer": "looking for a place to stay"
+      },
+      {
+        "dialogue_id": "PMUL4420.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4983.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3111.json",
+        "correct": false,
+        "answer": "cheap"
+      },
+      {
+        "dialogue_id": "PMUL2904.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2517.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0375.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1007.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2572.json",
+        "correct": false,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "PMUL4498.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3762.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02339.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3489.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2893.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2791.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0366.json",
+        "correct": true,
+        "answer": "centre of town"
+      },
+      {
+        "dialogue_id": "MUL1467.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3499.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "WOZ20505.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20484.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0141.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3901.json",
+        "correct": false,
+        "answer": "bishops stortford"
+      },
+      {
+        "dialogue_id": "MUL0907.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2037.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1315.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0812.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0761.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01729.json",
+        "correct": true,
+        "answer": "oncology department"
+      },
+      {
+        "dialogue_id": "PMUL3447.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "SNG02348.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02229.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4372.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1403.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0319.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0868.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0029.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2321.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4214.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0159.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1073.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL1489.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0606.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2273.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0462.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2619.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0157.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3822.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20144.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4957.json",
+        "correct": false,
+        "answer": "in town"
+      },
+      {
+        "dialogue_id": "MUL1306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1867.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1401.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1951.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2639.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1169.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0490.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01268.json",
+        "correct": false,
+        "answer": "doesn't need to include internet"
+      },
+      {
+        "dialogue_id": "MUL1032.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0947.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0793.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0735.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1307.json",
+        "correct": false,
+        "answer": "hotel in Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL1437.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0347.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0957.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20087.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20373.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0514.json",
+        "correct": false,
+        "answer": "center of town"
+      },
+      {
+        "dialogue_id": "PMUL2735.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2406.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2294.json",
+        "correct": false,
+        "answer": "The user is asking for a restaurant recommendation for cheap Chinese food."
+      },
+      {
+        "dialogue_id": "MUL1464.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4223.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2032.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0079.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0840.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0218.json",
+        "correct": false,
+        "answer": "Limehouse"
+      },
+      {
+        "dialogue_id": "PMUL4625.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0850.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3633.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "MUL2079.json",
+        "correct": false,
+        "answer": "not found"
+      }
+    ],
+    "uniform_stride": [
+      {
+        "dialogue_id": "PMUL4398.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1013.json",
+        "correct": false,
+        "answer": "overnight in Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL0121.json",
+        "correct": false,
+        "answer": "Cityroomz"
+      },
+      {
+        "dialogue_id": "PMUL3484.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0389.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01520.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3951.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL0843.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2979.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1681.json",
+        "correct": false,
+        "answer": "cambridge"
+      },
+      {
+        "dialogue_id": "MUL0928.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02152.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2460.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0358.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4450.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1251.json",
+        "correct": false,
+        "answer": "train"
+      },
+      {
+        "dialogue_id": "PMUL1842.json",
+        "correct": true,
+        "answer": "Tuesday"
+      },
+      {
+        "dialogue_id": "PMUL4896.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "MUL2431.json",
+        "correct": false,
+        "answer": "restaurant"
+      },
+      {
+        "dialogue_id": "SNG1375.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1031.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20027.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4827.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3086.json",
+        "correct": true,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "SNG0598.json",
+        "correct": false,
+        "answer": "Bistro"
+      },
+      {
+        "dialogue_id": "PMUL1146.json",
+        "correct": false,
+        "answer": "train"
+      },
+      {
+        "dialogue_id": "SSNG0018.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2293.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1586.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0039.json",
+        "correct": false,
+        "answer": "after 08:45"
+      },
+      {
+        "dialogue_id": "SSNG0142.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01795.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4433.json",
+        "correct": false,
+        "answer": "Stevenage"
+      },
+      {
+        "dialogue_id": "SNG1116.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1165.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3460.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2583.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1914.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2097.json",
+        "correct": false,
+        "answer": "restaurant"
+      },
+      {
+        "dialogue_id": "PMUL0949.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3847.json",
+        "correct": false,
+        "answer": "the East"
+      },
+      {
+        "dialogue_id": "PMUL2710.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20385.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0172.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL3867.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01373.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3555.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0935.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3529.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1576.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2676.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0485.json",
+        "correct": false,
+        "answer": "the centre"
+      },
+      {
+        "dialogue_id": "SNG1382.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0095.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1969.json",
+        "correct": true,
+        "answer": "after 10:30"
+      },
+      {
+        "dialogue_id": "MUL0015.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0969.json",
+        "correct": true,
+        "answer": "centre of town"
+      },
+      {
+        "dialogue_id": "PMUL0800.json",
+        "correct": true,
+        "answer": "west side of town"
+      },
+      {
+        "dialogue_id": "PMUL3610.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1151.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1873.json",
+        "correct": true,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL4349.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0509.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1566.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3566.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1209.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0115.json",
+        "correct": false,
+        "answer": "expensive"
+      },
+      {
+        "dialogue_id": "PMUL3769.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "SNG0819.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1714.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2135.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1941.json",
+        "correct": true,
+        "answer": "0 star"
+      },
+      {
+        "dialogue_id": "MUL0616.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0952.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1254.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20556.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20251.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1961.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1239.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20364.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2160.json",
+        "correct": false,
+        "answer": "request"
+      },
+      {
+        "dialogue_id": "MUL0564.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1398.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20486.json",
+        "correct": false,
+        "answer": "british food"
+      },
+      {
+        "dialogue_id": "SNG0702.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2406.json",
+        "correct": true,
+        "answer": "British food"
+      },
+      {
+        "dialogue_id": "PMUL4611.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0818.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0100.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2534.json",
+        "correct": false,
+        "answer": "looking for a hotel"
+      },
+      {
+        "dialogue_id": "SSNG0144.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3268.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1111.json",
+        "correct": true,
+        "answer": "east side"
+      },
+      {
+        "dialogue_id": "PMUL0788.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0540.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1101.json",
+        "correct": false,
+        "answer": "guesthouse in the moderate price range"
+      },
+      {
+        "dialogue_id": "SSNG0343.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2257.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20580.json",
+        "correct": false,
+        "answer": "corsica food"
+      },
+      {
+        "dialogue_id": "PMUL0135.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20389.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01669.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3659.json",
+        "correct": false,
+        "answer": "peterborough"
+      },
+      {
+        "dialogue_id": "MUL0526.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0297.json",
+        "correct": false,
+        "answer": "the centre"
+      },
+      {
+        "dialogue_id": "PMUL2797.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0905.json",
+        "correct": true,
+        "answer": "town centre"
+      },
+      {
+        "dialogue_id": "PMUL1547.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0932.json",
+        "correct": false,
+        "answer": "international food"
+      },
+      {
+        "dialogue_id": "PMUL2035.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1820.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0917.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20210.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1390.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0238.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1303.json",
+        "correct": false,
+        "answer": "town center"
+      },
+      {
+        "dialogue_id": "MUL0216.json",
+        "correct": false,
+        "answer": "11:45"
+      },
+      {
+        "dialogue_id": "MUL2656.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4420.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4983.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3111.json",
+        "correct": false,
+        "answer": "cheap"
+      },
+      {
+        "dialogue_id": "PMUL2904.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2517.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0375.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1007.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2572.json",
+        "correct": false,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "PMUL4498.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3762.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02339.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3489.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2893.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2791.json",
+        "correct": false,
+        "answer": "expensive"
+      },
+      {
+        "dialogue_id": "PMUL0366.json",
+        "correct": true,
+        "answer": "centre of town"
+      },
+      {
+        "dialogue_id": "MUL1467.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3499.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "WOZ20505.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20484.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0141.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3901.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0907.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2037.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1315.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0812.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0761.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01729.json",
+        "correct": true,
+        "answer": "oncology department"
+      },
+      {
+        "dialogue_id": "PMUL3447.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "SNG02348.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02229.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4372.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1403.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0319.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0868.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0029.json",
+        "correct": true,
+        "answer": "thai"
+      },
+      {
+        "dialogue_id": "PMUL2321.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4214.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0159.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1073.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL1489.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0606.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2273.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0462.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2619.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0157.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3822.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20144.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4957.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1867.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1401.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1951.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2639.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1169.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0490.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01268.json",
+        "correct": false,
+        "answer": "The user does not need internet."
+      },
+      {
+        "dialogue_id": "MUL1032.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0947.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0793.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0735.json",
+        "correct": false,
+        "answer": "train"
+      },
+      {
+        "dialogue_id": "MUL1307.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1437.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0347.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0957.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20087.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20373.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0514.json",
+        "correct": false,
+        "answer": "center of town"
+      },
+      {
+        "dialogue_id": "PMUL2735.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2406.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2294.json",
+        "correct": false,
+        "answer": "restaurant recommendation request"
+      },
+      {
+        "dialogue_id": "MUL1464.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4223.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2032.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0079.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0840.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0218.json",
+        "correct": false,
+        "answer": "Limehouse"
+      },
+      {
+        "dialogue_id": "PMUL4625.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0850.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3633.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2079.json",
+        "correct": false,
+        "answer": "not found"
+      }
+    ],
+    "attention_h2o_cache": [
+      {
+        "dialogue_id": "PMUL4398.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1013.json",
+        "correct": false,
+        "answer": "overnight in Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL0121.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3484.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0389.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01520.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3951.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL0843.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2979.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1681.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "MUL0928.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02152.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2460.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0358.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4450.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1251.json",
+        "correct": false,
+        "answer": "train"
+      },
+      {
+        "dialogue_id": "PMUL1842.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4896.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "MUL2431.json",
+        "correct": false,
+        "answer": "restaurant booking"
+      },
+      {
+        "dialogue_id": "SNG1375.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1031.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20027.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4827.json",
+        "correct": false,
+        "answer": "finding an expensive Chinese food restaurant"
+      },
+      {
+        "dialogue_id": "PMUL3086.json",
+        "correct": true,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "SNG0598.json",
+        "correct": false,
+        "answer": "Bistro"
+      },
+      {
+        "dialogue_id": "PMUL1146.json",
+        "correct": false,
+        "answer": "train"
+      },
+      {
+        "dialogue_id": "SSNG0018.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2293.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1586.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0039.json",
+        "correct": false,
+        "answer": "after 08:45"
+      },
+      {
+        "dialogue_id": "SSNG0142.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01795.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4433.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1116.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1165.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3460.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2583.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1914.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2097.json",
+        "correct": false,
+        "answer": "restaurant"
+      },
+      {
+        "dialogue_id": "PMUL0949.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3847.json",
+        "correct": false,
+        "answer": "the East"
+      },
+      {
+        "dialogue_id": "PMUL2710.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20385.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0172.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL3867.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01373.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3555.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0935.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3529.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1576.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2676.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0485.json",
+        "correct": false,
+        "answer": "the centre"
+      },
+      {
+        "dialogue_id": "SNG1382.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0095.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1969.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0015.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0969.json",
+        "correct": true,
+        "answer": "centre of town"
+      },
+      {
+        "dialogue_id": "PMUL0800.json",
+        "correct": true,
+        "answer": "west side of town"
+      },
+      {
+        "dialogue_id": "PMUL3610.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1151.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1873.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4349.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0509.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1566.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3566.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1209.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0115.json",
+        "correct": false,
+        "answer": "expensive"
+      },
+      {
+        "dialogue_id": "PMUL3769.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "SNG0819.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1714.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2135.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1941.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0616.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0952.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1254.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20556.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20251.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1961.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1239.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20364.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2160.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0564.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1398.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20486.json",
+        "correct": false,
+        "answer": "british food"
+      },
+      {
+        "dialogue_id": "SNG0702.json",
+        "correct": true,
+        "answer": "French"
+      },
+      {
+        "dialogue_id": "PMUL2406.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4611.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0818.json",
+        "correct": true,
+        "answer": "hotel"
+      },
+      {
+        "dialogue_id": "SSNG0100.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2534.json",
+        "correct": false,
+        "answer": "The user is looking for a hotel."
+      },
+      {
+        "dialogue_id": "SSNG0144.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3268.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1111.json",
+        "correct": true,
+        "answer": "east side"
+      },
+      {
+        "dialogue_id": "PMUL0788.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0540.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1101.json",
+        "correct": false,
+        "answer": "guesthouse"
+      },
+      {
+        "dialogue_id": "SSNG0343.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2257.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20580.json",
+        "correct": false,
+        "answer": "corsica food"
+      },
+      {
+        "dialogue_id": "PMUL0135.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20389.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01669.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3659.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0526.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0297.json",
+        "correct": false,
+        "answer": "the centre"
+      },
+      {
+        "dialogue_id": "PMUL2797.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0905.json",
+        "correct": true,
+        "answer": "town centre"
+      },
+      {
+        "dialogue_id": "PMUL1547.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0932.json",
+        "correct": false,
+        "answer": "restaurant"
+      },
+      {
+        "dialogue_id": "PMUL2035.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1820.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0917.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20210.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1390.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0238.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1303.json",
+        "correct": false,
+        "answer": "town center"
+      },
+      {
+        "dialogue_id": "MUL0216.json",
+        "correct": false,
+        "answer": "11:45"
+      },
+      {
+        "dialogue_id": "MUL2656.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4420.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4983.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3111.json",
+        "correct": false,
+        "answer": "cheap"
+      },
+      {
+        "dialogue_id": "PMUL2904.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2517.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0375.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1007.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2572.json",
+        "correct": false,
+        "answer": "2 people"
+      },
+      {
+        "dialogue_id": "PMUL4498.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3762.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02339.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3489.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2893.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2791.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0366.json",
+        "correct": true,
+        "answer": "centre of town"
+      },
+      {
+        "dialogue_id": "MUL1467.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3499.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "WOZ20505.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20484.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0141.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3901.json",
+        "correct": false,
+        "answer": "bishops stortford"
+      },
+      {
+        "dialogue_id": "MUL0907.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2037.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1315.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0812.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0761.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01729.json",
+        "correct": true,
+        "answer": "oncology"
+      },
+      {
+        "dialogue_id": "PMUL3447.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "SNG02348.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02229.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4372.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1403.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0319.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0868.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0029.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2321.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4214.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0159.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1073.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL1489.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0606.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2273.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0462.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2619.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0157.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3822.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20144.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4957.json",
+        "correct": false,
+        "answer": "in town"
+      },
+      {
+        "dialogue_id": "MUL1306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1867.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1401.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1951.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2639.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1169.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0490.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01268.json",
+        "correct": false,
+        "answer": "doesn't need to include internet"
+      },
+      {
+        "dialogue_id": "MUL1032.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0947.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0793.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0735.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1307.json",
+        "correct": false,
+        "answer": "a hotel in Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL1437.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0347.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0957.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20087.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20373.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0514.json",
+        "correct": false,
+        "answer": "center of town"
+      },
+      {
+        "dialogue_id": "PMUL2735.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2406.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2294.json",
+        "correct": false,
+        "answer": "restaurant recommendation"
+      },
+      {
+        "dialogue_id": "MUL1464.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4223.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2032.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0079.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0840.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0218.json",
+        "correct": false,
+        "answer": "Limehouse"
+      },
+      {
+        "dialogue_id": "PMUL4625.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0850.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3633.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "MUL2079.json",
+        "correct": false,
+        "answer": "not found"
+      }
+    ],
+    "embedding_mmr_cache": [
+      {
+        "dialogue_id": "PMUL4398.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1013.json",
+        "correct": true,
+        "answer": "3 nights"
+      },
+      {
+        "dialogue_id": "PMUL0121.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3484.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0389.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01520.json",
+        "correct": true,
+        "answer": "Saturday"
+      },
+      {
+        "dialogue_id": "PMUL3951.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0843.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2979.json",
+        "correct": false,
+        "answer": "free parking"
+      },
+      {
+        "dialogue_id": "MUL1681.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0928.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02152.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2460.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0358.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4450.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1251.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1842.json",
+        "correct": true,
+        "answer": "Tuesday"
+      },
+      {
+        "dialogue_id": "PMUL4896.json",
+        "correct": false,
+        "answer": "East"
+      },
+      {
+        "dialogue_id": "MUL2431.json",
+        "correct": false,
+        "answer": "table booking"
+      },
+      {
+        "dialogue_id": "SNG1375.json",
+        "correct": true,
+        "answer": "Sunday"
+      },
+      {
+        "dialogue_id": "PMUL1031.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20027.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4827.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3086.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0598.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1146.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0018.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2293.json",
+        "correct": true,
+        "answer": "Friday"
+      },
+      {
+        "dialogue_id": "PMUL1586.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0039.json",
+        "correct": false,
+        "answer": "sometime after 08:45"
+      },
+      {
+        "dialogue_id": "SSNG0142.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01795.json",
+        "correct": false,
+        "answer": "12:15"
+      },
+      {
+        "dialogue_id": "PMUL4433.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "SNG1116.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1165.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3460.json",
+        "correct": false,
+        "answer": "16:58"
+      },
+      {
+        "dialogue_id": "PMUL2583.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1914.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2097.json",
+        "correct": false,
+        "answer": "restaurant"
+      },
+      {
+        "dialogue_id": "PMUL0949.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3847.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2710.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20385.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0172.json",
+        "correct": true,
+        "answer": "centre"
+      },
+      {
+        "dialogue_id": "PMUL3867.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01373.json",
+        "correct": true,
+        "answer": "finches bed and breakfast"
+      },
+      {
+        "dialogue_id": "PMUL3555.json",
+        "correct": false,
+        "answer": "book 2 tickets and get a reference number"
+      },
+      {
+        "dialogue_id": "SNG0935.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3529.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1576.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2676.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0485.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1382.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0095.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1969.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0015.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0969.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0800.json",
+        "correct": false,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL3610.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1151.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1873.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4349.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0509.json",
+        "correct": true,
+        "answer": "Tuesday"
+      },
+      {
+        "dialogue_id": "PMUL1566.json",
+        "correct": false,
+        "answer": "Wednesday"
+      },
+      {
+        "dialogue_id": "PMUL3566.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1209.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0115.json",
+        "correct": false,
+        "answer": "malaysian food"
+      },
+      {
+        "dialogue_id": "PMUL3769.json",
+        "correct": true,
+        "answer": "west"
+      },
+      {
+        "dialogue_id": "SNG0819.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1714.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2135.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1941.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0616.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0952.json",
+        "correct": true,
+        "answer": "Friday"
+      },
+      {
+        "dialogue_id": "PMUL1254.json",
+        "correct": true,
+        "answer": "19:30"
+      },
+      {
+        "dialogue_id": "WOZ20556.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20251.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1961.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1239.json",
+        "correct": true,
+        "answer": "6"
+      },
+      {
+        "dialogue_id": "WOZ20364.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2160.json",
+        "correct": false,
+        "answer": "reservation request"
+      },
+      {
+        "dialogue_id": "MUL0564.json",
+        "correct": true,
+        "answer": "Monday"
+      },
+      {
+        "dialogue_id": "PMUL1398.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20486.json",
+        "correct": false,
+        "answer": "british food"
+      },
+      {
+        "dialogue_id": "SNG0702.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2406.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4611.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0818.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0100.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2534.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0144.json",
+        "correct": true,
+        "answer": "Monday"
+      },
+      {
+        "dialogue_id": "PMUL3268.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1111.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0788.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0540.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1101.json",
+        "correct": false,
+        "answer": "1 person for 4 nights beginning Saturday"
+      },
+      {
+        "dialogue_id": "SSNG0343.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2257.json",
+        "correct": false,
+        "answer": "4 people for 3 nights starting on Wednesday"
+      },
+      {
+        "dialogue_id": "WOZ20580.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0135.json",
+        "correct": false,
+        "answer": "looking for a cheap hotel"
+      },
+      {
+        "dialogue_id": "WOZ20389.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01669.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3659.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0526.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0297.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2797.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0905.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1547.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0932.json",
+        "correct": false,
+        "answer": "no preference"
+      },
+      {
+        "dialogue_id": "PMUL2035.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1820.json",
+        "correct": false,
+        "answer": "Sunday"
+      },
+      {
+        "dialogue_id": "PMUL0917.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20210.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1390.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0238.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1303.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0216.json",
+        "correct": false,
+        "answer": "Thursday at 15:00"
+      },
+      {
+        "dialogue_id": "MUL2656.json",
+        "correct": false,
+        "answer": "cafe"
+      },
+      {
+        "dialogue_id": "PMUL4420.json",
+        "correct": true,
+        "answer": "6"
+      },
+      {
+        "dialogue_id": "PMUL4983.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3111.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2904.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2517.json",
+        "correct": false,
+        "answer": "expensive"
+      },
+      {
+        "dialogue_id": "SNG0375.json",
+        "correct": true,
+        "answer": "Cambridge"
+      },
+      {
+        "dialogue_id": "PMUL1007.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2572.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4498.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3762.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02339.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3489.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2893.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2791.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0366.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1467.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3499.json",
+        "correct": false,
+        "answer": "train"
+      },
+      {
+        "dialogue_id": "WOZ20505.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20484.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0141.json",
+        "correct": true,
+        "answer": "Saturday"
+      },
+      {
+        "dialogue_id": "PMUL3901.json",
+        "correct": false,
+        "answer": "4 stars"
+      },
+      {
+        "dialogue_id": "MUL0907.json",
+        "correct": false,
+        "answer": "Tuesday at 13:15"
+      },
+      {
+        "dialogue_id": "PMUL2037.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1315.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0812.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0761.json",
+        "correct": true,
+        "answer": "Thursday"
+      },
+      {
+        "dialogue_id": "SNG01729.json",
+        "correct": true,
+        "answer": "oncology department"
+      },
+      {
+        "dialogue_id": "PMUL3447.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG02348.json",
+        "correct": true,
+        "answer": "22:30"
+      },
+      {
+        "dialogue_id": "SNG02229.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4372.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1403.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0319.json",
+        "correct": false,
+        "answer": "free parking"
+      },
+      {
+        "dialogue_id": "SNG0868.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0029.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2321.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4214.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0159.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1073.json",
+        "correct": false,
+        "answer": "in town"
+      },
+      {
+        "dialogue_id": "PMUL1489.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0606.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2273.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0462.json",
+        "correct": true,
+        "answer": "Wednesday"
+      },
+      {
+        "dialogue_id": "PMUL2619.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0157.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL3822.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20144.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL4957.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1867.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1401.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1951.json",
+        "correct": true,
+        "answer": "Thursday"
+      },
+      {
+        "dialogue_id": "PMUL2639.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1169.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0490.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG01268.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL1032.json",
+        "correct": true,
+        "answer": "centre area"
+      },
+      {
+        "dialogue_id": "SNG0947.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0793.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0735.json",
+        "correct": false,
+        "answer": "restaurant"
+      },
+      {
+        "dialogue_id": "MUL1307.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL1437.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL0347.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0957.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20087.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "WOZ20373.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG0514.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2735.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "MUL2406.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2294.json",
+        "correct": false,
+        "answer": "multiple sport attractions"
+      },
+      {
+        "dialogue_id": "MUL1464.json",
+        "correct": true,
+        "answer": "16:15"
+      },
+      {
+        "dialogue_id": "PMUL4223.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL2032.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0079.json",
+        "correct": true,
+        "answer": "Wednesday"
+      },
+      {
+        "dialogue_id": "PMUL0840.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SSNG0218.json",
+        "correct": false,
+        "answer": "Limehouse"
+      },
+      {
+        "dialogue_id": "PMUL4625.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "SNG1306.json",
+        "correct": false,
+        "answer": "not found"
+      },
+      {
+        "dialogue_id": "PMUL0850.json",
+        "correct": true,
+        "answer": "15:00"
+      },
+      {
+        "dialogue_id": "PMUL3633.json",
+        "correct": false,
+        "answer": "west part of town"
+      },
+      {
+        "dialogue_id": "MUL2079.json",
+        "correct": false,
+        "answer": "not found"
+      }
+    ]
+  },
+  "excluded_conditions": {
+    "llmlingua2_cache": "The historical adapter extracted digits from word text rather than binary retention labels. Real-corpus corrected contexts differ, and matched-protocol reader regeneration has not been completed."
+  }
+}

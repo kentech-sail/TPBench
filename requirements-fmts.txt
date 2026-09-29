@@ -1,0 +1,7 @@
+numpy>=1.26
+rouge-score>=0.1.2
+# Content-aware selectors additionally need these model dependencies:
+torch>=2.3.0
+transformers>=4.46.0
+accelerate>=0.34.0
+llmlingua==0.2.2

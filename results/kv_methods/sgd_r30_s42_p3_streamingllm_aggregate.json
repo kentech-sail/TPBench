@@ -1,0 +1,14 @@
+{
+  "sgd": {
+    "streamingllm_r03_kvpress": {
+      "n": 128,
+      "p3_em_strict": 0.296875,
+      "p3_em_loose": 0.296875,
+      "p3_overlap_strict": 0.148438,
+      "p3_overlap_loose": 0.5625,
+      "abstain_rate": 0.046875,
+      "support_in_ctx_rate": 0.359375,
+      "err_rate": 0.0
+    }
+  }
+}
