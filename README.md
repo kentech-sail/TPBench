@@ -1,6 +1,8 @@
 ---
 pretty_name: 'TPBench: A Turning-Point Benchmark for Dialogue Compression'
 license: other
+license_name: polyform-noncommercial-1.0.0
+license_link: LICENSE
 language:
 - en
 - zh
@@ -343,7 +345,8 @@ Mistral-7B-Instruct. Lexical scoring can reject semantic paraphrases and accept
 incomplete answers; strict, loose, and token-F1 results document that behavior.
 
 Source data retain their respective licenses in `LICENSES/`. Code and other
-original release materials use the root `LICENSE`; vendored components retain
+original release materials use the PolyForm Noncommercial License 1.0.0 (see the
+root `LICENSE`; commercial use requires separate permission); vendored components retain
 their own license headers. Cite TPBench and the source corpora when using the
 derived probes. API-backed experiments require the caller's own model access;
 no credentials are included.

@@ -54,7 +54,7 @@
   "conformsTo": "http://mlcommons.org/croissant/1.1",
   "version": "1.3.0",
   "datePublished": "2026-05-06",
-  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license": "https://polyformproject.org/licenses/noncommercial/1.0.0/",
   "url": "https://github.com/kentech-sail/TPBench",
   "citeAs": "@misc{park2026tpbench, title = {{TPBench}: A Turning-Point Benchmark for Dialogue Compression}, author = {Park, Minji and Yoon, Seunghyun and Lim, Hyuk}, year = {2026}, note = {https://github.com/kentech-sail/TPBench}}",
   "keywords": [

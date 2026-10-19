@@ -1,30 +1,35 @@
 TPBench: A Turning-Point Benchmark for Dialogue Compression
 Research benchmark artifact, released 2026.
 
+Required Notice: Copyright 2026 KENTECH Sustainable AI Laboratory, Korea Institute of Energy Technology (https://github.com/kentech-sail/TPBench)
+
 This artifact is released under multiple licenses depending on the file class.
 
-1. Code (scripts/, run_all.sh): Creative Commons Attribution 4.0
-   International (CC-BY-4.0). Full text in LICENSES/CC-BY-4.0.txt.
+1. Code (scripts/, run_all.sh), aggregate result JSONs (results/**/*.json),
+   the flat summary results/aggregates_flat.jsonl, the Croissant metadata
+   files (croissant.json, dataset_card/croissant.json), and the documentation:
+   PolyForm Noncommercial License 1.0.0
+   (https://polyformproject.org/licenses/noncommercial/1.0.0).
+   Full text in LICENSES/PolyForm-Noncommercial-1.0.0.txt.
+   Commercial use requires separate permission from the licensor.
 
-2. Aggregate result JSONs (results/**/*.json), the flat summary
-   results/aggregates_flat.jsonl, the Croissant metadata files
-   (croissant.json, dataset_card/croissant.json), and the dataset README:
-   CC-BY-4.0.
+2. Probe data (data/probes/*.jsonl) and FMTS appendix artifacts
+   (batches/fmts_refpool/*.jsonl, results/fmts_refpool/*.json) contain
+   derived text from public dialogue corpora. Per-corpus terms:
 
-3. Probe data (data/probes/*.jsonl) and FMTS appendix artifacts
-   (batches/fmts_refpool/*.jsonl, results/fmts_refpool/*.json) inherit the
-   upstream corpus license of their source dialogue, because each probe
-   contains derived text from a public dialogue corpus. Per-corpus terms:
-
-     - SGD-derived probes:        CC-BY-SA-4.0  (LICENSES/SGD.txt)
-     - MultiWOZ 2.2-derived:      MIT           (LICENSES/MultiWOZ_2.2.txt)
+     - MultiWOZ 2.2-derived:      PolyForm Noncommercial 1.0.0; the upstream
+                                  MIT notice is retained
+                                  (LICENSES/MultiWOZ_2.2.txt)
+     - SGD-derived probes:        CC-BY-SA-4.0, as required by the upstream
+                                  share-alike terms (LICENSES/SGD.txt)
      - LongMemEval-KU-derived:    upstream LongMemEval-S terms
                                                 (LICENSES/LongMemEval.txt)
      - RiSAWOZ-derived:           upstream RiSAWOZ terms
                                                 (LICENSES/RiSAWOZ.txt)
 
-   Where an upstream license is stricter than CC-BY-4.0, the upstream license
-   governs the corresponding probe file.
+3. Answer Equivalence-derived files (data/semantic_evaluation/ae_*) retain
+   the upstream Apache License 2.0
+   (LICENSES/AnswerEquivalence-Apache-2.0.txt).
 
 4. Vendored third-party code (scripts/reader/chunkkv_vendored/) is distributed
    under the Apache License 2.0, as declared by the upstream NVIDIA/kvpress
